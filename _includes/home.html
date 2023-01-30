@@ -1,0 +1,24 @@
+---
+layout: page
+---
+<div class="project-card-grid">
+  {%- for project in collections.projects -%}
+    <div class="project-card">
+      <a class="fade" href="{{ project.url }}">
+        <div class="stack">
+          <div class="project-card-thumb">
+            {% if project.data.image %}
+              <img src="{{ project.data.image }}">
+            {% endif %}
+          </div>
+          <div>
+            <h1>
+              {{ project.data.title }}
+            </h1>
+            <h2>{{ project.data.author }}</h2>
+          </div>
+        </div>
+      </a>
+    </div>
+  {%- endfor -%}
+</div>
