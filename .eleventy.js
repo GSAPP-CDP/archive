@@ -7,7 +7,6 @@ module.exports = function (eleventyConfig) {
   // configure markdown library to use custom plugins
   const markdownLib = markdownIt({
     html: true,
-    breaks: true,
     linkify: true,
   })
     .use(markdownItFootnote) // add footnote plugin
