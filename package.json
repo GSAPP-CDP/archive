@@ -13,5 +13,8 @@
     "markdown-it": "^13.0.1",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-implicit-figures": "^0.10.0"
+  },
+  "dependencies": {
+    "three": "^0.149.0"
   }
 }

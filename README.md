@@ -11,7 +11,7 @@ support for [footnotes](https://github.com/markdown-it/markdown-it-footnote) and
 
 ```
 npm install
-npx @11ty/eleventy --serve
+npm run start
 ```
 
 Browse to [http://localhost:8080/](http://localhost:8080/) (port 8080 is default but it will switch
