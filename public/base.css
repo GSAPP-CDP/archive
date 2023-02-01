@@ -38,7 +38,6 @@ html {
   line-height: var(--body-line-height);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: red;
 }
 
 body {
