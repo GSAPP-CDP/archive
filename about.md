@@ -2,6 +2,7 @@
 layout: post
 title: About
 ---
+
 This is an archive of student final projects from the [Computation Design Practices](https://www.arch.columbia.edu/programs/15-m-s-computational-design-practices) degree program at [Columbia GSAPP](https://www.arch.columbia.edu/).
 
 Computation Design Practices is an innovative program for recent graduates and practitioners that extends and integrates
