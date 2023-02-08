@@ -6,6 +6,8 @@ year: 2023
 ---
 
 
+![Clocks](https://freight.cargo.site/w/972/q/75/i/eae3f7124da1c1030eeb148552e26a0285670857b97b5e48220a5138a0f7d8e9/Animation4.gif "Clocks")
+
 Clock time is a kind of data which is always  perceived  as universal/placeless. It is used to benchmark other data as a way to compare information across data sets. Despite its highly standardized characteristic, clock time is actually very local and contextual. Starting from when it is created, we have to average, adjusting for discrepancies  of the time from 821 atomic clocks in over 62 countries with unbalanced contribution. Time from the atomic clock is also not synchronized with earth rotation which slows slightly from year to year. To compensate, starting in 1972, metrologists began occasionally inserting something we call leap second at the end of the day. As a result , we have some minutes that are longer than 60 seconds. These all assembly processes take time. So once a month the Bureau of timekeeping(in France) will publish the perfect time in the form of a newsletter, called Circular T and send it to member countries to synchronize the clock.
 
 
