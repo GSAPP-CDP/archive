@@ -2,14 +2,14 @@
 
 header {
   display: grid;
-  grid-template-columns: repeat(1, minmax(0,1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: var(--grid-gap);
   padding-bottom: var(--space);
 }
 
 @media (min-width: 640px) {
   header {
-    grid-template-columns: repeat(4, minmax(0,1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     padding-bottom: calc(4 * var(--space));
   }
 
@@ -26,7 +26,7 @@ header {
 
 main {
   margin: 0 calc(-1 * var(--grid-gap));
-  padding: var(--space) var(--grid-gap) 0 var(--grid-gap);;
+  padding: var(--space) var(--grid-gap) 0 var(--grid-gap);
   border-top: 1px solid var(--secondary-color);
 }
 
@@ -58,6 +58,19 @@ main {
   border-color: var(--secondary-color);
 }
 
+.content ol,
+.content ul {
+  padding-inline-start: calc(2 * var(--space));
+}
+
+.content ol {
+  list-style-type: decimal;
+}
+
+.content ul {
+  list-style: disc;
+}
+
 figure {
   display: flex;
   flex-direction: column;
@@ -68,7 +81,7 @@ figure {
 
 figure > * {
   margin-block: 0;
-} 
+}
 
 figure > * + * {
   margin-block-start: calc(0.5 * var(--space));
@@ -79,7 +92,8 @@ figcaption {
   width: 75%;
 }
 
-figcaption, .footnotes  {
+figcaption,
+.footnotes {
   font-family: var(--caption-font-family);
   font-size: var(--caption-font-size);
   line-height: var(--caption-line-height);
@@ -105,7 +119,7 @@ figcaption, .footnotes  {
 
 @media (min-width: 640px) {
   .post {
-    grid-template-columns: repeat(4, minmax(0,1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .post-body {
@@ -125,7 +139,7 @@ figcaption, .footnotes  {
 /* home */
 .project-card-grid {
   display: grid;
-  grid-template-columns: repeat(1, minmax(0,1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: var(--grid-gap);
 }
 
@@ -150,33 +164,33 @@ figcaption, .footnotes  {
   background: var(--theme-1-color);
 }
 
-.project-card:nth-child(7n+1) .project-card-thumb {
+.project-card:nth-child(7n + 1) .project-card-thumb {
   background: var(--theme-2-color);
 }
 
-.project-card:nth-child(7n+2) .project-card-thumb {
+.project-card:nth-child(7n + 2) .project-card-thumb {
   background: var(--theme-3-color);
 }
 
-.project-card:nth-child(7n+3) .project-card-thumb {
+.project-card:nth-child(7n + 3) .project-card-thumb {
   background: var(--theme-4-color);
 }
 
-.project-card:nth-child(7n+4) .project-card-thumb {
+.project-card:nth-child(7n + 4) .project-card-thumb {
   background: var(--theme-5-color);
 }
 
-.project-card:nth-child(7n+5) .project-card-thumb {
+.project-card:nth-child(7n + 5) .project-card-thumb {
   background: var(--theme-6-color);
 }
 
-.project-card:nth-child(7n+6) .project-card-thumb {
+.project-card:nth-child(7n + 6) .project-card-thumb {
   background: var(--theme-7-color);
 }
 
 @media (min-width: 640px) {
   .project-card-grid {
-    grid-template-columns: repeat(2, minmax(0,1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -189,7 +203,7 @@ figcaption, .footnotes  {
 
 @media (min-width: 640px) {
   .project {
-    grid-template-columns: repeat(4, minmax(0,1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .project-body {
