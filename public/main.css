@@ -32,13 +32,14 @@ main {
 
 /* post */
 
-.post {
+.post-header,
+.post-body {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: var(--grid-gap);
 }
 
-.title {
+.post-header {
   padding-bottom: calc(3 * var(--space));
 }
 
@@ -58,17 +59,16 @@ main {
   border-color: var(--secondary-color);
 }
 
-.content ol,
-.content ul {
-  padding-inline-start: calc(2 * var(--space));
-}
-
 .content ol {
   list-style-type: decimal;
 }
 
 .content ul {
   list-style: disc;
+}
+
+.content li {
+  list-style-position: inside;
 }
 
 figure {
@@ -100,14 +100,6 @@ figcaption,
   color: var(--secondary-color);
 }
 
-.footnotes ol {
-  list-style: decimal;
-}
-
-.footnotes li {
-  list-style-position: inside;
-}
-
 .footnotes p {
   display: inline;
 }
@@ -118,16 +110,18 @@ figcaption,
 }
 
 @media (min-width: 640px) {
-  .post {
+  .post-header,
+  .post-body {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .post-body {
+  .post-title,
+  .post-content {
     grid-column: span 2 / span 2;
     grid-column-start: 2;
   }
 
-  .footnotes li {
+  .content li {
     list-style-position: inherit;
   }
 
@@ -195,18 +189,29 @@ figcaption,
 }
 
 /* project */
-.project {
+.project-header,
+.project-body {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: var(--grid-gap);
 }
 
+.project-header {
+  padding-bottom: calc(3 * var(--space));
+}
+
+.project-links a:before {
+  content: "→\00a0";
+}
+
 @media (min-width: 640px) {
-  .project {
+  .project-header,
+  .project-body {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .project-body {
+  .project-title,
+  .project-content {
     grid-column: span 2 / span 2;
     grid-column-start: 2;
   }
