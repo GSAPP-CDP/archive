@@ -6,7 +6,7 @@ year: 2023
 ---
 
 
-![Clocks](https://freight.cargo.site/w/972/q/75/i/eae3f7124da1c1030eeb148552e26a0285670857b97b5e48220a5138a0f7d8e9/Animation4.gif "Clocks")
+![Clocks](https://freight.cargo.site/t/original/i/99f7a8d09738e9c75e1248779089452e549f0f8d883350d66f9528c18765cdd7/P1010020.jpg)
 
 Clock time is a kind of data which is always  perceived  as universal/placeless. It is used to benchmark other data as a way to compare information across data sets. Despite its highly standardized characteristic, clock time is actually very local and contextual. Starting from when it is created, we have to average, adjusting for discrepancies  of the time from 821 atomic clocks in over 62 countries with unbalanced contribution. Time from the atomic clock is also not synchronized with earth rotation which slows slightly from year to year. To compensate, starting in 1972, metrologists began occasionally inserting something we call leap second at the end of the day. As a result , we have some minutes that are longer than 60 seconds. These all assembly processes take time. So once a month the Bureau of timekeeping(in France) will publish the perfect time in the form of a newsletter, called Circular T and send it to member countries to synchronize the clock.
 
@@ -19,9 +19,12 @@ Looking back to the history of Horology, time has been measured through some kin
 
 The modern notion of time which demands us to do the same thing at the same time was made up a few decades ago.  The result is we need to design the electrical infrastructure to meet the peak requirement of the day. We go out to the street in rush hour to waste more fuel and time. We leave the business zone quiet after work hours. The project asks for  more alternative ways of telling time. As clock time affects how people live,  variety of clock time means cultural diversity and different space usage.
 
+---
 
 
+![diagram](https://freight.cargo.site/t/original/i/7629a55cf25d89fe04d99883dda07541b5d2f6e242de8ec17282f8765186feac/Final-Presentation-18.png)
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VcDK8Q69sb4/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VcDK8Q69sb4)
 
 
 
