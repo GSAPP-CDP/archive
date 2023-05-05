@@ -1,18 +1,20 @@
 ---
 layout: project
-title: "Chinatown’s Food Network: A Story of Food, Immigration, Zoning, & Informality"
+title: "The Bittersweet Harvest: Navigating Manhattan Chinatown's Changing Produce Network"
 author: Zoe Lin
 year: 2023
 ---
 
-**Chinatown’s Food Network: A Story of Food, Immigration, Zoning, & Informality**
+**The Bittersweet Harvest: Navigating Manhattan Chinatown's Changing Produce Network**
 
 *Aims*
+<br>
 The project aims to map the food networks of Chinatown. Through mapping and through network analyses, understand its necessary preconditions, such as land use zoning or community networks, and its impacts on the people that support the network and/or are serviced by it.
 The project also spans a temporal scale. It will investigate how the network has changed between 2005 and now; using Covid-19 as a probe to uncover its resilience and/or vulnerability.
 I aim to extract a replicable model that can serve as a healthier, culturally sensitive and economically viable alternative to a different community, but also, perhaps, more importantly, advocate for the existing one by establishing its value and delivering a narrative that can garner the network more support. The project begins by first georeferencing the 2005 data in the book From Farm to Canal Street by Valerie Imbruse, allowing me to then bring it into conversation with secondary spatial data and data I collect on my own, both qualitative and quantitative.
 
 *Goals*
+<br>
 The goal of the project is twofold. The first is almost archival in a sense. To capture this understudied food network in its current condition, and bring in other datasets to better 
 represent and understand it. But the archival work is also intended to be a form of advocacy.
 Current NYC food network analysis, such as the Five Borough Food Flow report, completely disregards Chinatown’s food network despite it being vital to a core population within the city. Most, if not all of the city’s food policy documents calls for the renovation and further funding of Hunts Point Terminal, giving no thought to alternatives that could host wholesale produce distribution in a way that integrates community jobs and food needs.
