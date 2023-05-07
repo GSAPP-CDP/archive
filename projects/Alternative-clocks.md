@@ -6,7 +6,7 @@ year: 2023
 ---
 
 
-![Clocks](https://freight.cargo.site/t/original/i/99f7a8d09738e9c75e1248779089452e549f0f8d883350d66f9528c18765cdd7/P1010020.jpg)
+![Clocks](/img/P1010020.jpeg)
 
 
 Time is a culturally constructed concept that is influenced by political and contextual factors. Although the global time system is widely used, it is important to recognize its limitations and the fact that it is not an absolute truth. The accuracy of the global time system is achieved through the averaging and adjustment of time data from atomic clocks across more than 62 countries, which is compiled into Coordinated Universal Time (UTC). Occasionally, leap seconds are added to the system, resulting in minutes that are longer than 60 seconds.
@@ -23,9 +23,9 @@ The clock not only measures time but also orchestrates human action and designs 
 ---
 
 
-![diagram](https://freight.cargo.site/t/original/i/7629a55cf25d89fe04d99883dda07541b5d2f6e242de8ec17282f8765186feac/Final-Presentation-18.png)
+![System Diagram](/img/Final-Presentation-18.jpg)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VcDK8Q69sb4/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VcDK8Q69sb4)
+[![Video](https://img.youtube.com/vi/VcDK8Q69sb4/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VcDK8Q69sb4)
 
 
 
