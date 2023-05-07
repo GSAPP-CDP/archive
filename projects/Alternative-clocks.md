@@ -6,7 +6,7 @@ year: 2023
 ---
 
 
-image:/img/P1010020.jpeg
+image: /img/P1010020.jpeg
 
 
 Time is a culturally constructed concept that is influenced by political and contextual factors. Although the global time system is widely used, it is important to recognize its limitations and the fact that it is not an absolute truth. The accuracy of the global time system is achieved through the averaging and adjustment of time data from atomic clocks across more than 62 countries, which is compiled into Coordinated Universal Time (UTC). Occasionally, leap seconds are added to the system, resulting in minutes that are longer than 60 seconds.
@@ -23,7 +23,7 @@ The clock not only measures time but also orchestrates human action and designs 
 ---
 
 
-image:/img/Final-Presentation-18.jpg
+image: /img/Final-Presentation-18.jpg
 
 [![Video](https://img.youtube.com/vi/VcDK8Q69sb4/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VcDK8Q69sb4)
 
