@@ -3,10 +3,15 @@ layout: project
 title: Decentralized Clocks
 author: Saralee Sittigaroon
 year: 2023
+image: /img/P1010020.jpeg
+links:
+ -text: Project Website
+  url: https://link-url-here.org](https://saralees.cargo.site/admin/30798627
+  
 ---
 
+![the clock](/img/P1010020.jpeg)
 
-image: /img/P1010020.jpeg
 
 
 Time is a culturally constructed concept that is influenced by political and contextual factors. Although the global time system is widely used, it is important to recognize its limitations and the fact that it is not an absolute truth. The accuracy of the global time system is achieved through the averaging and adjustment of time data from atomic clocks across more than 62 countries, which is compiled into Coordinated Universal Time (UTC). Occasionally, leap seconds are added to the system, resulting in minutes that are longer than 60 seconds.
@@ -19,13 +24,13 @@ To create a new temporal system, this project utilizes a Raspberry Pi to connect
 
 The clock not only measures time but also orchestrates human action and designs space. The incorporation of new time zones enables the clock to be used as a tool to connect or disconnect us from others. Additionally, new clocks offer a unique perspective on the world. For instance, when scientists investigate nature, they do so through the man-made time system, which may not align with the natural cycles of animals. Animals follow their own distinctive sleep-wake cycles and do not conform to the Universal Time Coordinated (UTC) system. Moreover, new clocks give rise to new social protocols, such as scheduling school semesters according to energy cycles rather than conventional clock time, to ensure that every student has the same amount of energy to complete their tasks. Given that life comprises various factors, an individual's day could consist of multiple clock systems that orchestrate contingent rhythms.
 
-[Project Website]([https://link-url-here.org](https://saralees.cargo.site/admin/30798627))
+
 ---
 
 
-image: /img/Final-Presentation-18.jpg
+![System Diagram](/img/Final-Presentation-18.jpg)
 
-[![Video](https://img.youtube.com/vi/VcDK8Q69sb4/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VcDK8Q69sb4)
+![Video](https://img.youtube.com/vi/VcDK8Q69sb4/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VcDK8Q69sb4)
 
 
 
