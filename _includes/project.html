@@ -2,6 +2,8 @@
 layout: page
 ---
 
+{% assign links = links | normalizeLinks %}
+
 <div class="project">
   <div class="project-header">
     <div class="project-context h1">{{ year }}</div>
@@ -14,7 +16,7 @@ layout: page
       <ul class="project-links h4">
         {% for link in links %}
         <li>
-          <a href="{{ link }}">{{ link }}</a>
+          <a href="{{ link.url }}">{{ link.text }}</a>
         </li>
         {% endfor %}
       </ul>

@@ -5,9 +5,12 @@ author: Seth Thompson
 year: 2023
 image: /img/diomede-islands.jpg
 links:
-  - https://darkmatters.xyz/
-  - https://dept-of-transformation.org/
-  - http://feral.earth/
+  - text: Explore
+    url: https://darkmatters.xyz/
+  - text: Learn More
+    url: https://dept-of-transformation.org/
+  - text: Feral Earth
+    url: http://feral.earth/
 ---
 
 ![Glynneath, UK, 51°45'23" N 3°38'58" W](/img/glynneath-united-kingdom.jpg)
