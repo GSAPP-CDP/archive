@@ -1,13 +1,12 @@
 ---
 layout: project
-title: Decentralized Clocks
+title: Alternative Clocks
 author: Saralee Sittigaroon
 year: 2023
 image: /img/P1010020.jpeg
 links:
- - text: Project Website
-   url: https://saralees.cargo.site/30798627
-  
+  - text: Project Website
+    url: https://saralees.cargo.site/30798627
 ---
 
 ![The clock](/img/P1010020.jpeg)
