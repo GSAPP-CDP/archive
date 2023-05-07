@@ -30,7 +30,7 @@ The clock not only measures time but also orchestrates human action and designs 
 
 ![System Diagram](/img/Final-Presentation-18.jpg)
 
-![Video](https://img.youtube.com/vi/VcDK8Q69sb4/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VcDK8Q69sb4)
+![Video](https://www.youtube.com/watch?v=YOUTUBE_VcDK8Q69sb4)
 
 
 
