@@ -4,6 +4,11 @@ title: "The City as a Farm: How can urban agriculture help address food insecuri
 author: Letti Campo
 year: 2023
 image: /img/TheLittleApple.png
+links:
+  - text: "Learn More"
+    url: https://ljc2177.github.io/potential-octo-engine/Spring%202023/Colloquium/
+  - text: "Explore the Little Apple"
+    url: https://ljc2177.github.io/the-little-apple/
 ---
 [![](/img/UFSkyline.png)](https://ljc2177.github.io/potential-octo-engine/Spring%202023/Colloquium/)
 
@@ -31,10 +36,6 @@ Users are able to explore these locations individually and by filtering each met
 This project does not aim to present a singular solution for NYC’s food system. Rather, it seeks to support a growing urban agriculture program grounded in community action and need. The first of its kind, this tool opens the space of spatial analysis to those who don't have the skills to otherwise explore it.
 
 It is my hope that the results of this project will support and inspire the future of expanding urban agriculture within New York City on both a local and city-wide scale. In the future, it is my hope that this tool can be expanded to be a long-term resource for this and other cities to explore the possibilities of urban agriculture.
-
-[Learn More](https://ljc2177.github.io/potential-octo-engine/Spring%202023/Colloquium/)
-
-[Explore the Little Apple](https://ljc2177.github.io/the-little-apple/#/)
 
 [![](/img/VSkyline.png)](https://ljc2177.github.io/potential-octo-engine/Spring%202023/Colloquium/)
 
