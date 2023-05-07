@@ -10,11 +10,11 @@ layout: page
       <h2>{{ author }}</h2>
     </div>
     <div class="project-details">
-      {% if links.first %}
+      {% if links | normalizeLinks | first %}
       <ul class="project-links h4">
-        {% for link in links %}
+        {% for link in links | normalizeLinks %}
         <li>
-          <a href="{{ link }}">{{ link }}</a>
+          <a href="{{ link.url }}">{{ link.text }}</a>
         </li>
         {% endfor %}
       </ul>
