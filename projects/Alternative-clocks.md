@@ -6,7 +6,7 @@ year: 2023
 image: /img/P1010020.jpeg
 links:
  - text: Project Website
-   url: https://saralees.cargo.site/admin/30798627
+   url: https://saralees.cargo.site/GSAPP_ALTERNATIVE-CLOCK-_-Designed-alternative-timepieces-for-the-non
   
 ---
 
