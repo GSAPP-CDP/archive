@@ -37,7 +37,7 @@ Finally, besides the available data and information, the project includes select
 
 To begin with, the following topics present the program’s aims and general outcome.
 
-1. EB-5 Immigrant Investor Program Chronicle
+**1. EB-5 Immigrant Investor Program Chronicle**
 
 ![graph1](/img/eb5/graph1.jpg)
 
@@ -57,13 +57,13 @@ The top countries of origin for the EB-5 program are China, South Korea, Vietnam
 
 The estimated EB-5 capital from 2000 to 2022 is 15.8 billion dollars, and an estimated 468,351 direct and indirect jobs have been created. Please refer to the methodology section for detailed calculations.
 
-2. EB-5 Regional Center Development
+**2. EB-5 Regional Center Development**
 
 ![graph2](/img/eb5/graph2.jpg)
 
 The diagram shows the simplified process of regional center development. A regional center is a private entity approved by the USCIS to create a New Commercial Enterprise (NCE) that collects foreign capital for a developer. The NCE usually arranges funds from multiple investors, who become equity holders of the NCE. A regional center can be a third-party company that works with many developers or can serve as a developer's affiliate that works under the developer to fund their projects. The Job Creation Entity (JCE) is a development company that receives funds from the NCE, developer, and financial institutions to conduct a project and hire workers. The regional center, NCE, developer, and JCE are directly involved in the development from financial and construction aspects. Foreign investors, however, do not have direct involvement and have little impact on the development.
 
-3. EB-5 Visa Application Process
+**3. EB-5 Visa Application Process**
 
 ![graph3](/img/eb5/graph3.jpg)
 
@@ -75,13 +75,13 @@ The ideal timeline for each investor and their immediate family members to obtai
 
 This part will demonstrate the private sector’s interpretations.
 
-1. EB-5 Regional Center Registration by State
+**1. EB-5 Regional Center Registration by State**
 
 ![graph4](/img/eb5/graph4.jpg)
 
 The chart shows a summary of approved and terminated regional centers by state, indicating the number of ever-existing regional centers. California, New York, and Florida are the top three destinations for regional center registration.
 
-2. EB-5 Capital Structure
+**2. EB-5 Capital Structure**
 
 ![graph5](/img/eb5/graph5.jpg)
 
@@ -91,7 +91,7 @@ Funding a regional center project is a step-by-step process, and EB-5 capital is
 
 The diagram shows the capital structure example of One Wall Street.
 
-3. EB-5 Regional Center Model
+**3. EB-5 Regional Center Model**
 
 ![graph6](/img/eb5/graph6.jpg)
 
@@ -101,7 +101,7 @@ There are three regional center models that conduct projects with different orie
 
 This part aims to uncover the detailed local projects' relationships and geographic patterns.
 
-1. EB-5 Regional Center Affiliation Network
+**1. EB-5 Regional Center Affiliation Network**
 
 ![network_ny](/img/eb5/network_ny.jpg)
 
@@ -111,7 +111,7 @@ The network shows the relationships between the regional center, EB-5 projects, 
 
 The network shows the relationships between the regional center, EB-5 projects, developers, and architecture firms in Florida. Florida EB5 Investment LLC Regional Center has facilitated 28 successful projects, outnumbering many other regional centers. The Kolter Group is the top developer that utilized the EB-5 capital to develop hotels and condos.
 
-2. Map of EB-5 Project
+**2. Map of EB-5 Project**
 
 ![map_ny1](/img/eb5/map_ny1.jpg)
 
@@ -129,7 +129,7 @@ The map shows the summary of EB-5 projects by project type, location, and capita
 
 The map shows the location of EB-5 projects with unique IDs. The color IDs indicate that they were top regional center projects. Florida Overseas Investment Center RC helped finance many projects in Miami and the golden coastline area. Florida EB5 Investment LLC Regional Center focused on projects in Tampa.
 
-#### Satellite Imagery of EB-5 Project
+**3. Satellite Imagery of EB-5 Project**
 
 ![satellite_ny](/img/eb5/satellite_ny.jpg)
 
@@ -194,13 +194,13 @@ Ultimately, the project hopes to serve as an example of America’s political ph
 
 The following sections explain the relevant methodology I used in the project for clarification.
 
-1. Data Collection
+**1. Data Collection**
 
 Due to the Security Act, there is no publicly available dataset for every invested project. Although investors and regional centers are required to submit reports and file the application to USCIS by law, which suggests USCIS has the most comprehensive data collection, it is unlikely USCIS would grant permission to such private information. I created and compiled the dataset myself.
 
 First, I downloaded the list of Approved EB-5 Regional Centers and the list of Regional Center Terminations released by USCIS to find out every existing and exited regional center. Second, I narrowed the research to only New York and Florida. I searched each regional center's name on Google and used the third-party website "eb5projects.com" to check if any useful information was returned. Usually, an active and successful regional center would have a website including past EB-5 projects as a testimony to advertise their current project. The website "eb5projects.com" has been around for years as the demand for due diligence. I found both regional center and EB-5 project information through regional center websites and "eb5projects.com." Then, to find out the capital structure and developers of EB-5 projects, one of the major sources, regional center websites, and real estate news media like The Real Deal, YIMBY, and The Business Journal would have information available. High-profile, big projects tend to have more detailed information. Research papers "A Roadmap to the Use of EB-5 Capital" and "EB-5 Capital Project Database" by Professor Jeanne Calderon at NYU Stern School of Business have detailed information for selected EB-5 projects. Finally, I used Market Proof, CTBUH, and other real estate listing websites to find architectural firms for the projects. In general, New York City has more comprehensive data available.
 
-2. Data Analysis
+**2. Data Analysis**
 
 ![Method](/img/eb5/method.jpg)
 
@@ -218,19 +218,19 @@ To calculate project clusters for mapping, I converted the project's address coo
 
 For network analysis, I used an R script to convert the focused columns into nodes. Then, I calculated the degree of the vertex. Finally, I plotted the graph as a tree layout.
 
-3. Limitation
+**3. Limitation**
 
 The lack of comprehensive public data and discrepancies between governmental documentation and scholarly research may have resulted in some errors in this project. For instance, my research may have underestimated the number of visa issuances, first due to the unavailability of data before 2000 on the Department of State's website, and second, because it did not include immigrant investors who filed I-485 adjustment of status in the US.
 
 I have put in significant effort to verify and ensure the accuracy of the information. However, this standalone project may have overlooked some key details that I may not have noticed. I welcome any interested researchers or professionals to suggest improvements.
 
 
-#### Acknowledgments ####
+#### Acknowledgments
 
 The project was advised by Adjunct Assistant Professor Dan Taeyoung and was developed in colloquium under Professor Laura Kurgan, Adjunct Assistant Professor Snowaria Zhang, and Adjunct Assistant Professor Seth Thomson at Columbia University. However, the text, the data accuracy, and any further issue of this project is my sole responsibility.
 
 
-#### Data Source ####
+#### Data Source
 
 1. [Approved EB-5 Regional Centers](https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-fifth-preference-eb-5/eb-5-immigrant-investor-regional-centers/approved-eb-5-immigrant-investor-regional-centers)
 
@@ -258,7 +258,7 @@ The project was advised by Adjunct Assistant Professor Dan Taeyoung and was deve
 
 13. [ARCHITECT Magazine](https://www.architectmagazine.com/)
 
-#### References ####
+#### References
 
 1. Erb, K. P. (n.d.). The EB-5 Visa: United States Citizenship For Sale? Retrieved May 3, 2023, from Forbes website: https://www.forbes.com/sites/kellyphillipserb/2017/05/10/the-eb-5-visa-united-states-citizenship-for-sale/?sh=5ce000d52cb9
 2. Bush, G. (1990, November 29). Statement on Signing the Immigration Act of 1990 | The American Presidency Project. Retrieved from www.presidency.ucsb.edu website: https://www.presidency.ucsb.edu/documents/statement-signing-the-immigration-act-1990
