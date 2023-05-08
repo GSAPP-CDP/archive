@@ -17,7 +17,6 @@ npx @11ty/eleventy --serve
 Browse to [http://localhost:8080/](http://localhost:8080/) (port 8080 is default but it will switch
 to a new port if that one is taken, so use whatever port shows up when you run the `--serve` command).
 
-
 ## Directory Structure
 
 Site content files can be found in the following locations:
