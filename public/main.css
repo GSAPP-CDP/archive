@@ -2,15 +2,15 @@
 
 header {
   display: grid;
-  grid-template-columns: repeat(1, minmax(0,1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: var(--grid-gap);
-  padding-bottom: var(--space);
+  margin-bottom: var(--space);
 }
 
 @media (min-width: 640px) {
   header {
-    grid-template-columns: repeat(4, minmax(0,1fr));
-    padding-bottom: calc(4 * var(--space));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-bottom: calc(4 * var(--space));
   }
 
   .header-title {
@@ -26,24 +26,25 @@ header {
 
 main {
   margin: 0 calc(-1 * var(--grid-gap));
-  padding: var(--space) var(--grid-gap) 0 var(--grid-gap);;
+  padding: var(--space) var(--grid-gap) 0 var(--grid-gap);
   border-top: 1px solid var(--secondary-color);
 }
 
 /* post */
 
-.post {
+.post-header,
+.post-body {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: var(--grid-gap);
 }
 
-.title {
-  padding-bottom: calc(3 * var(--space));
+.post-header {
+  margin-bottom: calc(3 * var(--space));
 }
 
 .content > * {
-  padding-bottom: var(--space);
+  margin-bottom: var(--space);
 }
 
 .content a {
@@ -58,17 +59,28 @@ main {
   border-color: var(--secondary-color);
 }
 
+.content ol {
+  list-style-type: decimal;
+}
+
+.content ul {
+  list-style: disc;
+}
+
+.content li {
+  list-style-position: inside;
+}
+
 figure {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-bottom: calc(2 * var(--space));
 }
 
 figure > * {
   margin-block: 0;
-} 
+}
 
 figure > * + * {
   margin-block-start: calc(0.5 * var(--space));
@@ -79,19 +91,12 @@ figcaption {
   width: 75%;
 }
 
-figcaption, .footnotes  {
+figcaption,
+.footnotes {
   font-family: var(--caption-font-family);
   font-size: var(--caption-font-size);
   line-height: var(--caption-line-height);
   color: var(--secondary-color);
-}
-
-.footnotes ol {
-  list-style: decimal;
-}
-
-.footnotes li {
-  list-style-position: inside;
 }
 
 .footnotes p {
@@ -104,16 +109,18 @@ figcaption, .footnotes  {
 }
 
 @media (min-width: 640px) {
-  .post {
-    grid-template-columns: repeat(4, minmax(0,1fr));
+  .post-header,
+  .post-body {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .post-body {
+  .post-title,
+  .post-content {
     grid-column: span 2 / span 2;
     grid-column-start: 2;
   }
 
-  .footnotes li {
+  .content li {
     list-style-position: inherit;
   }
 
@@ -125,12 +132,12 @@ figcaption, .footnotes  {
 /* home */
 .project-card-grid {
   display: grid;
-  grid-template-columns: repeat(1, minmax(0,1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: var(--grid-gap);
 }
 
 .project-card {
-  padding-bottom: calc(2 * var(--space));
+  margin-bottom: calc(2 * var(--space));
 }
 
 .project-card .project-card-thumb {
@@ -150,49 +157,60 @@ figcaption, .footnotes  {
   background: var(--theme-1-color);
 }
 
-.project-card:nth-child(7n+1) .project-card-thumb {
+.project-card:nth-child(7n + 1) .project-card-thumb {
   background: var(--theme-2-color);
 }
 
-.project-card:nth-child(7n+2) .project-card-thumb {
+.project-card:nth-child(7n + 2) .project-card-thumb {
   background: var(--theme-3-color);
 }
 
-.project-card:nth-child(7n+3) .project-card-thumb {
+.project-card:nth-child(7n + 3) .project-card-thumb {
   background: var(--theme-4-color);
 }
 
-.project-card:nth-child(7n+4) .project-card-thumb {
+.project-card:nth-child(7n + 4) .project-card-thumb {
   background: var(--theme-5-color);
 }
 
-.project-card:nth-child(7n+5) .project-card-thumb {
+.project-card:nth-child(7n + 5) .project-card-thumb {
   background: var(--theme-6-color);
 }
 
-.project-card:nth-child(7n+6) .project-card-thumb {
+.project-card:nth-child(7n + 6) .project-card-thumb {
   background: var(--theme-7-color);
 }
 
 @media (min-width: 640px) {
   .project-card-grid {
-    grid-template-columns: repeat(2, minmax(0,1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 /* project */
-.project {
+.project-header,
+.project-body {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: var(--grid-gap);
 }
 
+.project-header {
+  margin-bottom: calc(3 * var(--space));
+}
+
+.project-links a:before {
+  content: "→\00a0";
+}
+
 @media (min-width: 640px) {
-  .project {
-    grid-template-columns: repeat(4, minmax(0,1fr));
+  .project-header,
+  .project-body {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .project-body {
+  .project-title,
+  .project-content {
     grid-column: span 2 / span 2;
     grid-column-start: 2;
   }
