@@ -6,7 +6,7 @@ year: 2023
 image: /img/public-wifi-surveillance-and-the-digital-divide/link0.jpeg
 links:
   -
-    title: Project Website 
+    text: Project Website 
     url: https://public-wifi.vercel.app
 ---
 

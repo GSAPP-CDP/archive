@@ -6,7 +6,7 @@ year: 2023
 image: /img/green_journey_thumbnail.jpg
 links:
   -
-    title: "Game Calculator"
+    text: "Game Calculator"
     url: https://ccjm0y.csb.app/
 ---
 
