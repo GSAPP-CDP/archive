@@ -99,6 +99,7 @@ For more information, see the [markdown-it-implicit-figures](https://github.com/
 Youtube, Vimeo, and HTML5 videos are supported via Markdown's built-in HTML support.
 
 ```html
+<!--- YouTube -->
 <iframe
   src="https://www.youtube.com/embed/laiVuCmEjlg"
   frameborder="0"
@@ -107,6 +108,7 @@ Youtube, Vimeo, and HTML5 videos are supported via Markdown's built-in HTML supp
   style="aspect-ratio: 16 / 9; width: 100%;">
 </iframe>
 
+<!--- Vimeo -->
 <iframe
   src="https://player.vimeo.com/video/158673446?h=30e98ac368&title=0&byline=0&portrait=0"
   frameborder="0"
@@ -115,6 +117,7 @@ Youtube, Vimeo, and HTML5 videos are supported via Markdown's built-in HTML supp
   style="aspect-ratio: 16 / 9; width: 100%;">
 </iframe>
 
+<!--- HTML5 video -->
 <video
   src="/img/earth.mp4"
   controls
@@ -126,6 +129,8 @@ Note that each element has a `style` attribute that sets the aspect ratio and th
 to be responsive and fill the width of the container.
 
 Most videos will have an aspect ratio of 16:9, but this can be changed by modifying the `style` attribute.
+
+HTML5 video files should be added to the the `/public/img/` directory and referenced with the `src` attribute.
 
 ## Deployment
 
