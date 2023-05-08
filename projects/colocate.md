@@ -1,19 +1,22 @@
 ---
 layout: project
-title: "Colocate" A Collective Area Network"
+title: "Colocate: A Collective Area Network"
 author: George Verghese
 year: 2023
-image: colocate_assets\cover_image.png
+image: /img/colocate_coverimage.png
 links:
-    - text: Learn More
-        url: https://colocate.vercel.app/
-    - text: Alternatives
-        url: https://gv2325.github.io/image-of-a-city/
-    - text: Github
-        url: https://github.com/gv2325/colocate.git
+    -
+      text: Learn More
+      url: https://colocate.vercel.app/
+    -
+      text: Alternatives
+      url: https://gv2325.github.io/image-of-a-city/
+    -
+      text: Github
+      url: https://github.com/gv2325/colocate
 ---
 
-![Colocate](public\img\colocate_coverimage.png)
+![Colocate](/img/colocate_coverimage.png)
 
 ### Localisation gets social.
 
