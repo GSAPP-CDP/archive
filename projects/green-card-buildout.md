@@ -11,15 +11,15 @@ image: /img/eb5/the-spiral.jpg
 
 *The image shows The Spiral (front) and 30 Hudson Yard (back), both were funded by EB-5 capital.*
 
-The news headline "Citizenship for Sale" has put the EB-5 Immigration Investor Program in the spotlight.<sup>1</sup> The connotation of the caption is not only unjustified for the program’s outlook but puts new immigrants in a reproached position. In the statement on signing the Immigration Act of 1990, President George H. W. Bush wrote, *"S. 358 will promote the initiation of new business in rural areas and the investment of foreign capital in our economy."*<sup>2</sup> His message was simple and clear about the new Immigration Investor Program: fund underdeveloped areas with foreign investment.
+The news headline "Citizenship for Sale" has put the EB-5 Immigration Investor Program in the spotlight.[^1] The connotation of the caption is not only unjustified for the program’s outlook but puts new immigrants in a reproached position. In the statement on signing the Immigration Act of 1990, President George H. W. Bush wrote, *"S. 358 will promote the initiation of new business in rural areas and the investment of foreign capital in our economy."*[^2] His message was simple and clear about the new Immigration Investor Program: fund underdeveloped areas with foreign investment.
 
 There was little evidence for the formulation of the program. The political climate in the transitioning Reagan-Bush era may provide reasons that incubated the infused immigrant investment policy.
 
-First, the micro-recession in 1990. To balance the increasing domestic budget deficit and inflation that started by the end of the Reagan Administration, H. W. Bush raised taxes and tightened the Federal Reserve monetary policies.<sup>3</sup> This caused the United States to enter a temporary recession in early 1990, resulting in job losses in construction and a dip in the commercial real estate market.<sup>4</sup> How to create jobs and capital with minimum trade-offs was the priority agenda. Second, the diminishing role of Federal aid from the Reagan Administration in rural development.<sup>5</sup> The introduction of Enterprise Zones that granted local government flexibility and encouraged private sectors to redevelop distressed areas at their discretion,<sup>6</sup> the act may be viewed as a key reference to the EB-5 Immigrant Investor Program. Although it was never fully signed into law, the idea of turning a certain area into a market-friendly zone by providing incentives became a formula to support development.
+First, the micro-recession in 1990. To balance the increasing domestic budget deficit and inflation that started by the end of the Reagan Administration, H. W. Bush raised taxes and tightened the Federal Reserve monetary policies.[^3] This caused the United States to enter a temporary recession in early 1990, resulting in job losses in construction and a dip in the commercial real estate market.[^4] How to create jobs and capital with minimum trade-offs was the priority agenda. Second, the diminishing role of Federal aid from the Reagan Administration in rural development.[^5] The introduction of Enterprise Zones that granted local government flexibility and encouraged private sectors to redevelop distressed areas at their discretion,[^6] the act may be viewed as a key reference to the EB-5 Immigrant Investor Program. Although it was never fully signed into law, the idea of turning a certain area into a market-friendly zone by providing incentives became a formula to support development.
 
-Congress introduced the EB-5 Immigrant Investor Program as a part of the Immigration Act of 1990.<sup>7</sup> The program intended to encourage foreign entrepreneurship to create jobs in rural and high-unemployment areas by incentivizing investors' permanent residency.<sup>8</sup> Following underperformed results, Congress quickly amended the program in 1992 and created the Pilot Immigration Program (now renamed as Regional Center Program), which granted private companies access to collect funds from multiple foreign investors, serving as a supplementary addition to the original program.<sup>9</sup> Not until after the 2008 subprime mortgage crisis was the program rediscovered by troubled developers who faced difficulty borrowing loans from traditional financial institutions.<sup>10</sup> The supplementary Regional Center Program has become the main method in EB-5 Program for both developers and foreign investors for its convenience.<sup>11</sup>
+Congress introduced the EB-5 Immigrant Investor Program as a part of the Immigration Act of 1990.[^7] The program intended to encourage foreign entrepreneurship to create jobs in rural and high-unemployment areas by incentivizing investors' permanent residency.[^8] Following underperformed results, Congress quickly amended the program in 1992 and created the Pilot Immigration Program (now renamed as Regional Center Program), which granted private companies access to collect funds from multiple foreign investors, serving as a supplementary addition to the original program.[^9] Not until after the 2008 subprime mortgage crisis was the program rediscovered by troubled developers who faced difficulty borrowing loans from traditional financial institutions.[^10] The supplementary Regional Center Program has become the main method in EB-5 Program for both developers and foreign investors for its convenience.[^11]
 
-An estimated 15.8 billion dollars (at least) has poured into targeted areas since, with most Asian investors.<sup>12</sup> The program has facilitated high-profile developments like Hudson Yards, Atlantic Yards, Brooklyn Navy Yards, and many five-star hotels and luxury condos in Manhattan. Not so surprisingly, due to the lack of Federal intervention and unrestricted zoning regulations, the outcome was derailed from the intended goal, which was supposed to benefit the distressed areas. In 2019, EB-5 Immigrant Investor Program Modernization was signed to limit the local government’s intervention in zoning regulations.<sup>13</sup> As a signal of the program’s overall economic success and to improve its performance, in 2022, President Joe Biden signed the revised EB-5 Integrity and Reform Act of 2022.<sup>14</sup> It is time to review the 30-year-old program through a satellite, urbanism lens. What has the program contributed to America’s development?
+An estimated 15.8 billion dollars (at least) has poured into targeted areas since, with most Asian investors.[^12] The program has facilitated high-profile developments like Hudson Yards, Atlantic Yards, Brooklyn Navy Yards, and many five-star hotels and luxury condos in Manhattan. Not so surprisingly, due to the lack of Federal intervention and unrestricted zoning regulations, the outcome was derailed from the intended goal, which was supposed to benefit the distressed areas. In 2019, EB-5 Immigrant Investor Program Modernization was signed to limit the local government’s intervention in zoning regulations.[^13] As a signal of the program’s overall economic success and to improve its performance, in 2022, President Joe Biden signed the revised EB-5 Integrity and Reform Act of 2022.[^14] It is time to review the 30-year-old program through a satellite, urbanism lens. What has the program contributed to America’s development?
 
 #### Project Scope
 
@@ -41,7 +41,7 @@ To begin with, the following topics present the program’s aims and general out
 
 ![graph1](/img/eb5/graph1.jpg)
 
-The chart depicts the trend in conditional EB-5 visa issuance from 2000 to 2022. Prior to the financial crisis, the program remained underutilized for almost two decades. According to a GAO study presented to the Congress Committee in 2005, the program's poor performance during the early stage resulted from the prolonged residency status of many applicants for as long as 10 years due to pending regulations and the uncertainty of job requirements.<sup>15</sup> The program gained popularity following the financial crisis, with the regional center serving as the primary method of the EB-5 program.
+The chart depicts the trend in conditional EB-5 visa issuance from 2000 to 2022. Prior to the financial crisis, the program remained underutilized for almost two decades. According to a GAO study presented to the Congress Committee in 2005, the program's poor performance during the early stage resulted from the prolonged residency status of many applicants for as long as 10 years due to pending regulations and the uncertainty of job requirements.[^15] The program gained popularity following the financial crisis, with the regional center serving as the primary method of the EB-5 program.
 
 The most frequently employed approach is through regional centers, which account for about 95% of visa issuances. The majority of investors hail from Asia, particularly mainland China.
 
@@ -133,7 +133,7 @@ The map shows the location of EB-5 projects with unique IDs. The color IDs indic
 
 ![satellite_ny](/img/eb5/satellite_ny.jpg)
 
-The plot shows the satellite imagery of the New York EB-5 project, sorted by EB-5 capital. The most expensive project that utilized EB-5 capital is Governor Mario M. Cuomo Bridge in Terrytown. Estimated one billion dollars were sought from foreign investors.<sup>16</sup> The second and third most expensive projects are 30 Hudson Yard (600 million) and TSX Broadway in Time Square (494 million) respectively. The bottom rows include projects without EB-5 capital confirmed.
+The plot shows the satellite imagery of the New York EB-5 project, sorted by EB-5 capital. The most expensive project that utilized EB-5 capital is Governor Mario M. Cuomo Bridge in Terrytown. Estimated one billion dollars were sought from foreign investors.[^16] The second and third most expensive projects are 30 Hudson Yard (600 million) and TSX Broadway in Time Square (494 million) respectively. The bottom rows include projects without EB-5 capital confirmed.
 
 
 ![satellite_fl](/img/eb5/satellite_fl.jpg)
@@ -152,31 +152,31 @@ For the final touch of the project, it is important to document the actual site 
 
 *One Wall Street in the Financial District was financed by the LCP Group, Live in America - New York Regional Center, and developed by Macklowe Properties. One Wall Street is an example of many recent redevelopments of historical buildings in FiDi.*
 
-![Central Park Tower](central-park-tower.jpg)
+![Central Park Tower](/img/eb5/central-park-tower.jpg)
 
 *EB-5 capital for Central Park Tower was financed by Extell New York Regional Center and developed by its parent company, Extell Development Company”
 
-![Victoria Tower Residences](victoria-tower.jpg)
+![Victoria Tower Residences](/img/eb5/victoria-tower.jpg)
 
 *The Victoria Theater redevelopment project in Harlem was developed and financed by Lam Group and Lam NYC EB-5 Fund Regional Center.*
 
-![Barclays Center Arena](barclays-center.jpg)
+![Barclays Center Arena](/img/eb5/barclays-center.jpg)
 
 *The Barclays Center Arena was part of the Atlantic Yards development that was developed by Forest City Ratner and Chinese developer Greenland Holdings Group. The New York City Regional Center managed to finance EB-5 funds for the Atlantic Yards development.*
 
-![One South First](one-south-first.jpg)
+![One South First](/img/eb5/one-south-first.jpg)
 
 *Kent street in the Williamsburg waterfront area was the location of three EB-5 projects. One South First was financed by AscendAmerica LLC and developed by Two Trees.*
 
-![Miami Central Station](miami-central.jpg)
+![Miami Central Station](/img/eb5/miami-central.jpg)
 
 *Miami Central Station was financed by CanAm Florida Regional Center, LLC and developed by All Aboard Florida. SOM was the architect.*
 
-![Panorama Tower](panorama.jpg)
+![Panorama Tower](/img/eb5/panorama.jpg)
 
 *The City of Miami EB5 Regional Center helped finance Panorama Tower in Miami. Florida East Coast Realty was the developer.*
 
-![SkyRise Miami](skyrise.jpg)
+![SkyRise Miami](/img/eb5/skyrise.jpg)
 
 *SkyRise Miami was set to be the tallest building in Miami. The project never came to reality due to troubled financing. The image shows the empty construction site. Berkowitz Development Group was the developer, and Miami Metropolitan Regional Center helped arrange EB-5 capital.*
 
@@ -204,7 +204,7 @@ First, I downloaded the list of Approved EB-5 Regional Centers and the list of R
 
 ![Method](/img/eb5/method.jpg)
 
-To calculate the invested EB-5 capital, based on the versions of the required minimum investment amount, there are three periods of time: fiscal year 1992 to 2018, 2019 to 2021, and after 2022. First, I used visa issuance data from “Department of State, Preference Immigrant Visas Issued, Table VI'' to estimate how many investors there were for each year. Based on a Brookings Institution research study that showed that one investor brought two additional immediate family members,<sup>17</sup> I weighed the visa issuance by ⅓ to reflect the approximate number of investors. The following image shows the formula used in a USCIS report.<sup>18</sup>
+To calculate the invested EB-5 capital, based on the versions of the required minimum investment amount, there are three periods of time: fiscal year 1992 to 2018, 2019 to 2021, and after 2022. First, I used visa issuance data from “Department of State, Preference Immigrant Visas Issued, Table VI'' to estimate how many investors there were for each year. Based on a Brookings Institution research study that showed that one investor brought two additional immediate family members,[^17] I weighed the visa issuance by ⅓ to reflect the approximate number of investors. The following image shows the formula used in a USCIS report.[^18]
 
 ![Weight](/img/eb5/weight.png)
 
@@ -260,22 +260,39 @@ The project was advised by Adjunct Assistant Professor Dan Taeyoung and was deve
 
 #### References
 
-1. Erb, K. P. (n.d.). The EB-5 Visa: United States Citizenship For Sale? Retrieved May 3, 2023, from Forbes website: https://www.forbes.com/sites/kellyphillipserb/2017/05/10/the-eb-5-visa-united-states-citizenship-for-sale/?sh=5ce000d52cb9
-2. Bush, G. (1990, November 29). Statement on Signing the Immigration Act of 1990 | The American Presidency Project. Retrieved from www.presidency.ucsb.edu website: https://www.presidency.ucsb.edu/documents/statement-signing-the-immigration-act-1990
-3. Walsh, C. E. (1993). What caused the 1990-1991 recession? Economic Review - Federal Reserve Bank of San Francisco, (2), 33.
-4. Gardner, J. M. (1994). The 1990-91 recession: how bad was the labor market? Monthly Labor Review, 117(6), 3–11. http://www.jstor.org/stable/41844298
-5. Herbers, J., & Times, S. T. the N. Y. (1982, November 28). REAGAN TO ASK CUT IN RURAL AREA AID. The New York Times. Retrieved from https://www.nytimes.com/1982/11/28/us/reagan-to-ask-cut-in-rural-area-aid.html
-6. S.2298 - 97th Congress (1981-1982): Enterprise Zone Tax Act of 1982. (1982, September 28). https://www.congress.gov/bill/97th-congress/senate-bill/2298
-7. S.358 - 101st Congress (1989-1990): Immigration Act of 1990. (1990, November 29). https://www.congress.gov/bill/101st-congress/senate-bill/358
-8. EB-5 Immigrant Investor Program | USCIS. (2020, June 10). Retrieved from www.uscis.gov website: https://www.uscis.gov/working-in-the-united-states/permanent-workers/eb-5-immigrant-investor-program
-9. EB-5 Immigrant Investor Pilot Program 2 General EB-5 Program Overview Background. (n.d.). Retrieved from https://www.uscis.gov/sites/default/files/document/presentations/EB-5%20Investor%20Pilot%20Program.pdf
-10. Singer, A., & Galdes, C. (2014). Project on State and Metropolitan Innovation Improving the EB-5 Investor Visa Program: International Financing for U.S. Regional Economic Development (p. 2). Retrieved from https://www.brookings.edu/wp-content/uploads/2016/06/EB5_Report.pdf
-11. Calderon, J., Lecturer, G., & Friedland, G. (2015). “A Roadmap to the Use of EB-5 Capital: An Alternative Financing Tool for Commercial Real Estate Projects” (p. 20). Retrieved from https://www.stern.nyu.edu/sites/default/files/assets/documents/EB5%20paper%20final%205.24.2015.pdf
-12. Li, L. (2021, August 20). Analysis: Impact of the Lapse of the EB-5 Regional Center Program on Investors, Investments & Jobs. Retrieved May 3, 2023, from Invest In the USA website: https://iiusa.org/blog/iiusa-data-analysis-impact-of-the-lapse-of-the-eb-5-regional-center-program-on-investors-investments-and-job-creation/
-13. Office of the Federal Register, National Archives and Records Administration. (2019, July 23). 84 FR 35750 - EB-5 Immigrant Investor Program Modernization. [Government]. Office of the Federal Register, National Archives and Records Administration. https://www.govinfo.gov/app/details/FR-2019-07-24/2019-15000
-14. Text - H.R.2901 - 117th Congress (2021-2022): EB–5 Reform and Integrity Act of 2021. (2021, October 19). https://www.congress.gov/bill/117th-congress/house-bill/2901/text
-15. Report to Congressional Committees IMMIGRANT INVESTORS Small Number of Participants Attributed to Pending Regulations and Other Factors. (2005). Retrieved from https://www.gao.gov/assets/gao-05-256.pdf
-16. Calderon, J., Lecturer, G., & Friedland, G. (2015). “A Roadmap to the Use of EB-5 Capital: An Alternative Financing Tool for Commercial Real Estate Projects” (p. 33). Retrieved from https://www.stern.nyu.edu/sites/default/files/assets/documents/EB5%20paper%20final%205.24.2015.pdf
-17. Galdes, A. S. and C. (2014, February 5). Improving the EB-5 Investor Visa Program: International Financing for U.S. Regional Economic Development. Retrieved May 6, 2023, from Brookings website: https://www.brookings.edu/research/improving-the-eb-5-investor-visa-program-international-financing-for-u-s-regional-economic-development/
-18. ICF International. (2010). Study of the United States Immigrant Investor Pilot Program (EB-5). In USCIS (p. 10). Retrieved from https://www.uscis.gov/sites/default/files/document/reports/EB5-Report-2010.pdf
+[^1] Erb, K. P. (n.d.). The EB-5 Visa: United States Citizenship For Sale? Retrieved May 3, 2023, from Forbes website: https://www.forbes.com/sites/kellyphillipserb/2017/05/10/the-eb-5-visa-united-states-citizenship-for-sale/?sh=5ce000d52cb9
+
+[^2] Bush, G. (1990, November 29). Statement on Signing the Immigration Act of 1990 | The American Presidency Project. Retrieved from www.presidency.ucsb.edu website: https://www.presidency.ucsb.edu/documents/statement-signing-the-immigration-act-1990
+
+[^3] Walsh, C. E. (1993). What caused the 1990-1991 recession? Economic Review - Federal Reserve Bank of San Francisco, (2), 33.
+
+[^4] Gardner, J. M. (1994). The 1990-91 recession: how bad was the labor market? Monthly Labor Review, 117(6), 3–11. http://www.jstor.org/stable/41844298
+
+[^5] Herbers, J., & Times, S. T. the N. Y. (1982, November 28). REAGAN TO ASK CUT IN RURAL AREA AID. The New York Times. Retrieved from https://www.nytimes.com/1982/11/28/us/reagan-to-ask-cut-in-rural-area-aid.html
+
+[^6] S.2298 - 97th Congress (1981-1982): Enterprise Zone Tax Act of 1982. (1982, September 28). https://www.congress.gov/bill/97th-congress/senate-bill/2298
+
+[^7] S.358 - 101st Congress (1989-1990): Immigration Act of 1990. (1990, November 29). https://www.congress.gov/bill/101st-congress/senate-bill/358
+
+[^8] EB-5 Immigrant Investor Program | USCIS. (2020, June 10). Retrieved from www.uscis.gov website: https://www.uscis.gov/working-in-the-united-states/permanent-workers/eb-5-immigrant-investor-program
+
+[^9] EB-5 Immigrant Investor Pilot Program 2 General EB-5 Program Overview Background. (n.d.). Retrieved from https://www.uscis.gov/sites/default/files/document/presentations/EB-5%20Investor%20Pilot%20Program.pdf
+
+[^10] Singer, A., & Galdes, C. (2014). Project on State and Metropolitan Innovation Improving the EB-5 Investor Visa Program: International Financing for U.S. Regional Economic Development (p. 2). Retrieved from https://www.brookings.edu/wp-content/uploads/2016/06/EB5_Report.pdf
+
+[^11] Calderon, J., Lecturer, G., & Friedland, G. (2015). “A Roadmap to the Use of EB-5 Capital: An Alternative Financing Tool for Commercial Real Estate Projects” (p. 20). Retrieved from https://www.stern.nyu.edu/sites/default/files/assets/documents/EB5%20paper%20final%205.24.2015.pdf
+
+[^12] Li, L. (2021, August 20). Analysis: Impact of the Lapse of the EB-5 Regional Center Program on Investors, Investments & Jobs. Retrieved May 3, 2023, from Invest In the USA website: https://iiusa.org/blog/iiusa-data-analysis-impact-of-the-lapse-of-the-eb-5-regional-center-program-on-investors-investments-and-job-creation/
+
+[^13] Office of the Federal Register, National Archives and Records Administration. (2019, July 23). 84 FR 35750 - EB-5 Immigrant Investor Program Modernization. [Government]. Office of the Federal Register, National Archives and Records Administration. https://www.govinfo.gov/app/details/FR-2019-07-24/2019-15000
+
+[^14] Text - H.R.2901 - 117th Congress (2021-2022): EB–5 Reform and Integrity Act of 2021. (2021, October 19). https://www.congress.gov/bill/117th-congress/house-bill/2901/text
+
+[^15] Report to Congressional Committees IMMIGRANT INVESTORS Small Number of Participants Attributed to Pending Regulations and Other Factors. (2005). Retrieved from https://www.gao.gov/assets/gao-05-256.pdf
+
+[^16] Calderon, J., Lecturer, G., & Friedland, G. (2015). “A Roadmap to the Use of EB-5 Capital: An Alternative Financing Tool for Commercial Real Estate Projects” (p. 33). Retrieved from https://www.stern.nyu.edu/sites/default/files/assets/documents/EB5%20paper%20final%205.24.2015.pdf
+
+[^17] Galdes, A. S. and C. (2014, February 5). Improving the EB-5 Investor Visa Program: International Financing for U.S. Regional Economic Development. Retrieved May 6, 2023, from Brookings website: https://www.brookings.edu/research/improving-the-eb-5-investor-visa-program-international-financing-for-u-s-regional-economic-development/
+
+[^18] ICF International. (2010). Study of the United States Immigrant Investor Pilot Program (EB-5). In USCIS (p. 10). Retrieved from https://www.uscis.gov/sites/default/files/document/reports/EB5-Report-2010.pdf
 
