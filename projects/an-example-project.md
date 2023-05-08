@@ -35,6 +35,28 @@ Ut pellentesque venenatis leo, aliquet congue metus volutpat vitae. Ut vestibulu
 
 Donec vulputate ex aliquam egestas tempus[^5]. Duis a massa non eros lobortis commodo. Donec at elementum mi. Quisque a porttitor enim. Ut scelerisque elit vel pharetra dignissim. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit[^6]. Praesent nec ex quis nulla tincidunt iaculis vitae ut justo. Praesent tellus eros, feugiat at pharetra eu, ullamcorper non nibh. Sed semper, purus sed dictum aliquet, nisl justo elementum enim, et dignissim tortor leo id tellus. Phasellus commodo augue et nisl facilisis molestie. Mauris at sagittis diam. Fusce vel mi tristique, ornare erat ut, commodo nibh.
 
+<iframe
+  src="https://www.youtube.com/embed/laiVuCmEjlg"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+  style="aspect-ratio: 16 / 9; width: 100%;">
+</iframe>
+
+<iframe
+  src="https://player.vimeo.com/video/158673446?h=30e98ac368&title=0&byline=0&portrait=0"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+  style="aspect-ratio: 16 / 9; width: 100%;">
+</iframe>
+
+<video
+  src="/img/earth.mp4"
+  controls
+  style="aspect-ratio: 16 / 9; width: 100%;">
+</video>
+
 [^1]: Johna Hjerpe, “Fantastic Perspective,” _Serving Library_ #12 (2017).
 [^2]: Caitlin Jones, “The function of the studio (when the studio is a laptop),” Art Lies 67 (2010).
 [^3]: ann haeyoung, “How to work within power structures that don't work for you,” _The Creative Independent_ (2019).

@@ -25,4 +25,10 @@ The clock not only measures time but also orchestrates human action and designs 
 
 ![System Diagram](/img/Final-Presentation-18.jpg)
 
-<style>.embed-container { position: relative; aspect-ratio: 16 /9; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/VcDK8Q69sb4' frameborder='0' allowfullscreen></iframe></div>
+<iframe
+  src="https://www.youtube.com/embed/VcDK8Q69sb4"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+  style="aspect-ratio: 16 / 9; width: 100%;">
+</iframe>

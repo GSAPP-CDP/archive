@@ -4,13 +4,13 @@ header {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: var(--grid-gap);
-  padding-bottom: var(--space);
+  margin-bottom: var(--space);
 }
 
 @media (min-width: 640px) {
   header {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    padding-bottom: calc(4 * var(--space));
+    margin-bottom: calc(4 * var(--space));
   }
 
   .header-title {
@@ -40,11 +40,11 @@ main {
 }
 
 .post-header {
-  padding-bottom: calc(3 * var(--space));
+  margin-bottom: calc(3 * var(--space));
 }
 
 .content > * {
-  padding-bottom: var(--space);
+  margin-bottom: var(--space);
 }
 
 .content a {
@@ -76,7 +76,6 @@ figure {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-bottom: calc(2 * var(--space));
 }
 
 figure > * {
@@ -138,7 +137,7 @@ figcaption,
 }
 
 .project-card {
-  padding-bottom: calc(2 * var(--space));
+  margin-bottom: calc(2 * var(--space));
 }
 
 .project-card .project-card-thumb {
@@ -197,7 +196,7 @@ figcaption,
 }
 
 .project-header {
-  padding-bottom: calc(3 * var(--space));
+  margin-bottom: calc(3 * var(--space));
 }
 
 .project-links a:before {

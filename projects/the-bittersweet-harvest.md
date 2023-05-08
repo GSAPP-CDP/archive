@@ -33,8 +33,11 @@ Yet this remarkable supply chain has been overshadowed by the gigantic Hunts Poi
 Our current culture around data means systems that evade quickness and bigness, such as Chinatown’s analog operations, become trapped in a feedback loop of being understudied, underrepresented, and undersupported. I thus frame the project as a form of archival advocacy – to capture and record this network to raise its visibility and build support. Through mapping, web-scrapping, and ethnography, I merge a quantitive time series that points to a decline and shrinkage in the network with an oral history of immigrant hardship, tenacity, and the desire for change. 
 <br><br>
 
-
-<style>.embed-container { position: relative; aspect-ratio: 16 /9; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="/img/produce.mp4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+<video 
+  src="/img/produce.mp4"
+  controls
+  style="aspect-ratio: 16 / 9; width: 100%;">
+</video>
 
 <br><br>
 Over the years, this network of vendors and suppliers continues to face significant challenges due to the city’s rapidly changing landscape. Gentrification, upzoning, immigration policies, and other outside forces are threatening to diminish the vitality of this historic marketplace. 
