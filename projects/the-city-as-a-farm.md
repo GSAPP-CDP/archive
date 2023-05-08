@@ -3,12 +3,14 @@ layout: project
 title: "The City as a Farm: How can urban agriculture help address food insecurity within New York City?"
 author: Letti Campo
 year: 2023
-image: /img/TheLittleApple.png
+image: /img/LittleAppleHome.png
 links:
-  - text: "Learn More"
-    url: https://ljc2177.github.io/potential-octo-engine/Spring%202023/Colloquium/
-  - text: "Explore the Little Apple"
-    url: https://ljc2177.github.io/the-little-apple/
+    - 
+      text: "Learn More"
+      url: https://ljc2177.github.io/potential-octo-engine/Spring%202023/Colloquium/
+    - 
+      text: "Explore the Little Apple"
+      url: https://ljc2177.github.io/the-little-apple/#/
 ---
 [![](/img/UFSkyline.png)](https://ljc2177.github.io/potential-octo-engine/Spring%202023/Colloquium/)
 
