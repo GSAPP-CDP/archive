@@ -133,7 +133,7 @@ The map shows the location of EB-5 projects with unique IDs. The color IDs indic
 
 ![satellite_ny](/img/eb5/satellite_ny.jpg)
 
-The plot shows the satellite imagery of the New York EB-5 project, sorted by EB-5 capital. The most expensive project that utilized EB-5 capital is Governor Mario M. Cuomo Bridge in Terrytown. Estimated one billion dollars were sought from foreign investors.<sup>16</sup> The second and third most expensive projects are 30 Hudson Yard (600 million)  and TSX Broadway in Time Square (494 million) respectively. The bottom rows include projects without EB-5 capital confirmed.
+The plot shows the satellite imagery of the New York EB-5 project, sorted by EB-5 capital. The most expensive project that utilized EB-5 capital is Governor Mario M. Cuomo Bridge in Terrytown. Estimated one billion dollars were sought from foreign investors.<sup>16</sup> The second and third most expensive projects are 30 Hudson Yard (600 million) and TSX Broadway in Time Square (494 million) respectively. The bottom rows include projects without EB-5 capital confirmed.
 
 
 ![satellite_fl](/img/eb5/satellite_fl.jpg)
