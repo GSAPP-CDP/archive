@@ -11,7 +11,7 @@ support for [footnotes](https://github.com/markdown-it/markdown-it-footnote) and
 
 ```
 npm install
-npm run start
+npx @11ty/eleventy --serve
 ```
 
 Browse to [http://localhost:8080/](http://localhost:8080/) (port 8080 is default but it will switch
@@ -93,6 +93,44 @@ All block-level images in markdown are converted to figures & figure captions:
 ```
 
 For more information, see the [markdown-it-implicit-figures](https://github.com/arve0/markdown-it-implicit-figures) plugin.
+
+### Videos
+
+Youtube, Vimeo, and HTML5 videos are supported via Markdown's built-in HTML support.
+
+```html
+<!--- YouTube -->
+<iframe
+  src="https://www.youtube.com/embed/laiVuCmEjlg"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+  style="aspect-ratio: 16 / 9; width: 100%;">
+</iframe>
+
+<!--- Vimeo -->
+<iframe
+  src="https://player.vimeo.com/video/158673446?h=30e98ac368&title=0&byline=0&portrait=0"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+  style="aspect-ratio: 16 / 9; width: 100%;">
+</iframe>
+
+<!--- HTML5 video -->
+<video
+  src="/img/earth.mp4"
+  controls
+  style="aspect-ratio: 16 / 9; width: 100%;">
+</video>
+```
+
+Note that each element has a `style` attribute that sets the aspect ratio and the width to 100%. This allows videos
+to be responsive and fill the width of the container.
+
+Most videos will have an aspect ratio of 16:9, but this can be changed by modifying the `style` attribute.
+
+HTML5 video files should be added to the the `/public/img/` directory and referenced with the `src` attribute.
 
 ## Deployment
 

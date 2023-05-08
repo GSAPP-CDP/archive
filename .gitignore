@@ -1,6 +1,8 @@
 # Ignore eleventy output when doing manual tests
 _site/
 
+.DS_Store
+
 # Logs
 logs
 *.log
