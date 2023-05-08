@@ -34,7 +34,7 @@ Our current culture around data means systems that evade quickness and bigness, 
 <br><br>
 
 
-<iframe class="vid" src="/img/produce.mp4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="width:100%; height:400px"></iframe>
+<style>.embed-container { position: relative; aspect-ratio: 16 /9; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="/img/produce.mp4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
 <br><br>
 Over the years, this network of vendors and suppliers continues to face significant challenges due to the city’s rapidly changing landscape. Gentrification, upzoning, immigration policies, and other outside forces are threatening to diminish the vitality of this historic marketplace. 
