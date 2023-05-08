@@ -51,7 +51,7 @@ The chart shows the investment types available under the EB-5 program, which are
 
 ![](/img/eb5/graph1-2.jpg)
 
-The top countries of origin for the EB-5 program are China, South Korea, Vietnam, Taiwan, India, UK, Brazil, Iran, Hong Kong, and Russia. The number of visa issuances for Chinese investors has gone down considerably, although they still constitute the main group in the program. In recent years, investors from Vietnam and India have become more prominent.
+The top 10 countries of origin for the EB-5 program are China, South Korea, Vietnam, Taiwan, India, UK, Brazil, Iran, Hong Kong, and Russia. The number of visa issuances for Chinese investors has gone down considerably, although they still constitute the main group in the program. In recent years, investors from Vietnam and India have become more prominent.
 
 ![](/img/eb5/graph1-3.jpg)
 
@@ -154,7 +154,7 @@ For the final touch of the project, it is important to document the actual site 
 
 ![Central Park Tower](/img/eb5/central-park-tower.jpg)
 
-*EB-5 capital for Central Park Tower was financed by Extell New York Regional Center and developed by its parent company, Extell Development Company”
+*EB-5 capital for Central Park Tower was financed by Extell New York Regional Center and developed by its parent company, Extell Development Company.*
 
 ![Victoria Tower Residences](/img/eb5/victoria-tower.jpg)
 
