@@ -3,19 +3,71 @@ layout: project
 title: Materialfolio
 author: Junling Zhuang
 year: 2023
-image: img/junling/Collquium.jpg
+image: img/junling/Materialfolio.jpg
+links:
+  - text: Project Website
+    url: https://www.junling-design.com/materialfolio
+  - text: Video
+    url: https://vimeo.com/824803627?share=copy
 ---
 
 Materialfolio
+![Materialfolio](/img/junling/Materialfolio.jpg)
 
-——Can we create a tool that narrows down the gap between social media and the built environment
+——A New Muti-dimensional Crowdsourcing Platform to Build Material Archive
 
-### **Research Process**
+### **Project Description**
 
-#### Social Media as GIS
+Kevin Lynch's 1960 book "The Image of the City" is considered a classic of urban image theory, but the scientific rigor of the theory of urban form is controversial. Marshall (2012) argues that Lynch's theory has not been significantly tested, and much subsequent research has simply taken Lynch's claims for granted. However, the emergence of computer vision-related deep learning algorithms is changing this situation. The Perceptions concept model proposed by Reid Ewing and Susan Handy (2009) established a connection between objective environmental elements and subjective urban experiences, laying the foundation for a machine-readable perceptual model.
+
+Based on algorithms and using street view as a dataset, algorithm-based research on urban perception challenges the objectivity of priori-based urban image theory and has gradually become the mainstream of research. However, the emergence of digital technology poses both a threat and an opportunity to urban image research. Machines have become "agents" in the field of urban perception research, and Google Street View has become the darling of urban perception research.
+
+Unfortunately, the uneven distribution of Google Street View, insufficient data for disadvantaged communities, lack of real-time data, and commercial interests have led to data set unfairness. This can result in potential uncertainty and unfairness in research based on these data sets in the long run. To address these issues, this project aims to establish a user-friendly and user-incentivized program for collecting data and visualizing it, supplementing the shortcomings of the Google Street View dataset by crowdsourcing street views. Additionally, by taking important architectural materials in urban perception as a clue, the project will provide real-time updates for more image modalities in urban image research.
+
+### **Part one: Urban Peception Development**
+
+#### Kevin Lynch:urban image theory
+
+![Kevin Lynch - The Image of the City](/img/junling/Collquium2.jpg)
+
+#### The Perceptions concept model (2009)
+
+![Perceptions concept model by Reid Ewing & Susan Handy 2009](/img/junling/Collquium3.jpg)
+
+#### Machine as Perception Agent
+
+![Urban Perception Methodology Development](/img/junling/Collquium3.jpg)
 
 Online social networking sites are increasingly location-based.
 Social media are increasingly location-based. Social media, led by MySpace, Facebook, Twitter, LinkedIn, and so on, have been described as one of the defining characteristics of Web 2.0 technologies. This offers new opportunities and perspective to study the relationship between the urban physical environments and location-based social media networks
+
+### **Part Two: Part Two: The limitations of the Google Street View as Urban perception dataset**
+
+#### News from CNN
+
+![Google Street view dataset maldistribution in Lake Providence ](/img/junling/Collquium8.jpg)
+
+John D. Sutter is a columnist for CNN Opinion. There is a Lake Providence, which is an oxbow lake that separates a predominantly wealthy neighborhood from a mostly impoverished one. After the article was published, a reader pointed out to me that, at the time, it was impossible to search the poorer side of Lake Providence using Google Street View.
+
+#### The worldwide distribution of google Street View
+
+![The worldwide distribution Map of google Street View ](/img/junling/Collquium9.jpg)
+
+- Inadequate data coverage
+
+In some remote areas and developing countries, GIS data coverage and updates may be relatively low. This is due to the relatively low level of infrastructure and information technology in these areas and the high cost of data collection and updating. In addition, the relatively low commercial value and user demand in these areas may lead to bias in resource allocation by data providers.
+
+- Insufficient data for disadvantaged communities
+
+Some disadvantaged communities (e.g., low-income, minorities, etc.) may be underrepresented in GIS. This is because the geographic location, living environment, and cultural characteristics of these communities may differ from those of the mainstream society, leading to difficulties in data collection and analysis. In addition, the political status and economic power of these communities are weak, which may affect their rights and interests in the GIS.
+
+- Limitations of data time and location
+
+Street view images are usually taken at specific times and locations, and these images may not fully reflect the overall characteristics of a city. In addition, the frequency of updating streetscape images may also affect the accuracy of the study results.
+
+- Acquisition angle and occlusions limitation
+
+Even in areas where street view data is abundant, some urban features may be difficult to capture in their entirety due to limitations such as acquisition angles, occlusions or lighting conditions.
 
 #### Location-based social media has changed
 
@@ -84,3 +136,20 @@ MSE is often discussed together with SSIM, which is the opposite of SSIM in that
 As for human perception, here is an important theory to establish a link between street view elements and human feelings, so all we need to do is to provide the elements, So I will first use image segmentation techniques, It was able to analyze the ratio of various elements in the street view, which is a general study of my study area
 
 Assuming that all the street  images of the past years have been obtained and processed accordingly, we can easily obtain the proportional changes of various street view elements in the past for each location , which is also a rate of change. Similarly, we can use the object recognition algorithm to get the change of the history street elements number.
+
+<!-- <iframe
+  src="https://vimeo.com/824803627?share=copy"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+  style="aspect-ratio: 16 / 9; width: 100%;">
+</iframe> -->
+
+<div style="padding:57.65% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/824803627?h=f7dadb878e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Materialfolio-Junling Zhuang"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+[^1]: Johna Hjerpe, “Fantastic Perspective,” _Serving Library_ #12 (2017).
+[^2]: Caitlin Jones, “The function of the studio (when the studio is a laptop),” Art Lies 67 (2010).
+[^3]: ann haeyoung, “How to work within power structures that don't work for you,” _The Creative Independent_ (2019).
+[^4]: WBYA?, _Who Builds Your Architecture? A Critical Field Guide_ (2017).
+[^5]: Jason Alderman, Tega Brain, Taeyoon Choi, Luisa Pereira, “A Field Guide to Debugging,” p5.js (2015).
+[^6]: Keller Easterling, “A losing game: harnessing failure,” _The Architectural Review_ 1458 (2019).
