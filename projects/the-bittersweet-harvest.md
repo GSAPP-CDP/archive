@@ -5,8 +5,11 @@ author: Zoe Lin
 year: 2023
 image: /img/zoe_ChinatownProduce.png
 links:
-  - https://zoelin1122.github.io/ChinatownProduceNetwork/
-  - https://zoelin1122.github.io/
+  - 
+    text: Project Website
+    url: https://zoelin1122.github.io/ChinatownProduceNetwork/
+  - text: Zoe Lin
+    url: https://zoelin1122.github.io/
 ---
 
 <img src="/img/zoe_fruit.gif" style="width:100%">
