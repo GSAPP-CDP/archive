@@ -7,7 +7,7 @@ image: /img/eb5/the-spiral.jpg
 ---
 #### Introduction: An Idealistic Intention, Unexpected Results
 
-![The Spiral](/img/eb5/the-spiral.jpg)
+![](/img/eb5/the-spiral.jpg)
 
 *The image shows The Spiral (front) and 30 Hudson Yard (back), both were funded by EB-5 capital.*
 
@@ -39,33 +39,33 @@ To begin with, the following topics present the program’s aims and general out
 
 **1. EB-5 Immigrant Investor Program Chronicle**
 
-![graph1](/img/eb5/graph1.jpg)
+![](/img/eb5/graph1.jpg)
 
 The chart depicts the trend in conditional EB-5 visa issuance from 2000 to 2022. Prior to the financial crisis, the program remained underutilized for almost two decades. According to a GAO study presented to the Congress Committee in 2005, the program's poor performance during the early stage resulted from the prolonged residency status of many applicants for as long as 10 years due to pending regulations and the uncertainty of job requirements.[^15] The program gained popularity following the financial crisis, with the regional center serving as the primary method of the EB-5 program.
 
 The most frequently employed approach is through regional centers, which account for about 95% of visa issuances. The majority of investors hail from Asia, particularly mainland China.
 
-![graph1-1](/img/eb5/graph1-1.jpg)
+![](/img/eb5/graph1-1.jpg)
 
 The chart shows the investment types available under the EB-5 program, which are EB-5 Direct Investment, EB-5 Direct Investment in a Targeted Employment Area, EB-5 Regional Pilot Program, and EB-5 Regional Pilot in a Targeted Employment Area. The EB-5 Regional Pilot in a Targeted Employment Area is the most popular option due to the involvement of regional centers and the reduced investment amount.
 
-![graph1-2](/img/eb5/graph1-2.jpg)
+![](/img/eb5/graph1-2.jpg)
 
 The top countries of origin for the EB-5 program are China, South Korea, Vietnam, Taiwan, India, UK, Brazil, Iran, Hong Kong, and Russia. The number of visa issuances for Chinese investors has gone down considerably, although they still constitute the main group in the program. In recent years, investors from Vietnam and India have become more prominent.
 
-![graph1-3](/img/eb5/graph1-3.jpg)
+![](/img/eb5/graph1-3.jpg)
 
 The estimated EB-5 capital from 2000 to 2022 is 15.8 billion dollars, and an estimated 468,351 direct and indirect jobs have been created. Please refer to the methodology section for detailed calculations.
 
 **2. EB-5 Regional Center Development**
 
-![graph2](/img/eb5/graph2.jpg)
+![](/img/eb5/graph2.jpg)
 
 The diagram shows the simplified process of regional center development. A regional center is a private entity approved by the USCIS to create a New Commercial Enterprise (NCE) that collects foreign capital for a developer. The NCE usually arranges funds from multiple investors, who become equity holders of the NCE. A regional center can be a third-party company that works with many developers or can serve as a developer's affiliate that works under the developer to fund their projects. The Job Creation Entity (JCE) is a development company that receives funds from the NCE, developer, and financial institutions to conduct a project and hire workers. The regional center, NCE, developer, and JCE are directly involved in the development from financial and construction aspects. Foreign investors, however, do not have direct involvement and have little impact on the development.
 
 **3. EB-5 Visa Application Process**
 
-![graph3](/img/eb5/graph3.jpg)
+![](/img/eb5/graph3.jpg)
 
 The diagram shows the timeline of EB-5 visa issuance. After the required number of jobs has been created by the initial investment in the construction, the investor (or the lawyer) can file the I-526 petition to obtain the conditional permanent resident status (conditional green card). 90 days before the conditional green card's expiration, the investor can file an I-829 petition to remove the conditional status and become an unconditional permanent resident.
 
@@ -77,23 +77,23 @@ This part will demonstrate the private sector’s interpretations.
 
 **1. EB-5 Regional Center Registration by State**
 
-![graph4](/img/eb5/graph4.jpg)
+![](/img/eb5/graph4.jpg)
 
 The chart shows a summary of approved and terminated regional centers by state, indicating the number of ever-existing regional centers. California, New York, and Florida are the top three destinations for regional center registration.
 
 **2. EB-5 Capital Structure**
 
-![graph5](/img/eb5/graph5.jpg)
+![](/img/eb5/graph5.jpg)
 
 Funding a regional center project is a step-by-step process, and EB-5 capital is only one of the many sources of a project's capital stack. Usually, it takes from 10% to 30% of the entire project cost. The diagram shows the typical funding structure for an EB-5 project. First, a regional center manages NCE that collects funds from foreign investors as equity. Second, NCE lends the funds as a loan or finances them as equity for the intermediary borrower, LLC. The developer will also fund the borrower, LLC in an equity model. Finally, the borrower, LLC will finance the collected funds as equity to JCE. The JCE will also borrow from traditional financial institutions, which represent the majority of the project's overall cost.
 
-![graph5-1](/img/eb5/graph5-1.jpg)
+![](/img/eb5/graph5-1.jpg)
 
 The diagram shows the capital structure example of One Wall Street.
 
 **3. EB-5 Regional Center Model**
 
-![graph6](/img/eb5/graph6.jpg)
+![](/img/eb5/graph6.jpg)
 
 There are three regional center models that conduct projects with different orientations. The background of the phenomenon is that a regional center can only help develop projects in confined geographic areas by county. Therefore, many regional centers register their companies in different states to maximize outreach. The first model is the in-house real estate developer model. In this method, a developer registers different regional centers in different states to subordinate the parent company’s development goal. For example, The Related Group is a Florida-based real estate firm that has regional centers in New York and California. The second model is real estate finance and investment companies. Their goal is to fund many real estate projects and obtain investment returns. The third model is the most common third-party regional center model, which serves as a sponsor and intermediary for sourcing funds. They obtain their returns through partnered fees, management, or renting regional centers for developers.
 
@@ -103,40 +103,40 @@ This part aims to uncover the detailed local projects' relationships and geograp
 
 **1. EB-5 Regional Center Affiliation Network**
 
-![network_ny](/img/eb5/network_ny.jpg)
+![](/img/eb5/network_ny.jpg)
 
 The network shows the relationships between the regional center, EB-5 projects, developers, and architecture firms in New York. New York's regional center projects are evenly distributed among different regional centers and developers. The New York City Regional Center helped finance mostly expensive governmental, urban renewal, or quasi-public projects, such as the Barclay Center Arena, George Washington Bridge Bus Terminal, and Brooklyn Navy Yard development. The U.S. Immigration Fund - NY helped finance many luxury condos and hotels, such as The Charles and One High Line Condominiums. The American Regional Center for Entrepreneurs facilitated many mid-scale projects related to Chinese and Jewish family-run developers, such as Century Development Group and Lions Group. The Extell New York Regional Center worked under Extell Development Company and helped finance many high-rises, such as the Central Park Tower.
 
-![network_fl](/img/eb5/network_fl.jpg)
+![](/img/eb5/network_fl.jpg)
 
 The network shows the relationships between the regional center, EB-5 projects, developers, and architecture firms in Florida. Florida EB5 Investment LLC Regional Center has facilitated 28 successful projects, outnumbering many other regional centers. The Kolter Group is the top developer that utilized the EB-5 capital to develop hotels and condos.
 
 **2. Map of EB-5 Project**
 
-![map_ny1](/img/eb5/map_ny1.jpg)
+![](/img/eb5/map_ny1.jpg)
 
 The map shows the summary of EB-5 projects by project type, location, and capital in the New York metropolitan area. Most projects were hotels, rental apartments, and condos. The top project locations were midtown, Financial District in Manhattan, Downtown Brooklyn, and Long Island City in Queens.
 
-![map_ny2](/img/eb5/map_ny2.jpg)
+![](/img/eb5/map_ny2.jpg)
 
 The map shows the location of EB-5 projects with unique IDs. The color IDs indicate that they were top regional center projects. U.S. Immigration Fund-NY helped finance many projects in the Time Square-Midtown area. The New York City Regional Center helped finance many projects in Downtown Brooklyn. American Regional Center for Entrepreneurs focused on Long Island City and other borough projects.
 
-![map_fl1](/img/eb5/map_fl1.jpg)
+![](/img/eb5/map_fl1.jpg)
 
 The map shows the summary of EB-5 projects by project type, location, and capital in Florida. Most projects were hotels, rental apartments, and schools. The top project locations were Miami, West Palm Beach, Orlando, and Tampa. Many charter schools in Florida were funded by EB-5 capital.
 
-![map_fl2](/img/eb5/map_fl2.jpg)
+![](/img/eb5/map_fl2.jpg)
 
 The map shows the location of EB-5 projects with unique IDs. The color IDs indicate that they were top regional center projects. Florida Overseas Investment Center RC helped finance many projects in Miami and the golden coastline area. Florida EB5 Investment LLC Regional Center focused on projects in Tampa.
 
 **3. Satellite Imagery of EB-5 Project**
 
-![satellite_ny](/img/eb5/satellite_ny.jpg)
+![](/img/eb5/satellite_ny.jpg)
 
 The plot shows the satellite imagery of the New York EB-5 project, sorted by EB-5 capital. The most expensive project that utilized EB-5 capital is Governor Mario M. Cuomo Bridge in Terrytown. Estimated one billion dollars were sought from foreign investors.[^16] The second and third most expensive projects are 30 Hudson Yard (600 million) and TSX Broadway in Time Square (494 million) respectively. The bottom rows include projects without EB-5 capital confirmed.
 
 
-![satellite_fl](/img/eb5/satellite_fl.jpg)
+![](/img/eb5/satellite_fl.jpg)
 
 The plot shows the satellite imagery of the Florida EB-5 project, sorted by EB-5 capital. The most expensive project that utilized EB-5 capital is Miami Central Station by CanAm Enterprise for 130 million dollars. The second and third most expensive project is Circ Residences (100 million)  and MICROLUXE® Residences (95 million) respectively. However, the most expensive proposed projects that failed or were postponed due to financing are CCCC Miami Towers (350 million) and SkyRise Miami (270 million) respectively. The bottom rows include projects without EB-5 capital confirmed.
 
@@ -202,11 +202,11 @@ First, I downloaded the list of Approved EB-5 Regional Centers and the list of R
 
 **2. Data Analysis**
 
-![Method](/img/eb5/method.jpg)
+![](/img/eb5/method.jpg)
 
 To calculate the invested EB-5 capital, based on the versions of the required minimum investment amount, there are three periods of time: fiscal year 1992 to 2018, 2019 to 2021, and after 2022. First, I used visa issuance data from “Department of State, Preference Immigrant Visas Issued, Table VI'' to estimate how many investors there were for each year. Based on a Brookings Institution research study that showed that one investor brought two additional immediate family members,[^17] I weighed the visa issuance by ⅓ to reflect the approximate number of investors. The following image shows the formula used in a USCIS report.[^18]
 
-![Weight](/img/eb5/weight.png)
+![](/img/eb5/weight.png)
 
 Second, I multiplied the number of investors each year based on the required minimum investment amount in the visa categories (EB-5 direct investment, EB-5 targeted employment, EB-5 regional pilot, EB-5 regional TEA), and then summarized the total. After this process, I obtained the estimated EB-5 capital and created a plot.
 
@@ -260,39 +260,39 @@ The project was advised by Adjunct Assistant Professor Dan Taeyoung and was deve
 
 #### References
 
-[^1] Erb, K. P. (n.d.). The EB-5 Visa: United States Citizenship For Sale? Retrieved May 3, 2023, from Forbes website: https://www.forbes.com/sites/kellyphillipserb/2017/05/10/the-eb-5-visa-united-states-citizenship-for-sale/?sh=5ce000d52cb9
+[^1]: Erb, K. P. (n.d.). The EB-5 Visa: United States Citizenship For Sale? Retrieved May 3, 2023, from Forbes website: https://www.forbes.com/sites/kellyphillipserb/2017/05/10/the-eb-5-visa-united-states-citizenship-for-sale/?sh=5ce000d52cb9
 
-[^2] Bush, G. (1990, November 29). Statement on Signing the Immigration Act of 1990 | The American Presidency Project. Retrieved from www.presidency.ucsb.edu website: https://www.presidency.ucsb.edu/documents/statement-signing-the-immigration-act-1990
+[^2]: Bush, G. (1990, November 29). Statement on Signing the Immigration Act of 1990 | The American Presidency Project. Retrieved from www.presidency.ucsb.edu website: https://www.presidency.ucsb.edu/documents/statement-signing-the-immigration-act-1990
 
-[^3] Walsh, C. E. (1993). What caused the 1990-1991 recession? Economic Review - Federal Reserve Bank of San Francisco, (2), 33.
+[^3]: Walsh, C. E. (1993). What caused the 1990-1991 recession? Economic Review - Federal Reserve Bank of San Francisco, (2), 33.
 
-[^4] Gardner, J. M. (1994). The 1990-91 recession: how bad was the labor market? Monthly Labor Review, 117(6), 3–11. http://www.jstor.org/stable/41844298
+[^4]: Gardner, J. M. (1994). The 1990-91 recession: how bad was the labor market? Monthly Labor Review, 117(6), 3–11. http://www.jstor.org/stable/41844298
 
-[^5] Herbers, J., & Times, S. T. the N. Y. (1982, November 28). REAGAN TO ASK CUT IN RURAL AREA AID. The New York Times. Retrieved from https://www.nytimes.com/1982/11/28/us/reagan-to-ask-cut-in-rural-area-aid.html
+[^5]: Herbers, J., & Times, S. T. the N. Y. (1982, November 28). REAGAN TO ASK CUT IN RURAL AREA AID. The New York Times. Retrieved from https://www.nytimes.com/1982/11/28/us/reagan-to-ask-cut-in-rural-area-aid.html
 
-[^6] S.2298 - 97th Congress (1981-1982): Enterprise Zone Tax Act of 1982. (1982, September 28). https://www.congress.gov/bill/97th-congress/senate-bill/2298
+[^6]: S.2298 - 97th Congress (1981-1982): Enterprise Zone Tax Act of 1982. (1982, September 28). https://www.congress.gov/bill/97th-congress/senate-bill/2298
 
-[^7] S.358 - 101st Congress (1989-1990): Immigration Act of 1990. (1990, November 29). https://www.congress.gov/bill/101st-congress/senate-bill/358
+[^7]: S.358 - 101st Congress (1989-1990): Immigration Act of 1990. (1990, November 29). https://www.congress.gov/bill/101st-congress/senate-bill/358
 
-[^8] EB-5 Immigrant Investor Program | USCIS. (2020, June 10). Retrieved from www.uscis.gov website: https://www.uscis.gov/working-in-the-united-states/permanent-workers/eb-5-immigrant-investor-program
+[^8]: EB-5 Immigrant Investor Program | USCIS. (2020, June 10). Retrieved from www.uscis.gov website: https://www.uscis.gov/working-in-the-united-states/permanent-workers/eb-5-immigrant-investor-program
 
-[^9] EB-5 Immigrant Investor Pilot Program 2 General EB-5 Program Overview Background. (n.d.). Retrieved from https://www.uscis.gov/sites/default/files/document/presentations/EB-5%20Investor%20Pilot%20Program.pdf
+[^9]: EB-5 Immigrant Investor Pilot Program 2 General EB-5 Program Overview Background. (n.d.). Retrieved from https://www.uscis.gov/sites/default/files/document/presentations/EB-5%20Investor%20Pilot%20Program.pdf
 
-[^10] Singer, A., & Galdes, C. (2014). Project on State and Metropolitan Innovation Improving the EB-5 Investor Visa Program: International Financing for U.S. Regional Economic Development (p. 2). Retrieved from https://www.brookings.edu/wp-content/uploads/2016/06/EB5_Report.pdf
+[^10]: Singer, A., & Galdes, C. (2014). Project on State and Metropolitan Innovation Improving the EB-5 Investor Visa Program: International Financing for U.S. Regional Economic Development (p. 2). Retrieved from https://www.brookings.edu/wp-content/uploads/2016/06/EB5_Report.pdf
 
-[^11] Calderon, J., Lecturer, G., & Friedland, G. (2015). “A Roadmap to the Use of EB-5 Capital: An Alternative Financing Tool for Commercial Real Estate Projects” (p. 20). Retrieved from https://www.stern.nyu.edu/sites/default/files/assets/documents/EB5%20paper%20final%205.24.2015.pdf
+[^11]: Calderon, J., Lecturer, G., & Friedland, G. (2015). “A Roadmap to the Use of EB-5 Capital: An Alternative Financing Tool for Commercial Real Estate Projects” (p. 20). Retrieved from https://www.stern.nyu.edu/sites/default/files/assets/documents/EB5%20paper%20final%205.24.2015.pdf
 
-[^12] Li, L. (2021, August 20). Analysis: Impact of the Lapse of the EB-5 Regional Center Program on Investors, Investments & Jobs. Retrieved May 3, 2023, from Invest In the USA website: https://iiusa.org/blog/iiusa-data-analysis-impact-of-the-lapse-of-the-eb-5-regional-center-program-on-investors-investments-and-job-creation/
+[^12]: Li, L. (2021, August 20). Analysis: Impact of the Lapse of the EB-5 Regional Center Program on Investors, Investments & Jobs. Retrieved May 3, 2023, from Invest In the USA website: https://iiusa.org/blog/iiusa-data-analysis-impact-of-the-lapse-of-the-eb-5-regional-center-program-on-investors-investments-and-job-creation/
 
-[^13] Office of the Federal Register, National Archives and Records Administration. (2019, July 23). 84 FR 35750 - EB-5 Immigrant Investor Program Modernization. [Government]. Office of the Federal Register, National Archives and Records Administration. https://www.govinfo.gov/app/details/FR-2019-07-24/2019-15000
+[^13]: Office of the Federal Register, National Archives and Records Administration. (2019, July 23). 84 FR 35750 - EB-5 Immigrant Investor Program Modernization. [Government]. Office of the Federal Register, National Archives and Records Administration. https://www.govinfo.gov/app/details/FR-2019-07-24/2019-15000
 
-[^14] Text - H.R.2901 - 117th Congress (2021-2022): EB–5 Reform and Integrity Act of 2021. (2021, October 19). https://www.congress.gov/bill/117th-congress/house-bill/2901/text
+[^14]: Text - H.R.2901 - 117th Congress (2021-2022): EB–5 Reform and Integrity Act of 2021. (2021, October 19). https://www.congress.gov/bill/117th-congress/house-bill/2901/text
 
-[^15] Report to Congressional Committees IMMIGRANT INVESTORS Small Number of Participants Attributed to Pending Regulations and Other Factors. (2005). Retrieved from https://www.gao.gov/assets/gao-05-256.pdf
+[^15]: Report to Congressional Committees IMMIGRANT INVESTORS Small Number of Participants Attributed to Pending Regulations and Other Factors. (2005). Retrieved from https://www.gao.gov/assets/gao-05-256.pdf
 
-[^16] Calderon, J., Lecturer, G., & Friedland, G. (2015). “A Roadmap to the Use of EB-5 Capital: An Alternative Financing Tool for Commercial Real Estate Projects” (p. 33). Retrieved from https://www.stern.nyu.edu/sites/default/files/assets/documents/EB5%20paper%20final%205.24.2015.pdf
+[^16]: Calderon, J., Lecturer, G., & Friedland, G. (2015). “A Roadmap to the Use of EB-5 Capital: An Alternative Financing Tool for Commercial Real Estate Projects” (p. 33). Retrieved from https://www.stern.nyu.edu/sites/default/files/assets/documents/EB5%20paper%20final%205.24.2015.pdf
 
-[^17] Galdes, A. S. and C. (2014, February 5). Improving the EB-5 Investor Visa Program: International Financing for U.S. Regional Economic Development. Retrieved May 6, 2023, from Brookings website: https://www.brookings.edu/research/improving-the-eb-5-investor-visa-program-international-financing-for-u-s-regional-economic-development/
+[^17]: Galdes, A. S. and C. (2014, February 5). Improving the EB-5 Investor Visa Program: International Financing for U.S. Regional Economic Development. Retrieved May 6, 2023, from Brookings website: https://www.brookings.edu/research/improving-the-eb-5-investor-visa-program-international-financing-for-u-s-regional-economic-development/
 
-[^18] ICF International. (2010). Study of the United States Immigrant Investor Pilot Program (EB-5). In USCIS (p. 10). Retrieved from https://www.uscis.gov/sites/default/files/document/reports/EB5-Report-2010.pdf
+[^18]: ICF International. (2010). Study of the United States Immigrant Investor Pilot Program (EB-5). In USCIS (p. 10). Retrieved from https://www.uscis.gov/sites/default/files/document/reports/EB5-Report-2010.pdf
 
