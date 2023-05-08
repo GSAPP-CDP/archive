@@ -1,6 +1,6 @@
 ---
 layout: project
-title: An Example Project
+title: Example Project
 author: Seth Thompson
 year: 2023
 image: /img/diomede-islands.jpg
