@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Measure Unmeasurable
+title: Materialfolio
 author: Junling Zhuang
 year: 2023
 image: img/junling/Collquium.jpg
