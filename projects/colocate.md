@@ -13,7 +13,7 @@ links:
         url: https://github.com/gv2325/colocate.git
 ---
 
-![Colocate](colocate_assets\cover_image.png)
+![Colocate](public\img\colocate_coverimage.png)
 
 ### Localisation gets social.
 
@@ -23,10 +23,6 @@ Colocate was made to seamlessly blend the spatial experience between the indoor 
 
 Colocate sensors exist within ubiquitously in our devices today, some companies have their own names for this chip (Apple calls it the U1 chip, present in your phones and airtags). Colocate utilises the existing infrastructure to create a spatial method of social networks. Each user may have more than one network and each network has its own rules on privacy and localisation. Imagine a network being categorised into options such as grocery stores, biking group, office friends etc. Each of these have a different social reflection and level of sharing. Your grocery store only needs it within the store to create a joyful expereince of locating you in 3D space in the store to be able to bill and check out the items in your cart without ever needing a cashier (Amazon GO), however the technology can quickly be accessible to mom and pop stores at a low cost and without the need for all the sensor fusion. Without having to think twice about the privacy implications and the bias that exists within current computer vision systems and hardware, users are not discriminated or exposed to potential risks.
 
-![SpatialUX](colocate_assets\projectScope_blindeye.png)
-
 But why does any of this matter? Our world is rapidly urbanising at a speed and scale where we have subterresterial networks (subways etc) to large massing structures to autonomous vehicles. The way we interact and expereince our urban built environment is changing. Current systems like Maps etc will not be able to meet the needs of the future of computing our built environment and will needs ways of augmenting the way we interact with our built environment. Colocate is a step towards that future.
-
-![ResearchProject](colocate_assets\coverImage_blindeye.png)
 
 Refer: Visual Positioning System - Google's way of augmenting localisation in the built environment.
