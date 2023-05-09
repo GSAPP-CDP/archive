@@ -15,7 +15,7 @@ links:
 Manhattan Chinatown is a hub of cultural and economic activity. One of its most iconic features is its bustling produce market, mostly along Grand, Mott, and Canal street. Impressively, the small-scale, low-tech vendors are able to sell diverse, fresh produce at a cost significantly lower than any other grocers. What lies behind them, is a network of produce suppliers that is vital to the local food ecosystem.
 <br><br>
 
-![Chinatown's Produce Market -- Forsyth & Division](/img/zoe_produce.jpg)
+![Chinatown's Produce Market -- Forsyth & Division](/img/zoe_produce.JPG)
 
 For decades, small-scale produce wholesalers in Chinatown have been connecting farmers and distributors with consumers, creating a food landscape that has become a cornerstone of the community. From fresh produce to specialty herbal medicine, the network plays a critical role in ensuring that local residents have access to healthy, affordable, and culturally sensitive food options. The benefits extend beyond just the local community; by supporting small-scale farmers and distributors, the network has helped build a more resilient and sustainable food system for many.
 <br><br>
