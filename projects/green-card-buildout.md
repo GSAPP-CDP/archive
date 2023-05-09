@@ -9,7 +9,7 @@ image: /img/eb5/the-spiral.jpg
 
 ![](/img/eb5/the-spiral.jpg)
 
-*The image shows The Spiral (front) and 30 Hudson Yard (back), both were funded by EB-5 capital.*
+*The image shows The Spiral (front) and 30 Hudson Yard (back), both funded by EB-5 capital.*
 
 The news headline "Citizenship for Sale" has put the EB-5 Immigration Investor Program in the spotlight.[^1] The connotation of the caption is not only unjustified for the program’s outlook but puts new immigrants in a reproached position. In the statement on signing the Immigration Act of 1990, President George H. W. Bush wrote, *"S. 358 will promote the initiation of new business in rural areas and the investment of foreign capital in our economy."*[^2] His message was simple and clear about the new Immigration Investor Program: fund underdeveloped areas with foreign investment.
 
@@ -144,7 +144,7 @@ The plot shows the satellite imagery of the Florida EB-5 project, sorted by EB-5
 
 For the final touch of the project, it is important to document the actual site of the project from the street view that is not able to capture in detail by available data and satellite imagery. Here are the selected project photographs for New York and Florida EB-5 projects. 
 
-![TSX Time Squre](/img/eb5/tsx.jpg.jpg)
+![TSX Time Squre](/img/eb5/tsx.jpg)
 
 *The Times Square EDITION (left) and TSX Bradway (right) in Time Square were financed by U.S. Immigration Fund - NY.*
 
