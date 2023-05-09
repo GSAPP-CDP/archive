@@ -40,12 +40,12 @@ Our current culture around data means systems that evade quickness and bigness, 
 Over the years, this network of vendors and suppliers continues to face significant challenges due to the city’s rapidly changing landscape. Gentrification, upzoning, immigration policies, and other outside forces are threatening to diminish the vitality of this historic marketplace. 
 <br><br>
 
-![Oral History](/img/zoe_timeline.jpg)
+![Oral History from the Ethnography](/img/zoe_timeline.jpg)
 
 Yet, despite these challenges, it is important to remember the agency of the ethnic enclave amidst these changes, as they seek to develop and adapt to different industries. The produce market remains a symbol of resilience and strength, a testament to the tenacity of the people who call Manhattan Chinatown home.
 <br><br>
 
-![Change isn't always bad](/img/zoe_change.jpg)
+![Corner of Chrystie and Grand, a produce vedor closed over the pandemic, a Chinese seafood restaurant opened in its stead](/img/zoe_change.jpg)
 
 <br><br>
 The project unpacks and explores Chinatown through the lenses of binaries and the many ways in which the network dismantles them. Read about each section on the website. This story matters because it sheds light on the unique challenges faced by Chinatown’s immigrant businesses and the ways in which they adapt and evolve in the face of changing economic and political forces, it also offers several valuable lessons for food systems planning today and dismantles many of the binary notions used to understand these systems.
