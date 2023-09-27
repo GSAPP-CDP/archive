@@ -9,7 +9,7 @@ links:
   - text: Project Website
     url: https://zoelin1122.github.io/ChinatownProduceNetwork/
   - text: Zoe Lin
-    url: https://zoelin1122.github.io/
+    url: https://zoetjlin.cargo.site/
 ---
 
 <img src="/img/zoe_fruit.gif" style="width:100%">
