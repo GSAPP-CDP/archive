@@ -2,6 +2,7 @@
 layout: project
 title: Green Card Buildout
 author: Hsiang Hsi Lu
+advisor: Dan Taeyoung
 year: 2023
 image: /img/eb5/the-spiral.jpg
 ---

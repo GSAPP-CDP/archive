@@ -2,7 +2,8 @@
 layout: project
 title: "Unpredictable Atmosphere"
 author: Lucia Rebolino
-year: 2023
+year: 2024
+advisor: Laura Kurgan
 image: /img/UA_cover.jpg
 links:
   - text: "Explore"
@@ -24,7 +25,7 @@ links:
   <figcaption>GOES 17 West coverage map</figcaption>
 </figure>
 
-Working in th Critical Zone, at the intersection of different scales, how can we use computation as a lens to redefine the space of uncertainty and interference? [^1]. 
+Working in the Critical Zone, at the intersection of different scales, how can we use computation as a lens to redefine the space of uncertainty and interference? [^1]. 
 
 Research agencies collect essential weather data by measuring the vibration of water vapor particles. Weather tracking systems detect the atmosphere within the 24 GHz frequency of the electromagnetic spectrum. However, in recent years, telecommunications companies have selected the same band for their new high-band 5G networks, obstructing the collection of atmospheric data. This has led to political conflicts over the use of these open bands on the spectrum. This contested multidimensional space has become a new arena for experimentation and the critical proximity between the two systems has generated new forms of interference.
 

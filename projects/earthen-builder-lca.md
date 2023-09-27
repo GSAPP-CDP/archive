@@ -2,6 +2,7 @@
 layout: project
 title: Earthen Builder LCA
 author: Neil Potnis
+advisor: Lola Ben Alon
 year: 2023
 image: /img/wideshot.jpg
 links:

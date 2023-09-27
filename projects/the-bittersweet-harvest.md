@@ -2,6 +2,7 @@
 layout: project
 title: "The Bittersweet Harvest: Navigating Manhattan Chinatown's Changing Produce Network"
 author: Zoe Lin
+advisor: Laura Kurgan
 year: 2023
 image: /img/zoe_ChinatownProduce.png
 links:

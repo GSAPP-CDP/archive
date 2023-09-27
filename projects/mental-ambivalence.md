@@ -2,6 +2,7 @@
 layout: project
 title: MENtal AmbIvalence
 author: Ziyu Zhang
+advisor: Snoweria Zhang
 year: 2023
 image: /img/cover.png
 ---

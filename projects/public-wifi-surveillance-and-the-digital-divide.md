@@ -2,6 +2,7 @@
 layout: project
 title: Public Wifi, Surveillance, and the Digital Divide
 author: Eddie Joe Antonio
+advisor: Dare Brawley
 year: 2023
 image: /img/public-wifi-surveillance-and-the-digital-divide/link0.jpeg
 links:

@@ -2,6 +2,7 @@
 layout: project
 title: "The City as a Farm: How can urban agriculture help address food insecurity within New York City?"
 author: Letti Campo
+advisor: Luc Wilson
 year: 2023
 image: /img/LittleAppleHome.png
 links:

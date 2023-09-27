@@ -2,7 +2,8 @@
 layout: project
 title: Alternative Clocks
 author: Saralee Sittigaroon
-year: 2023
+advisor: Dan Taeyoung
+year: 2024
 image: /img/P1010020.jpeg
 links:
   - text: Project Website

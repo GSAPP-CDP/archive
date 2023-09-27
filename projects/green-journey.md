@@ -2,6 +2,7 @@
 layout: project
 title: Green Journey
 author: Haojun Wang
+advisor: David Benjamin
 year: 2023
 image: /img/green_journey_thumbnail.jpg
 links:

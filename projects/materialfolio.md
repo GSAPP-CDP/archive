@@ -2,6 +2,7 @@
 layout: project
 title: Materialfolio
 author: Junling Zhuang
+advisor: Snoweria Zhang
 year: 2023
 image: /img/junling/MaterialFolio.jpg
 links:
