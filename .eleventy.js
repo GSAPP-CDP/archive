@@ -24,11 +24,12 @@ module.exports = function (eleventyConfig) {
     return (
       collectionApi
         .getFilteredByGlob(["projects/[^_]*.md"])
-        // sort by year (descending), then title (ascending)
+        // sort by year (descending), then sort order (ascending), then title (ascending)
         .sort(
           (a, b) =>
-            b.data.year - a.data.year ||
-            a.data.title.localeCompare(b.data.title)
+            (b.data.year - a.data.year) ||
+            ((a.data.order || 0) - (b.data.order || 0)) ||
+            (a.data.title.localeCompare(b.data.title))
         )
     );
   });

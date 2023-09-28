@@ -3,8 +3,9 @@ layout: project
 title: Alternative Clocks
 author: Saralee Sittigaroon
 advisor: Dan Taeyoung
-year: 2024
+year: 2023
 image: /img/P1010020.jpeg
+order: -2
 links:
   - text: Project Website
     url: https://saralees.cargo.site/30798627

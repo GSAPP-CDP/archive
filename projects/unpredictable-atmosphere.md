@@ -2,9 +2,10 @@
 layout: project
 title: "Unpredictable Atmosphere"
 author: Lucia Rebolino
-year: 2024
+year: 2023
 advisor: Laura Kurgan
 image: /img/UA_cover.jpg
+order: -1
 links:
   - text: "Explore"
     url: https://luciarebolino.github.io/UA24GHZ/
