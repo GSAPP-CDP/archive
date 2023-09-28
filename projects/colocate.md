@@ -3,8 +3,9 @@ layout: project
 title: "Colocate: A Collective Area Network"
 author: George Verghese
 advisor: Violet Whitney
-year: 2022
+year: 2023
 image: /img/colocate_coverimage.png
+order: 1
 links:
     -
       text: Learn More
