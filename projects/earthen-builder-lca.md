@@ -4,7 +4,7 @@ title: Earthen Builder LCA
 author: Neil Potnis
 advisor: Lola Ben Alon
 year: 2023
-image: /img/wideshot.jpg
+image: /img/earthen-builder-lca/wideshot.jpg
 links:
   - text: Project Website
     url: https://www.neilpotnis.net/lcacasestudy 

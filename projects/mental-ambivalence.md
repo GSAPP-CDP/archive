@@ -4,7 +4,7 @@ title: MENtal AmbIvalence
 author: Ziyu Zhang
 advisor: Snoweria Zhang
 year: 2023
-image: /img/cover.png
+image: /img/mental-ambivalence/cover.png
 ---
 
 # Background
@@ -33,23 +33,23 @@ Processing (Java) & Google Colab (Python)
 
 # Behavioural diagram
 
-![Italian Trulli](/img/bd.png)
+![Italian Trulli](/img/mental-ambivalence/bd.png)
 
 # Math in GPT Architecture
 
-![Math](/img/math.gif)
+![Math](/img/mental-ambivalence/math.gif)
 
 GPT operates on a linguistic unit known as a token, which is comprised of a sequence of characters that can represent a full word or a fragment of a word. The tokenization of GPT allow it to have its own dictionary to generate the result. Then how AI choose words, the reason behind it is the attention/ Occurrence in Token, which is the purpose of attention is to predict which input tokens to focus on and how much for each output in the sequence.Futher, how to quantify those attention, there are Logistic Probability behind this Guessingprocess. GPT-3 uses the principles of probability to determine the likelihood of each word’s appearance through its training, and then selects the next word accordingly.
 
 # Sketch
 
-![Sketch](/img/cover.png)
+![Sketch](/img/mental-ambivalence/cover.png)
 
 # Architecture in GPT
 
 <figure>
   <video
-    src="/img/0.1.mp4"
+    src="/img/mental-ambivalence/0.1.mp4"
     autoplay
     loop
     muted
@@ -61,7 +61,7 @@ GPT operates on a linguistic unit known as a token, which is comprised of a sequ
 
 <figure>
   <video
-    src="/img/0.3.mp4"
+    src="/img/mental-ambivalence/0.3.mp4"
     autoplay
     loop
     muted
@@ -73,7 +73,7 @@ GPT operates on a linguistic unit known as a token, which is comprised of a sequ
 
 <figure>
   <video
-    src="/img/general.mp4"
+    src="/img/mental-ambivalence/general.mp4"
     autoplay
     loop
     muted
@@ -85,7 +85,7 @@ GPT operates on a linguistic unit known as a token, which is comprised of a sequ
 
 <figure>
   <video
-    src="/img/van.mp4"
+    src="/img/mental-ambivalence/van.mp4"
     autoplay
     loop
     muted
@@ -97,7 +97,7 @@ GPT operates on a linguistic unit known as a token, which is comprised of a sequ
 
 <figure>
   <video
-    src="/img/me.mp4"
+    src="/img/mental-ambivalence/me.mp4"
     autoplay
     loop
     muted
@@ -109,7 +109,7 @@ GPT operates on a linguistic unit known as a token, which is comprised of a sequ
 
 <figure>
   <video
-    src="/img/gsapp.mp4"
+    src="/img/mental-ambivalence/gsapp.mp4"
     autoplay
     loop
     muted

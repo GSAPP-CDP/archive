@@ -4,14 +4,14 @@ title: Alternative Clocks
 author: Saralee Sittigaroon
 advisor: Dan Taeyoung
 year: 2023
-image: /img/P1010020.jpeg
+image: /img/alternative-clocks/P1010020.jpeg
 order: -2
 links:
   - text: Project Website
     url: https://saralees.cargo.site/30798627
 ---
 
-![The clock](/img/P1010020.jpeg)
+![The clock](/img/alternative-clocks/P1010020.jpeg)
 
 Time is a culturally constructed concept that is influenced by political and contextual factors. Although the global time system is widely used, it is important to recognize its limitations and the fact that it is not an absolute truth. The accuracy of the global time system is achieved through the averaging and adjustment of time data from atomic clocks across more than 62 countries, which is compiled into Coordinated Universal Time (UTC). Occasionally, leap seconds are added to the system, resulting in minutes that are longer than 60 seconds.
 
@@ -25,7 +25,7 @@ The clock not only measures time but also orchestrates human action and designs 
 
 ---
 
-![System Diagram](/img/Final-Presentation-18.jpg)
+![System Diagram](/img/alternative-clocks/Final-Presentation-18.jpg)
 
 <iframe
   src="https://www.youtube.com/embed/VcDK8Q69sb4"
