@@ -4,7 +4,7 @@ title: "Colocate: A Collective Area Network"
 author: George Verghese
 advisor: Violet Whitney
 year: 2023
-image: /img/colocate/colocate_coverimage.png
+image: /img/2023/colocate/colocate_coverimage.png
 order: 1
 links:
     -
@@ -18,7 +18,7 @@ links:
       url: https://github.com/gv2325/colocate
 ---
 
-![Colocate](/img/colocate/colocate_coverimage.png)
+![Colocate](/img/2023/colocate/colocate_coverimage.png)
 
 ### Localisation gets social.
 

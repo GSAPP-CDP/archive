@@ -4,7 +4,7 @@ title: Materialfolio
 author: Junling Zhuang
 advisor: Snoweria Zhang
 year: 2023
-image: /img/materialfolio/MaterialFolio.jpg
+image: /img/2023/materialfolio/MaterialFolio.jpg
 links:
   - text: Project Website
     url: https://www.junling-design.com/materialfolio
@@ -14,7 +14,7 @@ links:
 
 <figure>
   <video
-    src="/img/materialfolio/MaterialFolio.mp4"
+    src="/img/2023/materialfolio/MaterialFolio.mp4"
     autoplay
     loop
     muted
@@ -36,15 +36,15 @@ Unfortunately, the uneven distribution of Google Street View, insufficient data 
 
 ## Kevin Lynch: Urban Image Theory
 
-![Kevin Lynch - The Image of the City](/img/materialfolio/Collquium2.jpg)
+![Kevin Lynch - The Image of the City](/img/2023/materialfolio/Collquium2.jpg)
 
 ## The Perceptions concept model (2009)
 
-![Perceptions concept model by Reid Ewing & Susan Handy 2009](/img/materialfolio/Collquium3.jpg)
+![Perceptions concept model by Reid Ewing & Susan Handy 2009](/img/2023/materialfolio/Collquium3.jpg)
 
 ## Machine as Perception Agent
 
-![Urban Perception Methodology Development](/img/materialfolio/Development.gif)
+![Urban Perception Methodology Development](/img/2023/materialfolio/Development.gif)
 
 Online social networking sites are increasingly location-based.
 Social media are increasingly location-based. Social media, led by MySpace, Facebook, Twitter, LinkedIn, and so on, have been described as one of the defining characteristics of Web 2.0 technologies. This offers new opportunities and perspective to study the relationship between the urban physical environments and location-based social media networks
@@ -53,13 +53,13 @@ Social media are increasingly location-based. Social media, led by MySpace, Face
 
 ## News from CNN
 
-![Google Street view dataset maldistribution in Lake Providence ](/img/materialfolio/Collquium8.jpg)
+![Google Street view dataset maldistribution in Lake Providence ](/img/2023/materialfolio/Collquium8.jpg)
 
 John D. Sutter is a columnist for CNN Opinion. There is a Lake Providence, which is an oxbow lake that separates a predominantly wealthy neighborhood from a mostly impoverished one. After the article was published, a reader pointed out to me that, at the time, it was impossible to search the poorer side of Lake Providence using Google Street View.
 
 ## The worldwide distribution of Google Street View
 
-![The worldwide distribution Map of google Street View ](/img/materialfolio/Collquium9.jpg)
+![The worldwide distribution Map of google Street View ](/img/2023/materialfolio/Collquium9.jpg)
 
 Putting aside commercial and political reasons, North America has the highest coverage, followed by some areas in Asia and South America, while Africa has the lowest. Google Street View is not evenly distributed throughout the world. In some remote areas and developing countries, GIS data coverage and updates may be relatively low. Street view images are usually taken at specific times and locations, and some urban features may be difficult to capture in their entirety due to limitations such as acquisition angles and occlusions.
 
@@ -81,7 +81,7 @@ Even in areas where street view data is abundant, some urban features may be dif
 
 ## The User Generated Dataset - Social Media
 
-![The User Generated Dataset - Social Media](/img/materialfolio/Collquium10.jpg)
+![The User Generated Dataset - Social Media](/img/2023/materialfolio/Collquium10.jpg)
 
 Within the field of urban perception research, user-generated content represented by social media is also a popular area of research. They have advantages such as real-time and diversity, but their data is subject to selection bias, copyright issues, and overuse problems.
 
@@ -89,13 +89,13 @@ Within the field of urban perception research, user-generated content represente
 
 ## Aims
 
-![Platform Features](/img/materialfolio/Collquium12.jpg)
+![Platform Features](/img/2023/materialfolio/Collquium12.jpg)
 
 My vision is not to criticize Google Street View and social media data, but to try to create a crowdsourced urban awareness program with a timeline, privacy protection, clear user groups, and defined data usage by analyzing their pros and cons.
 
 ## Urban Perception sample
 
-![MIT Sensible city lab - How Visually Distinct are our Cites?](/img/materialfolio/MIT.gif)
+![MIT Sensible city lab - How Visually Distinct are our Cites?](/img/2023/materialfolio/MIT.gif)
 
 When we talk about urban perception, street scenes and pictures provide a machine-readable perspective of the overall urban image, in which building materials play an important role. In different regions, cultures and historical backgrounds, people may have different preferences and uses of building materials. The visual characteristics of building materials such as texture, color, and gloss can bring different feelings and impressions. From this perspective, the shaping of urban perception by building materials is particularly important.
 
@@ -103,13 +103,13 @@ MIT Sensible City lab used urban images as the basis for their research. They an
 
 ## Benefit from one more modal: Built environment Material
 
-![Machine Learning Image Modal](/img/materialfolio/Collquium13.jpg)
+![Machine Learning Image Modal](/img/2023/materialfolio/Collquium13.jpg)
 
 In the era where machines act as perceptual agents, how do we extract the characteristics of the real world and transform them into machine-readable digital data? This is also the reason why multimodal machine learning is prevalent. We can abstract each modality as a sensory organ of our body. Therefore, in computer vision, multimodal machine learning models such as image depth and object recognition have emerged.
 
 ## Target User and Data Usage
 
-![Application Features](/img/materialfolio/Collquium14.jpg)
+![Application Features](/img/2023/materialfolio/Collquium14.jpg)
 
 - Environmental protection and sustainability
 
@@ -129,17 +129,17 @@ Cultural heritage conservation organizations and researchers can better understa
 
 ## Application: Materialfolio
 
-![Application Intro Page](/img/materialfolio/Collquium15.jpg)
+![Application Intro Page](/img/2023/materialfolio/Collquium15.jpg)
 
-![Upload Page](/img/materialfolio/Upload.jpg)
+![Upload Page](/img/2023/materialfolio/Upload.jpg)
 
 It is necessary to choose the size and type of the pictures, which guarantees the universality of the data. As time goes on, this application will establish a timeline to view pictures from different periods.Both anonymous upload and real name upload modes are designed to ensure the privacy needs of different users.
 
-![Timeline Features](/img/materialfolio/Timeline.gif)
+![Timeline Features](/img/2023/materialfolio/Timeline.gif)
 
 This application mainly sources data from the pictures taken by crowdsourcing users, as a supplement to Google Street View. This provides dimensions for personalization of the dataset. At the same time, when uploading pictures, users can choose between anonymous or real name modes.
 
-![Technical Framework](/img/materialfolio/Collquium17.jpg)
+![Technical Framework](/img/2023/materialfolio/Collquium17.jpg)
 
 The key technology to implement the crowdsourced building material map is real-time uploading and updating. I used ReactJS to build an interactive frontend map, and at the same time, a material segmentation machine learning model is running on the Flask API backend. This model can recognize 56 common materials, and can perform real-time recognition when users upload pictures.
 

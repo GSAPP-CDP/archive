@@ -55,15 +55,15 @@ layout: project
 title: "Example Project: My Subtitle"
 author: Seth Thompson
 year: 2023
-image: /img/diomede-islands.jpg #optional
+image: /img/2023/diomede-islands.jpg #optional
 ---
 ```
 
 If the project title contains a colon or other special character, it should be enclosed in quotes in order to form
 valid YAML.
 
-The project thumbnail image should be located in the `/public/img/` directory. Since the public folder is copied to
-the root of the output folder on site build, the image path should start with `/img/` rather than `/public/img/`.
+The project thumbnail image should be located in the `/public/img/2023/` directory. Since the public folder is copied to
+the root of the output folder on site build, the image path should start with `/img/2023/` rather than `/public/img/2023/`.
 
 ## Markdown Features
 
@@ -87,9 +87,9 @@ For more information, see the [markdown-it-footnote](https://github.com/markdown
 All block-level images in markdown are converted to figures & figure captions:
 
 ```md
-![This is my image caption.](/img/image-1.jpg)
+![This is my image caption.](/img/2023/image-1.jpg)
 
-<!--- <figure><img src="/img/image-1.jpg"><figcaption>This is my image caption.</figcaption></figure> -->
+<!--- <figure><img src="/img/2023/image-1.jpg"><figcaption>This is my image caption.</figcaption></figure> -->
 ```
 
 For more information, see the [markdown-it-implicit-figures](https://github.com/arve0/markdown-it-implicit-figures) plugin.
@@ -119,7 +119,7 @@ Youtube, Vimeo, and HTML5 videos are supported via Markdown's built-in HTML supp
 
 <!--- HTML5 video -->
 <video
-  src="/img/earth.mp4"
+  src="/img/2023/earth.mp4"
   controls
   style="aspect-ratio: 16 / 9; width: 100%;">
 </video>
@@ -130,7 +130,7 @@ to be responsive and fill the width of the container.
 
 Most videos will have an aspect ratio of 16:9, but this can be changed by modifying the `style` attribute.
 
-HTML5 video files should be added to the the `/public/img/` directory and referenced with the `src` attribute.
+HTML5 video files should be added to the the `/public/img/2023/` directory and referenced with the `src` attribute.
 
 ## Deployment
 

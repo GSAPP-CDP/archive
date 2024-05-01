@@ -4,16 +4,17 @@ title: "The City as a Farm: How can urban agriculture help address food insecuri
 author: Letti Campo
 advisor: Luc Wilson
 year: 2023
-image: /img/the-city-as-a-farm/LittleAppleHome.png
+image: /img/2023/the-city-as-a-farm/LittleAppleHome.png
 links:
     - 
       text: "Learn More"
       url: https://ljc2177.github.io/potential-octo-engine/Spring%202023/Colloquium/
     - 
       text: "Explore the Little Apple"
-      url: https://ljc2177.github.io/the-little-apple/#/
+      url: https://ljc2177.github.io/the-little-apple/
+accent: 
 ---
-[![](/img/the-city-as-a-farm/UFSkyline.png)](https://ljc2177.github.io/potential-octo-engine/Spring%202023/Colloquium/)
+[![](/img/2023/the-city-as-a-farm/UFSkyline.png)](https://ljc2177.github.io/potential-octo-engine/Spring%202023/Colloquium/)
 
 The Hyper Local Food Movement seeks to encourage cities and towns to move towards the majority of food being grown where it is being consumed. Cities listed as leading this movement include Portland, Maine, Des Moines, Iowa, and Alberquerque, New Mexico. For many, this ideal is seen as the only solution for cheaper, healthier food, with advantages advertised as:
 
@@ -30,7 +31,7 @@ These questions, and the hyper-local narrative, both exist against the backdrop 
 
 With these numbers in mind, my research project seeks to answer the following questions: What would the total possible output of a hyper-local NYC be, and where could this be implemented within the city? What would the city need to sacrifice in order to achieve this? At a minimum, could a hyper-local New York City help significantly combat food insecurity within the city?
 
-[![](/img/the-city-as-a-farm/TheLittleApple.png)](https://ljc2177.github.io/the-little-apple/#/)
+[![](/img/2023/the-city-as-a-farm/TheLittleApple.png)](https://ljc2177.github.io/the-little-apple/#/)
 
 To answer these questions, I have developed a gamified computational tool called The Little Apple, which allows users to explore potential sites for urban agriculture within the city. Using insights from Portland, ME's and Washington, DC's urban agriculture programs, I have compiled a list of potential locations with metrics including size, average daily sunlight, and proximity to highways, food insecurity, and low income households.
 
@@ -40,7 +41,7 @@ This project does not aim to present a singular solution for NYC’s food system
 
 It is my hope that the results of this project will support and inspire the future of expanding urban agriculture within New York City on both a local and city-wide scale. In the future, it is my hope that this tool can be expanded to be a long-term resource for this and other cities to explore the possibilities of urban agriculture.
 
-[![](/img/the-city-as-a-farm/VSkyline.png)](https://ljc2177.github.io/potential-octo-engine/Spring%202023/Colloquium/)
+[![](/img/2023/the-city-as-a-farm/VSkyline.png)](https://ljc2177.github.io/potential-octo-engine/Spring%202023/Colloquium/)
 
 [^1]: Brain, Roslynn. “The Local Food Movement: Definitions, Benefits & Resources,” n.d., 4.
 [^2]: City Harvest. “Hunger in NYC.” Accessed November 1, 2022. https://www.cityharvest.org/self-sufficiency-study-2021/.

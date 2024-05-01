@@ -4,11 +4,11 @@ title: Green Card Buildout
 author: Hsiang Hsi Lu
 advisor: Dan Taeyoung
 year: 2023
-image: /img/green-card-buildout/the-spiral.jpg
+image: /img/2023/green-card-buildout/the-spiral.jpg
 ---
 #### Introduction: An Idealistic Intention, Unexpected Results
 
-![The image shows The Spiral (front) and 30 Hudson Yard (back), both funded by EB-5 capital.](/img/green-card-buildout/the-spiral.jpg)
+![The image shows The Spiral (front) and 30 Hudson Yard (back), both funded by EB-5 capital.](/img/2023/green-card-buildout/the-spiral.jpg)
 
 The news headline "Citizenship for Sale" has put the EB-5 Immigration Investor Program in the spotlight.[^1] The connotation of the caption is not only unjustified for the program’s outlook but puts new immigrants in a reproached position. In the statement on signing the Immigration Act of 1990, President George H. W. Bush wrote, *"S. 358 will promote the initiation of new business in rural areas and the investment of foreign capital in our economy."*[^2] His message was simple and clear about the new Immigration Investor Program: fund underdeveloped areas with foreign investment.
 
@@ -38,33 +38,33 @@ To begin with, the following topics present the program’s aims and general out
 
 **1. EB-5 Immigrant Investor Program Chronicle**
 
-![](/img/green-card-buildout/graph1.jpg)
+![](/img/2023/green-card-buildout/graph1.jpg)
 
 The chart depicts the trend in conditional EB-5 visa issuance from 2000 to 2022. Prior to the financial crisis, the program remained underutilized for almost two decades. According to a GAO study presented to the Congress Committee in 2005, the program's poor performance during the early stage resulted from the prolonged residency status of many applicants for as long as 10 years due to pending regulations and the uncertainty of job requirements.[^15] The program gained popularity following the financial crisis, with the regional center serving as the primary method of the EB-5 program.
 
 The most frequently employed approach is through regional centers, which account for about 95% of visa issuances. The majority of investors hail from Asia, particularly mainland China.
 
-![](/img/green-card-buildout/graph1-1.jpg)
+![](/img/2023/green-card-buildout/graph1-1.jpg)
 
 The chart shows the investment types available under the EB-5 program, which are EB-5 Direct Investment, EB-5 Direct Investment in a Targeted Employment Area, EB-5 Regional Pilot Program, and EB-5 Regional Pilot in a Targeted Employment Area. The EB-5 Regional Pilot in a Targeted Employment Area is the most popular option due to the involvement of regional centers and the reduced investment amount.
 
-![](/img/green-card-buildout/graph1-2.jpg)
+![](/img/2023/green-card-buildout/graph1-2.jpg)
 
 The top 10 countries of origin for the EB-5 program are China, South Korea, Vietnam, Taiwan, India, UK, Brazil, Iran, Hong Kong, and Russia. The number of visa issuances for Chinese investors has gone down considerably, although they still constitute the main group in the program. In recent years, investors from Vietnam and India have become more prominent.
 
-![](/img/green-card-buildout/graph1-3.jpg)
+![](/img/2023/green-card-buildout/graph1-3.jpg)
 
 The estimated EB-5 capital from 2000 to 2022 is 15.8 billion dollars, and an estimated 468,351 direct and indirect jobs have been created. Please refer to the methodology section for detailed calculations.
 
 **2. EB-5 Regional Center Development**
 
-![](/img/green-card-buildout/graph2.jpg)
+![](/img/2023/green-card-buildout/graph2.jpg)
 
 The diagram shows the simplified process of regional center development. A regional center is a private entity approved by the USCIS to create a New Commercial Enterprise (NCE) that collects foreign capital for a developer. The NCE usually arranges funds from multiple investors, who become equity holders of the NCE. A regional center can be a third-party company that works with many developers or can serve as a developer's affiliate that works under the developer to fund their projects. The Job Creation Entity (JCE) is a development company that receives funds from the NCE, developer, and financial institutions to conduct a project and hire workers. The regional center, NCE, developer, and JCE are directly involved in the development from financial and construction aspects. Foreign investors, however, do not have direct involvement and have little impact on the development.
 
 **3. EB-5 Visa Application Process**
 
-![](/img/green-card-buildout/graph3.jpg)
+![](/img/2023/green-card-buildout/graph3.jpg)
 
 The diagram shows the timeline of EB-5 visa issuance. After the required number of jobs has been created by the initial investment in the construction, the investor (or the lawyer) can file the I-526 petition to obtain the conditional permanent resident status (conditional green card). 90 days before the conditional green card's expiration, the investor can file an I-829 petition to remove the conditional status and become an unconditional permanent resident.
 
@@ -76,23 +76,23 @@ This part will demonstrate the private sector’s interpretations.
 
 **1. EB-5 Regional Center Registration by State**
 
-![](/img/green-card-buildout/graph4.jpg)
+![](/img/2023/green-card-buildout/graph4.jpg)
 
 The chart shows a summary of approved and terminated regional centers by state, indicating the number of ever-existing regional centers. California, New York, and Florida are the top three destinations for regional center registration.
 
 **2. EB-5 Capital Structure**
 
-![](/img/green-card-buildout/graph5.jpg)
+![](/img/2023/green-card-buildout/graph5.jpg)
 
 Funding a regional center project is a step-by-step process, and EB-5 capital is only one of the many sources of a project's capital stack. Usually, it takes from 10% to 30% of the entire project cost. The diagram shows the typical funding structure for an EB-5 project. First, a regional center manages NCE that collects funds from foreign investors as equity. Second, NCE lends the funds as a loan or finances them as equity for the intermediary borrower, LLC. The developer will also fund the borrower, LLC in an equity model. Finally, the borrower, LLC will finance the collected funds as equity to JCE. The JCE will also borrow from traditional financial institutions, which represent the majority of the project's overall cost.
 
-![](/img/green-card-buildout/graph5-1.jpg)
+![](/img/2023/green-card-buildout/graph5-1.jpg)
 
 The diagram shows the capital structure example of One Wall Street.
 
 **3. EB-5 Regional Center Model**
 
-![](/img/green-card-buildout/graph6.jpg)
+![](/img/2023/green-card-buildout/graph6.jpg)
 
 There are three regional center models that conduct projects with different orientations. The background of the phenomenon is that a regional center can only help develop projects in confined geographic areas by county. Therefore, many regional centers register their companies in different states to maximize outreach. The first model is the in-house real estate developer model. In this method, a developer registers different regional centers in different states to subordinate the parent company’s development goal. For example, The Related Group is a Florida-based real estate firm that has regional centers in New York and California. The second model is real estate finance and investment companies. Their goal is to fund many real estate projects and obtain investment returns. The third model is the most common third-party regional center model, which serves as a sponsor and intermediary for sourcing funds. They obtain their returns through partnered fees, management, or renting regional centers for developers.
 
@@ -102,40 +102,40 @@ This part aims to uncover the detailed local projects' relationships and geograp
 
 **1. EB-5 Regional Center Affiliation Network**
 
-![](/img/green-card-buildout/network_ny.jpg)
+![](/img/2023/green-card-buildout/network_ny.jpg)
 
 The network shows the relationships between the regional center, EB-5 projects, developers, and architecture firms in New York. New York's regional center projects are evenly distributed among different regional centers and developers. The New York City Regional Center helped finance mostly expensive governmental, urban renewal, or quasi-public projects, such as the Barclay Center Arena, George Washington Bridge Bus Terminal, and Brooklyn Navy Yard development. The U.S. Immigration Fund - NY helped finance many luxury condos and hotels, such as The Charles and One High Line Condominiums. The American Regional Center for Entrepreneurs facilitated many mid-scale projects related to Chinese and Jewish family-run developers, such as Century Development Group and Lions Group. The Extell New York Regional Center worked under Extell Development Company and helped finance many high-rises, such as the Central Park Tower.
 
-![](/img/green-card-buildout/network_fl.jpg)
+![](/img/2023/green-card-buildout/network_fl.jpg)
 
 The network shows the relationships between the regional center, EB-5 projects, developers, and architecture firms in Florida. Florida EB5 Investment LLC Regional Center has facilitated 28 successful projects, outnumbering many other regional centers. The Kolter Group is the top developer that utilized the EB-5 capital to develop hotels and condos.
 
 **2. Map of EB-5 Project**
 
-![](/img/green-card-buildout/map_ny1.jpg)
+![](/img/2023/green-card-buildout/map_ny1.jpg)
 
 The map shows the summary of EB-5 projects by project type, location, and capital in the New York metropolitan area. Most projects were hotels, rental apartments, and condos. The top project locations were midtown, Financial District in Manhattan, Downtown Brooklyn, and Long Island City in Queens.
 
-![](/img/green-card-buildout/map_ny2.jpg)
+![](/img/2023/green-card-buildout/map_ny2.jpg)
 
 The map shows the location of EB-5 projects with unique IDs. The color IDs indicate that they were top regional center projects. U.S. Immigration Fund-NY helped finance many projects in the Time Square-Midtown area. The New York City Regional Center helped finance many projects in Downtown Brooklyn. American Regional Center for Entrepreneurs focused on Long Island City and other borough projects.
 
-![](/img/green-card-buildout/map_fl1.jpg)
+![](/img/2023/green-card-buildout/map_fl1.jpg)
 
 The map shows the summary of EB-5 projects by project type, location, and capital in Florida. Most projects were hotels, rental apartments, and schools. The top project locations were Miami, West Palm Beach, Orlando, and Tampa. Many charter schools in Florida were funded by EB-5 capital.
 
-![](/img/green-card-buildout/map_fl2.jpg)
+![](/img/2023/green-card-buildout/map_fl2.jpg)
 
 The map shows the location of EB-5 projects with unique IDs. The color IDs indicate that they were top regional center projects. Florida Overseas Investment Center RC helped finance many projects in Miami and the golden coastline area. Florida EB5 Investment LLC Regional Center focused on projects in Tampa.
 
 **3. Satellite Imagery of EB-5 Project**
 
-![](/img/green-card-buildout/satellite_ny.jpg)
+![](/img/2023/green-card-buildout/satellite_ny.jpg)
 
 The plot shows the satellite imagery of the New York EB-5 project, sorted by EB-5 capital. The most expensive project that utilized EB-5 capital is Governor Mario M. Cuomo Bridge in Terrytown. Estimated one billion dollars were sought from foreign investors.[^16] The second and third most expensive projects are 30 Hudson Yard (600 million) and TSX Broadway in Time Square (494 million) respectively. The bottom rows include projects without EB-5 capital confirmed.
 
 
-![](/img/green-card-buildout/satellite_fl.jpg)
+![](/img/2023/green-card-buildout/satellite_fl.jpg)
 
 The plot shows the satellite imagery of the Florida EB-5 project, sorted by EB-5 capital. The most expensive project that utilized EB-5 capital is Miami Central Station by CanAm Enterprise for 130 million dollars. The second and third most expensive project is Circ Residences (100 million)  and MICROLUXE® Residences (95 million) respectively. However, the most expensive proposed projects that failed or were postponed due to financing are CCCC Miami Towers (350 million) and SkyRise Miami (270 million) respectively. The bottom rows include projects without EB-5 capital confirmed.
 
@@ -143,39 +143,39 @@ The plot shows the satellite imagery of the Florida EB-5 project, sorted by EB-5
 
 For the final touch of the project, it is important to document the actual site of the project from the street view that is not able to capture in detail by available data and satellite imagery. Here are the selected project photographs for New York and Florida EB-5 projects. 
 
-![TSX Time Squre](/img/green-card-buildout/tsx.jpg)
+![TSX Time Squre](/img/2023/green-card-buildout/tsx.jpg)
 
 *The Times Square EDITION (left) and TSX Bradway (right) in Time Square were financed by U.S. Immigration Fund - NY.*
 
-![One Wall Street](/img/green-card-buildout/one-wall-street.jpg)
+![One Wall Street](/img/2023/green-card-buildout/one-wall-street.jpg)
 
 *One Wall Street in the Financial District was financed by the LCP Group, Live in America - New York Regional Center, and developed by Macklowe Properties. One Wall Street is an example of many recent redevelopments of historical buildings in FiDi.*
 
-![Central Park Tower](/img/green-card-buildout/central-park-tower.jpg)
+![Central Park Tower](/img/2023/green-card-buildout/central-park-tower.jpg)
 
 *EB-5 capital for Central Park Tower was financed by Extell New York Regional Center and developed by its parent company, Extell Development Company.*
 
-![Victoria Tower Residences](/img/green-card-buildout/victoria-tower.jpg)
+![Victoria Tower Residences](/img/2023/green-card-buildout/victoria-tower.jpg)
 
 *The Victoria Theater redevelopment project in Harlem was developed and financed by Lam Group and Lam NYC EB-5 Fund Regional Center.*
 
-![Barclays Center Arena](/img/green-card-buildout/barclays-center.jpg)
+![Barclays Center Arena](/img/2023/green-card-buildout/barclays-center.jpg)
 
 *The Barclays Center Arena was part of the Atlantic Yards development that was developed by Forest City Ratner and Chinese developer Greenland Holdings Group. The New York City Regional Center managed to finance EB-5 funds for the Atlantic Yards development.*
 
-![One South First](/img/green-card-buildout/one-south-first.jpg)
+![One South First](/img/2023/green-card-buildout/one-south-first.jpg)
 
 *Kent street in the Williamsburg waterfront area was the location of three EB-5 projects. One South First was financed by AscendAmerica LLC and developed by Two Trees.*
 
-![Miami Central Station](/img/green-card-buildout/miami-central.jpg)
+![Miami Central Station](/img/2023/green-card-buildout/miami-central.jpg)
 
 *Miami Central Station was financed by CanAm Florida Regional Center, LLC and developed by All Aboard Florida. SOM was the architect.*
 
-![Panorama Tower](/img/green-card-buildout/panorama.jpg)
+![Panorama Tower](/img/2023/green-card-buildout/panorama.jpg)
 
 *The City of Miami EB5 Regional Center helped finance Panorama Tower in Miami. Florida East Coast Realty was the developer.*
 
-![SkyRise Miami](/img/green-card-buildout/skyrise.jpg)
+![SkyRise Miami](/img/2023/green-card-buildout/skyrise.jpg)
 
 *SkyRise Miami was set to be the tallest building in Miami. The project never came to reality due to troubled financing. The image shows the empty construction site. Berkowitz Development Group was the developer, and Miami Metropolitan Regional Center helped arrange EB-5 capital.*
 
@@ -201,11 +201,11 @@ First, I downloaded the list of Approved EB-5 Regional Centers and the list of R
 
 **2. Data Analysis**
 
-![](/img/green-card-buildout/method.jpg)
+![](/img/2023/green-card-buildout/method.jpg)
 
 To calculate the invested EB-5 capital, based on the versions of the required minimum investment amount, there are three periods of time: fiscal year 1992 to 2018, 2019 to 2021, and after 2022. First, I used visa issuance data from “Department of State, Preference Immigrant Visas Issued, Table VI'' to estimate how many investors there were for each year. Based on a Brookings Institution research study that showed that one investor brought two additional immediate family members,[^17] I weighed the visa issuance by ⅓ to reflect the approximate number of investors. The following image shows the formula used in a USCIS report.[^18]
 
-![](/img/green-card-buildout/weight.png)
+![](/img/2023/green-card-buildout/weight.png)
 
 Second, I multiplied the number of investors each year based on the required minimum investment amount in the visa categories (EB-5 direct investment, EB-5 targeted employment, EB-5 regional pilot, EB-5 regional TEA), and then summarized the total. After this process, I obtained the estimated EB-5 capital and created a plot.
 

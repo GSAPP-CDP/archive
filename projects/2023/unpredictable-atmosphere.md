@@ -4,7 +4,7 @@ title: "Unpredictable Atmosphere"
 author: Lucia Rebolino
 year: 2023
 advisor: Laura Kurgan
-image: /img/unpredictable-atmosphere/UA_cover.jpg
+image: /img/2023/unpredictable-atmosphere/UA_cover.jpg
 order: -1
 links:
   - text: "Explore"
@@ -16,7 +16,7 @@ links:
 ---
 <figure>
   <video
-    src="/img/unpredictable-atmosphere/UA_green.mp4"
+    src="/img/2023/unpredictable-atmosphere/UA_green.mp4"
     autoplay
     loop
     muted
@@ -32,7 +32,7 @@ Research agencies collect essential weather data by measuring the vibration of w
 
 <figure>
   <video
-    src="/img/unpredictable-atmosphere/UA_quadrants.mp4"
+    src="/img/2023/unpredictable-atmosphere/UA_quadrants.mp4"
     autoplay
     loop
     muted
@@ -47,7 +47,7 @@ The research views computation as a lens through which to examine this critical 
 
 <figure>
   <video
-    src="/img/unpredictable-atmosphere/UA_criticalzone.mp4"
+    src="/img/2023/unpredictable-atmosphere/UA_criticalzone.mp4"
     autoplay
     loop
     muted
@@ -61,7 +61,7 @@ There is currently a conflict taking place in this unstable section of the atmos
 
 <figure>
   <video
-    src="/img/unpredictable-atmosphere/UA_matrix.mp4"
+    src="/img/2023/unpredictable-atmosphere/UA_matrix.mp4"
     autoplay
     loop
     muted
@@ -73,13 +73,13 @@ There is currently a conflict taking place in this unstable section of the atmos
 
 As Latour stated in "Down to Earth: Politics in the New Climatic Regime"[^4], the Terrestrial model, built from the intersection of the Global and Local perspectives, is the only one capable of solving climatic and political issues. The process of deconstructing this abstract and contested territory will involve analyzing weather and climate data, focusing on the non-transparent processes behind Radio Frequency Allocation Policies, with the aim of revealing the critical spatial dimension of the atmosphere as a contemporary Climatic Media [^5]. 
 
-![UA24GHZ Zine](/img/unpredictable-atmosphere/UA_zine.jpg)
+![UA24GHZ Zine](/img/2023/unpredictable-atmosphere/UA_zine.jpg)
 
 The aesthetic investigation of the project involves the use of different media and techniques to create a new critical framework for spatializing and understanding the concept of interference. By translating the data and web structure into a physical medium, a performative project has been created that allows for real-time interference. A drawing machine traces the path of satellites directly affected by the interference within the web structure. This process ultimately deconstructs into a Zine for a public science audience.
 
-![Drawing Machine and Satellite tracks](/img/unpredictable-atmosphere/UA_drawingmachine2.jpg)
+![Drawing Machine and Satellite tracks](/img/2023/unpredictable-atmosphere/UA_drawingmachine2.jpg)
 
-![Drawing Machine and Satellite tracks](/img/unpredictable-atmosphere/UA_drawingmachine.jpg)
+![Drawing Machine and Satellite tracks](/img/2023/unpredictable-atmosphere/UA_drawingmachine.jpg)
 
 <iframe
   src="https://player.vimeo.com/video/824630241?h=30e98ac368&title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0"
