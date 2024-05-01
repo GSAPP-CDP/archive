@@ -5,26 +5,38 @@ layout: page
 {% assign links = links | normalizeLinks %}
 
 <div class="project">
-  <div class="project-header">
+  <div class="project-header container">
     <div class="project-context h1">{{ year }}</div>
     <div class="project-title h1">
       <h1>{{ title }}</h1>
       <h2>{{ author }}</h2>
-      <h2> Advisor: {{ advisor }}</h2>
-    </div>
-    <div class="project-details">
-      {% if links.first %}
-      <ul class="project-links h4">
-        {% for link in links %}
-        <li>
-          <a href="{{ link.url }}">{{ link.text }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-      {% endif %}
     </div>
   </div>
-  <div class="project-body">
+  {% if links.first %}
+    <ul class="project-links h4">
+      {% for link in links %}
+      <li class="project-link-background">
+        <div class="project-link container">
+          <a class="project-link-parts" href="{{ link.url }}">
+            <div class="project-link-text">{{ link.text }}</div>
+            <div class="project-link-url">{{ link.url | formatUrl }}</div>
+          </a>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  <div class="project-meta container">
+    <dl class="project-meta-grid">
+      {% if advisor %}
+        <div class="project-meta-item">
+          <dd>Advisor</dd>
+          <dt>{{ advisor }}</dt>
+        </div>
+      {% endif %}
+    </dl>
+  </div>
+  <div class="project-body container">
     <div class="project-content content">{{ content }}</div>
   </div>
 </div>

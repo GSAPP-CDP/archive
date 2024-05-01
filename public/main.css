@@ -38,7 +38,8 @@ html {
 }
 
 body {
-  padding: var(--grid-gap);
+  padding-top: var(--space);
+  padding-bottom: var(--space);
 }
 
 h1,
@@ -88,6 +89,10 @@ h4,
 
 .container {
   max-width: 1536px;
+  padding-left: var(--grid-gap);
+  padding-right: var(--grid-gap);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .stack {
@@ -310,29 +315,78 @@ figcaption,
 
 /* project */
 .project-header,
+.project-link,
+.project-meta,
 .project-body {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: var(--grid-gap);
 }
 
-.project-header {
+.project-header,
+.project-meta {
   margin-bottom: calc(3 * var(--space));
 }
 
-.project-links a:before {
-  content: "→\00a0";
+.project-links {
+  margin-bottom: var(--space);
+}
+
+.project-link-background {
+  background: var(--secondary-color);
+  color: var(--background-color);
+  border-top: 1px solid var(--background-color);
+  padding: calc(0.5 * var(--space)) 0;
+  position: relative;
+}
+
+.project-link-parts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-link-url {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 25rem;
+  display: none;
+}
+
+.project-link a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.project-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--grid-gap);
+}
+
+.project-meta-grid dd {
+  color: var(--secondary-color);
 }
 
 @media (min-width: 640px) {
   .project-header,
+  .project-link,
+  .project-meta,
   .project-body {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .project-title,
+  .project-link-parts,
+  .project-meta-grid,
   .project-content {
     grid-column: span 2 / span 2;
     grid-column-start: 2;
+  }
+
+  .project-link-url {
+    display: block;
   }
 }

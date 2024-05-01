@@ -58,4 +58,9 @@ module.exports = function (eleventyConfig) {
       throw new Error("link must be a string or object");
     });
   });
+
+  eleventyConfig.addFilter("formatUrl", function (url) {
+    // remove protocol, www, and trailing slash
+    return url.replace(/^(https?:\/\/)(www\.)?/, '').replace(/\/$/, '');
+  });
 };
