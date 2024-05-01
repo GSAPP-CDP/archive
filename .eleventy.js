@@ -22,15 +22,25 @@ module.exports = function (eleventyConfig) {
   // add collection of project pages from projects/ directory
   eleventyConfig.addCollection("projectsByYear", function (collectionApi) {
     const projects = collectionApi
-        .getFilteredByGlob(["projects/*/[^_]*.md"])
-        // sort by year (descending), then sort order (ascending), then title (ascending)
-        .sort(
-          (a, b) =>
-            (b.data.year - a.data.year) ||
-            ((a.data.order || 0) - (b.data.order || 0)) ||
-            (a.data.title.localeCompare(b.data.title))
-        );
-    const grouped = Object.groupBy(projects, (project) => project.data.year);
+      .getFilteredByGlob(["projects/*/[^_]*.md"])
+      // sort by year (descending), then sort order (ascending), then title (ascending)
+      .sort(
+        (a, b) =>
+          (b.data.year - a.data.year) ||
+          ((a.data.order || 0) - (b.data.order || 0)) ||
+          (a.data.title.localeCompare(b.data.title))
+      );
+
+    const groupBy = (arr, callback) => {
+      return arr.reduce((acc = {}, ...args) => {
+        const key = callback(...args);
+        acc[key] ??= []
+        acc[key].push(args[0]);
+        return acc;
+      }, {})
+    };
+
+    const grouped = groupBy(projects, (project) => project.data.year);
     return Object.entries(grouped).reverse();
   });
 
