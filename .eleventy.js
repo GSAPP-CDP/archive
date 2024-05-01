@@ -20,18 +20,18 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   // add collection of project pages from projects/ directory
-  eleventyConfig.addCollection("projects", function (collectionApi) {
-    return (
-      collectionApi
-        .getFilteredByGlob(["projects/[^_]*.md"])
+  eleventyConfig.addCollection("projectsByYear", function (collectionApi) {
+    const projects = collectionApi
+        .getFilteredByGlob(["projects/*/[^_]*.md"])
         // sort by year (descending), then sort order (ascending), then title (ascending)
         .sort(
           (a, b) =>
             (b.data.year - a.data.year) ||
             ((a.data.order || 0) - (b.data.order || 0)) ||
             (a.data.title.localeCompare(b.data.title))
-        )
-    );
+        );
+    const grouped = Object.groupBy(projects, (project) => project.data.year);
+    return Object.entries(grouped).reverse();
   });
 
   // add filter to normalize links to array of objects with url and text properties

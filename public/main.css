@@ -246,7 +246,12 @@ figcaption,
 }
 
 /* home */
-.project-card-grid {
+
+.projects-year-header {
+  margin-bottom: calc(3 * var(--space));
+}
+
+.projects-grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: var(--grid-gap);
@@ -298,7 +303,7 @@ figcaption,
 }
 
 @media (min-width: 640px) {
-  .project-card-grid {
+  .projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

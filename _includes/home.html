@@ -2,22 +2,31 @@
 layout: page
 ---
 
-<div class="project-card-grid">
-  {% for project in collections.projects %}
-  <div class="project-card">
-    <a class="fade" href="{{ project.url }}">
-      <div class="stack">
-        <div class="project-card-thumb">
-          {% if project.data.image %}
-          <img src="{{ project.data.image }}" />
-          {% endif %}
+<div class="projects-by-year">
+  {% for yearProjects in collections.projectsByYear %}
+    {% assign year = yearProjects[0] %}
+    {% assign projects = yearProjects[1] %}
+    <div class="projects-year-header">
+      <div class="projects-year h1">{{ year }}</div>
+    </div>
+    <div class="projects-grid">
+      {% for project in projects %}
+        <div class="project-card">
+          <a class="fade" href="{{ project.url }}">
+            <div class="stack">
+              <div class="project-card-thumb">
+                {% if project.data.image %}
+                <img src="{{ project.data.image }}" />
+                {% endif %}
+              </div>
+              <div>
+                <h1>{{ project.data.title }}</h1>
+                <h2>{{ project.data.author }}</h2>
+              </div>
+            </div>
+          </a>
         </div>
-        <div>
-          <h1>{{ project.data.title }}</h1>
-          <h2>{{ project.data.author }}</h2>
-        </div>
-      </div>
-    </a>
-  </div>
+      {% endfor %}
+    </div>
   {% endfor %}
 </div>
