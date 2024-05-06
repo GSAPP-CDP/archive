@@ -14,7 +14,6 @@ links:
 
 Many museums claim to be guardians of knowledge in their capacities as **repositories** of information, stories, histories that many claim would disappear in their absence. These artifacts are **sequestered** in a static form, plucked out of their spatial and temporal contexts and preserved in a sterile environment. But stories, crafts, techniques, systems, knowledge, wisdom are never static. They are in constant **motion**, evolving within the cultures that generate them.
 
-![Glynneath, UK, 51°45'23" N 3°38'58" W](/img/_example/glynneath-united-kingdom.jpg)
 
 ## Project Statement
 
