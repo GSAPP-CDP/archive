@@ -26,6 +26,7 @@ For addressing the issues of "What you can measure isn't what matters" and "Desi
 ![Why Generative Design Doesn’t Work](/img/2024/is-generative-design-doomed-to-fail/B4.png)
 ![](/img/2024/is-generative-design-doomed-to-fail/B2.png)
 
+
 # Tryitout
 ![](/img/2024/is-generative-design-doomed-to-fail/xx3.png)
 
@@ -41,6 +42,9 @@ The demo is a questionnaire for potential customers of the Bank Cafe shop.
 ![](/img/2024/is-generative-design-doomed-to-fail/S2.jpg)
 ![](/img/2024/is-generative-design-doomed-to-fail/S1.jpg)
 ![](/img/2024/is-generative-design-doomed-to-fail/S3.jpg)
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQp2OlAqHjo1EHLVgxiwgWOuFJG_1bH1QUPM2CkHVuUTrnaV3xfSmnL1OWO5vRg6CQ7ZlUg68vg6bd1/embed?start=true&loop=true&delayms=5000" frameborder="0" width="735" height="442" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ![](/img/2024/is-generative-design-doomed-to-fail/xx.png)
 
 # Project Statement
