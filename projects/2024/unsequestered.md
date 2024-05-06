@@ -111,3 +111,4 @@ allowfullscreen>
 - 131 museums
 - 1,152 institutions, groups, and individuals identified in the provenance of each item
 
+[Guide to crowdsourcing photographs of the stolen Benin Bronzes](/img/2024/unsequestered/Indexing.png)
