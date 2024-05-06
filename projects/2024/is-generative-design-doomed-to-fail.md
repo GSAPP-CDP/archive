@@ -2,8 +2,12 @@
 layout: project
 title: "Is Generative Design Doomed to Fail?"
 author: Luyi Huang
+advisor: David Benjamin
 year: 2024
 image: /img/2024/is-generative-design-doomed-to-fail/cover.jpg
+links:
+  - text: Questionnaire 
+    url: https://www.figma.com/proto/F7DfKNyHQ4OQHjoyFUrP6t/Untitled?type=design&node-id=1-2&t=aiXlY9o59uBP0Ifj-1&scaling=scale-down&page-id=0%3A1&mode=design
 ---
 
 # Background
