@@ -7,8 +7,8 @@ advisor: Nitzan Bartov
 year: 2024
 image: /img/2024/city-brainwaves/横唱片海报蓝.png
 links:
-  - text: Video
-    url: https://youtu.be/9jqsqrM8yWg?si=kbTjBQFOw4FdhZDo
+  - text: VideoFeel free to put on your headphones and enjoy
+    url: https://youtu.be/TlsdTCU0szc?si=00prHc0DjFbVf1EU
 ---
 ![Sentient Records: Engraving the Emotions and Sounds of the City with Brainwaves](/img/2024/city-brainwaves/封面.gif)
 # Project Description
@@ -70,7 +70,9 @@ I aimed to visually manifest my brainwave music. By extracting features like fre
 
 <iframe width="700" height="394" src="https://www.youtube.com/embed/TlsdTCU0szc?si=AAGVaDrT6GzXyBNe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Album preview examples:
+# Album preview examples:
+Feel free to put on your headphones and enjoy the immersive listening experience.
+
 [Click here to view more video recordings from the Sentient Records series 1](https://youtu.be/9jqsqrM8yWg?si=kbTjBQFOw4FdhZDo)
 
 [Click here to view more video recordings from the Sentient Records series 2](https://youtu.be/OluZ7e5bVak?si=MEJIFZh17-2a2jD3)
