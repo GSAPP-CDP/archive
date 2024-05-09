@@ -1,13 +1,12 @@
 ---
 layout: project
-title: "Sentient Records: 
-Engraving the Emotions and Sounds of the City with Brainwaves"
+title: "Sentient Records: Engraving the Emotions and Sounds of the City with Brainwaves"
 author: Shiyu Qiu
 advisor: Nitzan Bartov
 year: 2024
 image: /img/2024/city-brainwaves/横唱片海报蓝.png
 links:
-  - text: VideoFeel free to put on your headphones and enjoy
+  - text: Video (Headphones recommended)
     url: https://youtu.be/TlsdTCU0szc?si=00prHc0DjFbVf1EU
 ---
 ![Sentient Records: Engraving the Emotions and Sounds of the City with Brainwaves](/img/2024/city-brainwaves/封面.gif)
