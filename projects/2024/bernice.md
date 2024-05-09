@@ -2,6 +2,7 @@
 layout: project
 title: "#Bernice"
 author: Wenxi Zhang
+advisor: Adam Vosburgh
 year: 2024
 image: /img/2024/bernice/cover.png
 links:
