@@ -9,7 +9,6 @@ links:
     - 
       text: "Explore"
       url: https://www.figma.com/proto/EhIzEPl0MvcCRdQhAGShvA/Final-Review-website?page-id=0%3A1&type=design&node-id=1-3&viewport=-185%2C562%2C0.48&t=V17GT1mlx9iiSDBw-1&scaling=min-zoom&starting-point-node-id=1%3A3
-    - 
 ---
 
 ![Leeside - Digital Twin Computational Design Precedents](/img/2024/urbancraft/leeside_precedent.png)
@@ -21,7 +20,7 @@ Based on this research question, The initial vision is to propose a tool that he
 - Can users play and organize blocks by themselves based on metrics they consider instead of preprocessing all data and demonstrate directly?
 - Can different stakeholders play the interface at the same time and get to learn trade-offs from each other?
 
-![Block by Blcok_UN with Minecraft](/img/2024/urbancraft/block_by_block.png)
+![Block by Block UN with Minecraft](/img/2024/urbancraft/block_by_block.png)
 
 I was inspired by this project, which is a collaborative project between UN and Minecraft: [Block by Block](https://www.blockbyblock.org/projects/kosovo).Kosovo is one of the poorest areas of Europe, with a long history of conflict between its Albanian and Serbian populations. Kosovo’s cities have experienced rapid growth in recent years, and there is a growing need for well-designed public spaces that can be enjoyed by everyone.
 
@@ -33,24 +32,22 @@ The Municipality of Pristina was one of the first sites in Europe selected by UN
 UrbanCraft is a serious game designed to engage community members, architects, and developers in understanding and negotiating the complex trade-offs involved in urban design. By simulating real-world urban planning scenarios, the game facilitates a deeper understanding of the impacts of various development decisions.
 
 
-![Role- Selection](/img/2024/urbancraft/roleSelection.png)
+![Role Selection](/img/2024/urbancraft/roleSelection.png)
 
 Choose Your Role: Begin by selecting one of three roles:
-Community Member: Focuses on community equity and gentrification issues.
-Architect: Concentrates on environmental responsiveness and energy efficiency.
-Developer: Aims to maximize economic returns and buildable area.
+- Community Member: Focuses on community equity and gentrification issues.
+- Architect: Concentrates on environmental responsiveness and energy efficiency.
+- Developer: Aims to maximize economic returns and buildable area.
 
 The site is initially chosen as Williamsburg in Brooklyn, since it shows conflicts among those stakeholders in reality.
 
-
-![Metric- Selection](/img/2024/urbancraft/metricSelection.png)
+![Metric Selection](/img/2024/urbancraft/metricSelection.png)
 
 Interface Overview: Each player uses a common toolbar containing colored blocks representing different types of buildings and public spaces. The 3D game environment lets you visualize your designs in real-time.
 
 Role-Specific Metrics: Depending on your selected role and metrics, your interface will display different metrics to guide your design decisions.
 
 ![Real-time Visualization](/img/2024/urbancraft/crafting.png)
-
 
 ![Design Option Confirmation](/img/2024/urbancraft/confirmation.png)
 
@@ -60,22 +57,6 @@ Review and Evaluate: After completing your design, enter the 'Design Review Boar
 
 Learn from Others: See how your decisions align or conflict with the priorities of other roles, providing a comprehensive understanding of stakeholder impacts.
 
-<!-- <iframe
-  src="https://www.youtube.com/embed/laiVuCmEjlg"
-  frameborder="0"
-  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-  style="aspect-ratio: 16 / 9; width: 100%;">
-</iframe>
-
-<iframe
-  src="https://player.vimeo.com/video/158673446?h=30e98ac368&title=0&byline=0&portrait=0"
-  frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen
-  style="aspect-ratio: 16 / 9; width: 100%;">
-</iframe> -->
-
 <video
   src="/img/2024/urbancraft/demo_video_Yilin Wang.mp4"
   controls
@@ -84,7 +65,3 @@ Learn from Others: See how your decisions align or conflict with the priorities 
 
 [^1]: Julian Agyeman, “Introducing Just Sustainabilities” .
 [^2]: Robert Goodspeed, “Scenario planning for cities and regions : managing and envisioning uncertain futures” .
-<!-- [^3]: ann haeyoung, “How to work within power structures that don't work for you,” _The Creative Independent_ (2019).
-[^4]: WBYA?, _Who Builds Your Architecture? A Critical Field Guide_ (2017).
-[^5]: Jason Alderman, Tega Brain, Taeyoon Choi, Luisa Pereira, “A Field Guide to Debugging,” p5.js (2015).
-[^6]: Keller Easterling, “A losing game: harnessing failure,” _The Architectural Review_ 1458 (2019). -->
