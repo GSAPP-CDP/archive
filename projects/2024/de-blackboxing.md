@@ -14,7 +14,7 @@ links:
       url: https://virginiazangs.com
 ---
 <iframe
-  src="https://youtu.be/qFMgCJSDGUo"
+  src="https://www.youtube.com/embed/qFMgCJSDGUo"
   frameborder="0"
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
