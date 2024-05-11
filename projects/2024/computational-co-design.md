@@ -115,7 +115,7 @@ they are to me or others with normal color vision.
 
 Dichromatic Red-Blind/Protanopia
 
-<img src="/img/2024/computational-co-design/image_4.jpg" alt="img4" width="20%"> <img src="/img/2024/computational-co-design/image_5.jpg" alt="img5" width="20%">
+<img src="/img/2024/computational-co-design/Image_4.jpg" alt="img4" width="20%"> <img src="/img/2024/computational-co-design/image_5.jpg" alt="img5" width="20%">
 
 Dichromatic Green-Blind/Deuteranopia
 
