@@ -76,7 +76,7 @@ auditory outputs to make the content accessible.
 
 
 
-![](/public/img/2024/computational-co-design/image_1.jpg "image_tooltip")
+![](/archive/public/img/2024/computational-co-design/image_1.jpg "image_tooltip")
 
 
 Collaborator: Adam (Name has been changed for privacy) 
@@ -111,11 +111,11 @@ they are to me or others with normal color vision.
 
 <img src="https://github.com/ensinger/GSAPP/blob/main/CD1.jpg" alt="CD 1" width="40%"> <img src="https://github.com/ensinger/GSAPP/blob/main/CD2.jpg" alt="CD 2" width="40%">   <img src="https://github.com/ensinger/GSAPP/blob/main/CD3.jpg" alt="CD 3" width="40%"> 
 
-<img src="/public/img/2024/computational-co-design/image_2.jpg" alt="img2" width="20%"> <img src="/public/img/2024/computational-co-design/image_3.jpg" alt="img2" width="20%">
+<img src="/archive/public/img/2024/computational-co-design/image_2.jpg" alt="img2" width="20%"> <img src="/archive/public/img/2024/computational-co-design/image_3.jpg" alt="img2" width="20%">
 
 Dichromatic Red-Blind/Protanopia
 
-<img src="/public/img/2024/computational-co-design/image_4.jpg" alt="img4" width="20%"> <img src="/public/img/2024/computational-co-design/image_5.jpg" alt="img5" width="20%">
+<img src="/archive/public/img/2024/computational-co-design/image_4.jpg" alt="img4" width="20%"> <img src="/archive/public/img/2024/computational-co-design/image_5.jpg" alt="img5" width="20%">
 
 Dichromatic Green-Blind/Deuteranopia
 
@@ -141,7 +141,7 @@ solutions that could assist him in identifying traffic signals more
 easily, to mitigate the risks associated with his red-green color
 blindness. 
 
-<img src="/public/img/2024/computational-co-design/image_6.jpg" alt="img6" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_6.jpg" alt="img6" width="40%">
 
 My strategy was to start by interviewing Adam to understand his
 situation. I wanted to learn more about how he experiences the world,
@@ -152,7 +152,7 @@ blend into the background, I drove around in the car with him and
 watched as he interacted with traffic lights and stop signs. 
 
 
-<img src="/public/img/2024/computational-co-design/image_7.jpg" alt="img7" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_7.jpg" alt="img7" width="40%">
 
 
 I tried to be mindful of my own vision and think about what made
@@ -164,7 +164,7 @@ colorblind individual might see. Here’s an example of a traffic
 intersection, with a red light, passed through this simulator: 
 
 
-<img src="/public/img/2024/computational-co-design/image_8.jpg" alt="img8" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_8.jpg" alt="img8" width="40%">
 
 
 Driving around his neighborhood, I asked Adam to describe what he
@@ -191,7 +191,7 @@ background, without obstructions, this may seem simple, but in a more
 complicated background, this is not so easy. 
 
 
-<img src="/public/img/2024/computational-co-design/image_9.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_9.jpg" alt="img" width="40%">
 
 
 Walking down Broadway with Adam, he pointed out places where he could
@@ -204,7 +204,7 @@ made the conscious effort to look for the lit circle, he could tell
 whether it was red, yellow, or green. 
 
 
-<img src="/public/img/2024/computational-co-design/image_10.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_10.jpg" alt="img" width="40%">
 
 
 Here is the same set of traffic lights, again left is normal color
@@ -214,7 +214,7 @@ see the street light illuminated, as it blended into the
 building. This is the same intersection, a few seconds later from a
 slightly different vantage point. 
 
-<img src="/public/img/2024/computational-co-design/image_11.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_11.jpg" alt="img" width="40%">
 
 
 Even for me, the image on the right is hard to notice, and the red
@@ -225,14 +225,14 @@ difficulty that Adam experiences in navigating a complex environment
 and having the traffic signals call his attention. 
 
 
-<img src="/public/img/2024/computational-co-design/image_12.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_12.jpg" alt="img" width="40%">
 
 
 For stop signs, depending on the amount of traffic, surrounding
 buildings, trees, and other obstructions, visibility can be difficult
 even for someone with normal color vision.  
 
-<img src="/public/img/2024/computational-co-design/image_13.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_13.jpg" alt="img" width="40%">
 
 Of course it isn’t possible for me to understand how his brain
 interprets the colors presented to him, since there is far more to
@@ -244,7 +244,7 @@ receptors then send signals through the optic nerve to the brain for
 interpretation. 
 
 
-<img src="/public/img/2024/computational-co-design/image_14.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_14.jpg" alt="img" width="40%">
 
 
 From these experiences walking through the streets of New York, and
@@ -269,7 +269,7 @@ strategies that could offer Adam reliable and safe navigation cues
 without compromising his sensory integration or spatial awareness. 
 
 
-<img src="/public/img/2024/computational-co-design/image_15.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_15.jpg" alt="img" width="40%">
 
 
 **First version: **
@@ -391,7 +391,7 @@ decided to look for additional traffic data to either retrain my ssd
 model, or leverage a different detection platform for a second test. 
 
 
-<img src="/public/img/2024/computational-co-design/image_16.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_16.jpg" alt="img" width="40%">
 
 
 **Second version:**
@@ -418,10 +418,10 @@ provided the best system for his use. Snapshots of detected stop signs
 and red lights are shown below. 
 
 
-<img src="/public/img/2024/computational-co-design/image_17.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_17.jpg" alt="img" width="40%">
 
 
-<img src="/public/img/2024/computational-co-design/image_18.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_18.jpg" alt="img" width="40%">
 
 
 While the stop sign and traffic light icons were helpful, the image
@@ -434,7 +434,7 @@ the dashboard as shown below, we tested the system again.
 
 
 
-<img src="/public/img/2024/computational-co-design/image_19.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_19.jpg" alt="img" width="40%">
 
 
 This was much improved, providing accurate detections of stop signs
@@ -472,29 +472,29 @@ do.
 
 *Image of initial sketches with caption*
 
-<img src="/public/img/2024/computational-co-design/image_20.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_20.jpg" alt="img" width="40%">
 
 
 *Image of the first step with caption*
 
-<img src="/public/img/2024/computational-co-design/image_21.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_21.jpg" alt="img" width="40%">
 
 
 **Training a simple classification algorithm**
 
-<img src="/public/img/2024/computational-co-design/image_22.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_22.jpg" alt="img" width="40%">
 
-<img src="/public/img/2024/computational-co-design/image_23.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_23.jpg" alt="img" width="40%">
 
-<img src="/public/img/2024/computational-co-design/image_24.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_24.jpg" alt="img" width="40%">
 
-<img src="/public/img/2024/computational-co-design/image_25.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_25.jpg" alt="img" width="40%">
 
-<img src="/public/img/2024/computational-co-design/image_26.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_26.jpg" alt="img" width="40%">
 
-<img src="/public/img/2024/computational-co-design/image_27.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_27.jpg" alt="img" width="40%">
 
-<img src="/public/img/2024/computational-co-design/image_29.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_29.jpg" alt="img" width="40%">
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YuykPxTinKM?start=52&end=88" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -663,37 +663,37 @@ interface.
 
 *Image of initial sketches with caption*
 
-<img src="/public/img/2024/computational-co-design/image_30.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_30.jpg" alt="img" width="40%">
 
-<img src="/public/img/2024/computational-co-design/image_31.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_31.jpg" alt="img" width="40%">
 
 Swift code version of bill counter	Python version of bill counter
 
-<img src="/public/img/2024/computational-co-design/image_32.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_32.jpg" alt="img" width="40%">
 
 Setup for taking images of bills and tagging them with the proper label and bounding box with different orientations.
 
-<img src="/public/img/2024/computational-co-design/image_33.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_33.jpg" alt="img" width="40%">
 
 Example showing testing of the detection algorithm with the trained network
 
-<img src="/public/img/2024/computational-co-design/image_34.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_34.jpg" alt="img" width="40%">
 
 
 More examples of testing on the trained model
 
-<img src="/public/img/2024/computational-co-design/image_35.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_35.jpg" alt="img" width="40%">
 
 More examples of refining the training and performance of the detection algorithm with multiple bills in the image
 
-<img src="/public/img/2024/computational-co-design/image_36.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_36.jpg" alt="img" width="40%">
 
 
 Example showing the summing of the detected bills and displaying the total as an overlay
 
 Final set up:
 
-<img src="/public/img/2024/computational-co-design/image_37.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_37.jpg" alt="img" width="40%">
 
 
                     **Reading Assistant**
@@ -702,13 +702,13 @@ Role: Designer, Researcher, Instigator
 
 Collaborators: 
 
-<img src="/public/img/2024/computational-co-design/image_38.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_38.jpg" alt="img" width="40%">
 
 
 *Insert annotated photo or video depicting the problem * **side by
  side** * insert annotated photo or video depicting the solution*  
 
-<img src="/public/img/2024/computational-co-design/image_39.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_39.jpg" alt="img" width="40%">
 
 
 **Problem**
@@ -828,16 +828,16 @@ an overlay graphically.
 A control flow for this application both in python and swift are shown below
 
 
-<img src="/public/img/2024/computational-co-design/image_40.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_40.jpg" alt="img" width="40%">
 
-<img src="/public/img/2024/computational-co-design/image_41.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_41.jpg" alt="img" width="40%">
 
 
 Swift reading assistant flow graph	Python reading assistant flow
 
-<img src="/public/img/2024/computational-co-design/image_42.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_42.jpg" alt="img" width="40%">
 
-<img src="/public/img/2024/computational-co-design/image_43.jpg" alt="img" width="40%">
+<img src="/archive/public/img/2024/computational-co-design/image_43.jpg" alt="img" width="40%">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YuykPxTinKM?start=141&end=180" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
