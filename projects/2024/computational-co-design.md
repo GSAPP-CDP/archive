@@ -76,7 +76,7 @@ auditory outputs to make the content accessible.
 
 
 
-![](/archive/public/img/2024/computational-co-design/image_1.jpg "image_tooltip")
+![](/img/2024/computational-co-design/image_1.jpg "image_tooltip")
 
 
 Collaborator: Adam (Name has been changed for privacy) 
@@ -111,11 +111,11 @@ they are to me or others with normal color vision.
 
 <img src="https://github.com/ensinger/GSAPP/blob/main/CD1.jpg" alt="CD 1" width="40%"> <img src="https://github.com/ensinger/GSAPP/blob/main/CD2.jpg" alt="CD 2" width="40%">   <img src="https://github.com/ensinger/GSAPP/blob/main/CD3.jpg" alt="CD 3" width="40%"> 
 
-<img src="public/img/2024/computational-co-design/image_2.jpg" alt="img2" width="20%"> <img src="public/img/2024/computational-co-design/image_3.jpg" alt="img2" width="20%">
+<img src="/img/2024/computational-co-design/image_2.jpg" alt="img2" width="20%"> <img src="/img/2024/computational-co-design/image_3.jpg" alt="img2" width="20%">
 
 Dichromatic Red-Blind/Protanopia
 
-<img src="public/img/2024/computational-co-design/image_4.jpg" alt="img4" width="20%"> <img src="public/img/2024/computational-co-design/image_5.jpg" alt="img5" width="20%">
+<img src="/img/2024/computational-co-design/image_4.jpg" alt="img4" width="20%"> <img src="/img/2024/computational-co-design/image_5.jpg" alt="img5" width="20%">
 
 Dichromatic Green-Blind/Deuteranopia
 
@@ -141,7 +141,7 @@ solutions that could assist him in identifying traffic signals more
 easily, to mitigate the risks associated with his red-green color
 blindness. 
 
-<img src="/archive/public/img/2024/computational-co-design/image_6.jpg" alt="img6" width="40%">
+<img src="/img/2024/computational-co-design/image_6.jpg" alt="img6" width="40%">
 
 My strategy was to start by interviewing Adam to understand his
 situation. I wanted to learn more about how he experiences the world,
@@ -152,7 +152,7 @@ blend into the background, I drove around in the car with him and
 watched as he interacted with traffic lights and stop signs. 
 
 
-<img src="/archive/public/img/2024/computational-co-design/image_7.jpg" alt="img7" width="40%">
+<img src="/img/2024/computational-co-design/image_7.jpg" alt="img7" width="40%">
 
 
 I tried to be mindful of my own vision and think about what made
