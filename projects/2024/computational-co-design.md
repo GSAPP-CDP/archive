@@ -884,10 +884,5 @@ functional in python on a laptop or single-board computer, these could
 be readily ported to a mobile app on an iphone. 
 
 
-<iframe
-  src="https://youtu.be/YuykPxTinKM"
-  frameborder="0"
-  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-  style="aspect-ratio: 16 / 9; width: 100%;">
-</iframe>
+[![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM) 
+
