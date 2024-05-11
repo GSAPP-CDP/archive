@@ -490,14 +490,18 @@ do.
 
 <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_25.jpg" alt="img" width="40%">
 
+
+
+[![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM?start=52&end=88) 
+
+
+
+
 <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_26.jpg" alt="img" width="40%">
 
 <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_27.jpg" alt="img" width="40%">
 
 <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_29.jpg" alt="img" width="40%">
-
-
-[![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM?start=52&end=88) 
 
 
 Role: Designer, Researcher, Instigator
