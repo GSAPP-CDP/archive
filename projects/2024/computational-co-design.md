@@ -2,74 +2,62 @@
 layout: project
 title: "Computational Solutions through Co-Design"
 author: Elizabeth Singer
-advisor: William Martin
+advisor: Seth Thompson, William Martin
 year: 2024
 image: /img/2024/computational-co-design/cover.png
 ---
+
+<img src="/img/2024/computational-co-design/cover.png">
 
 **Introduction and Background**
 
 Computational Solutions through Co-Design began with the goal of
 retrofitting my grandmother's home, adapting to her evolving needs as
 she aged and faced new disabilities, prioritizing personalization and
-acknowledging the nuanced perspectives of both caretakers and
-users. Combined with a desire to step away from universal design and
-the formulaic stages of design thinking and human-centered
-design. Through close collaboration with my grandmother, we began
-creating solutions that reflected her specific desires for her
-specific disabilities in her specific environment and situation. This
-process was not only about making physical modifications but also
-about embedding technology into her environment to enhance her
+acknowledging the difference in perspectives of the caretakers and the
+users. My grandma and I began creating solutions that reflected her
+specific desires for her specific disabilities in her specific environment
+and situation. Embedding technology into her environment to enhance her
 independence and quality of life. 
 
-However, following my grandmother's passing, the project had to
-pivot. The foundational goals remained the same: to use technology to
-empower close family members with disabilities through co-designing
-for one specific person, environment, and situation. Instead of doing
-multiple designs to transform my grandma’s home, since that was no
-longer possible, I decided to do three case studies for three
-different people.  
+When my grandmother passed away, the project had to pivot. The goals
+remained the same: to use technology to empower close family members
+with disabilities through co-designing for one specific person,
+environment, and situation. Instead of doing multiple designs to
+transform my grandma’s home, since that was no longer possible,
+I decided to do three case studies for three different people close to me.
 
 Now more than ever, we can access vast computational resources in
 hand-held devices or remotely through a simple API call—resources that
 can support machine learning applications both remotely and
-locally. This capability allows for the customization of solutions on
-an individual basis, far beyond what was previously possible. 
+locally. This allows for the accessible customization of solutions on
+an individual basis, beyond what was previously possible. 
 
-In this project, I continued to apply these technologies, focusing on
-designing specific solutions for individuals with distinct
-disabilities within their unique environments. This
-approach—user-initiated and designed-for-one—contrasts with
+My user-initiated and designed-for-one approach contrasts with
 one-size-fits-all solutions, emphasizing personalization and
 user-generated ideas. 
 
-This project explores user-initiated design approaches within the
-disability community. Living with a disability offers a unique lens
-for innovation, serving as a continuous testbed for new ideas. The
+Living with a disability offers a unique lens for innovation,
+serving as a continuous testbed for new ideas. The
 project aims to enhance independence with personalized technological
 integrations into home environments. This endeavor was personal and
-rooted in creating meaningful, empowering spaces for my loved ones,
-addressing real problems with tangible, innovative solutions. 
+rooted in creating for my loved ones, addressing real problems with tangible solutions. 
 
 **Case Study Structure**
 
 The three case studies detailed in this project are:
 
-
-1. Traffic Light Detection for Color Blindness: This case involved
+1. "Driving Assistant" Traffic Light Detection for Color Blindness: This involved
 creating a system to help an individual with red-green color blindness
-navigate traffic signals safely. The solution used a combination of
+navigate traffic signals safely. The user wanted to know if a traffic light was red, yellow, or green and to be alerted of stop signs. The solution used a combination of
 hardware (a single-board computer with a camera) and software
 (AI-driven object detection) to identify traffic lights and alert the
 user through audio cues. 
-2. Assistive Money Counter for the Elderly: This study focused on an
-elderly individual who faced challenges with vision and manual
-dexterity. A computer vision system was developed to recognize and
+2. "Bill Counter" Assistive Money Counter for Limited Vision and Cognitive Disabilities: This focused on an
+individual who also faced challenges with dimentia and vision. The user wanted to know how much money they had. The solution was developing a computer vision system was developed to recognize and
 count currency, providing audio feedback to the user about the total
-amount, thus enabling greater financial independence. 
-3. Sign and Text Overlay for Limited Vision: The third case study
-developed a system to aid individuals with limited vision or cognitive
-disabilities in reading complex signs and printed material. By
+amount. 
+3. "Reading Assistant" Sign and Text Overlay for Limited Vision with Speech to Text: Developed a system to aid an individual with limited vision and cognitive disabilities in reading complex signs and printed material. The user wanted to be able to read their mail. By
 employing optical character recognition and a language model for
 simplification and summarization, the system provided both visual and
 auditory outputs to make the content accessible. 
@@ -77,6 +65,7 @@ auditory outputs to make the content accessible.
 **Driving Assistant**
 
 
+<img src="/img/2024/computational-co-design/Image_1.jpg">
 
 ![](https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_1.jpg "Image_tooltip")
 
@@ -89,7 +78,7 @@ Running red lights is dangerous, but Adam does it more often than most
 because red lights do not stand out to him like they do to
 others. This is because he is red-green color blind. This may sound
 like a not-so-serious issue, since the context of the light on the top
-of the traffic signal is always the red one. However, for people whose
+of the traffic signal is always the red one. However, since his
 color vision is impaired, red is not a color that stands out from the
 background. Approaching an intersection, people with normal color
 vision are drawn to the green or red signals, as they stand out, like
@@ -110,13 +99,11 @@ also being red, do not stand out as strongly to him either, since
 colors in his world view are not as vibrant and information bearing as
 they are to me or others with normal color vision. 
 
-<img src="https://github.com/ensinger/GSAPP/blob/main/CD1.jpg" alt="CD 1" width="40%"> <img src="https://github.com/ensinger/GSAPP/blob/main/CD2.jpg" alt="CD 2" width="40%">   <img src="https://github.com/ensinger/GSAPP/blob/main/CD3.jpg" alt="CD 3" width="40%"> 
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_2.jpg" alt="img2" width="20%"> <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_3.jpg" alt="img2" width="20%">
+<img src="/img/2024/computational-co-design/Image_2.jpg" style="width:20%"><img src="/img/2024/computational-co-design/Image_3.jpg" style="width:20%">
 
 Dichromatic Red-Blind/Protanopia
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_4.jpg" alt="img4" width="20%"> <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_5.jpg" alt="img5" width="20%">
+<img src="/img/2024/computational-co-design/Image_4.jpg" style="width:20%"><img src="/img/2024/computational-co-design/Image_5.jpg" style="width:20%">
 
 Dichromatic Green-Blind/Deuteranopia
 
@@ -142,7 +129,7 @@ solutions that could assist him in identifying traffic signals more
 easily, to mitigate the risks associated with his red-green color
 blindness. 
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_6.jpg" alt="img6" width="40%">
+<img src="/img/2024/computational-co-design/Image_6.jpg" style="width:60%">
 
 My strategy was to start by interviewing Adam to understand his
 situation. I wanted to learn more about how he experiences the world,
@@ -152,9 +139,7 @@ others do not, like traffic signals with pale (to him) colors that
 blend into the background, I drove around in the car with him and
 watched as he interacted with traffic lights and stop signs. 
 
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_7.jpg" alt="img7" width="40%">
-
+<img src="/img/2024/computational-co-design/Image_7.jpg" style="width:60%">
 
 I tried to be mindful of my own vision and think about what made
 traffic signals stand out to me. I looked into what technical methods
@@ -164,9 +149,7 @@ enables normal vision users to see a side-by-side simulation of what a
 colorblind individual might see. Here’s an example of a traffic
 intersection, with a red light, passed through this simulator: 
 
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_8.jpg" alt="img8" width="40%">
-
+<img src="/img/2024/computational-co-design/Image_8.jpg" style="width:60%">
 
 Driving around his neighborhood, I asked Adam to describe what he
 saw. He told me about the many street lights, traffic lights, store
@@ -192,7 +175,7 @@ background, without obstructions, this may seem simple, but in a more
 complicated background, this is not so easy. 
 
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_9.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_9.jpg" style="width:60%">
 
 
 Walking down Broadway with Adam, he pointed out places where he could
@@ -205,7 +188,7 @@ made the conscious effort to look for the lit circle, he could tell
 whether it was red, yellow, or green. 
 
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_10.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_10.jpg" style="width:60%">
 
 
 Here is the same set of traffic lights, again left is normal color
@@ -215,7 +198,7 @@ see the street light illuminated, as it blended into the
 building. This is the same intersection, a few seconds later from a
 slightly different vantage point. 
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_11.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_11.jpg" style="width:60%">
 
 
 Even for me, the image on the right is hard to notice, and the red
@@ -226,14 +209,14 @@ difficulty that Adam experiences in navigating a complex environment
 and having the traffic signals call his attention. 
 
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_12.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_12.jpg" style="width:60%">
 
 
 For stop signs, depending on the amount of traffic, surrounding
 buildings, trees, and other obstructions, visibility can be difficult
 even for someone with normal color vision.  
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_13.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_13.jpg" style="width:60%">
 
 Of course it isn’t possible for me to understand how his brain
 interprets the colors presented to him, since there is far more to
@@ -244,19 +227,20 @@ color receptors that normal vision subjects experience, and these
 receptors then send signals through the optic nerve to the brain for
 interpretation. 
 
+<img src="/img/2024/computational-co-design/Image_14.jpg" style="width:60%">
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_14.jpg" alt="img" width="40%">
-
-
-From these experiences walking through the streets of New York, and
-driving with Adam, it was clear that technology that could
+From walking through the streets of New York and
+driving around with Adam, it was clear that technology that could
 automatically detect traffic lights and alert Adam audibly, in place
 of his partner calling out red lights and stop signs, could provide
-substantial benefit for his color vision. 
+substantial benefit for his color vision.
+
+<video width="320" height="240" controls>
+  <source src="/img/2024/computational-co-design/animation 1.mov" type="video/mp4">
+</video>
 
 We brainstormed ideas such as color blindness glasses and red contact
-lenses (both of which have been recommended to him by optometrists),
-designed to augment color perception for individuals with color vision
+lenses, designed to augment color perception for individuals with color vision
 deficiencies. However, these options presented unexpected
 drawbacks. While colorblindness glasses have been celebrated for their
 ability to enhance color differentiation, in driving tests, we
@@ -269,11 +253,9 @@ effects. These outcomes steered our focus toward alternative
 strategies that could offer Adam reliable and safe navigation cues
 without compromising his sensory integration or spatial awareness. 
 
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_15.jpg" alt="img" width="40%">
-
-
 **First version: **
+
+<img src="/img/2024/computational-co-design/Image_15.jpg">
 
 My strategy was to address this challenge that Adam faces due to his
 red-green color blindness by leveraging computer vision to create a
@@ -282,7 +264,13 @@ detection and learning system that could recognize traffic signals,
 particularly focusing on identifying red lights and stop signs to
 alert Adam when he is driving. My first step was to purchase and
 assemble a single board computer, the NVIDIA Jetson Nano, with an
-embedded camera and miniature display. 
+embedded camera and miniature display. Our idea was to create a device that could live in Adam's car for convenience.
+
+<img src="/img/2024/computational-co-design/Image_20.jpg" style="width:40%">
+
+<video width="320" height="240" controls>
+  <source src="/img/2024/computational-co-design/building jetson.mov" type="video/mp4">
+</video>
 
 I set up the Jetson Nano developer kit with the Jetpack distribution,
 which involved flashing the operating system onto an SD card using a
@@ -298,7 +286,7 @@ the operation of the Wi-Fi and Bluetooth. I cloned a repository from
 NVIDIA’s Github that contained Docker scripts to run preconfigured
 containers. I downloaded the Docker container from Docker Hub that was
 pre-installed with PyTorch and deep neural network models and I
-installed several pre-trained models from the NVIDIA site.  I tested
+installed several pre-trained models from the NVIDIA site. I tested
 the camera feed and image recognition and object detection using the
 pre-trained models on some sample images and then on the video feed
 from my camera, including real-time object detection on the live
@@ -330,6 +318,12 @@ interacted with the live camera feed. I introduced various objects,
 such as my pet cat and food and household items, into the camera's
 view to observe how well the program detected and labeled them.  
 
+**Training a simple classification algorithm**
+
+<img src="/img/2024/computational-co-design/Image_42.jpeg" style="width:40%">
+
+<img src="/img/2024/computational-co-design/Image_23.jpg" style="width:40%">
+
 I then retrained the models on pictures that I took of paintbrushes,
 markers, and scissors from my desk to verify I could do live object
 recognition on these new objects from a retrained detection
@@ -348,6 +342,10 @@ set to be outputted to the "models/brushes” directory. Training was
 conducted first for one epoch to verify the process, then iterated for
 100 epochs to improve training performance. 
 
+<img src="/img/2024/computational-co-design/Image_49.jpeg" style="width:40%">
+
+<img src="/img/2024/computational-co-design/Image_22.jpg" style="width:40%">
+
 After training the detection model using PyTorch on the Jetson Nano,
 the next step was to export the model to ONNX format, an interoperable
 format that allows models to be loaded into TensorRT for optimized
@@ -359,7 +357,7 @@ the network was able to accurately detect objects from the custom
 classes I trained it on, even in scenarios with multiple objects in
 the frame. 
 
-Then, I downloaded a set of traffic images of traffic lights and stop
+Then, I collected traffic images I took myself in Adam's community and downloaded a set of traffic images of traffic lights and stop
 signs from a data repository, converted the file structure and
 repository contents to match those needed for the Jetson model
 training algorithms, and retrained the model with this data set. This
@@ -373,14 +371,14 @@ classes. After repeating the process with this traffic data set, I
 tested the model using a live camera feed, while viewing many of the
 images in the data set on my computer screen. When this proved to be
 working properly, I added a voice-over to my detection script to play
-adam’s voice saying “red-light” each time the detection algorithm
+adam’s partner's voice saying “red-light” each time the detection algorithm
 returned a detection of a red traffic light in the image frame, and
 “stop sign” each time a stop sign was detected. 
 
 We tested this setup, using the Jetson Nano platform with a connected
 USB video camera on the dashboard of Adam’s car, and drove around
 through areas with traffic lights, stop signs and plenty of other
-traffic and distractions. While the algorithm worked well in some
+traffic and distractions. We also drove Adam's daily commute back and forth. While the algorithm worked well in some
 situations, the glare from sunlight into the camera made the detection
 algorithm fragile and missed many stop signs and red traffic
 lights. Also, the form factor of the jetson nano computer with video
@@ -391,11 +389,11 @@ pre-trained model, before my retraining with the traffic dataset. I
 decided to look for additional traffic data to either retrain my ssd
 model, or leverage a different detection platform for a second test. 
 
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_16.jpg" alt="img" width="40%">
-
+<img src="/img/2024/computational-co-design/Image_50.jpeg" style="width:40%"> <img src="/img/2024/computational-co-design/Image_47.jpeg" style="width:40%"><img src="/img/2024/computational-co-design/Image_46.jpeg" style="width:40%"> <img src="/img/2024/computational-co-design/Image_24.jpg" style="width:40%">
 
 **Second version:**
+
+<img src="/img/2024/computational-co-design/Image_16.jpg">
 
 I found a substantially larger traffic data set that was configured
 for the YOLO (“you only look once”) neural network model and a
@@ -412,17 +410,15 @@ system for his use. We conducted many trial runs in the car,
 evaluating the effectiveness of the solutions and refining them based
 on their performance. I focused on personalization and aimed to craft
 a solution that not only functions effectively but resonates with the
-biggest challenge that results from Adam’s color blindness. He found
-that a controllable volume audio alert, together with a large stop
+biggest challenge that results from Adam’s color blindness. Between times Adam and I tested the system together, he used it daily on his commute and took notes on his feedback. He found that a controllable volume audio alert, together with a large stop
 sign image or red light image superimposed on the phone’s screen
-provided the best system for his use. Snapshots of detected stop signs
+provided the best system for his use. He preferred beeping over his partner's voice repeating the same phrase. Snapshots of detected stop signs
 and red lights are shown below. 
 
+<img src="/img/2024/computational-co-design/Image_17.jpg" style="width:40%">
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_17.jpg" alt="img" width="40%">
 
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_18.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_18.jpg" style="width:40%">
 
 
 While the stop sign and traffic light icons were helpful, the image
@@ -434,8 +430,7 @@ of the video screen. With the camera wedged between the windshield and
 the dashboard as shown below, we tested the system again. 
 
 
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_19.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_19.jpg" style="width:40%">
 
 
 This was much improved, providing accurate detections of stop signs
@@ -453,7 +448,7 @@ which was set with the time that the object first was alerted to
 Adam. Subsequent detections then would not be reported (or sound the
 alarm) until at least 3 seconds had passed. This final refinement made
 the operation clear, but not overwhelming. I created an icon for the
-application that superimposed a stoplight on a stopsign. 
+application that superimposed a stoplight on a stopsign. I purchased a mount for Adam's phone as part of the final set up.
 
 **Outcome**
 
@@ -469,41 +464,19 @@ system, so that traffic signals and stop signs that are not directed
 toward the driver don’t cause false-alarms, as they still occasionally
 do.
 
+Adam now uses the app daily. 
+
 **Process**
 
-*Image of initial sketches with caption*
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_20.jpg" alt="img" width="40%">
-
-
-*Image of the first step with caption*
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_21.jpg" alt="img" width="40%">
-
-
-**Training a simple classification algorithm**
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_22.jpg" alt="img" width="40%">
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_23.jpg" alt="img" width="40%">
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_24.jpg" alt="img" width="40%">
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_25.jpg" alt="img" width="40%">
-
-
+<img src="/img/2024/computational-co-design/Image_25.jpg" style="width:40%">
 
 [![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM?start=52&end=88) 
 
+<img src="/img/2024/computational-co-design/Image_26.jpg" style="width:40%">
 
+<img src="/img/2024/computational-co-design/Image_27.jpg" style="width:40%">
 
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_26.jpg" alt="img" width="40%">
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_27.jpg" alt="img" width="40%">
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_29.jpg" alt="img" width="40%">
-
+<img src="/img/2024/computational-co-design/Image_29.jpg" style="width:40%">
 
 Role: Designer, Researcher, Instigator
 
@@ -511,22 +484,17 @@ Collaborators: Elizabeth Singer, Luke
 
 **Problem**
 
-Luke is elderly and has trouble remembering things.. He often forgets
-whether he has money for bowling and when he finds that he does have
-money, he has trouble counting the bills that he has. He is missing a
-thumb on his right hand. Spending time with Luke, I see that he is
+Luke has dementia. He likes to check on his money and he has trouble counting the bills that he has. When I asked what he would like me to make for him or what problem he wanted me to solve, he said that he wanted to know how much money he had and that he wanted to know what his mail said. Spending time with Luke, I see that he is
 frustrated by not being able to do many of the things he used to take
 for granted, and he often finds it difficult to convey what he wants
 to say. Although he is in his 90s, has poor vision, and is missing a
 thumb, Luke loves to go bowling. It is one of the pleasures of life
 that he retains, and it is an opportunity for him to leave the house
-and do something he has enjoyed for decades. It is remarkable that
-even in his current physical state, he can still often bowl over
-100. When Luke isn’t sure that he has money for bowling, he can get
+and do something he has enjoyed for decades. He will often bowl over
+100. When Luke isn’t sure that he has enough money for bowling, he can get
 nervous and asks to make sure that he has enough money and he likes to
-see it counted, even though he has difficulty doing this himself. His
-wife passed away this past December and he has a live-in aid who helps
-him with basic life skills 
+see it counted, even though he has difficulty doing this himself. He told me that he would rather not have to ask. His
+wife passed away recently and he has a live-in aid, but he prefers to be able to check on things independantly. He doesn't want to always have to ask for help.
 
 **Approach**
 
@@ -534,9 +502,9 @@ My strategy was to observe Luke in his home and identify activities
 that gave him pleasure and those that gave him stress and
 difficulty. One that gave him pleasure was going bowling and knowing
 that he had the dues that he needed in order to go. One that gave him
-discomfort was not being able to count his money for bowling to ensure
+discomfort was not being able to count his money for bowling and tipping workers who came to the house to ensure
 that he had enough. Since his vision and counting skills have
-diminished, along with his manual dexterity, I decided to use a
+diminished, he and I decided I would create something that tells him how much money he had. I decided to use a
 computer vision system to count his money for him, and tell him how
 much he had by simply laying his bills on the table in front of a
 camera. 
