@@ -111,7 +111,7 @@ they are to me or others with normal color vision.
 
 <img src="https://github.com/ensinger/GSAPP/blob/main/CD1.jpg" alt="CD 1" width="40%"> <img src="https://github.com/ensinger/GSAPP/blob/main/CD2.jpg" alt="CD 2" width="40%">   <img src="https://github.com/ensinger/GSAPP/blob/main/CD3.jpg" alt="CD 3" width="40%"> 
 
-<img src="/img/2024/computational-co-design/image_2.jpg" alt="img2" width="20%"> <img src="/img/2024/computational-co-design/image_3.jpg" alt="img2" width="20%">
+<img src="https://github.com/ensinger/archive/public/img/2024/computational-co-design/image_2.jpg" alt="img2" width="20%"> <img src="/img/2024/computational-co-design/image_3.jpg" alt="img2" width="20%">
 
 Dichromatic Red-Blind/Protanopia
 
