@@ -9,7 +9,7 @@ image: /img/2024/computational-co-design/cover.png
 
 <img src="/img/2024/computational-co-design/cover.png">
 
-**Introduction and Background**
+**Background**
 
 Computational Solutions through Co-Design began with the goal of
 retrofitting my grandmother's home, adapting to her evolving needs as
@@ -43,7 +43,7 @@ project aims to enhance independence with personalized technological
 integrations into home environments. This endeavor was personal and
 rooted in creating for my loved ones, addressing real problems with tangible solutions. 
 
-**Case Study Structure**
+**Case Studies**
 
 The three case studies detailed in this project are:
 
@@ -420,6 +420,8 @@ and red lights are shown below.
 
 <img src="/img/2024/computational-co-design/Image_18.jpg" style="width:40%">
 
+<img src="/img/2024/computational-co-design/Image_25.jpg" style="width:40%">
+
 
 While the stop sign and traffic light icons were helpful, the image
 annotations of other objects detected from the YOLO traffic dataset
@@ -466,21 +468,23 @@ do.
 
 Adam now uses the app daily. 
 
-**Process**
+**Final app:**
 
-<img src="/img/2024/computational-co-design/Image_25.jpg" style="width:40%">
+<video width="320" height="240" controls>
+  <source src="/img/2024/computational-co-design/Stoplight.mov" type="video/mp4">
+</video>
+
+<video width="320" height="240" controls>
+  <source src="/img/2024/computational-co-design/StopSignShort.mov" type="video/mp4">
+</video>
 
 [![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM?start=52&end=88) 
 
-<img src="/img/2024/computational-co-design/Image_26.jpg" style="width:40%">
+**Bill Counter**
 
-<img src="/img/2024/computational-co-design/Image_27.jpg" style="width:40%">
+<img src="/img/2024/computational-co-design/Image_26.jpg">
 
-<img src="/img/2024/computational-co-design/Image_29.jpg" style="width:40%">
-
-Role: Designer, Researcher, Instigator
-
-Collaborators: Elizabeth Singer, Luke
+Collaborator: Luke, John (Names changed for privacy)
 
 **Problem**
 
@@ -532,11 +536,13 @@ note of their currency values and add up the total.
 
 First prototype:
 
-To accomplish this, I used an NVIDIA Jetson Nano single-board computer
+<img src="/img/2024/computational-co-design/Image_36.jpg" style="width:40%">
+
+Because Luke likes to lay his bills on the table and has memory problems, I thought it would be best to make a device that could be set up in the same place in Luke's home on a table that could always be there. To accomplish this, I bought a second NVIDIA Jetson Nano. I decided to use a the NVIDIA Jetson Nano single-board computer
 system and camera, since the Jetson is equipped with a powerful GPU
 for computer vision tasks, but has an overall small footprint. I used
 several different bills of different US currency denominations, and
-took 25 images of the front and back of each bill. After taking each
+took many images of the front and back of each bill. After taking each
 photograph, I annotated the files with bounding box information, using
 a data collection routine that is part of the Jetson Jetpack software
 distribution for the NVIDIA Jetson Nano.  I separated the data into
@@ -567,6 +573,15 @@ detected bills, only reporting the bill with the highest confidence
 when two detections were made with overlap that exceeded a certain
 threshold. 
 
+<img src="/img/2024/computational-co-design/Image_27.jpg" style="width:40%">
+
+<img src="/img/2024/computational-co-design/Image_32.jpg" style="width:40%">
+
+<img src="/img/2024/computational-co-design/Image_48.jpeg" style="width:40%">
+
+<img src="/img/2024/computational-co-design/Image_51.jpeg" style="width:40%">
+
+
 I had Luke place his bills in front of the camera and watch as the
 screen captured his bills and told him the amount of money. He was
 pleased with the outcome, but had trouble seeing the screen. The next
@@ -575,6 +590,20 @@ package in Python to the system, so that it can read the amount out
 loud. This was easily accomplished using the Google cloud-based
 text-to-speech (gTTS) library eliminating the need to read the total
 on the screen. 
+
+<img src="/img/2024/computational-co-design/Image_33.jpg" style="width:40%">
+
+<img src="/img/2024/computational-co-design/Image_35.jpg" style="width:40%">
+
+<video width="320" height="240" controls>
+  <source src="/img/2024/computational-co-design/Jetson21Dollars.mov" type="video/mp4">
+</video>
+
+<img src="/img/2024/computational-co-design/Image_43.jpeg" style="width:40%">
+
+<img src="/img/2024/computational-co-design/Image_44.jpeg" style="width:40%">
+
+<img src="/img/2024/computational-co-design/Image_45.jpeg" style="width:40%">
 
 Second prototype:
 
@@ -590,10 +619,20 @@ in that I needed to setup a webcam to point at the table, and put the
 bills onto the table to be counted. I also needed to have the user hit
 the ‘t’ key to total the money. 
 
+<video width="320" height="240" controls>
+  <source src="/img/2024/computational-co-design/Jetson16Dollars.mov" type="video/mp4">
+</video>
+
+<img src="/img/2024/computational-co-design/Image_29.jpg" style="width:40%">
+
+<img src="/img/2024/computational-co-design/Image_34.jpg" style="width:40%">
+
+Luke decided he only wanted the computer to tell him the total amount, not what each bill was before the total amount. This was easier for him, so we adjusted the device accordingly.
+
 Third prototype:
 
-To simplify the operation, I built on the ideas in the Traffic
-Assistance program, and created an I-phone app using SWIFT to
+This prototype arose due to the needs of another family member, John. I had told him about the device I had made for Luke, and they had similar disabilities and were interested in something similar. Unlike look, this family member had an iphone and was comfortable using it. For them, I decided to create an app. I built on the ideas in the Traffic
+Assistance program, and created an iphone app using SWIFT to
 essentially replicate the python code running fully on an iphone.
 When the application starts, now, by pointing the phone at the money
 and tapping the screen, the phone takes a photo, sends the photo to
@@ -603,9 +642,19 @@ currency, and the values are summed to give the total amount. This
 amount is then both displayed on the screen in a small window above
 the photo, and spoken out loud through text to speech. After a few
 seconds, the system is ready to count again. I made an icon for the
-iphone app that has a cartoon image of dollar bills. 
+iphone app that has a cartoon image of dollar bills. We worked together to adjust the UI and voice on the app to fit their preferences. 
+
+<video width="320" height="240" controls>
+  <source src="/img/2024/computational-co-design/Money17.mov" type="video/mp4">
+</video>
+
+<video width="320" height="240" controls>
+  <source src="/img/2024/computational-co-design/Money21.mov" type="video/mp4">
+</video>
 
 Fourth prototype:
+
+Over many iterations, John and Luke expressed their preferences in voice and voice speed and information given, which was reflected in their respective apps and devices.
 
 Building on the use of an API call, I experimented with sending the
 image directly to openAI’s GPT4 model to see how well it could discern
@@ -617,25 +666,28 @@ the roboflow-based model.
 
 **Outcome**
 
-The project was a success, in that it was able to help Luke to check
-the amount of money he has in bills at any time. However, any new
+The project was a success, in that it was able to help Luke and John member to check
+the amount of money they have in bills at any time. However, any new
 technology is difficult for Luke to completely understand. He was
 excited to see that this was possible, but in its first prototype
 form, using a Jetson Nano single board computer and screen, the
 solution was a prototype of what could be made into a fully-enclosed
 solution. The subsequent versions using the laptop, and then finally
 the iphone made the operation an easy-to-use success. Not only can
-Luke use this for counting his money, but Josh can as well. Josh has
+Luke use this for counting his money, but John can as well. John has
 similar disabilities, both visual and cognitive that make counting
-money difficult. Josh uses his iphone often and really likes that
-interface. 
+money difficult. John uses his iphone often and really likes that
+interface. For luke, I set up a table and we decided to use a big red button so it's obvious what he needs to press to make it work, even if he forgets. There is only one button so it is very clear. It is big so it is easy to use. I put it on a small table by itself in a place near where he likes to sit so he knows where to go. The device I made using jetson works best for him because he is not comfortable with an iphone. We used tape to mark where he should put the money. His aid knows how to turn it on and off. Luke has said he likes his money table and his aid has said he will often get up and use it instead of giving her his money to count.
+
+The final set up:
+
+<video width="320" height="240" controls>
+  <source src="/img/2024/computational-co-design/RedButton.Mov" type="video/mp4">
+</video>
 
 [![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM?start=110&end=130) 
 
-
 **Process**
-
-*Image of initial sketches with caption*
 
 <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_30.jpg" alt="img" width="40%">
 
@@ -653,7 +705,6 @@ Example showing testing of the detection algorithm with the trained network
 
 <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_34.jpg" alt="img" width="40%">
 
-
 More examples of testing on the trained model
 
 <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_35.jpg" alt="img" width="40%">
@@ -662,7 +713,6 @@ More examples of refining the training and performance of the detection algorith
 
 <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_36.jpg" alt="img" width="40%">
 
-
 Example showing the summing of the detected bills and displaying the total as an overlay
 
 Final set up:
@@ -670,11 +720,9 @@ Final set up:
 <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_37.jpg" alt="img" width="40%">
 
 
-                    **Reading Assistant**
+**Reading Assistant**
 
-Role: Designer, Researcher, Instigator
-
-Collaborators: 
+Collaborators: Luke, John
 
 <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_38.jpg" alt="img" width="40%">
 
