@@ -835,9 +835,9 @@ A control flow for this application both in python and swift are shown below
 
 Swift reading assistant flow graph	Python reading assistant flow
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_42.jpg" alt="img" width="40%">
+<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_42.jpeg" alt="img" width="40%">
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_43.jpg" alt="img" width="40%">
+<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_43.jpeg" alt="img" width="40%">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YuykPxTinKM?start=141&end=180" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
