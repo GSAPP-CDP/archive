@@ -497,7 +497,7 @@ do.
 <img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_29.jpg" alt="img" width="40%">
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YuykPxTinKM?start=52&end=88" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM?start=52&end=88) 
 
 
 Role: Designer, Researcher, Instigator
@@ -657,7 +657,8 @@ similar disabilities, both visual and cognitive that make counting
 money difficult. Josh uses his iphone often and really likes that
 interface. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YuykPxTinKM?start=110&end=130" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM?start=110&end=130) 
+
 
 **Process**
 
