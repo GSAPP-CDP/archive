@@ -1,10 +1,12 @@
 ---
 layout: project
-title: "Urbancraft: Stakeholders’ Symphony"
+title: "Computational Solutions through Co-Design"
 author: Elizabeth Singer
+advisor: William Martin
 year: 2024
 image: /img/2024/computational-co-design/cover.png
 ---
+
 **Introduction and Background**
 
 Computational Solutions through Co-Design began with the goal of
@@ -107,7 +109,6 @@ is approaching an intersection where there is a red light. Stop signs,
 also being red, do not stand out as strongly to him either, since
 colors in his world view are not as vibrant and information bearing as
 they are to me or others with normal color vision. 
-
 
 <img src="https://github.com/ensinger/GSAPP/blob/main/CD1.jpg" alt="CD 1" width="40%"> <img src="https://github.com/ensinger/GSAPP/blob/main/CD2.jpg" alt="CD 2" width="40%">   <img src="https://github.com/ensinger/GSAPP/blob/main/CD3.jpg" alt="CD 3" width="40%"> 
 
@@ -885,4 +886,3 @@ be readily ported to a mobile app on an iphone.
 
 
 [![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM) 
-
