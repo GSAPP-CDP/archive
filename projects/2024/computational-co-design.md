@@ -76,7 +76,7 @@ auditory outputs to make the content accessible.
 
 
 
-![](/img/2024/computational-co-design/image_1.jpg "image_tooltip")
+![](https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_1.jpg)
 
 
 Collaborator: Adam (Name has been changed for privacy) 
