@@ -253,7 +253,7 @@ effects. These outcomes steered our focus toward alternative
 strategies that could offer Adam reliable and safe navigation cues
 without compromising his sensory integration or spatial awareness. 
 
-**First version: **
+**First Version:**
 
 <img src="/img/2024/computational-co-design/Image_15.jpg">
 
@@ -391,7 +391,7 @@ model, or leverage a different detection platform for a second test.
 
 <img src="/img/2024/computational-co-design/Image_50.jpeg" style="width:40%"> <img src="/img/2024/computational-co-design/Image_47.jpeg" style="width:40%"><img src="/img/2024/computational-co-design/Image_46.jpeg" style="width:40%"> <img src="/img/2024/computational-co-design/Image_24.jpg" style="width:40%">
 
-**Second version:**
+**Second Version:**
 
 <img src="/img/2024/computational-co-design/Image_16.jpg">
 
@@ -534,7 +534,7 @@ this would be a good opportunity to create a money counting system
 that used computer vision to identify the bills on the table, take
 note of their currency values and add up the total.  
 
-First prototype:
+**First Version:**
 
 <img src="/img/2024/computational-co-design/Image_36.jpg" style="width:40%">
 
@@ -605,7 +605,7 @@ on the screen.
 
 <img src="/img/2024/computational-co-design/Image_45.jpeg" style="width:40%">
 
-Second prototype:
+**Second Version:**
 
 To simplify the process, I decided to see if I could make a version of
 the money counting application run on my laptop in python. I found a
@@ -629,7 +629,7 @@ the ‘t’ key to total the money.
 
 Luke decided he only wanted the computer to tell him the total amount, not what each bill was before the total amount. This was easier for him, so we adjusted the device accordingly.
 
-Third prototype:
+**Third Version:**
 
 This prototype arose due to the needs of another family member, John. I had told him about the device I had made for Luke, and they had similar disabilities and were interested in something similar. Unlike look, this family member had an iphone and was comfortable using it. For them, I decided to create an app. I built on the ideas in the Traffic
 Assistance program, and created an iphone app using SWIFT to
@@ -652,7 +652,7 @@ iphone app that has a cartoon image of dollar bills. We worked together to adjus
   <source src="/img/2024/computational-co-design/Money21.mov" type="video/mp4">
 </video>
 
-Fourth prototype:
+**Fourth Version:**
 
 Over many iterations, John and Luke expressed their preferences in voice and voice speed and information given, which was reflected in their respective apps and devices.
 
@@ -688,75 +688,70 @@ The final set up:
 [![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM?start=110&end=130) 
 
 **Process**
+<img src="/img/2024/computational-co-design/Image_30.jpg" style="width:40%">
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_30.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_31.jpg" style="width:40%">
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_31.jpg" alt="img" width="40%">
 
 Swift code version of bill counter	Python version of bill counter
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_32.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_32.jpg" style="width:40%">
 
 Setup for taking images of bills and tagging them with the proper label and bounding box with different orientations.
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_33.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_33.jpg" style="width:40%">
 
 Example showing testing of the detection algorithm with the trained network
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_34.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_34.jpg" style="width:40%">
 
 More examples of testing on the trained model
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_35.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_35.jpg" style="width:40%">
 
 More examples of refining the training and performance of the detection algorithm with multiple bills in the image
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_36.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_36.jpg" style="width:40%">
 
 Example showing the summing of the detected bills and displaying the total as an overlay
 
 Final set up:
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_37.jpg" alt="img" width="40%">
-
+<img src="/img/2024/computational-co-design/FinalSetup.jpeg" style="width:40%">
 
 **Reading Assistant**
 
 Collaborators: Luke, John
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_38.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_37.jpg" style="width:40%">
 
+<img src="/img/2024/computational-co-design/Image_40.jpg" style="width:40%">
 
-*Insert annotated photo or video depicting the problem * **side by
- side** * insert annotated photo or video depicting the solution*  
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_39.jpg" alt="img" width="40%">
-
+<img src="/img/2024/computational-co-design/Image_41.jpg" style="width:40%">
 
 **Problem**
 
 For some people with limited vision or intellectual disabilities,
 reading complex signs or other printed material can pose a substantial
 barrier to accessing services or gathering information intended for
-them. 
+them. For Luke, a frustrating aspect of aging and experiencing dimentia, is feeling of a loss of control. Even though his caretakers read and sort the mail and takes care of what needs to be taken care of, he feels that it is his mail and he wants to know what is going on. He told me that he doesn't want to be told not to worry about it and he doesn't like needing to ask what it says. 
 
 **Approach**
 
 To approach this problem, I again evaluated the impairments and
-disabilities of the individual. I wanted to once again focus on
-someone like Luke, who had difficulty counting his money. Luke also
+disabilities of the individual. Luke 
 has difficulty reading signs or letters addressed to him that may have
-important information in them. Observing Luke in his home, I saw that
-he would look at mail, but could not really understand what was sent
+important information in them. He wants to be able to read his letters. Observing Luke in his home, I saw that
+he would look at mail, but would get frustrated if could not really understand what was sent
 to him. The problem here was not only identifying the material of
 interest, but also summarizing it and relaying that information back
-in a much simpler form. I decided that both written summarization and
+in an easier to understand form. I decided that both written summarization and
 voice-feedback might help Luke better understand the material and
-signs that he was attempting to interpret. 
+signs that he was attempting to interpret. He enjoyed the voice feedback for the bill counter, so I hoped for similar success with the reading assistant.
 
-For detecting the information that is relevant in a document or sign,
+For detecting the information that is relevant in a letter, document, advertisement, or sign,
 I opted to follow the theme of using computer vision and machine
-learning methods to provide help for people with disabilities seeing,
+learning methods to provide help these disabilities with seeing,
 reading, or summarizing complex written and visual information. For
 this task, fast optical character recognition algorithms can be used
 on frames taken from a video camera feed. While this information may
@@ -767,10 +762,9 @@ model to extract the meaning from the extracted text.
 The extracted and corrected text, however, is no better for Luke than
 the original document or sign. The difference here is that the Large
 Language Model can now be used as generative-AI to produce a response
-to a query, such as “Please provide a summary of this text that would
-be understandable by a seven year old”. Note that this step is
+to a query detailing Adam's needs around how to simplify and summarize the information. Note that this step is
 tunable, and the query could be adapted to the target user of the sign
-overlay system. In Luke’s case, I opted for this query, as it provided
+overlay system. In Luke’s case, I opted for a query that asked for information that provided
 enough information for him to understand, but not so much that might
 confuse him. 
 
@@ -802,14 +796,13 @@ frame.
 Using openAI’s API (application programming interface), these lines of
 text can be processed to extract semantic content and then
 summarized. To do this, I passed the text through the API call and
-posed the following question to openAI’s generative AI (Chat GPT) “can
-you summarize this text so that a seven year old could understand?”
+posed the a question to openAI’s generative AI (Chat GPT) asking it to summarize it so that someone with my grandpa's symptoms could understand,
 followed by the text extracted from the video frame. The returned
 result from the query is a data object from which the text of the
 response can be readily extracted.  
 
 To convey the response, now a re-framed, summarized, version of the
-information framed such that a seven year old could understand it, I
+information framed such that he could understand it,
 both display, and voiced the response. To display it, I used a large
 text font, wrapped such that it would fit well within the display, and
 overlaid this on the screen together with the original image from
@@ -832,9 +825,11 @@ text, so that it was more legible, used a bold font, and simplified
 the display to only show text when it is prompted by the user with the
 ‘t’ key. 
 
-Second prototype:
+Once this worked well, I then switched to the same big red button idea as used for the bill counter, because that had worked well for Luke for the bill counter. Luke and I iterated on the speed and voice of the speech to find one that was comprehensible to him that he liked.
 
-After successfully implementing the system in Python, I was able to
+**Second Version:**
+
+Since John liked the app version of the money counter I had made for luke, I asked if he might like an iphone version of the reading assistant as well. He agreed. After successfully implementing the system in Python, I was able to
 develop a version running on the iphone, using SWIFT essentially
 mirroring the flow used in the python program. Rather than using the
 ‘t’ key to grab the image for translation, in the iphone application,
@@ -849,25 +844,27 @@ an overlay graphically.
 
 A control flow for this application both in python and swift are shown below
 
+<img src="/img/2024/computational-co-design/Image_38.jpg" style="width:40%">
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_40.jpg" alt="img" width="40%">
-
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_41.jpg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_39.jpg" style="width:40%">
 
 
 Swift reading assistant flow graph	Python reading assistant flow
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_42.jpeg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_40.jpg" style="width:40%">
 
-<img src="https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_43.jpeg" alt="img" width="40%">
+<img src="/img/2024/computational-co-design/Image_41.jpg" style="width:40%">
 
 [![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM?start=141&end=180) 
 
-Conclusion
+**Outcome:**
 
-Now that we’ve seen three examples of a design-for-one perspective,
-leveraging mobile technology, computer vision, and machine learning,
-what’s next is for these designs is to allow the users to live and
+Luke uses his station with the big red button to read his mail. He says he likes it. I know it works for him because in one of our last experiments testing it, as soon as it read the letter to him about a problem on his property, he started talking about what he would do to fix the property. I think he's happy to feel like he can be more involved by himself. I put the matching app on John's phone. He is testing using it and giving feedback as well.
+
+**Conclusion**
+
+These are three examples of a design-for-one perspective,
+leveraging mobile technology, computer vision, and machine learning. What’s next is to allow the users to continue to live and
 work with these solutions over time, and explore how they are able to
 benefit from them as well as areas of unexpected difficulty or ways
 that these solutions could be improved. We’ve iterated on these
@@ -883,15 +880,13 @@ disabilities and their loved ones can learn from these examples and
 innovate based on the machine learning and computer vision
 technologies demonstrated here. 
 
-**Overarching Methodology**
+**Notes on the Methodology**
 
-This is a methodology to evaluate certain technical purposes and the
-reason these were all computer vision projects is because they all
-passed that evaluative bar that I set. The problems that each person
+The problems that each person
 brought to me all happened to be vision related so I ended up with
 this portfolio of computer vision projects, not because I imposed
 computer vision as the methodology, but because I listened to what
-they were struggling with and they were all vision related and I just
+they were struggling with and what they asked for and they were all vision related and I just
 saw that as an opportunity. The common methodology that was followed
 for all three examples was to use a user study to evaluate and
 understand the needs of the user, followed by rapid prototyping of
@@ -899,6 +894,3 @@ various approaches to providing solutions using python with computer
 vision, AI, and machine-learning packages. Once a viable solution was
 functional in python on a laptop or single-board computer, these could
 be readily ported to a mobile app on an iphone. 
-
-
-[![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM) 
