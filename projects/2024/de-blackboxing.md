@@ -43,7 +43,7 @@ The installation aims to address technology’s socio-ecological impacts critica
 
 ![Digital Interface](/img/2024/de-blackboxing/CDP_DBUN_1.png)
 
-![Intsallation](/img/2024/de-blackboxing/CDP_DBUN_2.png)
+![Installation](/img/2024/de-blackboxing/CDP_DBUN_2.png)
 
 [^1]: Latour, B. (1999). Pandora's Hope: Essays on the Reality of Science Studies. Harvard University Press.
 
