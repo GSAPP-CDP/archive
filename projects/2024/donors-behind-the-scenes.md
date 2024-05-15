@@ -6,11 +6,12 @@ advisor: Snoweria Zhang
 year: 2024
 image: /img/2024/donors-behind-the-scenes/cover.png
 links:
+  - text: Project Overview
+    url: https://vanstiwang.work/MetFinal.html
   - text: Donors Cards
     url: https://vanstiwang.work/donor.html
 ---
 # Donors Behind the Scenes
-![Please check out the project here:] (https://vanstiwang.work/MetFinal.html)
 
 ![A New Perspective: Donors](/img/2024/donors-behind-the-scenes/Donors.jpg)
 
