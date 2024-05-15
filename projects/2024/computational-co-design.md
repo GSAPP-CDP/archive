@@ -1,15 +1,15 @@
 ---
 layout: project
-title: "Computational Solutions through Co-Design"
+title: "Computational Solutions Through Co-Design"
 author: Elizabeth Singer
-advisor: Seth Thompson, William Martin
+advisor: William Martin
 year: 2024
 image: /img/2024/computational-co-design/cover.png
 ---
 
 <img src="/img/2024/computational-co-design/cover.png">
 
-**Background**
+# Background
 
 Computational Solutions through Co-Design began with the goal of
 retrofitting my grandmother's home, adapting to her evolving needs as
@@ -43,7 +43,7 @@ project aims to enhance independence with personalized technological
 integrations into home environments. This endeavor was personal and
 rooted in creating for my loved ones, addressing real problems with tangible solutions. 
 
-**Case Studies**
+# Case Studies
 
 The three case studies detailed in this project are:
 
@@ -62,17 +62,15 @@ employing optical character recognition and a language model for
 simplification and summarization, the system provided both visual and
 auditory outputs to make the content accessible. 
 
-**Driving Assistant**
-
+## Driving Assistant
 
 <img src="/img/2024/computational-co-design/Image_1.jpg">
 
-![](https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_1.jpg "Image_tooltip")
+![](https://github.com/ensinger/archive/blob/main/public/img/2024/computational-co-design/Image_1.jpg)
 
+Collaborator: Adam (Name has been changed for privacy)
 
-Collaborator: Adam (Name has been changed for privacy) 
-
-**Problem**
+### Problem
 
 Running red lights is dangerous, but Adam does it more often than most
 because red lights do not stand out to him like they do to
@@ -107,7 +105,7 @@ Dichromatic Red-Blind/Protanopia
 
 Dichromatic Green-Blind/Deuteranopia
 
-**Approach**
+### Approach
 
 I started by talking to Adam about what problems he wants to solve,
 and the primary issue that came up was his red-green color
@@ -155,8 +153,7 @@ Driving around his neighborhood, I asked Adam to describe what he
 saw. He told me about the many street lights, traffic lights, store
 fronts, utility poles, and other elements that came into his field of
 view while driving. I asked him how he knows when these are traffic
-lights, versus street lights. He said that he knows this from context
-- traffic lights tend to be in the middle of the road, or on the side
+lights, versus street lights. He said that he knows this from context traffic lights tend to be in the middle of the road, or on the side
 at an intersection, but he said this also gets more difficult when an
 intersection has many lights all combined onto a single pole, or when
 there are many lights of various kinds in the field of view. Below is
@@ -253,7 +250,7 @@ effects. These outcomes steered our focus toward alternative
 strategies that could offer Adam reliable and safe navigation cues
 without compromising his sensory integration or spatial awareness. 
 
-**First Version:**
+### First Version
 
 <img src="/img/2024/computational-co-design/Image_15.jpg">
 
@@ -318,7 +315,7 @@ interacted with the live camera feed. I introduced various objects,
 such as my pet cat and food and household items, into the camera's
 view to observe how well the program detected and labeled them.  
 
-**Training a simple classification algorithm**
+### Training a simple classification algorithm
 
 <img src="/img/2024/computational-co-design/Image_42.jpeg" style="width:40%">
 
@@ -391,7 +388,7 @@ model, or leverage a different detection platform for a second test.
 
 <img src="/img/2024/computational-co-design/Image_50.jpeg" style="width:40%"> <img src="/img/2024/computational-co-design/Image_47.jpeg" style="width:40%"><img src="/img/2024/computational-co-design/Image_46.jpeg" style="width:40%"> <img src="/img/2024/computational-co-design/Image_24.jpg" style="width:40%">
 
-**Second Version:**
+### Second Version
 
 <img src="/img/2024/computational-co-design/Image_16.jpg">
 
@@ -452,7 +449,7 @@ alarm) until at least 3 seconds had passed. This final refinement made
 the operation clear, but not overwhelming. I created an icon for the
 application that superimposed a stoplight on a stopsign. I purchased a mount for Adam's phone as part of the final set up.
 
-**Outcome**
+### Outcome
 
 The project overall was a success, in that we were able to clearly
 demonstrate that a computer vision system can improve the safety of
@@ -468,7 +465,7 @@ do.
 
 Adam now uses the app daily. 
 
-**Final app:**
+### Final app
 
 <video width="320" height="240" controls>
   <source src="/img/2024/computational-co-design/Stoplight.mov" type="video/mp4">
@@ -480,13 +477,13 @@ Adam now uses the app daily.
 
 [![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM?start=52&end=88) 
 
-**Bill Counter**
+## Bill Counter
 
 <img src="/img/2024/computational-co-design/Image_26.jpg">
 
 Collaborator: Luke, John (Names changed for privacy)
 
-**Problem**
+### Problem
 
 Luke has dementia. He likes to check on his money and he has trouble counting the bills that he has. When I asked what he would like me to make for him or what problem he wanted me to solve, he said that he wanted to know how much money he had and that he wanted to know what his mail said. Spending time with Luke, I see that he is
 frustrated by not being able to do many of the things he used to take
@@ -500,7 +497,7 @@ nervous and asks to make sure that he has enough money and he likes to
 see it counted, even though he has difficulty doing this himself. He told me that he would rather not have to ask. His
 wife passed away recently and he has a live-in aid, but he prefers to be able to check on things independantly. He doesn't want to always have to ask for help.
 
-**Approach**
+### Approach
 
 My strategy was to observe Luke in his home and identify activities
 that gave him pleasure and those that gave him stress and
@@ -534,7 +531,7 @@ this would be a good opportunity to create a money counting system
 that used computer vision to identify the bills on the table, take
 note of their currency values and add up the total.  
 
-**First Version:**
+### First Version
 
 <img src="/img/2024/computational-co-design/Image_36.jpg" style="width:40%">
 
@@ -605,7 +602,7 @@ on the screen.
 
 <img src="/img/2024/computational-co-design/Image_45.jpeg" style="width:40%">
 
-**Second Version:**
+### Second Version
 
 To simplify the process, I decided to see if I could make a version of
 the money counting application run on my laptop in python. I found a
@@ -629,7 +626,7 @@ the ‘t’ key to total the money.
 
 Luke decided he only wanted the computer to tell him the total amount, not what each bill was before the total amount. This was easier for him, so we adjusted the device accordingly.
 
-**Third Version:**
+### Third Version
 
 This prototype arose due to the needs of another family member, John. I had told him about the device I had made for Luke, and they had similar disabilities and were interested in something similar. Unlike look, this family member had an iphone and was comfortable using it. For them, I decided to create an app. I built on the ideas in the Traffic
 Assistance program, and created an iphone app using SWIFT to
@@ -652,7 +649,7 @@ iphone app that has a cartoon image of dollar bills. We worked together to adjus
   <source src="/img/2024/computational-co-design/Money21.mov" type="video/mp4">
 </video>
 
-**Fourth Version:**
+### Fourth Version
 
 Over many iterations, John and Luke expressed their preferences in voice and voice speed and information given, which was reflected in their respective apps and devices.
 
@@ -664,7 +661,7 @@ the response could be played back directly using text to speech on the
 iphone. This worked reasonably well, though was about as consistent as
 the roboflow-based model. 
 
-**Outcome**
+### Outcome
 
 The project was a success, in that it was able to help Luke and John member to check
 the amount of money they have in bills at any time. However, any new
@@ -687,7 +684,8 @@ The final set up:
 
 [![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM?start=110&end=130) 
 
-**Process**
+### Process
+
 <img src="/img/2024/computational-co-design/Image_30.jpg" style="width:40%">
 
 <img src="/img/2024/computational-co-design/Image_31.jpg" style="width:40%">
@@ -719,7 +717,7 @@ Final set up:
 
 <img src="/img/2024/computational-co-design/FinalSetup.jpeg" style="width:40%">
 
-**Reading Assistant**
+## Reading Assistant
 
 Collaborators: Luke, John
 
@@ -729,14 +727,14 @@ Collaborators: Luke, John
 
 <img src="/img/2024/computational-co-design/Image_41.jpg" style="width:40%">
 
-**Problem**
+### Problem
 
 For some people with limited vision or intellectual disabilities,
 reading complex signs or other printed material can pose a substantial
 barrier to accessing services or gathering information intended for
 them. For Luke, a frustrating aspect of aging and experiencing dimentia, is feeling of a loss of control. Even though his caretakers read and sort the mail and takes care of what needs to be taken care of, he feels that it is his mail and he wants to know what is going on. He told me that he doesn't want to be told not to worry about it and he doesn't like needing to ask what it says. 
 
-**Approach**
+### Approach
 
 To approach this problem, I again evaluated the impairments and
 disabilities of the individual. Luke 
@@ -827,7 +825,7 @@ the display to only show text when it is prompted by the user with the
 
 Once this worked well, I then switched to the same big red button idea as used for the bill counter, because that had worked well for Luke for the bill counter. Luke and I iterated on the speed and voice of the speech to find one that was comprehensible to him that he liked.
 
-**Second Version:**
+### Second Version
 
 Since John liked the app version of the money counter I had made for luke, I asked if he might like an iphone version of the reading assistant as well. He agreed. After successfully implementing the system in Python, I was able to
 develop a version running on the iphone, using SWIFT essentially
@@ -857,11 +855,11 @@ Swift reading assistant flow graph	Python reading assistant flow
 
 [![Watch the video](https://img.youtube.com/vi/YuykPxTinKM/0.jpg)](https://www.youtube.com/embed/YuykPxTinKM?start=141&end=180) 
 
-**Outcome:**
+### Outcome
 
 Luke uses his station with the big red button to read his mail. He says he likes it. I know it works for him because in one of our last experiments testing it, as soon as it read the letter to him about a problem on his property, he started talking about what he would do to fix the property. I think he's happy to feel like he can be more involved by himself. I put the matching app on John's phone. He is testing using it and giving feedback as well.
 
-**Conclusion**
+# Conclusion
 
 These are three examples of a design-for-one perspective,
 leveraging mobile technology, computer vision, and machine learning. What’s next is to allow the users to continue to live and
@@ -880,7 +878,7 @@ disabilities and their loved ones can learn from these examples and
 innovate based on the machine learning and computer vision
 technologies demonstrated here. 
 
-**Notes on the Methodology**
+## Notes on the Methodology
 
 The problems that each person
 brought to me all happened to be vision related so I ended up with
