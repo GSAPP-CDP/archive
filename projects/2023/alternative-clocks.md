@@ -5,7 +5,7 @@ author: Saralee Sittigaroon
 advisor: Dan Taeyoung
 year: 2023
 image: /img/2023/alternative-clocks/P1010020.jpeg
-order: -2
+order: -3
 links:
   - text: Project Website
     url: https://saralees.cargo.site/30798627

@@ -5,6 +5,7 @@ author: Matthew Heaton
 advisor: Laura Kurgan
 year: 2024
 image: /img/2024/remote-sensing/cover.png
+order: -2
 links:
   - text: Project Website
     url: https://math-eaton.github.io/remotesensing/

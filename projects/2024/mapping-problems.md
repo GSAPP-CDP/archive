@@ -5,6 +5,7 @@ author: Daniel Miller
 advisor: Josh Begley
 year: 2024
 image: /img/2024/mapping-problems/cover.png
+order: -3
 links:
   - text: Explore
     url: https://mappingproblems.github.io

@@ -5,6 +5,7 @@ author: Hongqian Li
 advisor: Carlo Bailey
 year: 2024
 image: /img/2024/the-sign-of-the-city/cover.png
+order: -1
 links:
   - text: Project Website
     url: https://hongqianli101.github.io/signageproject/

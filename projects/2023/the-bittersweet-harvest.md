@@ -5,6 +5,7 @@ author: Zoe Lin
 advisor: Laura Kurgan
 year: 2023
 image: /img/2023/the-bittersweet-harvest/zoe_ChinatownProduce.png
+order: -2
 links:
   - text: Project Website
     url: https://zoelin1122.github.io/ChinatownProduceNetwork/
