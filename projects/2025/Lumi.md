@@ -54,3 +54,9 @@ links:
 
 ![UI](/img/2025/lumi/pd-1.jpg)
 
+### Communication Management
+
+![Chat Modes](/img/2025/lumi/pd-2.jpg)
+
+
+
