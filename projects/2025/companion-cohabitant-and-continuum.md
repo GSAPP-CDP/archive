@@ -282,7 +282,7 @@ This prototype tested how the robot might act like a companion in shared space.
 I focused on storytelling and how the robot could interact with people.
 
 <video
-  src="/img/2025/companion-cohabitant-and-continuum/prototype1.mov"
+  src="/img/2025/companion-cohabitant-and-continuum/Prototype1.mov"
   controls
   autoplay
   loop
