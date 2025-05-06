@@ -82,7 +82,7 @@ Lumi’s GIS stack links **GPT-4o**, **Apple MapKit**, and **iOS Shortcuts** int
 > “How long to walk from Columbia to MoMA?”  
 are wrapped in a four-part prompt (system rules, context, tool schema, user message). The tool schema exposes JSON functions such as `findRoute(destination, mode)`.  
 GPT-4o returns a function call `{ "name":"findRoute", … }`. Router hands it to **MapManager**, which queries MapKit for ETA and polyline, generates a snapshot, then feeds the JSON back for GPT-4o to craft human-readable cards.  
-Tapping **Navigate** writes the same coords into an *App Intent*, jumping straight to Apple Maps or CarPlay. Future “Navigate to MoMA” via Siri reuses the cached intent, bypassing the LLM. Combine streams decouple layers; JSON-schema glues them together—LLM handles language, MapKit handles geometry, Shortcuts triggers OS-level actions.
+Tapping **Navigate** writes the same coordinates into an *App Intent*, jumping straight to Apple Maps or CarPlay. Future “Navigate to MoMA” via Siri reuses the cached intent, bypassing the LLM. Combine streams decouple layers; a JSON schema glues them together—LLM handles language, MapKit handles geometry, and Shortcuts trigger OS-level actions.
 
 ![S1](/img/2025/lumi/pd-6.gif)
 
