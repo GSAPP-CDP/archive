@@ -1,12 +1,16 @@
 ---
 layout: project
 title: Lumi – AI Group Travel Assistant
-author: Yuchao Ma            # 如需显示中文，可写 "玉超 马 (Yuchao Ma)"
+author: "Yuchao Ma"
 year: 2025
-image: /img/2025/lumi/cover.jpg   # 提前把封面图上传到这个路径
+image: /img/2025/lumi/cover.jpg
 links:
   - text: Live Demo
-    url: https://lumi-demo.netlify.app/   # 没有可先删掉
+    url: https://lumi-demo.netlify.app/
   - text: GitHub Repo
     url: https://github.com/mychmly/lumi
 ---
+
+![Cover](/img/2025/lumi/cover.jpg)
+
+## TODO – content coming
