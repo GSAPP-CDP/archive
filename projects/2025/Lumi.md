@@ -65,13 +65,13 @@ links:
 
 ### Information Sharing
 
-![Chat demo](/img/2025/lumi/pd-4.jpg)
+![Travel Page](/img/2025/lumi/pd-4.jpg)
 
 在 Travel Page 界面，Lumi 将团队位置与行程信息整合进一张共享地图，并通过三大核心卡片实时服务整个队伍：① Information Broadcast——在早餐、集合等关键节点自动弹出提示卡，推送全员位置、剩余步行时间和表情状态，让所有成员一目了然 「队伍在哪里、还差谁未到」。② Traffic Information——结合实时路况与步行/交通模式，动态更新路线、距离和预计到达时间；当突发堵塞或延误时，会立即给出替代方案并提醒领队调整节奏。③ Navigation & Schedule——在地图底部生成当日行程概要，语义化描述下一站活动并询问团队意向，成员可直接在卡片内反馈；Lumi 收集意见后自动优化路线并同步至每个人的 Travel Page。通过这三个层次的信息流，Travel Page 让团队始终共享同一份、实时更新的“行动剧本”，显著降低沟通成本并提升行程效率与体验。
 
 ### Proactive Service: LLM + Geographic Information Service
 
-![Chat demo](/img/2025/lumi/pd-5.jpg)
+![LLM Map](/img/2025/lumi/pd-5.jpg)
 
 在 Lumi 的地理信息服务中，GPT-4o LLM、Apple MapKit 和 iOS 快捷指令被组织成一条自洽的「理解 → 规划 → 执行 → 反馈」链路：当用户在 HomeView 聊天界面输入“从哥大步行去 MoMA 要多久？”之类的自然语言请求时，前端会把文本、实时坐标与环境元数据封装进四段式 Prompt（系统规则-场景上下文-工具声明-用户消息），其中工具声明区公开一份统一的 JSON-Schema，例如 findRoute(destination, mode)。GPTService 将该 Prompt 发送到 OpenAI 并启用 Function-Calling，使 GPT-4o 能在需要地理计算时直接输出结构化调用，如 {"name":"findRoute","arguments":{"destination":"MoMA","mode":"walking"}}。收到此 JSON 后，Router 会把任务交给 MapManager；MapManager 再调 MapKit 的 MKDirections 与 MKMapSnapshotter 计算路径、预计时间与静态地图快照，并将结果压缩回 eta、polyline、snapshotURL 等字段返回给 GPT-4o，让模型把这些数据润色成易读的文本或富卡片 UI。
 
