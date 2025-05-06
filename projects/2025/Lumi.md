@@ -9,13 +9,13 @@ links:
     url: https://github.com/mychmly/Lumi
 ---
 
-![](/img/2025/lumi/cover.jpg)
+![](../../public/img/2025/lumi/cover.jpg)
 
 ## TODO – content coming
 
 ## Background
 
-![](/img/2025/lumi/bg-1.jpg)
+![](../../public/img/2025/lumi/bg-1.jpg)
 
 ### Inspiration  
 Planning a seven-day trip to Japan with four friends sounded exciting—until our group chat was flooded with ramen spots, “must-see” shrines, and rail-pass links that vanished under newer messages. On the road, some of us lingered for photos while others urged us to hurry; the “temporary leader” juggled maps, time, and moods.  
@@ -32,13 +32,13 @@ That chaos sparked the idea for **Lumi**: an AI guide who knows everyone’s loc
 
 Lumi is designed to tackle these five issues with real-time decision brokering, synced information, and dramatically lower communication burden.
 
-![](/img/2025/lumi/bg-2.jpg)
+![](../../public/img/2025/lumi/bg-2.jpg)
 
 - Different backgrounds  
 - Different habits  
 - Conflicts and disagreements  
 
-![](/img/2025/lumi/bg-3.jpg)
+![](../../public/img/2025/lumi/bg-3.jpg)
 
 ### Anachronistic Brainstorming  
 Travel is ultimately about *relaxation and self-expression*—each member wants to explore at their own rhythm. When strong self-interests collide without a consensus-building mechanism, minor differences balloon into frustration.  
@@ -57,11 +57,11 @@ A great tour guide’s hidden super-power is to **form a “temporary consensus�
 - **Information Sharing**  
   Meet-up times, traffic updates, and personal routes are broadcast in one unified feed + multi-user map; every edit is versioned, so the team always sees **one latest, single source of truth**.  
 
-![](/img/2025/lumi/pd-1.jpg)
+![](../../public/img/2025/lumi/pd-1.jpg)
 
 ### Communication Management  
 
-![](/img/2025/lumi/pd-2.jpg)
+![](../../public/img/2025/lumi/pd-2.jpg)
 
 - **Private assistant chat.** A member can DM Lumi for routes, transfers, or dining tips. The message hits the *Prompt Manager*, is merged with system guide prompts, sent to the LLM, and the reply returns as Lumi’s voice—personal guidance without spamming the team.  
 - **Broadcast via Lumi.** Need to alert teammates? Just type “@Lumi tell…”. The original text + directive template goes to the LLM, which produces a formatted, translated notice in Lumi’s tone. Lumi then broadcasts it; receivers see the message *from* the guide, keeping language and tone consistent and reducing miscommunication.
@@ -71,13 +71,13 @@ A great tour guide’s hidden super-power is to **form a “temporary consensus�
 
 ### Information Sharing  
 
-![](/img/2025/lumi/pd-4.jpg)
+![](../../public/img/2025/lumi/pd-4.jpg)
 
 On the **Travel Page**, Lumi merges team locations and agenda into one shared map with three live cards: **Information Broadcast** pushes pop-ups at breakfast, meet-ups, etc., showing who’s where and ETA; **Traffic Information** updates routes and times when congestion hits; **Navigation & Schedule** summarises the next stop in natural language and gathers feedback, then optimises the plan for everyone. This layered flow keeps the whole group in sync and slashes coordination overhead.
 
 ### Proactive Service — LLM × GIS  
 
-![](/img/2025/lumi/pd-5.jpg)
+![](../../public/img/2025/lumi/pd-5.jpg)
 
 Lumi’s GIS stack links **GPT-4o**, **Apple MapKit**, and **iOS Shortcuts** into a “Understand → Plan → Execute → Feedback” loop. Free-form requests like  
 > “How long to walk from Columbia to MoMA?”  
