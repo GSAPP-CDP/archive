@@ -69,7 +69,10 @@ links:
 
 在 Travel Page 界面，Lumi 将团队位置与行程信息整合进一张共享地图，并通过三大核心卡片实时服务整个队伍：① Information Broadcast——在早餐、集合等关键节点自动弹出提示卡，推送全员位置、剩余步行时间和表情状态，让所有成员一目了然 「队伍在哪里、还差谁未到」。② Traffic Information——结合实时路况与步行/交通模式，动态更新路线、距离和预计到达时间；当突发堵塞或延误时，会立即给出替代方案并提醒领队调整节奏。③ Navigation & Schedule——在地图底部生成当日行程概要，语义化描述下一站活动并询问团队意向，成员可直接在卡片内反馈；Lumi 收集意见后自动优化路线并同步至每个人的 Travel Page。通过这三个层次的信息流，Travel Page 让团队始终共享同一份、实时更新的“行动剧本”，显著降低沟通成本并提升行程效率与体验。
 
-### LLM + Geographic Information Service
+### Proactive Service: LLM + Geographic Information Service
+
+![Chat demo](/img/2025/lumi/pd-5.jpg)
+
 
 
 
