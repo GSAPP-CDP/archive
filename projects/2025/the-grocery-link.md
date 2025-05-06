@@ -91,6 +91,10 @@ When accessing the website, users unfamiliar with food desert concepts can gain 
 
 <br>
 
+![Story & Analyzer](/img/2025/the-grocery-link/Story&Analyzer.png)
+
+<br>
+
 **Interactive Features and Analysis Capabilities**<br>
 The Food Access Analyzer includes numerous interactive elements designed for both broad overview and detailed investigation:
 
