@@ -6,7 +6,7 @@ year: 2025
 image: /img/2025/lumi/cover.jpg
 links:
   - text: GitHub Repo
-    url: https://github.com/mychmly/lumi
+    url: https://github.com/mychmly/Lumi
 ---
 
 ![Cover](/img/2025/lumi/cover.jpg)
