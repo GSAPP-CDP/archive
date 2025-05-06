@@ -4,198 +4,231 @@ title: Co-Design Canvas
 author: Manas Bhatia
 advisor: David Benjamin
 year: 2025
-image: /img/2025/nyc-building-materials/thumbnail.png
+image: /img/2025/co-design-canvas/coverwebsite.png
 links:
   - text: Explore
-    url: https://nycbuildingmaterials.com/
+    url: https://colloquium-backend.onrender.com/
 ---
 
-![A map that allows us to discover more about NYC-it's full range of materials, buildings, and histories across all five boroughs.](/img/2025/nyc-building-materials/nyc-MLmap-20250502.png)
+![AI-powered platform translating community input into spatial visualizations for collective dialogue in contested urban spaces.](/img/2025/co-design-canvas/cover.jpg) 
 
-I've always taken a fondness on how Karl Popper approaches science in terms of replication. Since [this program](https://www.arch.columbia.edu/programs/15-m-s-computational-design-practices) resides in the "of sciences" realm, it makes sense to adhere to this line of thinking when producing and structuring the design:
-
-_We do not take even our own observations quite seriously, or accept them as scientific observations, until we have repeated and tested them. Only by such repetitions can we convince ourselves that we are not dealing with a mere isolated ‘coincidence,' but with events which, on account of their regularity and reproducibility, are in principle inter-subjectively testable[^1]._
-
-With that in mind, this article is geared towards explaining how this project came to fruition and documenting it in a way that is clear and concise. 
-
-<video
-  src="/img/2025/nyc-building-materials/NYCBuildingMaterials-20250426.mp4"
-  controls
-  style="aspect-ratio: 16 / 9; width: 100%;">
-</video>
 
 <br><br>
 
-**What is NYC Building Materials?**<br>
-A computational "census" for buliding materials.
+**Why?**<br>
+_Spatial Discord within the studio and across the city_
 <br><br>
 
 <br>
 
-_An Old Fascination_<br>
-I’ve always been fascinated by old buildings. Watching them get torn down and replaced by glass towers made me wonder: how many materials are packed into these structures, and how can we begin to grasp the scale of it all through visualization? How can we reintroduce ourselves to our built environment all through a material lens? That curiosity led me to the idea of building a platform where people could explore this question through interactive layers. It is about creating a holistic, interactive map of building material footprints—something that makes visible what’s often overlooked, and invites everyone to think critically about what we’re building, and what we’re losing.
+This project began with an observation: a table in our <a href="https://www.arch.columbia.edu/" target="_blank">GSAPP</a> studio meant for our department, yet often used by others. It wasn't a confrontation, just a quiet tension that blurred ownership and disrupted focus. That moment opened up a broader question: Who decides how space is used and for whom? <br>
 
-![The three stages of my project workflow.](/img/2025/nyc-building-materials/concept-diagram.png)
+I began to notice how easily spatial norms are assumed rather than discussed. To surface this unspoken friction, I started with a survey, asking students how they experience the studio. The answers were varied, unresolved. But they didn't need resolution. They became parameters for a new kind of design process.
 
-<br>
+This led me to think about similar spatial conflicts in the city. Take the Elizabeth Street Garden in New York. The city plans to build affordable housing there. Residents want to protect the garden. The result is protest and a deep divide.
 
-_Strategy Games and Shower Thoughts_<br>
-Since this is a personal project, it’s only natural that my own interests would find their way in. I’m an avid gamer—the kind with thousands of hours logged on Steam alone. As someone who’s spent a lot of time playing RimWorld and the Civilization series, I kept thinking about how those games communicate complex systems through intuitive tile-based layouts. What if I could "borrow" these designs and utilize them in my architectural projects? What if these interactive designs could lend to more communitive projects? These evening hours role-playing historical figures and AI overseers eventually became a key influence for how I approach the data structure, visualization methods, and UI for a lot of projects.
+What these examples show is a larger issue: Spatial Design often follows a top-down process. Even when tools like surveys or forums are used, they rarely allow for creative input or real collaboration. In design thinking, we talk about co-creation. But in spatial design, the tools for co-creation are limited or inaccessible.
 
-![In Civilization, each tile has different attributes affecting movement, production output, and even building availability.<br>Screenshot courtesy of Firaxis Games / 2K Games. Source: <a href="https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/">Steam</a>.](/img/2025/nyc-building-materials/game_civilization.jpg)
+![Spatial dissonance in the city: Elizabeth Street Garden.[^8] [^9] [^10] [^11]](/img/2025/co-design-canvas/news2.gif) 
 
-![In RimWorld, each playerbase is subjected to a tile's temperature, rainfall, terrain, and other natural/artificial factors.<br>Screenshot courtesy of Ludeon Studios. Source: <a href="https://store.steampowered.com/app/294100/RimWorld/">Steam</a>.](/img/2025/nyc-building-materials/game_rimworld.jpg)
-
-_The basic proposition employed is that any place is the sum of historical, physical and biological processes, that these are dynamic, that they constitute social values, that each area has an intrinsic suitability for certain land uses and finally, that certain areas lend themselves to multiple coexisting land uses[^2]._
+![Contested Urban Environments: Different Scales](/img/2025/co-design-canvas/slide2.png)
 
 <br><br>
 
-**Why Is This Important?**<br>
-Another Window to Our Built Environment.
+**What is Co-Design Canvas?**<br>
+_A sketchbook for collaborative spatial design_
 <br><br>
 
 <br>
 
-_Urbex in Taichung_<br>
-I like to think this project actually started back in 2019, when I was doing field research for my undergrad thesis. It focused on an abandoned theater complex in Taichung’s old entertainment hub—the Central District. It was bulit in 1954 and was abandoned in 2003 during the Taiwan SARS pandemic. The building was ten stories tall, now completely empty except for the basement, which had been converted into a parking rental for the neighborhood. I ended up talking my way in—playing my student card with the security guard to get 30 minutes inside. I wandered the whole building, floor by floor, from the basement to the rooftop.
+ So I curated a system where people can engage in spatial decision-making—visually and intuitively. This is Co-Design Canvas. It's like a shared design sketchbook ~ open to anyone.
 
-![A section of Tunghai Theater, or 東海戲院 in Mandarin.](/img/2025/nyc-building-materials/taichung-diagram.png)
+![AI-powered platform translating community input into spatial visualizations for collective dialogue in contested urban spaces.](/img/2025/co-design-canvas/covermid.png)
 
-Urban exploration—or Urbex, as some of us call it—is an emotionlly intense experience. Your senses sharpen because of the secrecy (or semi-secrecy, in my case), and you notice so much more than you would in a normal setting. It feels like stepping into an alternate reality where everything is still and silent, and you’re the only thing moving—slipping through layers of forgotten slices of life. The furniture was gone or trashed, fixtures torn out, and what remained were surfaces—tiles, textures, the bare bones of the hustle that once was. These were materials that couldn’t be salvaged, so they just sat there for a decade.
+To ground this tool contextually, I began with a small survey about our GSAPP studio. I collected feedback from students and used LLM to analyse and define five key themes like privacy, lighting, flexibility, collaboration. These themes became what I call space modifiers in the interface. When toggled they add pregenerated text to add on top of the prompts you write. So even the tool is co-designed with its users.
 
-![The now emptied-out complex. Word of advice: don't go solo-urbexing.](/img/2025/nyc-building-materials/taichung.png)
-
-Now that the building has been demolished, taken apart and hauled away (in 2020, just one year after I graduated,) I feel an urge to tell a story. One about the identity of a city and how it’s shaped by its parts—its buildings. People come and go, interiors shift, and memories change, but the materials that linger hold a kind of silent presence. That deserves to be celebrated, and I knew, someday in the future, I'd have the opportunity to do so.
-
-_We need more pluralism in design, not of style but of ideology and values[^3]._
-
-<br>
-
-_Creating A Local Building Material Platform_<br>
-Fast foward six years later, I'm studying computational design in GSAPP Columbia. In my Colloquium class, there’s a reading I keep coming back to, mainly because of how the author frames local data as something shaped by dynamic, ongoing societal participation. Out of all the great readings in that class, that one really stuck with me:<br>
-_All data are local. Indeed, data are cultural artifacts created by people, and their dutiful machines, at a time, in a place, and with the instruments at hand for audiences that are conditioned to receive them[^4]._
-<br>
-This got me thinking: how can I take an instrument I know how to play and write a song that resonates—not just with an audience, but with myself? How can I create a platform that reveals how building materials shape the identity of our local environments? The challenge is, I don’t know the instrument yet. I’m an architect, and web development and coding are still very new to me. So where do I begin?
+![GSAPP survey forms.](/img/2025/co-design-canvas/surveytosliders.png)
 
 <br><br>
 
-**Why Is This Important?**<br>
-Another Window to Our Built Environment.
-<br><br>
-
+<iframe src="/img/2025/co-design-canvas/survey-responses.html" width="735" height="700" style="border:none; max-width:100%;"></iframe>
+<div style="text-align: center; color: #999999;">Survey Responses</div>
 <br>
 
-_Where This Project Began_<br>
-One of my first projects in the M.S. CDP program was to build an interactive website that mapped out the broad strokes of my potential capstone. Gorilla Urbanism used layered masks to create an x-ray effect—revealing Manhattan’s building floor-area-ratios alongside their respective occupancies. Not bad for a first-time web dev, right? You can already sense something brewing here—something about usage, visibility, and x-ray ways of seeing the city.
 
-![A mock-up of what's to come in later semesters.](/img/2025/nyc-building-materials/layout-00.gif)
+<iframe src="/img/2025/co-design-canvas/survey-analysis.html" width="735" height="700" style="border:none; max-width:100%;"></iframe>
+<div style="text-align: center; color: #999999;">Survey Thematic Analysis using OpenAI LLM</div>
 
-In the Fall semester, I also made an attempt at documenting NYC's building age and demolition using data from NYC OpenData. A simple static map that shows the "birth, life, and death" of NYC buildings. Now it's more about lifecycles and materials.
 
-![Class assignments for GIS for Design Practics by Dare Brawley and Mario Giampieri.](/img/2025/nyc-building-materials/layout-collage.png)
 
-Finally, during Colloquium II by Laura Kurgan and Snoweria Zhang, they showed a case study on how computational design could be utilized in AEC and adjacent industries: [Climate—Conflict—Vulnerability Index by Moritz Stefaner](https://climate-conflict.org/www). 
 
-![A beautifully clean approach to visualizing multiple layers—using opacity and blending modes to evoke a chromatic aberration effect.](/img/2025/nyc-building-materials/case-ccvi.png)
-
-This project became the final push behind NYC Building Materials. I realized I could build a web platform that reintroduces users to New York City through a purely material lens: combining interactive tools like x-ray masks, GIS data analysis, and web-based visualization techniques. It'll invite users to engage with critical questions of sustainability and urban identity, presenting those data in an interactive, participatory manner.
-
-![NYC Building Materials as of April 2025.](/img/2025/nyc-building-materials/layout-final.png)
 
 
 <br><br>
 
-**How Does It Work?**<br>
-Open Data + Machine Learning + D3.JS
+**How to create with Co-Design Canvas?**<br>
+_A Step-by-Step Guide to Co-Creating Space_
 <br><br>
 
 <br>
 
-_Missing Data_<br>
-At its core, this project functions like a city-wide BIM model; looser in scope, but built for comparison and exploration. To make something like this work, I needed data. While NYC Open Data offers a wide range of public datasets, none mapped building materials at the lot* level. So, I decided to build that dataset myself.
-<br><br>
-*Lot (building lot): a plot of land designated for constructing a building, often a house or other structure.
+_Select, Describe, Change_<br>
+Users begin by selecting either an interior view of the GSAPP studio or a Google Street View location on campus. They can then mark areas for change using the Magic Wand tool, adjusting its size, erasing, or clearing as needed. After describing their intended modification in the prompt bar, clicking 'Generate' transforms the image using AI, allowing anyone to visualize spatial ideas without technical expertise.<br>
 
-![An overview of the data processing and visualization structure.](/img/2025/nyc-building-materials/data-structure.png)
+<iframe width="735" height="420" src="https://www.youtube.com/embed/3cJIA4-a10o?autoplay=1&loop=1&playlist=3cJIA4-a10o&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="text-align: center; color: #999999;">Select, Describe, Change</div>
+<br>
 
-_Part 1 of 4: Clustering Buildings And Assigning Material Profiles_<br>
-To estimate building materials across NYC, I first needed to cluster buildings by type. This step helps define the range of building typologies before assigning material compositions using external datasets. While it's possible to categorize buildings directly using PLUTO data, such as age, use type, land use, and ownership, clustering provides a more holistic view of the city's building landscape that also helps prioritize which clusters to flesh out in more detail for accurate material estimation.<br>
-By using Python's scikit-learn K-Prototype clustering, NYC buildings could be defined in six clusters, and their general characteristics are as follows:<br>
-1. One- and Two-Family Residential Homes (70.64%)<br>
-The vast majority of buildings in this category are located in residential zones, primarily constructed between the 1920s and 1960s. These low-rise homes make up over 70% of the building stock, reflecting suburban-style developments across the outer boroughs.
-<br><br>
-2. Multi-Family Elevator and Mixed Residential-Commercial Buildings (16.33%)<br>
-Found mainly in residential zones, these structures blend residential units with ground-floor retail or community use, and most were built between 1910 and 1930.
-<br><br>
-3. Commercial and Office Buildings (7.53%)<br>
-Concentrated in commercial zones, these mid-20th-century buildings—dating from roughly 1925 to 1970, representing a mix of retail corridors, office blocks, and business centers.
-<br><br>
-4. Multi-Family Walk-Up Apartments (2.61%)<br>
-These buildings, lacking elevators and generally rising three to five stories, are a staple of older residential neighborhoods built between 1910 and 1960.
-<br><br>
-5. Industrial and Manufacturing Facilities (1.58%)<br>
-Located in industrial zones, these buildings were largely constructed between 1930 and 1970. They speak to NYC’s industrial past, now often adapted for creative or logistical uses.
-<br><br>
-6. Public Facilities and Institutional Buildings (1.31%)<br>
-Schools, churches, libraries, and other civic structures make up this final category. Though placed within residential zones, their functions stand apart. Most were built between 1925 and 1965, during periods of public infrastructure expansion.
+_Survey To Sliders_<br>
+The tool introduces custom sliders: Sunlight, Movement, Privacy, and Harmony, derived from a thematic analysis of survey responses using OpenAI's language model. These sliders allow users to fine-tune spatial qualities of the GSAPP studio view, offering intuitive control over lighting, activity, seclusion, and spatial balance. Combined with the prompt bar, this enables more nuanced, participatory image generation aligned with user intent.<br>
 
-![A comparison between estimating building data with and without clustering first. The top figure highlights a section of Queens; the bottom, Brooklyn.](/img/2025/nyc-building-materials/comparison-collage.png)
+<iframe width="735" height="420" src="https://www.youtube.com/embed/5WdHKmahvNY?autoplay=1&loop=1&playlist=5WdHKmahvNY&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="text-align: center; color: #999999;">Survey To Sliders</div>
+<br>
 
-For the next step, I’m combining the Regional Assessment of buildings’ Material Intensities (RASMI) by Tomer Fishman et al.—a dataset that blends empirical material studies with synthetic estimates expanded through a random forest model—with my own building clusters. Each cluster is then further divided by building age, borough, height, ownership, and use type to define more precise material profiles. The result is a custom dataset that assigns estimated quantities of timber, glass, concrete, masonry, and steel to every land lot in the city, effectively creating BIM-like data for the entire built environment of NYC.
 
-_All things are related, but nearby things are more related than distant things. - Walter Tobler, First Law of Geography[^5]._
 
-_Part 2 of 4: Visualizing Material Data_<br>
-Now that I had the data, the next step was figuring out how to visualize all five materials on a single map. One of my main goals was to make sure users could clearly distinguish and interact with each material layer. At first, I experimented with heatmaps and dot density maps, taking cues from Jia Zhang’s excellent [Asian American Dot Density Map](https://centerforspatialresearch.github.io/asianAmericans/),but they didn’t quite translate, either contextually or visually, for mapping building materials.
+_Collective Vision_<br>
+Finalized visualizations are submitted to a shared interactive map, forming a collective record of spatial aspirations. Users can view and vote on submissions, fostering community feedback. Real-time collaboration allows synchronous editing, while an integrated AI system analyzes submissions at the cluster level extracting key themes and generating downloadable reports that surface patterns, preferences, and collective priorities.<br>
 
-![The first phase of visualization experiments in QGIS included heatmaps, dot-density maps, and grid-based approaches.](/img/2025/nyc-building-materials/viz-history-1.png)
+<iframe width="735" height="420" src="https://www.youtube.com/embed/2HaIKDljhZ4?autoplay=1&loop=1&playlist=2HaIKDljhZ4&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="text-align: center; color: #999999;">Collective Vision</div>
+<br>
 
-Then, I remembered how Civilization uses hex grids for both gameplay and visualization (old habits die hard,) especially its adjacency mechanics, both on a gameplay and theoretical level. Wanting to emphasize a purely material lens for NYC, and to move away from the rigidity of gridiron layouts from common map visualizations, I settled on a hexagon grid with overlapping dots as the core visual language for this project.
+_Edit Together, In Real Time_<br>
+One of the core features of Co-Design Canvas is its real-time collaborative editing environment. Multiple users can simultaneously interact with the same image, propose modifications, and build upon each other's visualizations. This synchronous participation not only fosters dialogue but also transforms spatial design into a shared, iterative process where negotiation, disagreement, and collective imagination coexist on a single canvas.<br>
 
-![The second phase of visualization experiments, ranging from single-color and two-tone maps to five-color palettes and finally a chromatic aberration effect.](/img/2025/nyc-building-materials/viz-history-2.png)
+<iframe width="735" height="420" src="https://www.youtube.com/embed/x-vXsdkb96w?autoplay=1&loop=1&playlist=x-vXsdkb96w&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="text-align: center; color: #999999;">Edit Together, In Real Time</div>
 
-_Part 3 of 4: Platform Interactions_<br>
-Earlier, I mentioned how strategy games influenced this project (by now, it’s probably clear I’m really a huge gamer.) Two UI features that really stood out to me were X-ray views—layer toggles that follow your cursor with a mask—and info panels, which dynamically update based on what feature you’re hovering over. These tools make it easy to compare layers and tiles at a glance, and I wanted to bring that same sense of clarity and interactivity into this platform.
-
-![An early iteration of the hover interaction featured a rose chart using Chart.js to visualize tile details.](/img/2025/nyc-building-materials/demo-hover.gif)
-
-![An early iteration of the x-ray function.](/img/2025/nyc-building-materials/demo-xray.gif)
-
-_Part 4 of 4: Story Markers_<br>
-During playtesting, one piece of feedback stood out: users weren’t always sure what the platform was trying to communicate. It lacked enough context and didn’t clearly convey its purpose. That led me to develop a system of ‘story markers’—small, material-themed monikers that feature quotes from The New York Times, tied to the material history of specific regions. These markers reveal their names, backstories, and references on hover, adding a layer of narrative and discovery. They help users explore the distribution of materials and understand the why and how behind them, essentially telling NYC’s story through the lens of what it’s made of.
-
-![The markers also change appearance after being viewed, adding a sense of progression and discovery—like uncovering clues in a city-wide investigation.](/img/2025/nyc-building-materials/markers.gif)
-
-![An early Illustrator study of distributing the markers.](/img/2025/nyc-building-materials/markers.png)
 
 <br><br>
 
-**Who's Behind NYC Building Materials?**<br>
-Architect & First-time coder with help from a bunch of lovely GSAPP folks.
+![How to use.](/img/2025/co-design-canvas/howtouse.jpg)
+
+
+<br><br>
+
+
+
+**What Powers This?**<br>
+_The Algorithms, Interfaces, and AI Behind the Canvas_
 <br><br>
 
 <br>
 
-_A Three-Semester Support_<br>
-I'm [Hao Lee](https://halfward.github.io/haoLee/), a licensed Taiwanese architect, artist, translator, film enthusiast, and heavy gamer. NYC Building Materials is a project I developed during my [Master of Science in Computational Design Practices (M.S.CDP)](https://www.arch.columbia.edu/programs/15-m-s-computational-design-practices) at Columbia University’s Graduate School of Architecture, Planning, and Preservation (GSAPP). The CDP program is structured around a three-semester core course—Colloquium I, II, and III—which serves as the foundation for developing a capstone project throughout the program.
-<br>
-Over the course of three semesters, I shaped NYC Building Materials from concept to execution. In the first semester, I focused on defining the project's core ideas, while the second and third semesters were dedicated to implementation and refinement. With this structure in mind, I intentionally selected electives that would support and enhance the project.
-<br>
-The electives that directly contributed to NYC Building Materials include, but are not limited to, the following (listed in semester and alphabetical order):
+The Co-Design Canvas platform is built on a modular computational system that integrates AI-based visualization, real-time collaboration, and spatial anchoring. Initially developed and tested locally using open-source AI models downloaded from platforms such as <a href="https://huggingface.co/" target="_blank">Hugging Face</a> and <a href="https://civitai.com/" target="_blank">Civitai</a>, the system leveraged custom workflows in <a href="https://github.com/comfyanonymous/ComfyUI" target="_blank">ComfyUI</a> for segmentation masking, prompt embedding, and latent diffusion image generation[^6]. <br>
 
-Computational Design Workflows by Celeste Layne;<br>
-Computational Modeling by Meli Harvey and Luc Wilson;<br>
-Mapping Systems by Mario Giampieri; and<br>
-Methods As Practices by William Martin and Violet Whiteney.<br>
+During this phase, the models were carefully selected to suit architectural and urban design contexts. Upon deployment, the pipeline was adapted for remote hosting: the AI workflow runs on RunPod.io, using available GPU resources and pre-installed models, which may differ from those used locally depending on RunPod's infrastructure. The backend, built with Flask, is hosted on Render.com, managing all API communications and user interactions. <a href="https://firebase.google.com/" target="_blank">Firebase</a> stores user inputs and generated outputs in real time, while <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" target="_blank">WebSockets</a> enable synchronous editing across multiple users. <br>
+
+A custom front end, deployed via GitHub Pages and connected to a GitHub-hosted repository, provides an intuitive interface with AI-derived sliders and prompt inputs. Submissions are geo-located through the <a href="https://developers.google.com/maps/documentation" target="_blank">Google Maps API</a>, grounding each visualization in a specific context. Rather than producing fixed outcomes, the platform supports continuous layering of perspectives—transforming conflict into a medium for collective authorship.
+
+<br><br>
+
+<iframe src="/img/2025/co-design-canvas/architecture_visualization.html" width="100%" height="600" style="border:none;"></iframe>
+
+
+![The three stages of my project workflow.](/img/2025/co-design-canvas/compmethods.gif)
+
+<br><br>
+
+<iframe src="/img/2025/co-design-canvas/workflow-animation.html" width="735" height="700" style="border:none; max-width:100%;"></iframe>
+<br><br>
+
+<div style="text-align: center; color: #999999;">ComfyUI workflow for AI-powered image generation and manipulation</div>
+
+<br><br>
+
+**GSAPP collective vision**<br>
+_From prompts to visuals_
+<br><br>
+
 <br>
-Data Visualization For Architecture, Urbanism, and the Humainties by Jia Zhang;<br>
-Explore, Explain, Propose by Laura Kurgan and Snoweria Zhang; and<br>
-GIS For Design Practices by Dare Brawley and Mario Giampieri.<br>
+
+These images represent the collective visions of GSAPP students, generated through our Co-Design platform. Each visual reflects a unique interpretation of how the GSAPP studio and plaza could evolve — capturing aspirations for collaboration, creativity, and community. By translating individual inputs into visual outputs, the platform revealed both common desires and diverse imaginations, highlighting the power of participatory design in shaping shared spaces.
+
+![GSAPP community wishes](/img/2025/co-design-canvas/collectivevision.png)
+
+<br><br>
+
+**Scaling the Canvas**<br>
+_Micro to Macro_
+<br><br>
+
 <br>
-Design in Action by Catherine Griffiths and Seth Thompson;<br>
-Exploring Urban Data with Machine Learning by Jonathan Stiles;<br>
-Footprint: Carbon & Design by David Benjamin; and<br>
-Spatial Design Narratives by Josh Begley.<br>
+
+Co-Design Canvas is designed to scale beyond the confines of the studio, extending to contexts such as community parks, shared streets, and large-scale urban developments like the East River Park project. As the platform gathers more community-generated data, this input can be used to fine-tune the underlying AI models, making them increasingly contextual, semantically nuanced, and responsive to the specific needs and aspirations of diverse urban environments.
+
+![Multiple scales, multiple stakeholders](/img/2025/co-design-canvas/scaling.png)
+
+<br><br>
+
+**Mediator not Master**<br>
+_AI's role in Co-Design Canvas_
+<br><br>
+
+<br>
+
+AI in Co-Design Canvas operates not as a singular tool but as a dynamic set of roles that collectively mediate between community input and spatial output. Its roles include:
+
+<ul>
+  <li><b>Translator</b>: Converts text prompts, survey responses, and conversations into visual representations.</li>
+  <li><b>Bridge</b>: Lowers technical barriers for non-experts to engage in design.</li>
+  <li><b>Co-Creator</b>: Contributes to both the generation of ideas and the tools that enable them.</li>
+  <li><b>Intern</b>: Supports prototyping and coding tasks.</li>
+  <li><b>Analyst</b>: Extracts themes from community data to inform interface design.</li>
+  <li><b>Comparator</b>: Identifies patterns across generated outputs.</li>
+  <li><b>Collaborator</b>: Enables open-ended exploration.</li>
+  <li><b>Mediator</b>: Surfaces divergent views without forcing resolution.</li>
+  <li><b>Human Ally</b>: Supports collective authorship and returns agency to people in contexts of spatial conflict or disagreement.</li>
+</ul>
+
+<br><br>
+
+![AI Insights powered by OpenAI LLM.](/img/2025/co-design-canvas/roleofai.gif)
+
+<br><br>
+
+The tool reveals patterns, but does not aim to resolve them. It allows a space to record spatial imagination. The platform doesn't erase disagreement. It holds it long enough to understand what's at stake. In doing so, it allows us to stay with the complexity of collective design—not to simplify it, but to stay present within it. 
+
+### **In the spirit of Georgeen Theodore's[^7] call to rethink advocacy as an interdisciplinary and speculative practice, this work takes on one such mode of operation—designing not just spatial outcomes, but frameworks through which communities can co-author their environments.**
+
+<br><br>
+
+**Who's Behind Co-Design-Canvas?**<br>
+An artist at heart, architect by profession, exploring design technology.
+<br><br>
+
+<br>
+
+_A transformative journey_<br>
+I'm [Manas Bhatia](https://www.linkedin.com/in/manasbhatiadesign/), a licensed architect from India whose interdisciplinary practice spans architecture, visual storytelling, speculative design, and an enduring love for masala chai. Co-Design Canvas is a capstone project developed as part of the [Master of Science in Computational Design Practices (M.S.CDP)](https://www.arch.columbia.edu/programs/15-m-s-computational-design-practices) at Columbia University's Graduate School of Architecture, Planning, and Preservation (GSAPP). The CDP program is anchored by a three-semester core sequence—Colloquium I, II, and III—that scaffolds the research and development of an independent thesis project. 
+<br><br>
+Over the course of three semesters, I shaped this project from concept to execution. In the first semester, I started exploring the idea of how generative AI being an "organic" technology could change the way designers work, while the second and third semesters were dedicated to developing that thought through rigourous reseach and improvisation, as well as implementation and refinement. 
+<br><br>
+I am thankful to the entire MSCDP'25 cohort for inspiring and motivating me throughout the course tenure. Special thanks to Snoweria Zhang and Laura Kurgan for guiding my research and aspirations into a comprehensive research,and showing me what critical design thinking truly means in Colloquium II, and Seth Thompson and Catherine Griffiths, for their thoughtful discussions, ideas and support in Colloquium III. <br>
+<br>
+This project would not have reached its full potential without the mentorship of my advisor, David Benjamin, whose guidance not only strengthened my design confidence but also challenged me to conceive of the work not merely as a tool, but as a critical narrative embedded within broader frameworks of design thinking and speculation. 
+<br><br>
+Special thanks to my peers — Genda, Sebastian, Hao, John, Vaibhav, Julia, Yilin, and Sissie for their unwavering support, insightful conversations, and the many generative discussions that shaped the evolution of this project.
+<br><br>
+I would also like to extend my gratitude to the faculty and courses I engaged with throughout the program (listed below), each of which significantly broadened my perspective on data, computation, design, and their entanglement with political and ethical questions.
+<br><br>
+• Computational Design Workflows by Celeste Layne.<br>
+• Computational Modeling by Meli Harvey and Luc Wilson.<br>
+• Mapping Systems by Mario Giampieri.<br>
+• Methods As Practices by William Martin and Violet Whiteney.<br>
+<br>
+• GIS for Design Practices by Dare Brawley and Mario Giampieri.<br>
+• Environmental Data Analysis by Peter Marcotullio and Kaz Sakamoto.<br>
+• Re-thinking BIM by Joseph Brennan.<br>
+• Design Intelligence by Danil Nagy.<br>
+• Colloquium II - Explore,Explain,Propose by Laura Kurgan and Snoweria Zhang.<br>
+<br>
+• Spatial AI by William Martin<br>
+• Making Senses by James Nanasaka<br>
+• Virtual Architecture by Nitzan Bartov<br>
+• Colloquium III - Design in Action by Seth Thompson and Catherine Griffiths<br>
 
 <br><br>
 
@@ -204,37 +237,46 @@ Spatial Design Narratives by Josh Begley.<br>
 
 <br>
 
-_Material Estimate & Tile Data_
-Fishman, Tomer, Alessio Mastrucci, Yoav Peled, Shoshanna Saxe, and Bas van Ruijven. 2023. The Regional Assessment of Buildings’ Material Intensities (RASMI). https://doi.org/10.5281/zenodo.10124952.<br>
-New York City Department of City Planning. n.d. MapPLUTO Data. Accessed May 2, 2025. https://www.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page.<br>
-Carbon Leadership Forum. 2023. Material Baselines for North America (August 2023). https://carbonleadershipforum.org/clf-material-baselines-2023/.<br>
-National Historical Geographic Information System (NHGIS). 2020. NYC Census Data (2020). https://data2.nhgis.org/.<br>
-New York City Department of Buildings. 2022–2024. NYC Building Energy and Water Data Disclosure for Local Law 84. https://data.cityofnewyork.us/Environment/NYC-Building-Energy-and-Water-Data-Disclosure-for-/5zyy-y8am/about_data.<br>
-New York City Department of City Planning. 2020. NYC Census Tracts (2020). https://data.cityofnewyork.us/City-Government/2020-Census-Tracts-Mapped/weqx-t5xr.<br>
-Lerner, Sam (Dreamer). n.d. NYC Neighborhoods Map. Accessed May 2, 2025. https://www.google.com/maps/d/u/0/viewer?mid=1c8sYYoYTy-_b7ml3O5Y5ArkS3eRM1W0&ll=40.73677714231287%2C-73.8026375970926&z=14.<br>
+Hsu, Y.-C., Huang, T.-H. K., Verma, H., Mauri, A., Nourbakhsh, I., & Bozzon, A. (2022). Empowering local communities using artificial intelligence. <i>Patterns, 3(3), 100449.</i> https://doi.org/10.1016/j.patter.2022.100449<br>
 
-<br>
+Williams, Sarah, Sara Beery, Christopher Conley, Michael Lawrence Evans, Santiago Garces, Eric Gordon, Nigel Jacob, and Eden Medina. 2024. "People-Powered Gen AI: Collaborating with Generative AI for Civic Engagement." An MIT Exploration of Generative AI, September. https://doi.org/10.21428/e4baedd9.f78710e6.<br>
 
-_Marker Shapes & Background_
-New York City Department of Parks and Recreation. n.d. Parks Properties. https://nycopendata.socrata.com/Recreation/Parks-Properties/enfh-gkve/about_data.<br>
-New York State GIS Resources. n.d. New York State Civil Boundaries. https://gisdata.ny.gov/GISData/State/Civil_Boundaries/NYS_Civil_Boundaries.shp.zip.<br>
-New Jersey Office of Information Technology, Office of GIS (NJOGIS). n.d. NJ Counties. https://njogis-newjersey.opendata.arcgis.com/datasets/middlesexcounty::nj-counties/about.<br>
+Bibri, S. E., Huang, J., Jagatheesaperumal, S. K., & Krogstie, J. (2024). The synergistic interplay of artificial intelligence and digital twin in environmentally planning sustainable smart cities: A comprehensive systematic review. <i>Environmental Science and Ecotechnology, 20, 100433.</i> https://doi.org/10.21428/e4baedd9.f78710e6.<br>
 
-<br>
+Bloomberg News. (2024, March 13). AI-powered urban innovations bring promise, risk to future cities. Bloomberg. Retrieved from https://www.bloomberg.com/news/articles/2024-03-13/ai-powered-urban-innovations-bring-promise-risk-to-future-cities<br>
 
-_X-Ray Layers_
-New York City Department of City Planning. n.d. NYC GIS Zoning Features. https://www.nyc.gov/site/planning/data-maps/open-data/dwn-gis-zoning.page.<br>
-Metropolitan Transportation Authority. n.d. NYC Subway Lines. https://data.cityofnewyork.us/Transportation/Subway-Lines/3qz8-muuu.<br>
-University of Texas at Austin, Texas GeoData Portal. n.d. 2019 LIRR Routes & Stops; 2019 Metro-North Routes & Stops; and 2017 PATH Train Routes & Stops. https://geodata.lib.utexas.edu/?f%5Bdct_isPartOf_sm%5D%5B%5D=NYC+Mass+Transit+Spatial+Layers&page=2.<br>
-GIS Lab, Newman Library, Baruch College (CUNY). 2019. New York City Bus Routes, December 2019. https://archive.nyu.edu/jspui/handle/2451/60058.<br>
-New York City Department of City Planning. 2025. DCM Arterials and Major Streets, March 2025. https://hub.arcgis.com/datasets/DCP::dcm-arterials-and-major-streets/about.<br>
-Kevin Brown. n.d. New York City Bus Stops by New York Startup Index. GitHub. https://github.com/kevin-brown/nyc-open-geojson/blob/master/transportation/bus-stops.geojson.<br>
+PixelEasel. (2024). ComfyUI Inpaint Anything workflow. YouTube. Retrieved from https://youtu.be/_LuPU5woth0?si=bNdQCTphMrKyBn2O
 
+Theodore, G. (2009). Advocacy? Three Modes of Operation for the Activist Architect," _field_ 3, no. 1 (2009): 59–74, https://www.field-journal.org/article/id/32/.
 
-Most, if not all, of this project is built on open data. Without the availability of pre-existing data and online documentation, at least 95% of my development time would have been spent on field research alone. While field research is invaluable, relying solely on it would limit the possibilities of creating a comprehensive computational project within just three semesters at Columbia. To me, one of the greatest strengths of America’s scientific community is its commitment to transparency and the willingness to investigate and document data. This openness to sharing information has not only fueled scientific and creative breakthroughs but also played a crucial role in uncovering and combating social injustices and inequalities. With NYC Building Materials, I aim to honor the government bodies, non-profits, academics, and individuals who contribute to this vital data-sharing ecosystem. It is through their dedication to open data that we can drive progress and stability.
+Stieb, Matt. "Big Trouble in Little Paradise: The decadelong battle over the Elizabeth Street Garden nears its end." *New York Magazine*, July 18, 2023. https://nymag.com/intelligencer/2023/07/elizabeth-street-garden-affordable-housing-battle.html
+
+Barron, James. "Elizabeth Street Garden, Defended by De Niro, Scorsese and Patti Smith, Is Set to Be Razed." *The New York Times*, August 22, 2024. https://www.nytimes.com/2024/08/22/nyregion/elizabeth-street-garden-deniro-scorsese-smith.html?smid=url-share
+
+Arensberg, Danny, and Rory Lustberg. "Elizabeth Street Garden: A Decade-Long Battle Over Green Space and Housing." *Washington Square News*, October 9, 2024. https://nyunews.com/news/2024/10/09/elizabeth-street-garden/
+
+Schulman, Pansy. "Elizabeth Street Garden Gets Temporary Stay of Eviction." *Architectural Record*, 2024. https://www.architecturalrecord.com/articles/17174-elizabeth-street-garden-gets-temporary-stay-of-eviction
+
+Rosenthal, Nicole. "NYC's Elizabeth Street Garden fights to stay open days before eviction — but city isn't budging: 'We're not packing up.'" *New York Post*, October 14, 2024. https://nypost.com/2024/10/14/us-news/nycs-elizabeth-street-garden-fights-to-stay-open-days-before-eviction-but-city-isnt-budging-were-not-packing-up/
+
+<br><br>
+ 
+**Thoughts**
+<br><br>
+
+As a first-time coder, this project would not have been possible without the support of accessible AI tools. Leveraging open-source models and workflows, LLMs like <a href="https://chat.openai.com/" target="_blank">ChatGPT</a> by OpenAI, and the <a href="https://docs.anthropic.com/claude/docs" target="_blank">Claude Sonnet</a>-powered <a href="https://cursor.sh/" target="_blank">Cursor notebook</a>, I was able to focus on designing the system—its logic, experience, and values—rather than getting constrained by the technical complexity of building everything from scratch. What might have taken a team months to develop became achievable within a semester, not because the process was automated, but because AI enabled deeper thinking at the level of systems and participation. In this sense, AI did not diminish the role of the designer—it amplified it. It allowed me to operate more critically and expansively, reaffirming that in the age of AI, the designer's role as curator, mediator, and systems thinker is more vital than ever.
+
+<br><br>
 
 [^1]: Karl Popper, _The Logic of Scientific Discovery_ (London: Hutchinson, 1959), 23.
-[^2]: Ian McHarg, “Processes as Values,” in _Design with Nature_ (New York: Wiley, 1970), 102–115.
+[^2]: Ian McHarg, "Processes as Values," in _Design with Nature_ (New York: Wiley, 1970), 102–115.
 [^3]: Anthony Dunne and Fiona Raby, _Speculative Everything_ (Cambridge, MA: MIT Press, 2013), 1–47.
-[^4]: Yanni Loukissas, “From Data Sets to Data Settings,” in _All Data Are Local_ (Cambridge, MA: MIT Press, 2019), 1–24.
-[^5]: Waldo Tobler, “A Computer Movie Simulating Urban Growth in the Detroit Region,” _Economic Geography_ 46, no. S1 (1970): 234–240.
+[^4]: Yanni Loukissas, "From Data Sets to Data Settings," in _All Data Are Local_ (Cambridge, MA: MIT Press, 2019), 1–24.
+[^5]: Waldo Tobler, "A Computer Movie Simulating Urban Growth in the Detroit Region," _Economic Geography_ 46, no. S1 (1970): 234–240.
+[^6]: PixelEasel, "ComfyUI Inpaint Anything workflow," YouTube video, 2024, https://youtu.be/_LuPU5woth0?si=bNdQCTphMrKyBn2O.
+[^7]: Georgeen Theodore, "Advocacy? Three Modes of Operation for the Activist Architect," _field_ 3, no. 1 (2009): 59–74, https://www.field-journal.org/article/id/32/.
+[^8]: Stieb, Matt. "Big Trouble in Little Paradise: The decadelong battle over the Elizabeth Street Garden nears its end." *New York Magazine*, July 18, 2023. https://nymag.com/intelligencer/2023/07/elizabeth-street-garden-affordable-housing-battle.html
+[^9]: Barron, James. "Elizabeth Street Garden, Defended by De Niro, Scorsese and Patti Smith, Is Set to Be Razed." *The New York Times*, August 22, 2024. https://www.nytimes.com/2024/08/22/nyregion/elizabeth-street-garden-deniro-scorsese-smith.html?smid=url-share
+[^10]: Arensberg, Danny, and Rory Lustberg. "Elizabeth Street Garden: A Decade-Long Battle Over Green Space and Housing." *Washington Square News*, October 9, 2024. https://nyunews.com/news/2024/10/09/elizabeth-street-garden/
+[^11]: Schulman, Pansy. "Elizabeth Street Garden Gets Temporary Stay of Eviction." *Architectural Record*, 2024. https://www.architecturalrecord.com/articles/17174-elizabeth-street-garden-gets-temporary-stay-of-eviction
+[^12]: Rosenthal, Nicole. "NYC's Elizabeth Street Garden fights to stay open days before eviction — but city isn't budging: 'We're not packing up.'" *New York Post*, October 14, 2024. https://nypost.com/2024/10/14/us-news/nycs-elizabeth-street-garden-fights-to-stay-open-days-before-eviction-but-city-isnt-budging-were-not-packing-up/
