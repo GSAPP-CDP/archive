@@ -61,22 +61,34 @@ links:
 - 当成员想单独询问路线、换乘或用餐建议时，可直接私聊 Lumi。用户发出的信息先进入 Prompt Manager，与系统默认导游指令合并后交给大语言模型生成答复，再由 Lumi 以导游身份返回。当事人得到即时、个性化的行程指导，其他队友不会被打扰，确保私密需求与全队节奏两不耽误。
 - 如果某成员需要把想法或提醒同步给队友，只需在群聊中“@Lumi 转达”。Prompt Manager 会把原话与指令模板一并发送给模型，生成一条以 Lumi 导游口吻撰写、已翻译并格式化的通知。最终消息由 Lumi 广播给目标成员或全队；在接收者视角，内容完全来自导游 Lumi，而非原发送者，从而保持语言一致、语气统一，避免误解并降低沟通成本。
 
-<!-- 16:9 底图 + 右侧叠加 GIF -->
-<div style="position:relative; max-width:960px; margin:auto;">
-  <!-- 1️⃣ 底图：16:9 幻灯片 -->
-  <img src="/img/2025/lumi/pd-3.jpg"
-       alt="Team members talking"
-       style="width:100%; display:block;">
-
-  <!-- 2️⃣ GIF：叠放在右半部分 -->
-  <img src="/img/2025/lumi/chat-demo.gif"
+<!-- 白底 + GIF + PNG 叠放 -->
+<div style="
+     position:relative;
+     max-width:1280px;   /* 16:9 幻灯片宽度，可按需调整 */
+     margin:auto;
+     background:#ffffff; /* ① 最底层：纯白背景 */
+">
+  <!-- ② 中层：GIF（手机屏幕内容） -->
+  <img src="/img/2025/lumi/chat.gif"
        alt="Lumi chat demo"
        style="
          position:absolute;
-         top:12%;      /* 距顶部 12% —— ↑↓ 调整垂直位置 */
-         right:3%;     /* 距右侧 3% —— ←→ 调整水平位置 */
-         width:40%;    /* 占底图宽度 40%，可改成 35%~45% */
-         max-width:380px;  /* 宽屏限制最大像素，防溢出 */
+         top:10%;       /* 垂直微调，让 GIF 对准屏幕 */
+         right:4.5%;    /* 水平微调 */
+         width:396.63px;
+         height:862.174px;
+         aspect-ratio:396.63/862.17;
+         z-index:1;
+       ">
+
+  <!-- ③ 最上层：PNG（人物 + 手机边框，带透明背景） -->
+  <img src="/img/2025/lumi/pd-3.png"
+       alt="Team layout with phone frame"
+       style="
+         width:100%;
+         display:block;
+         position:relative;
+         z-index:2;     /* 覆盖 GIF 边缘 */
        ">
 </div>
 
