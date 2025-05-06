@@ -45,6 +45,8 @@ Once the model is trained, the same set of variables—this time collected at th
 
 The info panel appearing upon clicking a region shows the life expectancy value of selected area and its neighbors, various factors that both reflect living environments and are highly associated with life expectancy, including natural environment factors, built environment factors and socioeconomic factors. 
 
+![Calculation formula](/img/2025/predicting-nyc-lifelines/formula.png)
+
 The life expectancy values of the selected area and its neighboring areas are displayed in the form of a grid heatmap. Each square represents a specific area, and the color indicates its life expectancy. For the visualization of different factors, the treemap was chosen as the visualization type to present the data, where each rectangle represents an area. 
 A backend server was built to integrate OpenAI API, automatically generating the introduction of this selected area, identifying interesting pattern between life expectancy and different factors, and comparing this selected block group with its neighbors.
 
