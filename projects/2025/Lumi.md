@@ -9,7 +9,7 @@ links:
     url: https://github.com/mychmly/Lumi
 ---
 
-![Cover](/img/2025/lumi/cover.jpg)
+!(/img/2025/lumi/cover.jpg)
 
 ## TODO – content coming
 
