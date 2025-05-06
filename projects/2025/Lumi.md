@@ -100,6 +100,7 @@ Tapping **Navigate** writes the same coordinates into an *App Intent*, jumping s
 
 
 
+
   
 
 
