@@ -66,7 +66,8 @@ A great tour guide’s hidden super-power is to **form a “temporary consensus�
 - **Private assistant chat.** A member can DM Lumi for routes, transfers, or dining tips. The message hits the *Prompt Manager*, is merged with system guide prompts, sent to the LLM, and the reply returns as Lumi’s voice—personal guidance without spamming the team.  
 - **Broadcast via Lumi.** Need to alert teammates? Just type “@Lumi tell…”. The original text + directive template goes to the LLM, which produces a formatted, translated notice in Lumi’s tone. Lumi then broadcasts it; receivers see the message *from* the guide, keeping language and tone consistent and reducing miscommunication.
 
-![Chat demo](/img/2025/lumi/pd-3.gif)
+![Chat demo](../../public/img/2025/lumi/pd-3.gif)
+
 
 ### Information Sharing  
 
