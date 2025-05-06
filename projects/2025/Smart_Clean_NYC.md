@@ -29,6 +29,19 @@ WCP transfers collected waste to WCB at docking stations.
 05/ Final Waste Processing
 WCB transports waste to designated processing facilities.
 
+# Core Modules
+The following modules represent the core focus of my project, designed to improve restaurant waste collection in Manhattan.
+Waste Collection Pods (WCP)
+Autonomous ground collection vehicles.
+Waste Collection Boats (WCB)
+Floating waste transfer stations on Manhattan’s waterfront.
+Color-coded Waste Bags
+Ensure source separation of different waste types.
+Green (organic waste) Blue (recyclables)
+Red (hazardous waste) Grey (other waste)
+Restaurant Waste Management Hub
+Enables restaurants to automate waste collection by summoning WCPs, scheduling pick-ups, and managing billing, enhancing operational efficiency.
+
 # Expected Outcomes
 01/ Less garbage exposure
 – Smart Clean NYC enables faster waste pickup from restaurants, reducing odors, limiting rodent access, and keeping sidewalks cleaner.
