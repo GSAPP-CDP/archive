@@ -73,6 +73,9 @@ links:
 
 ![Chat demo](/img/2025/lumi/pd-5.jpg)
 
+在 Lumi 的地理信息服务中，GPT-4o LLM、Apple MapKit 和 iOS 快捷指令被组织成一条自洽的「理解 → 规划 → 执行 → 反馈」链路：当用户在 HomeView 聊天界面输入“从哥大步行去 MoMA 要多久？”之类的自然语言请求时，前端会把文本、实时坐标与环境元数据封装进四段式 Prompt（系统规则-场景上下文-工具声明-用户消息），其中工具声明区公开一份统一的 JSON-Schema，例如 findRoute(destination, mode)。GPTService 将该 Prompt 发送到 OpenAI 并启用 Function-Calling，使 GPT-4o 能在需要地理计算时直接输出结构化调用，如 {"name":"findRoute","arguments":{"destination":"MoMA","mode":"walking"}}。收到此 JSON 后，Router 会把任务交给 MapManager；MapManager 再调 MapKit 的 MKDirections 与 MKMapSnapshotter 计算路径、预计时间与静态地图快照，并将结果压缩回 eta、polyline、snapshotURL 等字段返回给 GPT-4o，让模型把这些数据润色成易读的文本或富卡片 UI。
+
+当用户点选卡片上的「一键导航」按钮时，同一组坐标与交通方式会被写入 iOS 快捷指令（App Intent），系统随即跳转到原生地图或 CarPlay，实现零延迟导航；若用户下次通过 Siri 直接说“导航去 MoMA”，缓存过的 Intent Suggestion 还能绕过 LLM，快速复用最近一次路径。整个闭环依赖 Combine 事件流解耦，各层只通过 JSON-Schema 交互：LLM 负责语义理解与语言生成，MapKit 提供权威地理算法，快捷指令承担系统级动作入口；再配合高频路线缓存、多线程预抓取快照与 MapKit 故障兜底文本指令，构成了 Lumi 轻量、可扩展又用户友好的 GIS 服务。
 
 
 
