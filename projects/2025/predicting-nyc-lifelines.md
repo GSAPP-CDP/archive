@@ -48,10 +48,17 @@ It evaluates all block groups in NYC based on how strongly the user-selected fac
 During the scoring process, each area starts with 5 points. Since the values of each factor vary significantly, normalization is performed by measuring how far each area’s value deviated from the median value across all regions in NYC. Each normalized factor is then multiplied by its corresponding weight. These weighted values are summed and divided by the total sum of weights to obtain a weighted average. The result is then multiplied by 5 and added to the base score, producing the final score for each area. Since the types and number of factors are constantly changing, this process of calculation is performed in the browser's background, and the resulting scores are then visualized on the map. 
 
 # Data Source
+
 https://opendata.cityofnewyork.us/
+
 https://data.census.gov/
+
 https://experience.arcgis.com/experience/6a3da7b920f248af961554bdf01d668b/page/Access-to-Resources
+
 https://data.gov/
+
 https://www.cdc.gov/nchs/data-visualization/life-expectancy/index.html
+
 https://www.nyc.gov/content/planning/pages/resources/datasets/mappluto-pluto-change
+
 https://www.nhgis.org/
