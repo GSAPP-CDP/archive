@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Example Project
-author: Seth Thompson
-year: 2023
+title: Smart Clean NYC
+author: Chen Feng
+year: 2025
 image: /img/_example/diomede-islands.jpg
 links:
   - text: Explore
