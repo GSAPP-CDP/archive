@@ -85,6 +85,18 @@ are wrapped in a four-part prompt (system rules, context, tool schema, user mess
 GPT-4o returns a function call `{ "name":"findRoute", … }`. Router hands it to **MapManager**, which queries MapKit for ETA and polyline, generates a snapshot, then feeds the JSON back for GPT-4o to craft human-readable cards.  
 Tapping **Navigate** writes the same coordinates into an *App Intent*, jumping straight to Apple Maps or CarPlay. Future “Navigate to MoMA” via Siri reuses the cached intent, bypassing the LLM. Combine streams decouple layers; a JSON schema glues them together—LLM handles language, MapKit handles geometry, and Shortcuts trigger OS-level actions.
 
+![S1](../../public/img/2025/lumi/pd-6.gif)
+
+- **Scenario 1:** Lumi builds a week-long itinerary table from live map data.
+
+![S2](../../public/img/2025/lumi/pd-7.gif)
+
+- **Scenario 2:** Lumi quickly filters quality breakfast hotels near the destination.
+
+![S3](../../public/img/2025/lumi/pd-8.gif)
+
+- **Scenario 3:** Lumi generates a 3-hour city stroll plan within 3 km of the current location.
+
 
 
 
