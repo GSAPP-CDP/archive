@@ -78,17 +78,17 @@ links:
 当用户点选卡片上的「一键导航」按钮时，同一组坐标与交通方式会被写入 iOS 快捷指令（App Intent），系统随即跳转到原生地图或 CarPlay，实现零延迟导航；若用户下次通过 Siri 直接说“导航去 MoMA”，缓存过的 Intent Suggestion 还能绕过 LLM，快速复用最近一次路径。整个闭环依赖 Combine 事件流解耦，各层只通过 JSON-Schema 交互：LLM 负责语义理解与语言生成，MapKit 提供权威地理算法，快捷指令承担系统级动作入口；再配合高频路线缓存、多线程预抓取快照与 MapKit 故障兜底文本指令，构成了 Lumi 轻量、可扩展又用户友好的 GIS 服务。
 
 
-![LLM Map](/img/2025/lumi/pd-6.gif)
+![S1](/img/2025/lumi/pd-6.gif)
 
 - 场景一：让Lumi根据实时的地图服务信息创建一个一周的旅行计划表格。
   
 
-![LLM Map](/img/2025/lumi/pd-7.gif)
+![S2](/img/2025/lumi/pd-7.gif)
 
 - 场景二：让Lumi根据实时的地图服务信息快速筛选出一个位于目的地的提供优质早餐的酒店。
 
 
-![LLM Map](/img/2025/lumi/pd-8.gif)
+![S3](/img/2025/lumi/pd-8.gif)
 
 - 场景一：让Lumi根据周边方圆3公里的地理信息生成一个3小时城市游玩计划。
 
