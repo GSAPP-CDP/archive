@@ -47,8 +47,6 @@ We can observe from Google Trends that people are concerned about their phone us
 - Prohibiting phone use in certain spaces
 - Apps to track and limit phone use [^3]
 
-<br><br>
-
 ---
 
 <br><br>
@@ -61,10 +59,6 @@ We can observe from Google Trends that people are concerned about their phone us
 The technology to display information at a variety of sites is readily available: projectors, TVs, monitors, speakers… but pairing them to a person’s unique digital world can be a cumbersome process. The challenge here is securely providing these displays and interfaces access to a person’s information in a fully consensual way.
 
 I propose the development of a system for such device pairing and information sharing. It will be employed by a mobile application that allows users to create a profile, as they would at a social media platform, and selectively expose data to authorized peripherals called Resonators. These peripherals will broadcast BLE iBeacon[^4] signals, alerting the application of their proximity and their capabilities, at which point the application can broker data exchange over cloud infrastructure. The peripherals are now able to activate context-aware experiences based on the people present.
-
-<br><br>
-
-
 
 ![Resonator Family](/img/2025/spatial_resonance/family.png)
 
