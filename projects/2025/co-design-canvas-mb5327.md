@@ -8,6 +8,8 @@ image: /img/2025/co-design-canvas/coverwebsite.png
 links:
   - text: Explore
     url: https://colloquium-backend.onrender.com/
+  - text: Repo
+    url: https://github.com/Utopia5327/codesigncanvasoffline
 ---
 
 ![AI-powered platform translating community input into spatial visualizations for collective dialogue in contested urban spaces.](/img/2025/co-design-canvas/cover.jpg) 
