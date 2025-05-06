@@ -4,10 +4,10 @@ title: Companion, Cohabitant and Continuum (Cee)
 author: Pakjira Itthisang (Fern)
 advisor: Dan Taeyoung
 year: 2025
-image: /img/_example/diomede-islands.jpg
+image: /img/2025/companion-cohabitant-and-continuum/thumbnail.png
 links:
   - text: Explore about Project
-    url: https://darkmatters.xyz/
+    url: https://fernitthisang.github.io/cee/
   - text: Explore the Origin 
     url: https://fernitthisang.github.io/cdpfall2024/
   - text: Fern Itthisang
@@ -191,14 +191,14 @@ Inspired by subtle and silent communication, I designed Cee to express emotions 
 
 ## <center><i><b>"Relationships are what make a house feel like home."</b></i></center>
 
-![Relationships diagram](/img/2025/companion-cohabitant-and-continuum/relationship.svg)
+![Relationships diagram](/img/2025/companion-cohabitant-and-continuum/relationship.png)
 
 ---
 # <b>What Is This Project Really About?</b>
 
 Companion, Cohabitant and Continuum, or Cee, is about the relationship in space through the integration of technological innovation with emotional intelligence to redefine the role of robot vacuums in the home.
 
-![](/img/2025/companion-cohabitant-and-continuum/project.svg)
+![](/img/2025/companion-cohabitant-and-continuum/about.png)
 
 ---
 
@@ -213,7 +213,7 @@ And most importantly—it has a sense of humor, as seen in internet memes. It's 
 ![Why the robot vacuum?](/img/2025/companion-cohabitant-and-continuum/why.svg)
 
 ---
-![The focus is on how to create meaningful relationships with the technology in our daily lives.](/img/2025/companion-cohabitant-and-continuum/not.svg)
+![The focus is on how to create meaningful relationships with the technology in our daily lives.](/img/2025/companion-cohabitant-and-continuum/not.png)
 
 ---
 
@@ -228,7 +228,7 @@ A tidy home might say you're calm, organized, or welcoming. A messy space might 
 What we choose to clean—and what we leave untouched—can quietly tell the story of who we are.
 
 
-![Culter in space](/img/2025/companion-cohabitant-and-continuum/culture.svg)
+![Culture in space](/img/2025/companion-cohabitant-and-continuum/culture.png)
 
 ---
 # <b>Clean spaces</b> contribute to <b>mental well-being</b>
@@ -264,7 +264,9 @@ Instead, this cohabitant sits in a new category: One that listens, responds, and
 
 This approach opens up a new kind of living relationship—one where emotional intelligence and spatial awareness define how we coexist with this companion.
 
-![A Cohabitant in your space](/img/2025/companion-cohabitant-and-continuum/cee.gif)
+![Cee - A Cohabitant in your space](/img/2025/companion-cohabitant-and-continuum/cee.png)
+
+<!-- ![A Cohabitant in your space](/img/2025/companion-cohabitant-and-continuum/cee.gif) -->
 
 ---
 
@@ -280,7 +282,7 @@ This prototype tested how the robot might act like a companion in shared space.
 I focused on storytelling and how the robot could interact with people.
 
 <video
-  src="/img/2025/companion-cohabitant-and-continuum/prototype1.mov"
+  src="/img/2025/companion-cohabitant-and-continuum/Prototype1.mov"
   controls
   autoplay
   loop
@@ -372,7 +374,7 @@ It recognizes emotional cues, detects clutter, and selects a suitable expression
 
 This is not automation—it's performance. Each movement, glance, and phrase is part of a small choreography between you and the machine. A language of space, feeling, and cohabitation.
 
-![Cee's system](/img/2025/companion-cohabitant-and-continuum/ceefunctions.svg)
+![Cee's system](/img/2025/companion-cohabitant-and-continuum/ceefunctions.png)
 
 ---
 
