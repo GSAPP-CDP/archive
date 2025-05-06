@@ -11,8 +11,6 @@ links:
 
 ![](../../public/img/2025/lumi/cover.jpg)
 
-## TODO – content coming
-
 ## Background
 
 ![](../../public/img/2025/lumi/bg-1.jpg)
