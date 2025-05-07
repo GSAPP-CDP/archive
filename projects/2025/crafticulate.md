@@ -4,7 +4,7 @@ title: Crafticulate
 author: Pear Jansomwong
 advisor: William Martin 
 year: 2025
-image: img/2025/crafticulate/thumbnail.jpg
+image: /img/2025/crafticulate/thumbnail.jpg
 links:
   - text: Thread the Digital Memory
     url: https://growapear.github.io/digital_tapestry/
