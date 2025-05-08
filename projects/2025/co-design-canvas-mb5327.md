@@ -47,9 +47,6 @@ _A sketchbook for collaborative spatial design_
 
 ![AI-powered platform translating community input into spatial visualizations for collective dialogue in contested urban spaces.](/img/2025/co-design-canvas/covermid.png)
 
-<iframe width="735" height="420" src="https://www.youtube.com/embed/-WoL0tsY7Rk?si=-5RaWygi5QBWhjmD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<div style="text-align: center; color: #999999;">Co-Design Canvas Platform Overview</div>
-
 To ground this tool contextually, I began with a small survey about our GSAPP studio. I collected feedback from students and used LLM to analyse and define five key themes like privacy, lighting, flexibility, collaboration. These themes became what I call space modifiers in the interface. When toggled they add pregenerated text to add on top of the prompts you write. So even the tool is co-designed with its users.
 
 ![GSAPP survey forms.](/img/2025/co-design-canvas/surveytosliders.png)
