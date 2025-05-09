@@ -38,16 +38,18 @@ To explore this further, I developed a documentary [research project](https://gs
 <br>
 
 <div style="position: relative; width: 100%; max-width: 1200px; margin: 0 auto; padding-top: 56.25%;">
-  <img src="/img/2025/memento/Video1-thumbnail.png" alt="Video 1 Thumbnail"
+  <img src="/img/2025/memento/Video1-thumbnail.jpg" alt="Video 1 Thumbnail"
        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; cursor: pointer; z-index: 1;"
-       onclick="this.style.display='none'; this.nextElementSibling.style.display='block';">
+       onclick="this.style.display='none'; this.nextElementSibling.style.display='none'; this.nextElementSibling.nextElementSibling.style.display='block';">
   <img src="https://cdn-icons-png.flaticon.com/512/727/727245.png"
        alt="Play Button"
        style="position: absolute; top: 50%; left: 50%; width: 80px; height: 80px; transform: translate(-50%, -50%); z-index: 2; pointer-events: none;">
-  <iframe src="https://www.youtube.com/embed/55MUhbUgNd8?autoplay=1&controls=0&modestbranding=1&rel=0&showinfo=0"
+  <iframe src="https://www.youtube.com/embed/55MUhbUgNd8?enablejsapi=1&origin=window.location.origin&autoplay=1&controls=1&modestbranding=1&rel=0&showinfo=0"
           style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
+          allowfullscreen
+          loading="lazy"
+          onerror="this.style.display='none'; this.previousElementSibling.previousElementSibling.style.display='block'; alert('Video could not be loaded. Please try again later.');">
   </iframe>
 </div>
 
@@ -74,7 +76,7 @@ This realization led to the identification of a core problem !
 ****Oblivion****<br>
 *the state of being unaware or unconscious of what is happening*<br>
 
-An observational study on the disconnect between people and the city, exploring gaze patterns, physical interactions, and the relationship between time, location, and activity during urban commutes.
+An ovational study on the disconnect between people and the city, exploring gaze patterns, physical interactions, and the relationship between time, location, and activity during urban commutes.
 
 ![OBLIVION - the state of being unaware or unconscious of what is happening](/img/2025/memento/Oblivion%20step%20giff.gif)
 
@@ -93,14 +95,16 @@ Location and activity, however, offer pathways to reclaim this lost engagement. 
 <div style="position: relative; width: 100%; max-width: 1200px; margin: 0 auto; padding-top: 56.25%;">
   <img src="/img/2025/memento/Video-thumbnail.jpg" alt="Video 1 Thumbnail"
        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; cursor: pointer; z-index: 1;"
-       onclick="this.style.display='none'; this.nextElementSibling.style.display='block';">
+       onclick="this.style.display='none'; this.nextElementSibling.style.display='none'; this.nextElementSibling.nextElementSibling.style.display='block';">
   <img src="https://cdn-icons-png.flaticon.com/512/727/727245.png"
        alt="Play Button"
        style="position: absolute; top: 50%; left: 50%; width: 80px; height: 80px; transform: translate(-50%, -50%); z-index: 2; pointer-events: none;">
-  <iframe src="https://www.youtube.com/embed/Ru-mGZKYmqg?si=DFcfmzCGSI8VpNN6"
+  <iframe src="https://www.youtube.com/embed/Ru-mGZKYmqg?enablejsapi=1&origin=window.location.origin&autoplay=1&controls=1&modestbranding=1&rel=0&showinfo=0"
           style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
+          allowfullscreen
+          loading="lazy"
+          onerror="this.style.display='none'; this.previousElementSibling.previousElementSibling.style.display='block'; alert('Video could not be loaded. Please try again later.');">
   </iframe>
 </div>
 
@@ -184,6 +188,21 @@ MEMENTO reimagines how we engage with the city — not as passive commuters guid
 
 While most digital platforms demand attention for virtual content, MEMENTO gives that attention back to the physical world. It doesn't reward perfection or popularity — it values presence. What other apps ignore or overlook, MEMENTO elevates: a street-side moment, a passing gesture, a fleeting vibe. This platform isn't built for likes or followers, but for those who want to feel the city, not just move through it.
 
+
+
+<figure style="margin: 0 auto; max-width: 1200px;">
+  <div style="position: relative; width: 100%; padding-top: 177.78%;">
+    <iframe 
+      src="https://www.youtube.com/embed/uFpafGzH7Ak?feature=share&autoplay=1&mute=1&loop=1&playlist=uFpafGzH7Ak&controls=0&modestbranding=1&rel=0&showinfo=0"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <figcaption style="text-align: center; margin-top: 8px; font-style: italic;">MEMENTO - the platform</figcaption>
+</figure><br><br>
+
+
 ****What MEMENTO Is (and Isn't)****<br>
 <ul style="margin-left: 1.5em; list-style-type: circle;">
   <li> Not another navigation app — but a platform to re-navigate how we notice the city.</li>
@@ -216,35 +235,92 @@ Urban experiences span a wide spectrum — from spontaneous street performances 
 
 These are experiences that surround us every day, yet remain invisible to most digital platforms. They aren't part of formal city datasets or commercial navigation apps. MEMENTO fills this gap by surfacing what is unmarked, ephemeral, or emotional — capturing the human side of the city that's often lost in the rush. It's not about guiding you to a destination, but letting you discover what makes the journey meaningful.
 
+!["mementos as urban experiences around us in the city - <br> MEMENTO Categories,  Tags, and  Durations"](/img/2025/memento/mementos-categories,tags%20duration%20.png)
+
+- ***memento categories - What They Mean***<br>
+MEMENTO captures the city's intangible layers through 20 unique categories, each representing a distinct type of urban experience — from fleeting encounters to cultural markers, and everyday interactions to hidden stories. Here's what each category means:
 <ul style="margin-left: 1.5em; list-style-type: circle;">
-  <li> 🎷 <b>Street Performer - </b>A saxophonist who'll vanish in ten minutes — music meets moment.</li>
-  <li> 🚧 <b>Sudden Construction - </b>A sidewalk dug open — the city in mid-transformation.</li>
-  <li> 😣 <b>Unpleasant Spot - </b>A foul-smelling alley or chaotic crossing — not beautiful, but real.</li>
-  <li> 🎨 <b>Chalk Art on Pavement - </b>Drawn this morning, washed away by night — fleeting creativity.</li>
-  <li> 🎈 <b>Public Gathering - </b>A spontaneous dance circle or picnic in the park — collective joy.</li>
-  <li> 🧘 <b>Silent Moment - </b>Someone meditating under a tree — personal peace in public.</li>
-  <li> 🐾 <b>Creature Sighting - </b>A cat on a fire escape, a hawk on a lamppost — city wildlife.</li>
-  <li> 🍽️ <b>Street Food Discovery - </b>A pop-up vendor you've never seen before — and may never again.</li>
-  <li> 🌆 <b>Perfect Sunset - </b>A golden glow hitting a building just right — here and gone.</li>
-  <li> 📻 <b>Unexpected Soundscape - </b>A distant violin, overlapping conversations, birdsong — the city speaks.</li>
-  <li> 🎭 <b>Cultural Flash - </b>A traditional outfit, a festival practice, a whispered language.</li>
-  <li> 💬 <b>Overheard Phrase - </b>A stranger's sentence that sparks a thought — poetry in passing.</li>
-  <li> 🎉 <b>Surprise Event - </b>A market, protest, performance — completely unplanned.</li>
-  <li> 🌧️ <b>Weather Phenomenon - </b>Rain hitting sunlit windows, sudden fog — atmospheric moods.</li>
-  <li> 🪞 <b>Emotional Reflection - </b>A moment that hits you — a place, a smell, a memory.</li>
+  <li> 🏛️ <b>Architecture</b><br>The structural and built environment that defines the city's identity.</li>
+  <li> 🌿 <b>Urban Nature</b><br>Green spaces, natural elements, and fleeting encounters with nature in the urban landscape.</li>
+  <li> 🌈 <b>Sky & Weather</b><br>The city's atmospheric moods, from golden sunsets to unexpected rainstorms.</li>
+  <li> 🎭 <b>Cultural Spotlight</b><br>Cultural expressions, performances, and moments of shared artistic experience.</li>
+  <li> 🎧 <b>Mood & Music</b><br>Auditory textures that set the tone of the city — from music to ambient sounds.</li>
+  <li> 🐾 <b>Creature Sighting</b><br>Encounters with urban wildlife, both expected and surprising.</li>
+  <li> 🍴 <b>Street Food</b><br>The flavors and scents of street-level culinary experiences.</li>
+  <li> 👥 <b>Social Gathering</b><br>Spontaneous interactions and moments of communal presence in public spaces.</li>
+  <li> ⚽ <b>Sport in Action</b><br>Recreational activities and impromptu sports that animate the city.</li>
+  <li> ✍️ <b>Poetic Reflection</b><br>Personal expressions and written reflections that capture the essence of a moment.</li>
+  <li> 💡 <b>Urban Folklore</b><br>Hidden stories, local myths, and neighborhood legends embedded in the city.</li>
+  <li> 🏗️ <b>City in Transition</b><br>Spaces under construction or in flux, revealing the city's evolving character.</li>
+  <li> ⚠️ <b>Unpleasant Spot</b><br>Areas that highlight the city's raw, unfiltered reality — discomfort, neglect, or tension.</li>
+  <li> 👥 <b>Public Event</b><br>Gatherings, celebrations, and public happenings that bring the city together.</li>
+  <li> 🛍️ <b>Pop-Up Culture</b><br>Temporary installations, markets, and art displays that reframe familiar spaces.</li>
+  <li> 🎮 <b>Play & Participation</b><br>Interactive moments that turn urban spaces into playgrounds of engagement.</li>
+  <li> 🎓 <b>City Learning</b><br>Educational encounters and public discussions that transform the city into a classroom.</li>
+  <li> 🕊️ <b>Tranquil Corners</b><br>Quiet, contemplative spots that offer a brief escape from the urban rush.</li>
+  <li> 🧪 <b>Experimental Urbanism</b><br>Interventions that challenge conventional uses of space through art, tech, or design.</li>
+  <li> 🗂️ <b>Other</b><br>Unique experiences that don't fit into predefined categories but still resonate.</li>
+</ul>
+
+- ***memento tags-What They Represent***<br>
+MEMENTO tags add a layer of emotional, sensory, and contextual depth to each captured moment, transforming fleeting experiences into meaningful stories. Here's how each tag frames the city's intangible elements:
+<ul style="margin-left: 1.5em; list-style-type: circle;">
+  <li> 🌀 <b>Ephemeral</b><br>Moments that vanish as quickly as they appear — here one minute, gone the next.</li>
+  <li> 📍 <b>Unmapped</b><br>Hidden, uncharted spots that exist outside conventional maps.</li>
+  <li> 🧬 <b>Niche/Cult</b><br>Experiences tied to specific subcultures, underground scenes, or niche interests.</li>
+  <li> 💫 <b>Emotionally Charged</b><br>Moments that evoke strong feelings — from nostalgia to excitement, joy to sadness.</li>
+  <li> 🕵️ <b>Hidden Gem</b><br>Unexpected discoveries — a secret spot, a tucked-away corner, a local's favorite.</li>
+  <li> 🎭 <b>Unexpected Encounter</b><br>Spontaneous interactions or sights that interrupt the everyday routine.</li>
+  <li> 🪞 <b>Reflective</b><br>Moments that prompt introspection, pause, or personal reflection.</li>
+  <li> 💔 <b>Unpleasant Truth</b><br>Raw, unfiltered realities — uncomfortable, gritty, or unsettling.</li>
+  <li> ⏳ <b>Once-in-a-While</b><br>Rare occurrences — moments that don't happen often but leave a lasting impression.</li>
+  <li> 🔄 <b>Recurring Ritual</b><br>Repeated actions or events that become part of the city's rhythm — a weekly market, a daily performance.</li>
+  <li> 🧃 <b>Local Flavor</b><br>Experiences that reflect the unique character of a neighborhood or street.</li>
+  <li> 💃 <b>Performative</b><br>Encounters that feel staged, theatrical, or playfully exaggerated.</li>
+  <li> 👀 <b>Blink and You Miss It</b><br>Moments so brief that you'll miss them if you're not paying attention.</li>
+  <li> 🧲 <b>Highly Social</b><br>Experiences that draw people together — street games, pop-up gatherings, spontaneous chats.</li>
+  <li> 🌃 <b>Nightlife Pulse</b><br>The city's after-dark vibe — neon lights, bar scenes, night markets.</li>
+  <li> 🧳 <b>Touristy Yet Fun</b><br>Popular spots that may be overrun with tourists but still hold a playful charm.</li>
+  <li> 🧼 <b>Over-Polished</b><br>Places that feel curated, artificial, or overly manicured.</li>
+  <li> 🐣 <b>First-Time Friendly</b><br>Moments or spots that invite newcomers to experience the city with fresh eyes.</li>
+  <li> 🏙️ <b>Iconic Landmark</b><br>Classic city sights that instantly capture the essence of a place.</li>
+  <li> 🗂️ <b>Other</b><br>Unclassifiable moments that don't fit into any predefined tag but still resonate.</li>
+</ul>
+
+- ***memento duration-Time as a Layer of Experience***<br>
+MEMENTO durations capture the temporal essence of each moment, framing experiences through time — from fleeting encounters to long-lasting impressions. Here's how each duration shapes the memory of a moment:
+<ul style="margin-left: 1.5em; list-style-type: circle;">
+  <li> ⚡ <b>15 Minutes</b><br>Blink-and-you'll-miss-it moments — quick, transient experiences that barely linger.</li>
+  <li> ⏰ <b>30 Minutes</b><br>Short but impactful — enough time for a quick interaction, a brief sighting, or a passing soundscape.</li>
+  <li> ⏱️ <b>1 Hour</b><br>Encounters that allow for deeper engagement — street performances, park conversations, pop-up art displays.</li>
+  <li> ⏳ <b>2-3 Hours</b><br>Extended interactions — a casual meetup, a neighborhood walk, a local event.</li>
+  <li> 🕓 <b>3-6 Hours</b><br>Half-day experiences — cultural festivals, street markets, or neighborhood explorations.</li>
+  <li> 🌙 <b>6-12 Hours</b><br>Day-long happenings — street fairs, protests, public art activations that evolve throughout the day.</li>
+  <li> 🌞 <b>24 Hours</b><br>An entire day's worth of activity — from dawn to dusk, capturing the city's changing rhythms.</li>
+  <li> 🗓️ <b>1 Week</b><br>Events or installations that linger for a while — enough time for locals to notice and interact.</li>
+  <li> 🗓️ <b>1 Month</b><br>Seasonal pop-ups, temporary exhibitions, or city art installations that become part of the routine.</li>
+  <li> 📆 <b>1 Season</b><br>Experiences tied to specific times of year — summer street fairs, holiday markets, winter skating rinks.</li>
+  <li> 🗓️ <b>1 Year</b><br>Semi-permanent features that stay long enough to become part of the urban fabric.</li>
+  <li> ♾️ <b>Eternal</b><br>Lasting markers — murals, monuments, historic sites that remain as permanent city fixtures.</li>
+  <li> 🗂️ <b>Other</b><br>Undefined durations — moments that resist categorization, existing outside of time.</li>
 </ul>
 
 
-- **Types of Mementos**<br>
+- **Types of Mementos - Datasets based on the creators**<br>
 *Understanding how mementos are created and shared on the platform*
 
 MEMENTO supports three primary types of urban mementos that reflect different forms of contribution and discovery:
 
 <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 5px;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/2025/memento/videos/filterbycreators-ezgif.com-optimize.gif" 
-         alt="A user who shifts from rushed oblivion to micro-engagements—capturing city moments without slowing down." 
-         style="width:100%;">
+    <div style="position: relative; width: 100%; padding-top: 177.78%;">
+      <iframe 
+        src="https://www.youtube.com/embed/rLi2d689VXk?feature=share&autoplay=1&mute=1&loop=1&playlist=rLi2d689VXk&controls=0&modestbranding=1&rel=0&showinfo=0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 2vw;">
     <span style="font-family: sans-serif;">
@@ -366,9 +442,14 @@ The Capturer began to actively record fleeting urban experiences — tagging mom
 
 <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 5px;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/2025/memento/videos/filterbycreators-ezgif.com-optimize.gif" 
-         alt="A user who shifts from rushed oblivion to micro-engagements—capturing city moments without slowing down." 
-         style="width:100%;">
+    <div style="position: relative; width: 100%; padding-top: 177.78%;">
+      <iframe 
+        src="https://www.youtube.com/embed/rLi2d689VXk?feature=share&autoplay=1&mute=1&loop=1&playlist=rLi2d689VXk&controls=0&modestbranding=1&rel=0&showinfo=0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 2vw;">
     <span style="font-family: sans-serif;">
@@ -385,9 +466,14 @@ The Capturer began to actively record fleeting urban experiences — tagging mom
 
 <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 5px;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/2025/memento/videos/filterbyradius-ezgif.com-optimize.gif" 
-         alt="A user who shifts from rushed oblivion to micro-engagements—capturing city moments without slowing down." 
-         style="width:100%;">
+    <div style="position: relative; width: 100%; padding-top: 177.78%;">
+      <iframe 
+        src="https://www.youtube.com/embed/NJI4OJa0uMc?feature=share&autoplay=1&mute=1&loop=1&playlist=NJI4OJa0uMc&controls=0&modestbranding=1&rel=0&showinfo=0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 2vw;">
     <span style="font-family: sans-serif;">
@@ -405,9 +491,14 @@ The Capturer began to actively record fleeting urban experiences — tagging mom
 
 <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 5px;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/2025/memento/videos/info-ezgif.com-optimize.gif" 
-         alt="A user who shifts from rushed oblivion to micro-engagements—capturing city moments without slowing down." 
-         style="width:100%;">
+    <div style="position: relative; width: 100%; padding-top: 177.78%;">
+      <iframe 
+        src="https://www.youtube.com/embed/8pxUZhzX9ag?feature=share&autoplay=1&mute=1&loop=1&playlist=8pxUZhzX9ag&controls=0&modestbranding=1&rel=0&showinfo=0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 2vw;">
     <span style="font-family: sans-serif;">
@@ -443,9 +534,14 @@ They began using the discovery feature to surface nearby mementos based on categ
 
 <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 5px;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/2025/memento/videos/journey-ezgif.com-optimize.gif" 
-         alt="A user who shifts from rushed oblivion to micro-engagements—capturing city moments without slowing down." 
-         style="width:100%;">
+    <div style="position: relative; width: 100%; padding-top: 177.78%;">
+      <iframe 
+        src="https://www.youtube.com/embed/d-4u8rA90YQ?feature=share&autoplay=1&mute=1&loop=1&playlist=d-4u8rA90YQ&controls=0&modestbranding=1&rel=0&showinfo=0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 2vw;">
     <span style="font-family: sans-serif;">
@@ -465,9 +561,14 @@ They began using the discovery feature to surface nearby mementos based on categ
 
 <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 5px;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/2025/memento/videos/mymementos-ezgif.com-optimize.gif" 
-         alt="A user who shifts from rushed oblivion to micro-engagements—capturing city moments without slowing down." 
-         style="width:100%;">
+    <div style="position: relative; width: 100%; padding-top: 177.78%;">
+      <iframe 
+      src="https://www.youtube.com/embed/APTYACYhgTE?feature=share&autoplay=1&mute=1&loop=1&playlist=APTYACYhgTE&controls=0&modestbranding=1&rel=0&showinfo=0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 2vw;">
     <span style="font-family: sans-serif;">
@@ -486,9 +587,14 @@ They began using the discovery feature to surface nearby mementos based on categ
 
 <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 5px;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/2025/memento/videos/daily-ezgif.com-video-to-gif-converter.gif" 
-         alt="A user who shifts from rushed oblivion to micro-engagements—capturing city moments without slowing down." 
-         style="width:100%;">
+    <div style="position: relative; width: 100%; padding-top: 177.78%;">
+      <iframe 
+        src="https://www.youtube.com/embed/UxKqIh7hEts?feature=share&autoplay=1&mute=1&loop=1&playlist=UxKqIh7hEts&controls=0&modestbranding=1&rel=0&showinfo=0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 2vw;">
     <span style="font-family: sans-serif;">
@@ -523,9 +629,14 @@ Using MEMENTO's tag and category filters—like "Hidden Gem," "Niche/Cult," or "
 
 <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 5px;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/2025/memento/videos/livefeed-ezgif.com-optimize.gif" 
-         alt="A user who shifts from rushed oblivion to micro-engagements—capturing city moments without slowing down." 
-         style="width:100%;">
+    <div style="position: relative; width: 100%; padding-top: 177.78%;">
+      <iframe 
+        src="https://www.youtube.com/embed/CSJ3Yutbgn4?feature=share&autoplay=1&mute=1&loop=1&playlist=CSJ3Yutbgn4&controls=0&modestbranding=1&rel=0&showinfo=0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 2vw;">
     <span style="font-family: sans-serif;">
@@ -550,13 +661,18 @@ Using MEMENTO's tag and category filters—like "Hidden Gem," "Niche/Cult," or "
 
 <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 5px;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/2025/memento/videos/trending-ezgif.com-optimize.gif" 
-         alt="A user who shifts from rushed oblivion to micro-engagements—capturing city moments without slowing down." 
-         style="width:100%;">
+    <div style="position: relative; width: 100%; padding-top: 177.78%;">
+      <iframe 
+        src="https://www.youtube.com/embed/OgdKzVmsYl0?feature=share&autoplay=1&mute=1&loop=1&playlist=OgdKzVmsYl0&controls=0&modestbranding=1&rel=0&showinfo=0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 2vw;">
     <span style="font-family: sans-serif;">
-      <span style="font-weight: bold; font-style: italic; font-size: 1em;">Trending Mementos</span><br>
+      <span style="font-weight: bold; font-style: italic; font-size: 1em;">Curated by Trending </span><br>
       <ul style="font-size: 0.9em; font-weight: 400; font-family: sans-serif; margin-top: 0.5em;">
         <li>Surfaces mementos gaining the most traction based on a dynamic trending score.</li>
         <li>The score is calculated using the formula:(likes × 1 + favorites × 2) / (hours since posted + 2)^1.5</li>
@@ -588,9 +704,14 @@ MEMENTO's lightweight features—like curated suggestions, real-time live feed, 
 
 <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 5px;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/2025/memento/videos/bio-ezgif.com-video-to-gif-converter.gif" 
-         alt="A user who shifts from rushed oblivion to micro-engagements—capturing city moments without slowing down." 
-         style="width:100%;">
+    <div style="position: relative; width: 100%; padding-top: 177.78%;">
+      <iframe 
+        src="https://www.youtube.com/embed/K6GAjqJoSq0?feature=share&autoplay=1&mute=1&loop=1&playlist=K6GAjqJoSq0&controls=0&modestbranding=1&rel=0&showinfo=0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 2vw;">
     <span style="font-family: sans-serif;">
@@ -608,9 +729,14 @@ MEMENTO's lightweight features—like curated suggestions, real-time live feed, 
 
 <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 5px;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/2025/memento/videos/recommended-ezgif.com-optimize.gif" 
-         alt="A user who shifts from rushed oblivion to micro-engagements—capturing city moments without slowing down." 
-         style="width:100%;">
+    <div style="position: relative; width: 100%; padding-top: 177.78%;">
+      <iframe 
+        src="https://www.youtube.com/embed/4reG22Hyhqc?feature=share&autoplay=1&mute=1&loop=1&playlist=4reG22Hyhqc&controls=0&modestbranding=1&rel=0&showinfo=0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 2vw;">
     <span style="font-family: sans-serif;">
@@ -642,9 +768,14 @@ MEMENTO's lightweight features—like curated suggestions, real-time live feed, 
 
 <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 5px;">
   <div style="flex: 1; text-align: center;">
-    <img src="/img/2025/memento/videos/radiuscurated-ezgif.com-optimize.gif" 
-         alt="A user who shifts from rushed oblivion to micro-engagements—capturing city moments without slowing down." 
-         style="width:100%;">
+    <div style="position: relative; width: 100%; padding-top: 177.78%;">
+      <iframe 
+        src="https://www.youtube.com/embed/gilClGqQX-0?feature=share&autoplay=1&mute=1&loop=1&playlist=gilClGqQX-0&controls=0&modestbranding=1&rel=0&showinfo=0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 2vw;">
     <span style="font-family: sans-serif;">
