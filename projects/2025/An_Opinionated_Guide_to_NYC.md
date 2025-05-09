@@ -5,9 +5,7 @@ author: Genda Lin
 advisor: Jia Zhang
 year: 2025
 image: /img/2025/An_Opinionated_Guide_to_NYC/thumbnail.png
-links:
-  - text: Explore the map
-    url: https://.com/
+
 ---
 
 **ABSTRACT**<br>
