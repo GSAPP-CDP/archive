@@ -233,7 +233,7 @@ I would also like to extend my gratitude to the faculty and courses I engaged wi
 • Colloquium II - Explore,Explain,Propose by Laura Kurgan and Snoweria Zhang.<br>
 <br>
 • Spatial AI by William Martin<br>
-• Making Senses by James Nanasaka<br>
+• Making Senses by James Nanasca<br>
 • Virtual Architecture by Nitzan Bartov<br>
 • Colloquium III - Design in Action by Seth Thompson and Catherine Griffiths<br>
 
