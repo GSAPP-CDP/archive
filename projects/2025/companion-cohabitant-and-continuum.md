@@ -21,14 +21,13 @@ As a spatial designer, I started thinking about how robot vacuums behave at home
 These funny moments made me wonder: what if it's more than just a cleaner? Most robot vacuums simply tidy up, but our homes are full of feeling and culture. My capstone project asks:<br>
 <br><b>"What if</b> this companion could talk? What if it could <b>express</b> itself—not just beep when stuck, but actually <b>communicate</b>? Instead of just cleaning, could it feel more like a roommate, <b>sharing the space with you</b>?"
 
-<video
-  src="/img/2025/companion-cohabitant-and-continuum/background.mp4"
-  controls
-  autoplay
-  loop
-  muted
+<iframe
+  src="https://www.youtube.com/embed/0rWbE6TjLgo?autoplay=1&mute=1"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
   style="aspect-ratio: 16 / 9; width: 100%;">
-</video>
+</iframe>
 
 #### <center><i>Project's Background</i></center>
 --- 
@@ -97,23 +96,26 @@ I focused my research on four key areas:
 # <b>💬 Research 1: Emotional Interaction</b>
 How machines can show feelings and moods using expression, sound by documenting different existing technologies.
 
-<video
-  src="/img/2025/companion-cohabitant-and-continuum/documenting.mov"
-  controls
-  autoplay
-  loop
+<iframe
+  src="https://www.youtube.com/embed/mnwQ7gdCf7k?autoplay=1&mute=1"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
   style="aspect-ratio: 16 / 9; width: 100%;">
-</video>
+</iframe>
+
 
 # <b>🏠 Research 2: Spatial & Environmental Awareness</b>
 How robots can move through space with cultural awareness—not just logic.
-<video
-  src="/img/2025/companion-cohabitant-and-continuum/prototype2.mp4"
-  controls
-  autoplay
-  loop
+
+<iframe
+  src="https://www.youtube.com/embed/Gndr3FyDEso?autoplay=1&mute=1"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
   style="aspect-ratio: 16 / 9; width: 100%;">
-</video>
+</iframe>
+
 # <b>🌏 Research 3: Cultural Context</b>
 This part of the research focused on how different cultures shape our emotional and symbolic relationships with space, rituals, and technology.
 
@@ -142,24 +144,33 @@ To test these ideas, I built two early prototypes:
 This prototype tested how the robot might act like a companion in shared space.
 I focused on storytelling and how the robot could interact with people.
 
-<video
+<!-- <video
   src="/img/2025/companion-cohabitant-and-continuum/prototype2.mp4"
   controls
   autoplay
   loop
   style="aspect-ratio: 16 / 9; width: 100%;">
-</video>
+</video> -->
+
+
+<iframe
+  src="https://www.youtube.com/embed/s2swyg3Ios4?autoplay=1&mute=1"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+  style="aspect-ratio: 16 / 9; width: 100%;">
+</iframe>
 
 # <b>🤖 Prototype 2: Emotional and Interactive Prototype</b>
 This version tested how the robot could speak using GPT, express emotions, and deliver daily fortunes based on weather and birthdate. It included real-time interaction, emotional voice tone, and more complex sensing of the user.
 
-<video
-  src="/img/2025/companion-cohabitant-and-continuum/prototype.mov"
-  controls
-  autoplay
-  loop
+<iframe
+  src="https://www.youtube.com/embed/TJtpAmjxOps?autoplay=1&mute=1"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
   style="aspect-ratio: 16 / 9; width: 100%;">
-</video>
+</iframe>
 
 ---
 
@@ -266,8 +277,6 @@ This approach opens up a new kind of living relationship—one where emotional i
 
 ![Cee - A Cohabitant in your space](/img/2025/companion-cohabitant-and-continuum/cee.png)
 
-<!-- ![A Cohabitant in your space](/img/2025/companion-cohabitant-and-continuum/cee.gif) -->
-
 ---
 
 # <b>Who is Cee</b> will be?
@@ -281,13 +290,14 @@ Each version had its own voice tone and speed, adapted to different lifestyles.
 This prototype tested how the robot might act like a companion in shared space.
 I focused on storytelling and how the robot could interact with people.
 
-<video
-  src="/img/2025/companion-cohabitant-and-continuum/prototype1.mov"
-  controls
-  autoplay
-  loop
+
+<iframe
+  src="https://www.youtube.com/embed/ngBNES___C8?autoplay=1&mute=1"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
   style="aspect-ratio: 16 / 9; width: 100%;">
-</video>
+</iframe>
 
 But through testing, I realized something important:
 These weren't cohabitants. They felt more like service modes—helpers, not companions.
@@ -402,14 +412,15 @@ The demo includes:
 
 <br><b>- Context-based behaviors driven by user presence and environment</b>
 
-<video
-  src="/img/2025/companion-cohabitant-and-continuum/demo.mov"
-   controls
-    autoplay
-    loop
+<iframe
+  src="https://www.youtube.com/embed/EiviVdbUgwc?autoplay=1&mute=1"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
   style="aspect-ratio: 16 / 9; width: 100%;">
-</video>
+</iframe>
 
+\
 #### <center><i>"This is not just a device—it's a living companion who shares your space.<br>Because in the end, relationships are what make a house feel like home."</i></center>
 
 ---
