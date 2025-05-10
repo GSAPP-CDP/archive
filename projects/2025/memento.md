@@ -6,8 +6,11 @@ advisor: Juan Francisco Saldarriaga
 year: 2025
 image: /img/2025/memento/cover 2.png
 links:
-  - text: Project Website
+  - text: MEMENTO - web-app platfrom
     url: https://0209vaibhav.github.io/Memento/
+
+  - text: Computation and Machine learning in MEMENTO
+    url: https://0209vaibhav.github.io/Machine-Learning_MEMENTO/
 
 ---
 
@@ -239,71 +242,17 @@ These are experiences that surround us every day, yet remain invisible to most d
 
 - ***memento categories - What They Mean***<br>
 MEMENTO captures the city's intangible layers through 20 unique categories, each representing a distinct type of urban experience — from fleeting encounters to cultural markers, and everyday interactions to hidden stories. Here's what each category means:
-<ul style="margin-left: 1.5em; list-style-type: circle;">
-  <li> 🏛️ <b>Architecture</b><br>The structural and built environment that defines the city's identity.</li>
-  <li> 🌿 <b>Urban Nature</b><br>Green spaces, natural elements, and fleeting encounters with nature in the urban landscape.</li>
-  <li> 🌈 <b>Sky & Weather</b><br>The city's atmospheric moods, from golden sunsets to unexpected rainstorms.</li>
-  <li> 🎭 <b>Cultural Spotlight</b><br>Cultural expressions, performances, and moments of shared artistic experience.</li>
-  <li> 🎧 <b>Mood & Music</b><br>Auditory textures that set the tone of the city — from music to ambient sounds.</li>
-  <li> 🐾 <b>Creature Sighting</b><br>Encounters with urban wildlife, both expected and surprising.</li>
-  <li> 🍴 <b>Street Food</b><br>The flavors and scents of street-level culinary experiences.</li>
-  <li> 👥 <b>Social Gathering</b><br>Spontaneous interactions and moments of communal presence in public spaces.</li>
-  <li> ⚽ <b>Sport in Action</b><br>Recreational activities and impromptu sports that animate the city.</li>
-  <li> ✍️ <b>Poetic Reflection</b><br>Personal expressions and written reflections that capture the essence of a moment.</li>
-  <li> 💡 <b>Urban Folklore</b><br>Hidden stories, local myths, and neighborhood legends embedded in the city.</li>
-  <li> 🏗️ <b>City in Transition</b><br>Spaces under construction or in flux, revealing the city's evolving character.</li>
-  <li> ⚠️ <b>Unpleasant Spot</b><br>Areas that highlight the city's raw, unfiltered reality — discomfort, neglect, or tension.</li>
-  <li> 👥 <b>Public Event</b><br>Gatherings, celebrations, and public happenings that bring the city together.</li>
-  <li> 🛍️ <b>Pop-Up Culture</b><br>Temporary installations, markets, and art displays that reframe familiar spaces.</li>
-  <li> 🎮 <b>Play & Participation</b><br>Interactive moments that turn urban spaces into playgrounds of engagement.</li>
-  <li> 🎓 <b>City Learning</b><br>Educational encounters and public discussions that transform the city into a classroom.</li>
-  <li> 🕊️ <b>Tranquil Corners</b><br>Quiet, contemplative spots that offer a brief escape from the urban rush.</li>
-  <li> 🧪 <b>Experimental Urbanism</b><br>Interventions that challenge conventional uses of space through art, tech, or design.</li>
-  <li> 🗂️ <b>Other</b><br>Unique experiences that don't fit into predefined categories but still resonate.</li>
-</ul>
+
+<iframe src="/img/2025/memento/memento-categories.html" width="100%" height="700" style="border:none; border-radius:12px; margin-top:24px;"></iframe>
+
 
 - ***memento tags-What They Represent***<br>
 MEMENTO tags add a layer of emotional, sensory, and contextual depth to each captured moment, transforming fleeting experiences into meaningful stories. Here's how each tag frames the city's intangible elements:
-<ul style="margin-left: 1.5em; list-style-type: circle;">
-  <li> 🌀 <b>Ephemeral</b><br>Moments that vanish as quickly as they appear — here one minute, gone the next.</li>
-  <li> 📍 <b>Unmapped</b><br>Hidden, uncharted spots that exist outside conventional maps.</li>
-  <li> 🧬 <b>Niche/Cult</b><br>Experiences tied to specific subcultures, underground scenes, or niche interests.</li>
-  <li> 💫 <b>Emotionally Charged</b><br>Moments that evoke strong feelings — from nostalgia to excitement, joy to sadness.</li>
-  <li> 🕵️ <b>Hidden Gem</b><br>Unexpected discoveries — a secret spot, a tucked-away corner, a local's favorite.</li>
-  <li> 🎭 <b>Unexpected Encounter</b><br>Spontaneous interactions or sights that interrupt the everyday routine.</li>
-  <li> 🪞 <b>Reflective</b><br>Moments that prompt introspection, pause, or personal reflection.</li>
-  <li> 💔 <b>Unpleasant Truth</b><br>Raw, unfiltered realities — uncomfortable, gritty, or unsettling.</li>
-  <li> ⏳ <b>Once-in-a-While</b><br>Rare occurrences — moments that don't happen often but leave a lasting impression.</li>
-  <li> 🔄 <b>Recurring Ritual</b><br>Repeated actions or events that become part of the city's rhythm — a weekly market, a daily performance.</li>
-  <li> 🧃 <b>Local Flavor</b><br>Experiences that reflect the unique character of a neighborhood or street.</li>
-  <li> 💃 <b>Performative</b><br>Encounters that feel staged, theatrical, or playfully exaggerated.</li>
-  <li> 👀 <b>Blink and You Miss It</b><br>Moments so brief that you'll miss them if you're not paying attention.</li>
-  <li> 🧲 <b>Highly Social</b><br>Experiences that draw people together — street games, pop-up gatherings, spontaneous chats.</li>
-  <li> 🌃 <b>Nightlife Pulse</b><br>The city's after-dark vibe — neon lights, bar scenes, night markets.</li>
-  <li> 🧳 <b>Touristy Yet Fun</b><br>Popular spots that may be overrun with tourists but still hold a playful charm.</li>
-  <li> 🧼 <b>Over-Polished</b><br>Places that feel curated, artificial, or overly manicured.</li>
-  <li> 🐣 <b>First-Time Friendly</b><br>Moments or spots that invite newcomers to experience the city with fresh eyes.</li>
-  <li> 🏙️ <b>Iconic Landmark</b><br>Classic city sights that instantly capture the essence of a place.</li>
-  <li> 🗂️ <b>Other</b><br>Unclassifiable moments that don't fit into any predefined tag but still resonate.</li>
-</ul>
+<iframe src="/img/2025/memento/memento-tags.html" width="100%" height="700" style="border:none; border-radius:12px; margin-top:24px;"></iframe>
 
 - ***memento duration-Time as a Layer of Experience***<br>
 MEMENTO durations capture the temporal essence of each moment, framing experiences through time — from fleeting encounters to long-lasting impressions. Here's how each duration shapes the memory of a moment:
-<ul style="margin-left: 1.5em; list-style-type: circle;">
-  <li> ⚡ <b>15 Minutes</b><br>Blink-and-you'll-miss-it moments — quick, transient experiences that barely linger.</li>
-  <li> ⏰ <b>30 Minutes</b><br>Short but impactful — enough time for a quick interaction, a brief sighting, or a passing soundscape.</li>
-  <li> ⏱️ <b>1 Hour</b><br>Encounters that allow for deeper engagement — street performances, park conversations, pop-up art displays.</li>
-  <li> ⏳ <b>2-3 Hours</b><br>Extended interactions — a casual meetup, a neighborhood walk, a local event.</li>
-  <li> 🕓 <b>3-6 Hours</b><br>Half-day experiences — cultural festivals, street markets, or neighborhood explorations.</li>
-  <li> 🌙 <b>6-12 Hours</b><br>Day-long happenings — street fairs, protests, public art activations that evolve throughout the day.</li>
-  <li> 🌞 <b>24 Hours</b><br>An entire day's worth of activity — from dawn to dusk, capturing the city's changing rhythms.</li>
-  <li> 🗓️ <b>1 Week</b><br>Events or installations that linger for a while — enough time for locals to notice and interact.</li>
-  <li> 🗓️ <b>1 Month</b><br>Seasonal pop-ups, temporary exhibitions, or city art installations that become part of the routine.</li>
-  <li> 📆 <b>1 Season</b><br>Experiences tied to specific times of year — summer street fairs, holiday markets, winter skating rinks.</li>
-  <li> 🗓️ <b>1 Year</b><br>Semi-permanent features that stay long enough to become part of the urban fabric.</li>
-  <li> ♾️ <b>Eternal</b><br>Lasting markers — murals, monuments, historic sites that remain as permanent city fixtures.</li>
-  <li> 🗂️ <b>Other</b><br>Undefined durations — moments that resist categorization, existing outside of time.</li>
-</ul>
+<iframe src="/img/2025/memento/memento-duration.html" width="100%" height="700" style="border:none; border-radius:12px; margin-top:24px;"></iframe>
 
 
 - **Types of Mementos - Datasets based on the creators**<br>
@@ -405,13 +354,22 @@ The platform encourages users to engage with the mementos not just digitally, bu
 <BR>
 
 
-- **MEMENTO Workflow**
+- **Role of Computation and Machine Learning in MEMENTO**
 
 MEMENTO functions through three core actions that guide how users interact with the platform. Together, these actions form a continuous cycle of participation, enabling users to create, discover, and engage with real-time urban experiences.
 
 ![](/img/2025/memento/workflow/workflow-1.jpg)
 
 !["A comprehensive overview of MEMENTO's front-end and back-end architecture — illustrating how user actions, data inputs, system processing, and real-time outputs work together to capture, curate, and circulate urban experiences."](/img/2025/memento/workflow/workflow-2.jpg)
+
+
+The Machine Learning pipeline for public mementos in MEMENTO is designed to automate the classification and tagging of public content sourced from platforms such as Secret NYC, Reddit, NYC Bucket List, Newsbreak, and more. The objective is to replace rule-based keyword matching with a robust multi-label classification model that leverages existing user-generated mementos as training data.
+
+The pipeline consists of three primary models — Category Classification, Tag Prediction, and Duration Estimation — each trained using supervised learning techniques. Logistic Regression with One-vs-Rest strategy and Random Forest classifiers are employed to predict relevant categories and multiple tags, while Decision Trees handle ordinal duration estimation. Text data undergoes preprocessing, including tokenization, stop word removal, and TF-IDF vectorization to convert descriptions into feature vectors suitable for model training.
+
+By implementing this ML pipeline, MEMENTO enhances the consistency and accuracy of content classification, enabling the platform to transform unstructured public content into structured, contextually enriched mementos that align with its existing taxonomy.
+
+[More about the Computation tools, methods and Machine Learning Pipeline in MEMENTO](https://0209vaibhav.github.io/Machine-Learning_MEMENTO/)
 
 <BR>
 <HR>
@@ -663,7 +621,7 @@ Using MEMENTO's tag and category filters—like "Hidden Gem," "Niche/Cult," or "
   <div style="flex: 1; text-align: center;">
     <div style="position: relative; width: 100%; padding-top: 177.78%;">
       <iframe 
-        src="https://www.youtube.com/embed/OgdKzVmsYl0?feature=share&autoplay=1&mute=1&loop=1&playlist=OgdKzVmsYl0&controls=0&modestbranding=1&rel=0&showinfo=0"
+        src="https://www.youtube.com/embed/FpG7OsexCzQ?feature=share&autoplay=1&mute=1&loop=1&playlist=FpG7OsexCzQ&controls=0&modestbranding=1&rel=0&showinfo=0"        
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
@@ -731,7 +689,7 @@ MEMENTO's lightweight features—like curated suggestions, real-time live feed, 
   <div style="flex: 1; text-align: center;">
     <div style="position: relative; width: 100%; padding-top: 177.78%;">
       <iframe 
-        src="https://www.youtube.com/embed/4reG22Hyhqc?feature=share&autoplay=1&mute=1&loop=1&playlist=4reG22Hyhqc&controls=0&modestbranding=1&rel=0&showinfo=0"
+        src="https://www.youtube.com/embed/WKMDc3dOECg?feature=share&autoplay=1&mute=1&loop=1&playlist=WKMDc3dOECg&controls=0&modestbranding=1&rel=0&showinfo=0"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
@@ -851,6 +809,7 @@ My peers, mentors, and the entire CDP cohort for the countless conversations, pr
 - [Gamification in Museums – AMT Lab](https://amt-lab.org/blog/2021/5/gamification-in-museums)  
 - [Domestic Robocop – Keiichi Matsuda](http://km.cx/projects/domestic-robocop)  
 - [Augmented (Hyper)Reality – Vimeo](https://vimeo.com/14294054)
+
 
 
 
