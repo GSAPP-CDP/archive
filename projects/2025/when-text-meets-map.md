@@ -25,7 +25,7 @@ These are foundational U.S. texts, all based on true stories.
 
 -Into the Wild by Jon Krakauer tells the story of Chris McCandless, who leaves society behind to seek truth in the Alaskan wilderness—grappling with themes of individualism and risk.
 
-![Reading can go beyond pages.](public/img/2025/when-text-meets-map/real_book_story.png)
+![Reading can go beyond pages.](public/img/2025/when-text-meets-map/real_book_story.jpg)
 
 <br><br>
 
