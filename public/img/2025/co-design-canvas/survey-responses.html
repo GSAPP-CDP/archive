@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAPP Studio Survey Responses</title>
+    <style>
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin: 1.5vh 0 2vh 0;
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+        }
+
+        .legend {
+            margin: 1vh 0;
+            padding: 1.5vh 1vw;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            width: 95%;
+            box-sizing: border-box;
+        }
+
+        .legend h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            font-size: clamp(1rem, 2vw, 1.5rem);
+        }
+
+        .legend ol {
+            margin: 0;
+            padding-left: 1.2em;
+            font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+        }
+
+        .survey-container {
+            overflow-x: auto;
+            margin: 1vh 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            width: 735px;
+            max-width: 735px;
+            max-height: 650px;
+            background: white;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            font-size: clamp(0.65rem, 0.9vw, 0.85rem);
+        }
+
+        th {
+            background: #2980b9;
+            color: white;
+            padding: 0.4em 0.3em;
+            text-align: left;
+            position: sticky;
+            top: 0;
+            font-size: clamp(0.7rem, 1vw, 0.9rem);
+        }
+
+        td {
+            padding: 0.4em 0.3em;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: top;
+            font-size: clamp(0.65rem, 0.9vw, 0.85rem);
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .timestamp {
+            white-space: nowrap;
+            color: #666;
+        }
+
+        .program {
+            font-weight: bold;
+            color: #2980b9;
+        }
+
+        .response {
+            max-width: 100px;
+            word-break: break-word;
+        }
+
+        .meta-info {
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>GSAPP Studio Survey Responses</h1>
+
+    <div class="legend">
+        <h2>Survey Questions</h2>
+        <ol>
+            <li>What do you enjoy most about the current studio environment?</li>
+            <li>What aspects of the current studio environment do you find limiting or challenging?</li>
+            <li>If you could redesign the studio entirely, what would be your top changes?</li>
+            <li>What elements are essential for an ideal studio space?</li>
+            <li>How can the design better support collaboration and community?</li>
+            <li>What's one specific innovation you'd introduce?</li>
+        </ol>
+    </div>
+
+    <div class="survey-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Program & Year</th>
+                    <th>Current Enjoyment</th>
+                    <th>Challenges</th>
+                    <th>Desired Changes</th>
+                    <th>Essential Elements</th>
+                    <th>Collaboration Ideas</th>
+                    <th>Specific Innovation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="meta-info"><span class="program">MSCDP</span><br>Year 1</td>
+                    <td class="response">Equipment, computers and printers, natural sunlight, storage space</td>
+                    <td class="response">Cluttered and can be too much sunlight at times</td>
+                    <td class="response">Change colors and materials for a more soothing environment, like the library</td>
+                    <td class="response">Calming environment, cleaner storage areas, more organized wall space for art or announcements</td>
+                    <td class="response">The fact we are all in one space and share tabletops and printers</td>
+                    <td class="response">Curtains to obscure harsh light in summer, warmer lighting</td>
+                </tr>
+                <tr>
+                    <td class="meta-info"><span class="program">MSAAD</span><br>2024-2025</td>
+                    <td class="response">Just the random stuff around me which basically belongs to me</td>
+                    <td class="response">The desk space, zero privacy</td>
+                    <td class="response">Better lighting, options of creating corners for ourselves, a fridge</td>
+                    <td class="response">Lighting, layout, views</td>
+                    <td class="response">Different layout where groups are not so far away from one another</td>
+                    <td class="response">Change layout, randomize a bit</td>
+                </tr>
+                <tr>
+                    <td class="meta-info"><span class="program">MSAAD</span><br>Year 1</td>
+                    <td class="response">The large windows</td>
+                    <td class="response">Making desks not dedicated enough, cramped desk placements</td>
+                    <td class="response">Spaces for model displaying, more organic layout with in-between spaces</td>
+                    <td class="response">Lighting, Layout</td>
+                    <td class="response">Create more organic spaces for interaction</td>
+                    <td class="response">Break the uniformity, create levels</td>
+                </tr>
+                <tr>
+                    <td class="meta-info"><span class="program">CDP</span><br>Year 25</td>
+                    <td class="response">T</td>
+                    <td class="response">Miserable social interaction, no feeling of belonging, limited functionality</td>
+                    <td class="response">Make different zoning based on function and program</td>
+                    <td class="response">Round tables for conversation, coffee machine, closed spaces for safety</td>
+                    <td class="response">Divided space based on programs, equipment for knowledge sharing</td>
+                    <td class="response">Make it like a cafe</td>
+                </tr>
+                <tr>
+                    <td class="meta-info"><span class="program">MSAAD</span><br>2025</td>
+                    <td class="response">Great natural lighting in all three floors</td>
+                    <td class="response">Very constrained layout</td>
+                    <td class="response">Make everything versatile with desks on wheels</td>
+                    <td class="response">Open floor plan with moveable desks and pin up walls</td>
+                    <td class="response">Different arrangements of desks and moveable walls</td>
+                    <td class="response">Desks on wheels</td>
+                </tr>
+                <tr>
+                    <td class="meta-info"><span class="program">CDP</span><br>Year 1</td>
+                    <td class="response">Accessible computer and printer, plenty of natural lighting</td>
+                    <td class="response">Studio setup doesn't feel collaborative</td>
+                    <td class="response">Large pin up space on walls, more open spaces</td>
+                    <td class="response">Good lighting and view, mix studio layout with projector</td>
+                    <td class="response">DIY space with pin up boards and common areas</td>
+                    <td class="response">Gathering space within studio for students</td>
+                </tr>
+                <tr>
+                    <td class="meta-info"><span class="program">MSCDP</span><br>Year 1</td>
+                    <td class="response">Interaction with other people, personal desk</td>
+                    <td class="response">No counter space, no clear labeling, no display space</td>
+                    <td class="response">Design boards, better lighting, less visual clutter</td>
+                    <td class="response">Less visual clutter, better organization of wires and monitors</td>
+                    <td class="response">Place to hang or display work</td>
+                    <td class="response">Cable organization, natural woods instead of white</td>
+                </tr>
+                <tr>
+                    <td class="meta-info"><span class="program">CDP</span><br>Year 25</td>
+                    <td class="response">Printing, randomly meet strangers</td>
+                    <td class="response">Difficult to have eye-contact and conversation</td>
+                    <td class="response">Reconfiguration of zoning, regular events, relaxation spaces</td>
+                    <td class="response">As mentioned above</td>
+                    <td class="response">As mentioned above</td>
+                    <td class="response">Good coffee machine and free iced sodas</td>
+                </tr>
+                <tr>
+                    <td class="meta-info"><span class="program">MSAAD</span><br>2025</td>
+                    <td class="response">People around</td>
+                    <td class="response">Whiteness of space, inflexible cold lights</td>
+                    <td class="response">Re-arrange for better community feeling</td>
+                    <td class="response">Common shared spaces for relaxation or work</td>
+                    <td class="response">Install music system</td>
+                    <td class="response">Have intermediate spaces, not only for work</td>
+                </tr>
+                <tr>
+                    <td class="meta-info"><span class="program">MArch</span><br>III</td>
+                    <td class="response">The People</td>
+                    <td class="response">Not enough shelf space for books and models</td>
+                    <td class="response">Add restocked depot of coffee and tea</td>
+                    <td class="response">Stock of simple model materials</td>
+                    <td class="response">Studio is VERY collaborative</td>
+                    <td class="response">Better smells: coffee, linen, chamomile, incense</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html> 

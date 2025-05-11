@@ -290,7 +290,6 @@ Each version had its own voice tone and speed, adapted to different lifestyles.
 This prototype tested how the robot might act like a companion in shared space.
 I focused on storytelling and how the robot could interact with people.
 
-
 <iframe
   src="https://www.youtube.com/embed/ngBNES___C8?autoplay=1&mute=1"
   frameborder="0"

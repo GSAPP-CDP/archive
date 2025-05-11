@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ComfyUI Inpaint Anything Workflow Animation</title>
+  <meta name="viewport" content="width=600, initial-scale=1.0">
+  <style>
+    body {
+      background: #f7f7f7;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+    .workflow-container {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      margin: 40px 0;
+      padding: 32px 24px;
+      width: 540px;
+      max-width: 98vw;
+      position: relative;
+      overflow: hidden;
+    }
+    .step {
+      display: flex;
+      align-items: flex-start;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.7s, transform 0.7s;
+      margin-bottom: 32px;
+      min-height: 80px;
+    }
+    .step.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: #e3eafc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.2em;
+      margin-right: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      flex-shrink: 0;
+      margin-top: 6px;
+    }
+    .caption {
+      font-size: 1.08em;
+      color: #222;
+      font-weight: 500;
+      line-height: 1.5;
+    }
+    .arrow {
+      width: 100%;
+      text-align: center;
+      font-size: 2em;
+      color: #bbb;
+      margin: -16px 0 8px 0;
+      opacity: 0;
+      transition: opacity 0.7s;
+    }
+    .arrow.visible {
+      opacity: 1;
+    }
+    @media (max-width: 600px) {
+      .workflow-container { padding: 16px 4vw; }
+      .icon { margin-right: 12px; }
+      .caption { font-size: 1em; }
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="workflow-container">
+    <div class="step" id="step1">
+      <div class="icon" style="background:#e3eafc;"><i class="fa fa-image"></i></div>
+      <div class="caption">
+        <b>1. Input Image & Mask</b><br>
+        <b>Nodes:</b> <code>LoadImage</code>, <code>ImageCrop+</code>, <code>Mask Crop Region</code><br>
+        The user uploads or selects an image. A mask is created using tools or by loading a mask file. The mask can be refined or cropped for the region of interest.
+      </div>
+    </div>
+    <div class="arrow" id="arrow1">&#8595;</div>
+    <div class="step" id="step2">
+      <div class="icon" style="background:#eafbe3;"><i class="fa fa-object-group"></i></div>
+      <div class="caption">
+        <b>2. Segmentation & Masking</b><br>
+        <b>Nodes:</b> <code>SAMModelLoader (segment anything)</code>, <code>GroundingDinoModelLoader</code>, <code>GroundingDinoSAMSegment</code>, <code>InvertMask</code>, <code>AddMask</code>, <code>SubtractMask</code>, <code>MaskBlur+</code>, <code>ImpactDilateMask</code><br>
+        Advanced segmentation models (SAM, GroundingDINO) are loaded and used to generate precise masks for the selected region. Masks can be combined, inverted, blurred, or dilated for fine control.
+      </div>
+    </div>
+    <div class="arrow" id="arrow2">&#8595;</div>
+    <div class="step" id="step3">
+      <div class="icon" style="background:#fbeee3;"><i class="fa fa-keyboard"></i></div>
+      <div class="caption">
+        <b>3. Prompt Encoding</b><br>
+        <b>Nodes:</b> <code>Text</code>, <code>Text Find and Replace</code>, <code>CLIPTextEncode</code>, <code>CLIPVisionLoader</code>, <code>IPAdapterModelLoader</code>, <code>IPAdapterAdvanced</code><br>
+        User text prompts (main subject and context) are processed and encoded using CLIP and IPAdapter models. These encodings guide the AI on what to generate in the masked area.
+      </div>
+    </div>
+    <div class="arrow" id="arrow3">&#8595;</div>
+    <div class="step" id="step4">
+      <div class="icon" style="background:#e3f7fb;"><i class="fa fa-robot"></i></div>
+      <div class="caption">
+        <b>4. AI Inpainting & Generation</b><br>
+        <b>Nodes:</b> <code>CheckpointLoaderSimple</code>, <code>ControlNetLoaderAdvanced</code>, <code>ACN_AdvancedControlNetApply</code>, <code>KSampler</code>, <code>VAEDecode</code>, <code>DifferentialDiffusion</code><br>
+        The diffusion model (e.g., <code>juggernautXL_v9Rdphoto2Lightning.safetensors</code>) is loaded. ControlNet and IPAdapter provide additional guidance. The model generates new content in the masked region, conditioned on the prompt and segmentation.
+      </div>
+    </div>
+    <div class="arrow" id="arrow4">&#8595;</div>
+    <div class="step" id="step5">
+      <div class="icon" style="background:#fbe3f3;"><i class="fa fa-layer-group"></i></div>
+      <div class="caption">
+        <b>5. Compositing & Output</b><br>
+        <b>Nodes:</b> <code>ImageCompositeMasked</code>, <code>ImageResize+</code>, <code>PreviewImage</code>, <code>Image Save</code>, <code>Display Any (rgthree)</code><br>
+        The generated content is composited with the original image using the mask. The result is resized if needed, previewed, and saved for the user to view or download.
+      </div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const steps = [
+        document.getElementById('step1'),
+        document.getElementById('step2'),
+        document.getElementById('step3'),
+        document.getElementById('step4'),
+        document.getElementById('step5')
+      ];
+      const arrows = [
+        document.getElementById('arrow1'),
+        document.getElementById('arrow2'),
+        document.getElementById('arrow3'),
+        document.getElementById('arrow4')
+      ];
+      if (steps.some(s => !s) || arrows.some(a => !a)) {
+        console.error('One or more step/arrow elements not found:', steps, arrows);
+        return;
+      }
+      let animationRunning = false;
+      function showStepLoop() {
+        if (animationRunning) return;
+        animationRunning = true;
+        steps.forEach(s => s.classList.remove('visible'));
+        arrows.forEach(a => a.classList.remove('visible'));
+        let i = 0;
+        function showStep() {
+          if (i > 0 && arrows[i-1]) arrows[i-1].classList.add('visible');
+          if (i < steps.length) {
+            if (steps[i]) steps[i].classList.add('visible');
+            i++;
+            setTimeout(showStep, 1200);
+          } else {
+            setTimeout(() => {
+              animationRunning = false;
+              showStepLoop();
+            }, 1800);
+          }
+        }
+        showStep();
+      }
+      showStepLoop();
+    });
+  </script>
+</body>
+</html>

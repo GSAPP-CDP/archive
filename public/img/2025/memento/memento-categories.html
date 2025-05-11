@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memento Categories</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    .categories-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding: 16px;
+      justify-content: center;
+    }
+    .category-card {
+      flex: 1 1 260px;
+      min-width: 220px;
+      max-width: 320px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 1px 6px #0001;
+      padding: 14px 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 0;
+      transition: box-shadow 0.2s;
+    }
+    .category-card:hover {
+      box-shadow: 0 4px 16px #0002;
+    }
+    .category-emoji {
+      font-size: 1.6rem;
+      line-height: 1;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+    .category-info {
+      flex: 1;
+    }
+    .category-title {
+      font-weight: 700;
+      font-size: 1.05em;
+      margin-bottom: 1px;
+    }
+    .category-desc {
+      font-size: 0.97em;
+      color: #444;
+      line-height: 1.35;
+    }
+  </style>
+</head>
+<body>
+  <div class="categories-grid">
+    <div class="category-card"><span class="category-emoji">🏛️</span><div class="category-info"><div class="category-title">Architecture</div><div class="category-desc">The structural and built environment that defines the city's identity.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🌿</span><div class="category-info"><div class="category-title">Urban Nature</div><div class="category-desc">Green spaces, natural elements, and fleeting encounters with nature in the urban landscape.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🌈</span><div class="category-info"><div class="category-title">Sky & Weather</div><div class="category-desc">The city's atmospheric moods, from golden sunsets to unexpected rainstorms.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🎭</span><div class="category-info"><div class="category-title">Cultural Spotlight</div><div class="category-desc">Cultural expressions, performances, and moments of shared artistic experience.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🎧</span><div class="category-info"><div class="category-title">Mood & Music</div><div class="category-desc">Auditory textures that set the tone of the city — from music to ambient sounds.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🐾</span><div class="category-info"><div class="category-title">Creature Sighting</div><div class="category-desc">Encounters with urban wildlife, both expected and surprising.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🍴</span><div class="category-info"><div class="category-title">Street Food</div><div class="category-desc">The flavors and scents of street-level culinary experiences.</div></div></div>
+    <div class="category-card"><span class="category-emoji">👥</span><div class="category-info"><div class="category-title">Social Gathering</div><div class="category-desc">Spontaneous interactions and moments of communal presence in public spaces.</div></div></div>
+    <div class="category-card"><span class="category-emoji">⚽</span><div class="category-info"><div class="category-title">Sport in Action</div><div class="category-desc">Recreational activities and impromptu sports that animate the city.</div></div></div>
+    <div class="category-card"><span class="category-emoji">✍️</span><div class="category-info"><div class="category-title">Poetic Reflection</div><div class="category-desc">Personal expressions and written reflections that capture the essence of a moment.</div></div></div>
+    <div class="category-card"><span class="category-emoji">💡</span><div class="category-info"><div class="category-title">Urban Folklore</div><div class="category-desc">Hidden stories, local myths, and neighborhood legends embedded in the city.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🏗️</span><div class="category-info"><div class="category-title">City in Transition</div><div class="category-desc">Spaces under construction or in flux, revealing the city's evolving character.</div></div></div>
+    <div class="category-card"><span class="category-emoji">⚠️</span><div class="category-info"><div class="category-title">Unpleasant Spot</div><div class="category-desc">Areas that highlight the city's raw, unfiltered reality — discomfort, neglect, or tension.</div></div></div>
+    <div class="category-card"><span class="category-emoji">👥</span><div class="category-info"><div class="category-title">Public Event</div><div class="category-desc">Gatherings, celebrations, and public happenings that bring the city together.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🛍️</span><div class="category-info"><div class="category-title">Pop-Up Culture</div><div class="category-desc">Temporary installations, markets, and art displays that reframe familiar spaces.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🎮</span><div class="category-info"><div class="category-title">Play & Participation</div><div class="category-desc">Interactive moments that turn urban spaces into playgrounds of engagement.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🎓</span><div class="category-info"><div class="category-title">City Learning</div><div class="category-desc">Educational encounters and public discussions that transform the city into a classroom.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🕊️</span><div class="category-info"><div class="category-title">Tranquil Corners</div><div class="category-desc">Quiet, contemplative spots that offer a brief escape from the urban rush.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🧪</span><div class="category-info"><div class="category-title">Experimental Urbanism</div><div class="category-desc">Interventions that challenge conventional uses of space through art, tech, or design.</div></div></div>
+    <div class="category-card"><span class="category-emoji">🗂️</span><div class="category-info"><div class="category-title">Other</div><div class="category-desc">Unique experiences that don't fit into predefined categories but still resonate.</div></div></div>
+  </div>
+</body>
+</html> 
