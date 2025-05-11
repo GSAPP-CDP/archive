@@ -4,7 +4,7 @@ title: When Text Meets Map
 author: Yuxi Dai (Sissie)
 advisor: Juan Francisco Saldarriaga
 year: 2025
-image: public/img/2025/when-text-meets-map/map.png
+image: /img/2025/when-text-meets-map/map.png
 links:
   - text: Main Interface
     url: https://daisissie.github.io/whentextmeetmap/
