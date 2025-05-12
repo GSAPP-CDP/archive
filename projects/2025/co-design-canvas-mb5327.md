@@ -8,6 +8,8 @@ image: /img/2025/co-design-canvas/coverwebsite.png
 links:
   - text: Explore
     url: https://colloquium-backend.onrender.com/
+  - text: Repo
+    url: https://github.com/Utopia5327/codesigncanvasoffline
 ---
 
 ![AI-powered platform translating community input into spatial visualizations for collective dialogue in contested urban spaces.](/img/2025/co-design-canvas/cover.jpg) 
@@ -44,6 +46,11 @@ _A sketchbook for collaborative spatial design_
  So I curated a system where people can engage in spatial decision-making—visually and intuitively. This is Co-Design Canvas. It's like a shared design sketchbook ~ open to anyone.
 
 ![AI-powered platform translating community input into spatial visualizations for collective dialogue in contested urban spaces.](/img/2025/co-design-canvas/covermid.png)
+
+
+<iframe width="735" height="420" src="https://www.youtube.com/embed/-WoL0tsY7Rk?si=-5RaWygi5QBWhjmD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="text-align: center; color: #999999;">Co-Design Canvas Platform Overview</div>
+
 
 To ground this tool contextually, I began with a small survey about our GSAPP studio. I collected feedback from students and used LLM to analyse and define five key themes like privacy, lighting, flexibility, collaboration. These themes became what I call space modifiers in the interface. When toggled they add pregenerated text to add on top of the prompts you write. So even the tool is co-designed with its users.
 
@@ -147,7 +154,7 @@ _From prompts to visuals_
 
 These images represent the collective visions of GSAPP students, generated through our Co-Design platform. Each visual reflects a unique interpretation of how the GSAPP studio and plaza could evolve — capturing aspirations for collaboration, creativity, and community. By translating individual inputs into visual outputs, the platform revealed both common desires and diverse imaginations, highlighting the power of participatory design in shaping shared spaces.
 
-![GSAPP community wishes](/img/2025/co-design-canvas/collectivevision.png)
+![GSAPP community wishes](/img/2025/co-design-canvas/collectivevision.jpg)
 
 <br><br>
 
@@ -226,7 +233,7 @@ I would also like to extend my gratitude to the faculty and courses I engaged wi
 • Colloquium II - Explore,Explain,Propose by Laura Kurgan and Snoweria Zhang.<br>
 <br>
 • Spatial AI by William Martin<br>
-• Making Senses by James Nanasaka<br>
+• Making Senses by James Nanasca<br>
 • Virtual Architecture by Nitzan Bartov<br>
 • Colloquium III - Design in Action by Seth Thompson and Catherine Griffiths<br>
 

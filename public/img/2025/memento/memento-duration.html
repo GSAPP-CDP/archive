@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memento Durations</title>
+  <style>
+    body { margin: 0; padding: 0; background: #f7f7f7; font-family: 'Segoe UI', Arial, sans-serif; }
+    .durations-grid { display: flex; flex-wrap: wrap; gap: 16px; padding: 16px; justify-content: center; }
+    .duration-card { flex: 1 1 260px; min-width: 220px; max-width: 320px; background: #fff; border-radius: 10px; box-shadow: 0 1px 6px #0001; padding: 14px 16px; display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0; transition: box-shadow 0.2s; }
+    .duration-card:hover { box-shadow: 0 4px 16px #0002; }
+    .duration-emoji { font-size: 1.6rem; line-height: 1; margin-top: 2px; flex-shrink: 0; }
+    .duration-info { flex: 1; }
+    .duration-title { font-weight: 700; font-size: 1.05em; margin-bottom: 1px; }
+    .duration-desc { font-size: 0.97em; color: #444; line-height: 1.35; }
+  </style>
+</head>
+<body>
+  <div class="durations-grid">
+    <div class="duration-card"><span class="duration-emoji">⚡</span><div class="duration-info"><div class="duration-title">15 Minutes</div><div class="duration-desc">Blink-and-you'll-miss-it moments — quick, transient experiences that barely linger.</div></div></div>
+    <div class="duration-card"><span class="duration-emoji">⏰</span><div class="duration-info"><div class="duration-title">30 Minutes</div><div class="duration-desc">Short but impactful — enough time for a quick interaction, a brief sighting, or a passing soundscape.</div></div></div>
+    <div class="duration-card"><span class="duration-emoji">⏱️</span><div class="duration-info"><div class="duration-title">1 Hour</div><div class="duration-desc">Encounters that allow for deeper engagement — street performances, park conversations, pop-up art displays.</div></div></div>
+    <div class="duration-card"><span class="duration-emoji">⏳</span><div class="duration-info"><div class="duration-title">2-3 Hours</div><div class="duration-desc">Extended interactions — a casual meetup, a neighborhood walk, a local event.</div></div></div>
+    <div class="duration-card"><span class="duration-emoji">🕓</span><div class="duration-info"><div class="duration-title">3-6 Hours</div><div class="duration-desc">Half-day experiences — cultural festivals, street markets, or neighborhood explorations.</div></div></div>
+    <div class="duration-card"><span class="duration-emoji">🌙</span><div class="duration-info"><div class="duration-title">6-12 Hours</div><div class="duration-desc">Day-long happenings — street fairs, protests, public art activations that evolve throughout the day.</div></div></div>
+    <div class="duration-card"><span class="duration-emoji">🌞</span><div class="duration-info"><div class="duration-title">24 Hours</div><div class="duration-desc">An entire day's worth of activity — from dawn to dusk, capturing the city's changing rhythms.</div></div></div>
+    <div class="duration-card"><span class="duration-emoji">🗓️</span><div class="duration-info"><div class="duration-title">1 Week</div><div class="duration-desc">Events or installations that linger for a while — enough time for locals to notice and interact.</div></div></div>
+    <div class="duration-card"><span class="duration-emoji">🗓️</span><div class="duration-info"><div class="duration-title">1 Month</div><div class="duration-desc">Seasonal pop-ups, temporary exhibitions, or city art installations that become part of the routine.</div></div></div>
+    <div class="duration-card"><span class="duration-emoji">📆</span><div class="duration-info"><div class="duration-title">1 Season</div><div class="duration-desc">Experiences tied to specific times of year — summer street fairs, holiday markets, winter skating rinks.</div></div></div>
+    <div class="duration-card"><span class="duration-emoji">🗓️</span><div class="duration-info"><div class="duration-title">1 Year</div><div class="duration-desc">Semi-permanent features that stay long enough to become part of the urban fabric.</div></div></div>
+    <div class="duration-card"><span class="duration-emoji">♾️</span><div class="duration-info"><div class="duration-title">Eternal</div><div class="duration-desc">Lasting markers — murals, monuments, historic sites that remain as permanent city fixtures.</div></div></div>
+    <div class="duration-card"><span class="duration-emoji">🗂️</span><div class="duration-info"><div class="duration-title">Other</div><div class="duration-desc">Undefined durations — moments that resist categorization, existing outside of time.</div></div></div>
+  </div>
+</body>
+</html> 
