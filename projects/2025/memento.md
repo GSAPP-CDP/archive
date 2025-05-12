@@ -14,6 +14,8 @@ links:
 
 ---
 
+
+
 ![Not just a map of locations —<br>
 but a real-time playground of urban experiences.<br>
 To resist oblivion commutes,<br>
@@ -356,18 +358,106 @@ The platform encourages users to engage with the mementos not just digitally, bu
 
 - **Role of Computation and Machine Learning in MEMENTO**
 
-MEMENTO functions through three core actions that guide how users interact with the platform. Together, these actions form a continuous cycle of participation, enabling users to create, discover, and engage with real-time urban experiences.
+MEMENTO is not just a platform — it's a computational ecosystem that leverages a wide spectrum of tools, methods, and data-driven processes to transform everyday urban experiences into interactive, real-time narratives. It integrates multiple computational layers, each playing a distinct role in capturing, analyzing, and visualizing the city's overlooked moments.
 
-![](/img/2025/memento/workflow/workflow-1.jpg)
+MEMENTO's computational framework is divided into two core sections:
 
-!["A comprehensive overview of MEMENTO's front-end and back-end architecture — illustrating how user actions, data inputs, system processing, and real-time outputs work together to capture, curate, and circulate urban experiences."](/img/2025/memento/workflow/workflow-2.jpg)
+<div style="display: flex; gap: 20px; margin: 20px 0;">
+    <!-- Front End Section -->
+    <div style="flex: 1; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+        <h4 style="margin-top: 0;">🌐 Front End</h4><br>
+        <div style="position: relative; width: 100%; padding-top: 56.25%; margin-bottom: 20px;">
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 4px;"
+                src="https://www.youtube.com/embed/P2saCVSWqFY?autoplay=1&mute=1&loop=1&playlist=P2saCVSWqFY&modestbranding=1&controls=0&showinfo=0&rel=0"
+                title="MEMENTO Frontend Demo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <p>The user-facing web-app interface that brings urban experiences to life through:</p><br>
+        <ul style="margin-left: 1.5em; padding-left: 0;">
+            <li><strong>🖥️ Web-App Creation:</strong> User profiles, memento capture forms, and dynamic content rendering.</li><br>
+            <li><strong>🗺️ Geospatial Mapping:</strong> Mapping mementos in real time using Mapbox and Google Maps API.</li><br>
+            <li><strong>📊 Data Visualization:</strong> Creating interactive, data-rich maps using D3.js, highlighting patterns and clusters.</li><br>
+            <li><strong>🔍 Interactive Mapping:</strong> User-controlled filters, radius selectors, and category-based memento discovery.</li><br>
+            <li><strong>👤 Explorer Profile Creation:</strong> User profiles that evolve through collected mementos, creating personalized urban journeys.</li><br>
+            <li><strong>🔄 User Interaction & Engagement:</strong> Filters, recommendations, and curated lists driven by user behavior.</li><br>
+        </ul>
+    </div>
 
+    <!-- Back End Section -->
+    <div style="flex: 1; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+        <h4 style="margin-top: 0;">⚙️ Back End</h4><br>
+        <div style="position: relative; width: 100%; padding-top: 56.25%; margin-bottom: 20px;">
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 4px;"
+                src="https://www.youtube.com/embed/xdrNuFtMV4U?autoplay=1&mute=1&loop=1&playlist=xdrNuFtMV4U&modestbranding=1&controls=0&showinfo=0&rel=0"
+                title="MEMENTO Backend Demo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <p>The computational backbone that processes, stores, and structures data using:</p><br>
+        <ul style="margin-left: 1.5em; padding-left: 0;">
+            <li><strong>💾 Firebase Cloud Storage:</strong> Real-time data storage for media, text, and location data.</li><br>
+            <li><strong>🧠 Machine Learning Models:</strong> Predictive analysis for recommended mementos based on user behavior and sentiment analysis.</li><br>
+            <li><strong>📝 Data Structuring & Input Mapping:</strong> Categorizing mementos by type, tag, duration — transforming raw inputs into structured data.</li><br>
+            <li><strong>⚡ Memento Analysis & Assignment:</strong> Algorithms assign memento categories, tags, and durations based on user inputs and contextual data.</li><br>
+            <li><strong>📍 Google Maps API:</strong> Geolocation data is layered onto dynamic maps, visualizing where experiences occur and how they're clustered.</li><br>
+            <li><strong>🌐 Public Data Scraping:</strong> Integrating public datasets from online platforms to supplement user-generated mementos with real-time urban events.</li><br>
+        </ul>
+    </div>
+</div>
+
+Together, these front-end and back-end components create a cohesive computational ecosystem that transforms urban experiences into interactive, real-time narratives, making the city's overlooked moments discoverable and engaging.
+
+<HR>
+<BR>
+
+- **Computational Workflow**
+
+MEMENTO's workflow is structured around the creation, visualization, exploration, and curation of urban experiences, transforming scattered moments into structured datasets. The process includes both user-generated and public mementos, creating a dynamic, interactive map of the city's fleeting encounters.
+
+![A comprehensive visualization of the MEMENTO platform's computational workflow, illustrating the flow of memento datasets from generation to visualization to exploration, forming the core interaction model of the platform.](/img/2025/memento/workflow/workflow-0.jpg)
+
+1. Creation of User Mementos
+![](/img/2025/memento/workflow/1.%20Creation%20of%20User%20Mementos%20copy.jpg)<br>
+Users upload media, add text reflections, and tag locations, creating structured mementos categorized by type, tag, and duration.
+- Media, text, and geolocation inputs.
+- Categorized using predefined lists (categories, tags, duration).
+- Data stored in Firebase as structured memento entries.
+
+2. Creation of Public Mementos
+![](/img/2025/memento/workflow/2.%20Creation%20of%20Public%20Mementos%20copy.jpg)<br>
+Public mementos are generated through data scraping and machine learning, integrating citywide events and activities as real-time mementos.
+- Data sourced from public platforms.
+- Machine learning processes data in real time.
+- Structured to align with MEMENTO format.
 
 The Machine Learning pipeline for public mementos in MEMENTO is designed to automate the classification and tagging of public content sourced from platforms such as Secret NYC, Reddit, NYC Bucket List, Newsbreak, and more. The objective is to replace rule-based keyword matching with a robust multi-label classification model that leverages existing user-generated mementos as training data.
 
 The pipeline consists of three primary models — Category Classification, Tag Prediction, and Duration Estimation — each trained using supervised learning techniques. Logistic Regression with One-vs-Rest strategy and Random Forest classifiers are employed to predict relevant categories and multiple tags, while Decision Trees handle ordinal duration estimation. Text data undergoes preprocessing, including tokenization, stop word removal, and TF-IDF vectorization to convert descriptions into feature vectors suitable for model training.
 
 By implementing this ML pipeline, MEMENTO enhances the consistency and accuracy of content classification, enabling the platform to transform unstructured public content into structured, contextually enriched mementos that align with its existing taxonomy.
+
+3. Mementos on MEMENTO
+![](/img/2025/memento/workflow/3.%20Mementos%20on%20MEMENTO%20copy.jpg)<br>
+All mementos — user and public — are populated on a real-time interactive map, each tagged with location, media, timestamp, and description.
+- Data visualized on a dynamic map.
+- Displays geolocation, media, and descriptive tags.
+- Serves as a playground of real-time urban experiences.
+
+4. Exploration of Mementos
+Users explore mementos using filters and settings, discovering experiences by category, tag, duration, and proximity.
+- Filter by categories, tags, duration, and distance.
+- Explore mementos through curated lists and live feed.
+- Discover mementos based on user's current location.
+
+5. Curation of Mementos
+Recommendations are generated based on user profiles, interaction history, and data analysis, creating personalized memento lists.
+- Personalized memento curation.
+- Daily, trending, recommended, and nearby mementos.
+- Data-driven recommendations based on user behavior.
+
 
 [More about the Computation tools, methods and Machine Learning Pipeline in MEMENTO](https://0209vaibhav.github.io/Machine-Learning_MEMENTO/)
 
@@ -756,6 +846,17 @@ Now, the Busy One adds moments effortlessly—turning mundane stops into moments
 
 <HR>
 
+<section class="final-video-section" id="application-section" style="max-width: 1200px; margin: 0 auto; padding: 0 0;">
+    <div class="video-container" style="position: relative; width: 100%; padding-top: 56.25%;">
+        <div class="video-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; pointer-events: none;"></div>
+        <iframe src="https://www.youtube.com/embed/P2saCVSWqFY?autoplay=1&mute=1&loop=1&playlist=P2saCVSWqFY&modestbranding=1&controls=0&showinfo=0&rel=0" title="MEMENTO Frontend Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+    </div>
+</section>
+<br>
+<HR>
+
+
+
 **End? Or the real Beginning!**<br>
 This isn't the conclusion of a project —<br>
 it's the start of a movement.<br>
@@ -809,6 +910,8 @@ My peers, mentors, and the entire CDP cohort for the countless conversations, pr
 - [Gamification in Museums – AMT Lab](https://amt-lab.org/blog/2021/5/gamification-in-museums)  
 - [Domestic Robocop – Keiichi Matsuda](http://km.cx/projects/domestic-robocop)  
 - [Augmented (Hyper)Reality – Vimeo](https://vimeo.com/14294054)
+
+
 
 
 
