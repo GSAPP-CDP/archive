@@ -3,20 +3,23 @@ layout: project
 title: Smart Clean NYC
 author: Chen Feng
 year: 2025
-image: public/img/2025/Smart_Clean_NYC/Manhattan poster_black.jpg
+image: /img/2025/Smart_Clean_NYC/Manhattan poster_black.jpg
 links:
   - text: Explore
     url: https://cf3031.myportfolio.com/work
 ---
 
 # Smart Clean NYC
+
 CityServe: Autonomous Restaurant Waste Collection Network
 
 # Background Info
+
 New York City generates approximately 44 million pounds of waste daily. The DSNY collects about 24 million pounds from residential sources, employing around 7,200 workers during the day and operating more than 2,000 garbage trucks at night.
 Additionally, around 4,000 private trucks from 250 sanitation companies manage commercial waste, including waste from over 11,000 restaurants citywide. Despite workers putting in 10-14 hour shifts, six days a week, the high restaurant density, heavy traffic, and limited parking in Manhattan make waste collection especially challenging.
 
 # System Introduction
+
 Smart Clean NYC is an innovative waste collection and transportation system designed for Manhattan, New York City, with an initial focus on restaurant waste management.
 01/ Waste Disposal by Restaurants
 Restaurants sort waste into color-coded bags and place them in underground storage.
@@ -30,6 +33,7 @@ WCP transfers collected waste to WCB at docking stations.
 WCB transports waste to designated processing facilities.
 
 # Core Modules
+
 The following modules represent the core focus of my project, designed to improve restaurant waste collection in Manhattan.
 Waste Collection Pods (WCP)
 Autonomous ground collection vehicles.
@@ -43,6 +47,7 @@ Restaurant Waste Management Hub
 Enables restaurants to automate waste collection by summoning WCPs, scheduling pick-ups, and managing billing, enhancing operational efficiency.
 
 # Expected Outcomes
+
 01/ Less garbage exposure
 – Smart Clean NYC enables faster waste pickup from restaurants, reducing odors, limiting rodent access, and keeping sidewalks cleaner.
 02/ Reduced traffic congestion

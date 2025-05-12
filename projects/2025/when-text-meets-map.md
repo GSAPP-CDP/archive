@@ -4,7 +4,7 @@ title: When Text Meets Map
 author: Yuxi Dai (Sissie)
 advisor: Juan Francisco Saldarriaga
 year: 2025
-image: public/img/2025/when-text-meets-map/map.png
+image: /img/2025/when-text-meets-map/map.png
 links:
   - text: Explore
     url: https://daisissie.github.io/whentextmeetmap/
@@ -31,6 +31,7 @@ These are foundational U.S. texts, all based on true stories.
 -Into the Wild by Jon Krakauer tells the story of Chris McCandless, who leaves society behind to seek truth in the Alaskan wilderness—grappling with themes of individualism and risk.
 
 Each reference becomes a point within an interactive constellation of ponds, mountain passes, wilderness trails, towns, cities, and country.
+
 
 ![Reading can go beyond pages.](/public/img/2025/when-text-meets-map/real_book_story.png)
 
@@ -86,3 +87,4 @@ Reference:
 2. Jack Kerouac and Gian Pieretti, 1966. (Public Domain via Wikimedia Commons.)
 3. The Alaska Army National Guard airlifted "Bus 142," made famous by Into the Wild, for public safety in June 2020.
 (Public domain image courtesy of Alaska National Guard / Department of Natural Resources via DVIDS Hub.)
+
