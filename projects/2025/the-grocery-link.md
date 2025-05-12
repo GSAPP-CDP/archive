@@ -72,7 +72,7 @@ The Food Access Mapping Tool was developed as an interactive web-based platform 
 
 <br>
 
-![Analyzer of Food Accessbility](/img/2025/the-grocery-link/Analyzer.gif)
+![Analyzer of Food Accessbility](/img/2025/the-grocery-link/Analyzer.jpg)
 
 <br>
 
@@ -87,7 +87,7 @@ When accessing the website, users unfamiliar with food desert concepts can gain 
 
 <br>
 
-![Tool_Navigation](/img/2025/the-grocery-link/1.gif)
+![Tool_Navigation](/img/2025/the-grocery-link/1.jpg)
 
 <br>
 
