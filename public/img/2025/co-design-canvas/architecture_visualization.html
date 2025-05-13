@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Architecture Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            overflow-x: auto;
+        }
+        .container {
+            max-width: 735px;
+            width: 100%;
+            margin: 0 auto;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+        .title {
+            font-size: 0.95rem;
+            font-weight: bold;
+            margin: 18px 0 10px 0;
+            color: #222;
+            letter-spacing: 1px;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        .legend {
+            background-color: white;
+            padding: 7px 12px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+            margin-bottom: 8px;
+            display: flex;
+            gap: 12px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85em;
+        }
+        .legend-color {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .frontend-color { background: linear-gradient(135deg, #ff9800 60%, #fff3e0 100%); border: 2px solid #e65100; }
+        .backend-color { background: linear-gradient(135deg, #4CAF50 60%, #eaffea 100%); border: 2px solid #388e3c; }
+        .comfyui-color { background: linear-gradient(135deg, #2196F3 60%, #e6f3ff 100%); border: 2px solid #1769aa; }
+        .node circle, .node rect, .node polygon {
+            stroke-width: 3px;
+            /* No glow */
+        }
+        .node text {
+            font: 0.75rem 'Segoe UI', Arial, sans-serif;
+            font-weight: 600;
+            paint-order: stroke fill;
+            stroke: #fff;
+            stroke-width: 3px;
+            stroke-opacity: 0.7;
+        }
+        .node .fa {
+            font-size: 0.85em;
+            pointer-events: none;
+        }
+        .link {
+            fill: none;
+            stroke-width: 2.5px;
+            opacity: 0.7;
+            stroke-dasharray: 6, 4;
+            stroke-linecap: round;
+        }
+        .frontend-link { stroke: #ffd700; }
+        .backend-link { stroke: #4CAF50; }
+        .comfyui-link { stroke: #2196F3; }
+        .child-link { stroke: #bbb; stroke-width: 2px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Computational methods</div>
+        <svg id="visualization" width="100%"></svg>
+    </div>
+    <script>
+        // Node type mapping for icons and shapes
+        const nodeTypeMap = {
+            'User Interface': { icon: 'fa-users', shape: 'circle', color: '#ff9800' },
+            'Real-time Communication': { icon: 'fa-users', shape: 'circle', color: '#ff9800' },
+            'Interactive Features': { icon: 'fa-users', shape: 'circle', color: '#ff9800' },
+            'Visualization Components': { icon: 'fa-users', shape: 'circle', color: '#ff9800' },
+            'Form Handling': { icon: 'fa-users', shape: 'circle', color: '#ff9800' },
+            'Data Storage & Management': { icon: 'fa-database', shape: 'rect', color: '#4CAF50' },
+            'Web Framework & Communication': { icon: 'fa-cogs', shape: 'polygon', color: '#4CAF50' },
+            'Data Processing & Analysis': { icon: 'fa-cogs', shape: 'polygon', color: '#4CAF50' },
+            'Security & Authentication': { icon: 'fa-lock', shape: 'rect', color: '#4CAF50' },
+            'Geospatial Services': { icon: 'fa-map-marker-alt', shape: 'polygon', color: '#4CAF50' },
+            'Analytics & Reporting': { icon: 'fa-chart-bar', shape: 'rect', color: '#4CAF50' },
+            'AI Models': { icon: 'fa-robot', shape: 'polygon', color: '#2196F3' },
+            'Image Processing': { icon: 'fa-cogs', shape: 'polygon', color: '#2196F3' },
+            'Workflow Management': { icon: 'fa-project-diagram', shape: 'rect', color: '#2196F3' },
+            'Model Optimization': { icon: 'fa-bolt', shape: 'polygon', color: '#2196F3' }
+        };
+
+        const data = {
+            name: "Project Architecture",
+            children: [
+                {
+                    name: "Frontend",
+                    color: '#ff9800',
+                    children: [
+                        { name: "User Interface" },
+                        { name: "Real-time Communication" },
+                        { name: "Interactive Features" },
+                        { name: "Visualization Components" },
+                        { name: "Form Handling" }
+                    ]
+                },
+                {
+                    name: "Backend (Flask)",
+                    color: '#4CAF50',
+                    children: [
+                        { name: "Web Framework & Communication" },
+                        { name: "Data Storage & Management" },
+                        { name: "Data Processing & Analysis" },
+                        { name: "Security & Authentication" },
+                        { name: "Geospatial Services" },
+                        { name: "Analytics & Reporting" }
+                    ]
+                },
+                {
+                    name: "ComfyUI Integration",
+                    color: '#2196F3',
+                    children: [
+                        { name: "AI Models" },
+                        { name: "Image Processing" },
+                        { name: "Workflow Management" },
+                        { name: "Model Optimization" }
+                    ]
+                }
+            ]
+        };
+
+        function updateVisualization() {
+            const container = d3.select('.container');
+            const width = Math.min(735, container.node().getBoundingClientRect().width || 735);
+            let height = 380; // initial guess, will adjust later
+            d3.select("#visualization").selectAll('*').remove();
+            const svg = d3.select("#visualization")
+                .attr("width", width);
+
+            // Layout: root at far left, main nodes in middle, children at right
+            const marginX = 10;
+            const marginY = 10;
+            const rightPad = 100; // less right margin, use more width
+            const rootY = marginX;
+            const rootX = height / 2;
+            const mainY = width * 0.32;
+            const childY = width - marginX - rightPad; // shift children further right
+            const mainSpacing = (height - 2 * marginY) / 2.2;
+            const childSpacing = (height - 2 * marginY) / 0.1;
+            const jitter = () => (Math.random() - 0.5) * 2;
+
+            // Main nodes
+            const mainNodes = [
+                { name: 'Frontend', color: '#ff9800', x: rootX - mainSpacing, y: mainY + jitter() },
+                { name: 'Backend (Flask)', color: '#4CAF50', x: rootX, y: mainY + jitter() },
+                { name: 'ComfyUI Integration', color: '#2196F3', x: rootX + mainSpacing, y: mainY + jitter() }
+            ];
+
+            // Gather all unique child node names and their properties
+            const allChildDefs = [
+                ...data.children[0].children,
+                ...data.children[1].children,
+                ...data.children[2].children
+            ];
+            const uniqueChildMap = {};
+            allChildDefs.forEach(child => {
+                uniqueChildMap[child.name] = {
+                    name: child.name,
+                    color: nodeTypeMap[child.name]?.color || '#bbb',
+                    icon: nodeTypeMap[child.name]?.icon || 'fa-cube',
+                };
+            });
+            const uniqueChildNames = Object.keys(uniqueChildMap).sort();
+            // Distribute unique child nodes evenly
+            const childNodes = uniqueChildNames.map((name, i) => {
+                const x = marginY + i * ((height - 2 * marginY) / (uniqueChildNames.length - 1));
+                return {
+                    ...uniqueChildMap[name],
+                    x,
+                    y: childY + jitter()
+                };
+            });
+            // For each main node, find which child nodes it should connect to
+            const childDefs = [
+                data.children[0].children, // Frontend
+                data.children[1].children, // Backend
+                data.children[2].children  // ComfyUI
+            ];
+
+            // --- Calculate bounding box for all nodes and labels ---
+            let minX = rootY, maxX = rootY, minY = rootX, maxY = rootX;
+            // Root
+            minX = Math.min(minX, rootY - 80); maxX = Math.max(maxX, rootY);
+            minY = Math.min(minY, rootX); maxY = Math.max(maxY, rootX + 32);
+            // Main nodes
+            mainNodes.forEach(main => {
+                minX = Math.min(minX, main.y);
+                maxX = Math.max(maxX, main.y);
+                minY = Math.min(minY, main.x);
+                maxY = Math.max(maxY, main.x + 32);
+            });
+            // Child nodes and labels
+            childNodes.forEach(child => {
+                minX = Math.min(minX, child.y);
+                maxX = Math.max(maxX, child.y + 170);
+                minY = Math.min(minY, child.x);
+                maxY = Math.max(maxY, child.x + 20);
+            });
+            // Add margin
+            const pad = 20;
+            minX -= pad; maxX += pad; minY -= pad; maxY += pad;
+            height = maxY - minY;
+            svg.attr("height", height);
+            svg.attr("viewBox", `${minX} ${minY} ${maxX - minX} ${maxY - minY}`);
+
+            // Draw handsketch links (root to main, then main to children)
+            const allLinks = [];
+            mainNodes.forEach(main => {
+                allLinks.push({
+                    source: { x: rootY, y: rootX },
+                    target: { x: main.y, y: main.x },
+                    color: main.color,
+                    class: main.name === 'Frontend' ? 'frontend-link' : main.name === 'Backend (Flask)' ? 'backend-link' : 'comfyui-link'
+                });
+            });
+            // For each main node, connect to its children by name
+            mainNodes.forEach((main, i) => {
+                const children = childDefs[i];
+                children.forEach(child => {
+                    const target = childNodes.find(c => c.name === child.name);
+                    if (target) {
+                        allLinks.push({
+                            source: { x: main.y, y: main.x },
+                            target: { x: target.y, y: target.x },
+                            color: target.color,
+                            class: main.name === 'Frontend' ? 'frontend-link' : main.name === 'Backend (Flask)' ? 'backend-link' : 'comfyui-link'
+                        });
+                    }
+                });
+            });
+
+            // Draw links with handsketch style
+            const links = svg.selectAll('.link')
+                .data(allLinks)
+                .enter()
+                .append('path')
+                .attr('class', d => `link ${d.class}`)
+                .attr('d', d => {
+                    // Use a slightly wavy cubic curve for handsketch
+                    const mx = (d.source.x + d.target.x) / 2 + jitter();
+                    const my = (d.source.y + d.target.y) / 2 + jitter();
+                    return `M${d.source.x},${d.source.y} C${mx},${d.source.y + jitter()} ${mx},${d.target.y + jitter()} ${d.target.x},${d.target.y}`;
+                })
+                .attr('opacity', 0);
+
+            // Animate the links so they grow from source to target, looped and impactful
+            function animateLinkLoop(path, i, totalLength) {
+                path.attr('stroke-dasharray', totalLength)
+                    .attr('stroke-dashoffset', totalLength)
+                    .attr('opacity', 0)
+                    .transition()
+                    .delay(i * 120)
+                    .duration(1200)
+                    .ease(d3.easeCubic)
+                    .attr('stroke-dashoffset', 0)
+                    .attr('opacity', 0.9)
+                    .transition()
+                    .delay(300)
+                    .duration(200)
+                    .attr('opacity', 0)
+                    .on('end', function() { animateLinkLoop(path, i, totalLength); });
+            }
+            links.each(function(d, i) {
+                const path = d3.select(this);
+                const totalLength = this.getTotalLength();
+                animateLinkLoop(path, i, totalLength);
+            });
+
+            // Draw root node
+            svg.append('circle')
+                .attr('cx', rootY)
+                .attr('cy', rootX)
+                .attr('r', 14)
+                .attr('fill', '#fff')
+                .attr('stroke', '#bbb');
+            // Root label below
+            svg.append('text')
+                .attr('x', rootY)
+                .attr('y', rootX + 28)
+                .attr('text-anchor', 'middle')
+                .text('Project Architecture')
+                .attr('class', 'node')
+                .style('fill', '#222')
+                .style('font-weight', 700)
+                .style('font-size', '0.75rem');
+
+            // Draw main nodes
+            mainNodes.forEach(main => {
+                svg.append('circle')
+                    .attr('cx', main.y)
+                    .attr('cy', main.x)
+                    .attr('r', 10)
+                    .attr('fill', `url(#${main.name === 'Frontend' ? 'frontend-gradient' : main.name === 'Backend (Flask)' ? 'backend-gradient' : 'comfyui-gradient'})`)
+                    .attr('stroke', main.color);
+                // Main label below
+                svg.append('text')
+                    .attr('x', main.y)
+                    .attr('y', main.x + 22)
+                    .attr('text-anchor', 'middle')
+                    .text(main.name)
+                    .attr('class', 'node')
+                    .style('fill', main.color)
+                    .style('font-weight', 700)
+                    .style('font-size', '0.75rem');
+            });
+
+            // Draw child nodes (icons only)
+            childNodes.forEach(child => {
+                svg.append('foreignObject')
+                    .attr('x', child.y - 10)
+                    .attr('y', child.x - 10)
+                    .attr('width', 20)
+                    .attr('height', 20)
+                    .append('xhtml:i')
+                    .attr('class', `fa ${child.icon}`)
+                    .style('color', child.color)
+                    .style('font-size', '0.85em');
+                // Child label right of icon
+                const labelX = child.y + 16;
+                const labelY = child.x + 5;
+                const maxLen = 18;
+                let nameLines = [child.name];
+                if (child.name.length > maxLen && child.name.includes(' ')) {
+                    // Split at the nearest space to the middle
+                    const mid = Math.floor(child.name.length / 2);
+                    let splitIdx = child.name.indexOf(' ', mid);
+                    if (splitIdx === -1) splitIdx = child.name.lastIndexOf(' ');
+                    if (splitIdx !== -1) {
+                        nameLines = [child.name.slice(0, splitIdx), child.name.slice(splitIdx + 1)];
+                    }
+                }
+                const textElem = svg.append('text')
+                    .attr('x', labelX)
+                    .attr('y', labelY)
+                    .attr('text-anchor', 'start')
+                    .attr('class', 'node')
+                    .style('fill', child.color)
+                    .style('font-weight', 600)
+                    .style('font-size', '0.75rem');
+                if (nameLines.length === 1) {
+                    textElem.text(nameLines[0]);
+                } else {
+                    textElem.append('tspan')
+                        .attr('x', labelX)
+                        .attr('dy', 0)
+                        .text(nameLines[0]);
+                    textElem.append('tspan')
+                        .attr('x', labelX)
+                        .attr('dy', '1.1em')
+                        .text(nameLines[1]);
+                }
+            });
+
+            // Add gradients for main branches
+            const defs = svg.append("defs");
+            defs.append("linearGradient")
+                .attr("id", "frontend-gradient")
+                .attr("x1", "0%")
+                .attr("y1", "0%")
+                .attr("x2", "100%")
+                .attr("y2", "100%")
+                .selectAll("stop")
+                .data([
+                    { offset: "0%", color: "#fff3e0" },
+                    { offset: "100%", color: "#ff9800" }
+                ])
+                .enter()
+                .append("stop")
+                .attr("offset", d => d.offset)
+                .attr("stop-color", d => d.color);
+            defs.append("linearGradient")
+                .attr("id", "backend-gradient")
+                .attr("x1", "0%")
+                .attr("y1", "0%")
+                .attr("x2", "100%")
+                .attr("y2", "100%")
+                .selectAll("stop")
+                .data([
+                    { offset: "0%", color: "#eaffea" },
+                    { offset: "100%", color: "#4CAF50" }
+                ])
+                .enter()
+                .append("stop")
+                .attr("offset", d => d.offset)
+                .attr("stop-color", d => d.color);
+            defs.append("linearGradient")
+                .attr("id", "comfyui-gradient")
+                .attr("x1", "0%")
+                .attr("y1", "0%")
+                .attr("x2", "100%")
+                .attr("y2", "100%")
+                .selectAll("stop")
+                .data([
+                    { offset: "0%", color: "#e6f3ff" },
+                    { offset: "100%", color: "#2196F3" }
+                ])
+                .enter()
+                .append("stop")
+                .attr("offset", d => d.offset)
+                .attr("stop-color", d => d.color);
+        }
+
+        // Initial render
+        updateVisualization();
+        window.addEventListener('resize', updateVisualization);
+    </script>
+</body>
+</html> 
