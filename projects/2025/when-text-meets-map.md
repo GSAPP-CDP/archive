@@ -4,7 +4,7 @@ title: When Text Meets Map
 author: Yuxi Dai (Sissie)
 advisor: Juan Francisco Saldarriaga
 year: 2025
-image: /img/2025/when-text-meets-map/map.png
+image: /public/img/2025/when-text-meets-map/map.png
 links:
   - text: Explore
     url: https://daisissie.github.io/whentextmeetmap/
@@ -32,14 +32,9 @@ These are foundational U.S. texts, all based on true stories.
 
 Each reference becomes a point within an interactive constellation of ponds, mountain passes, wilderness trails, towns, cities, and country.
 
-
-![Reading can go beyond pages.](/public/img/2025/when-text-meets-map/real_book_story.png)
-
-
+![Reading can go beyond pages.](/public/img/2025/when-text-meets-map/real_book_story.jpg)
 
 **Can this tool change the way you experience these books?**
-
-
 
 As the user enters the interface, a number of icons appear, which can be toggled off if desired. Each white dot represents a location mentioned in the books. The fainter the dot, the fewer times that place is referenced. Even at a glance, the user begins to gain a visual understanding of each book's geographic landscape.
 
@@ -53,9 +48,7 @@ Users can then filter the map by theme—such as Freedom, Road Trips, Nature as 
 
 Seeing all these snippets together highlights unexpected overlaps and contrasts, inspired by the surrealist art game *Exquisite Corpse*. Each entry reveals a moment, a mood, or a scene, sometimes contradictory, sometimes unexpected, emphasizing the layered and diverse ways people engage with space. These patterns stay hidden until text meets map.
 
-
 **Methodology**
-
 
 ![Methodology Diagram](/public/img/2025/when-text-meets-map/methdology.png)
 
