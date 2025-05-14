@@ -113,7 +113,6 @@ head: |
 <p><b>Computational design isn’t just about clarity. It’s about responsibility.</b></p>
 
 <div style="background-color: #f5f5f5; padding: 1rem;">
-<p style="font-style: italic; color: #666;"><img src="/img/2025/crafticulate/hiddennetwork.jpg" alt="Crafticulate" style="width: 100%;"></p>
 </div>
 
 ---
