@@ -106,7 +106,7 @@ head: |
 </ul>
 
 ---
-<h1><b>🧶 Why It Matters</b></h1>
+<h3><b>🧶 Why It Matters</b></h3>
 
 <p>Hiring algorithms shape access to opportunity. If we don’t question how they work—or who they benefit—we risk deepening inequalities at scale.</p>
 
