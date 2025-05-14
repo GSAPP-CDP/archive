@@ -84,25 +84,31 @@ This project is, in many ways, a tribute to my love for New York City.
 </li>
 
 
-<video
-  src="/img/2025/An_Opinionated_Guide_to_NYC/map01.mp4"
-  controls
-  style="aspect-ratio: 16 / 9; width: 100%;">
-</video>
 </br>
 </br>
-<video
-  src="/img/2025/An_Opinionated_Guide_to_NYC/map02.mp4"
-  controls
-  style="aspect-ratio: 16 / 9; width: 100%;">
-</video>
+
+(/img/2025/An_Opinionated_Guide_to_NYC/map01.png)
 </br>
 </br>
-<video
-  src="/img/2025/An_Opinionated_Guide_to_NYC/map03.mp4"
-  controls
-  style="aspect-ratio: 16 / 9; width: 100%;">
-</video>
+
+
+(/img/2025/An_Opinionated_Guide_to_NYC/map2.png)
+</br>
+</br>
+
+
+
+(/img/2025/An_Opinionated_Guide_to_NYC/map02.png)
+
+</br>
+</br>
+
+
+
+(/img/2025/An_Opinionated_Guide_to_NYC/map04.png)
+
+</br>
+</br>
 (/img/2025/An_Opinionated_Guide_to_NYC/07_books.jpg)
 
 
