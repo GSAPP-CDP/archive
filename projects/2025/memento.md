@@ -81,7 +81,7 @@ This realization led to the identification of a core problem !
 ****Oblivion****<br>
 *the state of being unaware or unconscious of what is happening*<br>
 
-An ovational study on the disconnect between people and the city, exploring gaze patterns, physical interactions, and the relationship between time, location, and activity during urban commutes.
+An observational study on the disconnect between people and the city, exploring gaze patterns, physical interactions, and the relationship between time, location, and activity during urban commutes.
 
 ![OBLIVION - the state of being unaware or unconscious of what is happening](/img/2025/memento/Oblivion%20step%20giff.gif)
 
@@ -240,7 +240,7 @@ Urban experiences span a wide spectrum — from spontaneous street performances 
 
 These are experiences that surround us every day, yet remain invisible to most digital platforms. They aren't part of formal city datasets or commercial navigation apps. MEMENTO fills this gap by surfacing what is unmarked, ephemeral, or emotional — capturing the human side of the city that's often lost in the rush. It's not about guiding you to a destination, but letting you discover what makes the journey meaningful.
 
-!["mementos as urban experiences around us in the city - <br> MEMENTO Categories,  Tags, and  Durations"](/img/2025/memento/mementos-categories,tags%20duration%20.png)
+!["mementos as urban experiences around us in the city - <br> MEMENTO Categories,  Tags, and  Durations"](/img/2025/memento/mementos-categories,tags%20duration.png)
 
 - ***memento categories - What They Mean***<br>
 MEMENTO captures the city's intangible layers through 20 unique categories, each representing a distinct type of urban experience — from fleeting encounters to cultural markers, and everyday interactions to hidden stories. Here's what each category means:
