@@ -25,7 +25,7 @@ How might mapping the locations reshape your understanding of these stories?
 These are foundational U.S. texts, all based on true stories.
 
 -Walden by Henry David Thoreau is a reflection on living alone in the woods, exploring solitude, nature, and self-reliance. The entire book emphasizes a deep communion with the natural world.
-  
+
 -On the Road by Jack Kerouac is considered the bible of the Beat Generation. The characters roam across America in search of freedom, identity, and meaning.
 
 -Into the Wild by Jon Krakauer tells the story of Chris McCandless, who leaves society behind to seek truth in the Alaskan wilderness—grappling with themes of individualism and risk.
@@ -46,7 +46,7 @@ Users can then filter the map by theme—such as Freedom, Road Trips, Nature as 
 
 ![Example of Popup](/public/img/2025/when-text-meets-map/popup_example.png)
 
-Seeing all these snippets together highlights unexpected overlaps and contrasts, inspired by the surrealist art game *Exquisite Corpse*. Each entry reveals a moment, a mood, or a scene, sometimes contradictory, sometimes unexpected, emphasizing the layered and diverse ways people engage with space. These patterns stay hidden until text meets map.
+Seeing all these snippets together highlights unexpected overlaps and contrasts, inspired by the surrealist art game _Exquisite Corpse_. Each entry reveals a moment, a mood, or a scene, sometimes contradictory, sometimes unexpected, emphasizing the layered and diverse ways people engage with space. These patterns stay hidden until text meets map.
 
 **Methodology**
 
@@ -63,6 +63,7 @@ Finally, the data was visualized using Mapbox, employing dynamic clustering, zoo
 Through this pipeline, unstructured narrative text is transformed into structured spatial data, enabling a different way of literary exploration.
 
 **Demo Video**
+
 <iframe
   src="https://www.youtube.com/embed/J2hMkFJYO7Y"
   frameborder="0"
@@ -76,8 +77,8 @@ Through this pipeline, unstructured narrative text is transformed into structure
 <br><br>
 
 Reference:
+
 1. Site of Thoreau's Walden Pond cabin, marked by a cairn, circa 1908.(Public domain image courtesy of the Library of Congress.)
 2. Jack Kerouac and Gian Pieretti, 1966. (Public Domain via Wikimedia Commons.)
 3. The Alaska Army National Guard airlifted "Bus 142," made famous by Into the Wild, for public safety in June 2020.
-(Public domain image courtesy of Alaska National Guard / Department of Natural Resources via DVIDS Hub.)
-
+   (Public domain image courtesy of Alaska National Guard / Department of Natural Resources via DVIDS Hub.)
