@@ -5,7 +5,6 @@ author: Genda Lin
 advisor: Jia Zhang
 year: 2025
 image: /img/2025/An_Opinionated_Guide_to_NYC/thumbnail.png
-
 ---
 
 **ABSTRACT**<br>
@@ -15,7 +14,7 @@ image: /img/2025/An_Opinionated_Guide_to_NYC/thumbnail.png
 </br>
 </br>
 
-(/img/2025/An_Opinionated_Guide_to_NYC/01_abstract.jpg)
+![](/img/2025/An_Opinionated_Guide_to_NYC/01_abstract.jpg)
 </br>
 </br>
 **MOTIVATION**<br>
@@ -27,7 +26,7 @@ This project is, in many ways, a tribute to my love for New York City.
 </br>
 </br>
 
-(/img/2025/An_Opinionated_Guide_to_NYC/02_motivation.jpg)
+![](/img/2025/An_Opinionated_Guide_to_NYC/02_motivation.jpg)
 </br>
 </br>
 
@@ -42,19 +41,19 @@ This project is, in many ways, a tribute to my love for New York City.
 </br>
 </br>
 
-(/img/2025/An_Opinionated_Guide_to_NYC/03_hypothesis.jpg)
+![](/img/2025/An_Opinionated_Guide_to_NYC/03_hypothesis.jpg)
 </br>
 </br>
 
 **Design Question**<br>
 
-<b>Can we distill each place in NYC into a quote and tags shaped by voices, emotions, and memories, revealing local insights and biases? 
+<b>Can we distill each place in NYC into a quote and tags shaped by voices, emotions, and memories, revealing local insights and biases?
 </b>
 
 </br>
 </br>
 
-(/img/2025/An_Opinionated_Guide_to_NYC/04_design_question.jpg)
+![](/img/2025/An_Opinionated_Guide_to_NYC/04_design_question.jpg)
 </br>
 </br>
 
@@ -67,7 +66,7 @@ This project is, in many ways, a tribute to my love for New York City.
 </br>
 </br>
 
-(/img/2025/An_Opinionated_Guide_to_NYC/05_methodology.jpg)
+![](/img/2025/An_Opinionated_Guide_to_NYC/05_methodology.jpg)
 </br>
 </br>
 
@@ -83,34 +82,28 @@ This project is, in many ways, a tribute to my love for New York City.
 <li> Guide Book : Based on selected semantic tags, users can create their own theme-based collections of places across the city. Each book gathers quotes, locations, and suggested routes aligned with the chosen theme.
 </li>
 
+</br>
+</br>
+
+![](/img/2025/An_Opinionated_Guide_to_NYC/map01.png)
+</br>
+</br>
+
+![](/img/2025/An_Opinionated_Guide_to_NYC/map2.png)
+</br>
+</br>
+
+![](/img/2025/An_Opinionated_Guide_to_NYC/map02.png)
 
 </br>
 </br>
 
-(/img/2025/An_Opinionated_Guide_to_NYC/map01.png)
-</br>
-</br>
-
-
-(/img/2025/An_Opinionated_Guide_to_NYC/map2.png)
-</br>
-</br>
-
-
-
-(/img/2025/An_Opinionated_Guide_to_NYC/map02.png)
+![](/img/2025/An_Opinionated_Guide_to_NYC/map04.png)
 
 </br>
 </br>
 
-
-
-(/img/2025/An_Opinionated_Guide_to_NYC/map04.png)
-
-</br>
-</br>
-(/img/2025/An_Opinionated_Guide_to_NYC/07_books.jpg)
-
+![](/img/2025/An_Opinionated_Guide_to_NYC/07_books.jpg)
 
 **VISION**<br>
 
@@ -121,7 +114,8 @@ In a time when digital tools increasingly shape how we move and choose, I believ
 </p>
 </br>
 </br>
-**BIBLIOGRAPHY**<br>
+
+**BIBLIOGRAPHY**
 
 <li>Space and Place: The Perspective of Experience,Yi-Fu Tuan, 2001</li>
 <li>One-Way Street, Walter Benjamin, 2016</li>
@@ -134,20 +128,11 @@ In a time when digital tools increasingly shape how we move and choose, I believ
 <li> "An extremely detailed guide to an extremely detailed map of New York City neighborhoods."  Larry Buchanan, Josh Katz, Rumsey Taylor and Eve Washington.</li>
 <li>LOCATION INTELLIGENCE OTHERWISE, Dan Miller, 2023</li>
 
-
-
-
-
 </br>
 </br>
 
 **ACKNOWLEDGE**<br>
+
 <p>
 Special thanks to my advisor Jia Zhang, instructors in colloquium: Catherine Griffiths, Seth Thompson, Laura Kurgan, Snoweria Zhang, Violet Whitney, William Martin. Brilliant faculty in CDP: Josh Begley, Dare Brawley, Mario Giampieri, Meli Harvey, Celeste Layne, Daniel Nagy, James Piacentini, Jonathan Stiles, Dan Tae Young, Anthony Vanky, Adam Vosburgh, Luc Wilson. Designer and researcher friends who provide their valuable ideas : Hao Che Hung, Zoe Lin, Dan Miller, Cathy Tung. And all my CDP peers with your inspiration and generosity.
 </p>
-
-
-
-
-
-
