@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAPP Survey Analysis & Slider Implementation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 735px;
+            width: 100vw;
+            margin: 0 auto;
+            padding: 10px;
+            color: #333;
+            font-size: 13px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 1.5em;
+            margin: 18px 0 12px 0;
+        }
+        h2 {
+            font-size: 1.2em;
+            margin: 14px 0 10px 0;
+        }
+        h3, h4, h5 {
+            font-size: 1em;
+            margin: 10px 0 8px 0;
+        }
+
+        .process-container,
+        .slider-implementation,
+        .prompt-demo,
+        .extraction-process {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .theme-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 10px;
+            margin: 10px 0;
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .theme-card {
+            padding: 10px;
+            border-radius: 8px;
+            color: white;
+            transition: transform 0.3s ease;
+            box-sizing: border-box;
+            font-size: 0.95em;
+        }
+
+        .theme-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .theme-card h3 {
+            font-size: 1em;
+            padding-bottom: 5px;
+        }
+
+        .lighting { background: linear-gradient(135deg, #4CAF50, #2E7D32); }
+        .layout { background: linear-gradient(135deg, #2196F3, #1565C0); }
+        .community { background: linear-gradient(135deg, #FF9800, #F57C00); }
+        .functionality { background: linear-gradient(135deg, #9C27B0, #6A1B9A); }
+        .visual { background: linear-gradient(135deg, #E91E63, #C2185B); }
+
+        .extraction-process {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .step-container {
+            display: flex;
+            align-items: flex-start;
+            margin: 10px 0;
+            gap: 10px;
+        }
+
+        .step-number {
+            background: #2980b9;
+            color: white;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 0.95em;
+        }
+
+        .step-content {
+            flex-grow: 1;
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 8px;
+            border-left: 3px solid #2980b9;
+            font-size: 0.95em;
+        }
+
+        .arrow-down {
+            width: 24px;
+            height: 24px;
+            font-size: 16px;
+            margin: 6px auto;
+        }
+
+        .keyword-highlight {
+            display: inline-block;
+            padding: 1px 4px;
+            border-radius: 4px;
+            margin: 1px;
+            background: rgba(41, 128, 185, 0.1);
+            border: 1px solid rgba(41, 128, 185, 0.2);
+            font-size: 0.95em;
+        }
+
+        .theme-table {
+            width: 100%;
+            max-width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            box-sizing: border-box;
+            font-size: 0.95em;
+        }
+
+        .theme-table th, .theme-table td {
+            padding: 7px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95em;
+        }
+
+        .theme-table th {
+            background: #2c3e50;
+            color: white;
+            font-size: 1em;
+        }
+
+        .theme-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .theme-indicator {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 6px;
+        }
+
+        .slider-implementation {
+            background: white;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .slider-demo {
+            margin: 10px 0;
+            padding: 7px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 0.95em;
+        }
+
+        .slider-container {
+            margin: 7px 0;
+        }
+
+        .slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 7px;
+            border-radius: 5px;
+            background: #ddd;
+            outline: none;
+            margin: 7px 0;
+        }
+
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .slider.lighting::-webkit-slider-thumb {
+            background: #4CAF50;
+        }
+
+        .slider.layout::-webkit-slider-thumb {
+            background: #2196F3;
+        }
+
+        .slider.community::-webkit-slider-thumb {
+            background: #FF9800;
+        }
+
+        .slider.functionality::-webkit-slider-thumb {
+            background: #9C27B0;
+        }
+
+        .slider.visual::-webkit-slider-thumb {
+            background: #E91E63;
+        }
+
+        .slider-value {
+            font-size: 0.95em;
+            color: #666;
+            margin-top: 2px;
+        }
+
+        .implementation-flow {
+            display: flex;
+            align-items: stretch;
+            gap: 10px;
+            margin: 10px 0;
+            flex-wrap: wrap;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .implementation-step {
+            flex: 1;
+            min-width: 140px;
+            background: white;
+            padding: 7px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            box-sizing: border-box;
+            font-size: 0.95em;
+        }
+
+        .implementation-step h3 {
+            color: #2980b9;
+            margin-top: 0;
+            font-size: 1em;
+        }
+
+        .code-snippet {
+            background: #2c3e50;
+            color: #fff;
+            padding: 7px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 0.9em;
+            margin: 5px 0;
+            overflow-x: auto;
+        }
+
+        .code-comment {
+            color: #98c379;
+        }
+
+        .prompt-demo {
+            background: white;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .prompt-container {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 7px;
+            margin: 7px 0;
+            border: 1px solid #e0e0e0;
+        }
+
+        .prompt-bar {
+            background: #eee;
+            border-radius: 4px;
+            padding: 5px;
+            margin: 5px 0;
+            min-height: 30px;
+            position: relative;
+            transition: all 0.3s ease;
+            font-size: 0.95em;
+        }
+
+        .prompt-contribution {
+            padding: 2px 6px;
+            margin: 2px;
+            border-radius: 4px;
+            display: inline-block;
+            color: white;
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
+        .contribution-lighting { background: #4CAF50; }
+        .contribution-layout { background: #2196F3; }
+        .contribution-community { background: #FF9800; }
+        .contribution-functionality { background: #9C27B0; }
+        .contribution-visual { background: #E91E63; }
+
+        .prompt-label {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 2px;
+            font-size: 0.95em;
+        }
+
+        .interaction-demo {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin: 10px 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .sliders-panel,
+        .prompts-panel {
+            padding: 7px;
+            font-size: 0.95em;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .connection-arrow {
+            position: relative;
+            text-align: center;
+            color: #2980b9;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .demo-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>From Survey to Sliders: GSAPP Studio Analysis</h1>
+
+    <div class="process-container">
+        <h2>Theme Extraction Process</h2>
+        <div class="extraction-process">
+            <div class="step-container">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Data Collection</h3>
+                    <p>Survey responses collected from GSAPP students across different programs</p>
+                    <div class="keyword-highlight">10 responses</div>
+                    <div class="keyword-highlight">6 questions each</div>
+                    <div class="keyword-highlight">Multiple programs</div>
+                </div>
+            </div>
+            <div class="arrow-down">↓</div>
+            <div class="step-container">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Text Processing</h3>
+                    <p>OpenAI processes responses to identify common patterns and keywords</p>
+                    <div class="keyword-highlight">natural light</div>
+                    <div class="keyword-highlight">layout</div>
+                    <div class="keyword-highlight">collaboration</div>
+                    <div class="keyword-highlight">storage</div>
+                    <div class="keyword-highlight">aesthetics</div>
+                </div>
+            </div>
+            <div class="arrow-down">↓</div>
+            <div class="step-container">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Theme Clustering</h3>
+                    <p>Similar concepts are grouped into main themes</p>
+                    <div class="keyword-highlight">Lighting: windows, sunlight, artificial</div>
+                    <div class="keyword-highlight">Layout: space, organization, zones</div>
+                    <div class="keyword-highlight">Community: interaction, collaboration</div>
+                    <div class="keyword-highlight">Functionality: equipment, storage</div>
+                    <div class="keyword-highlight">Visual: materials, colors, aesthetics</div>
+                </div>
+            </div>
+            <div class="arrow-down">↓</div>
+            <div class="step-container">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <h3>Theme Validation</h3>
+                    <p>Themes are validated against original responses to ensure comprehensive coverage</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Identified Themes</h2>
+    <div class="theme-grid">
+        <div class="theme-card lighting">
+            <h3>Lighting</h3>
+            <p>Balance between natural and artificial lighting, with control over intensity and warmth</p>
+        </div>
+        <div class="theme-card layout">
+            <h3>Layout</h3>
+            <p>Spatial organization, zoning, and flexible arrangements for different activities</p>
+        </div>
+        <div class="theme-card community">
+            <h3>Community</h3>
+            <p>Social interaction spaces and collaborative environments</p>
+        </div>
+        <div class="theme-card functionality">
+            <h3>Functionality</h3>
+            <p>Equipment, storage solutions, and practical amenities</p>
+        </div>
+        <div class="theme-card visual">
+            <h3>Visual Elements</h3>
+            <p>Aesthetics, materials, colors, and overall visual appeal</p>
+        </div>
+    </div>
+
+    <h2>Theme Analysis Table</h2>
+    <table class="theme-table">
+        <thead>
+            <tr>
+                <th>Theme</th>
+                <th>Key Findings</th>
+                <th>Common Requests</th>
+                <th>Implementation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><div class="theme-indicator" style="background: #4CAF50;"></div>Lighting</td>
+                <td>Natural light highly valued but needs control</td>
+                <td>Adjustable lighting, curtains, warmth</td>
+                <td>25% increments from artificial to natural</td>
+            </tr>
+            <tr>
+                <td><div class="theme-indicator" style="background: #2196F3;"></div>Layout</td>
+                <td>Current layout feels constraining</td>
+                <td>Flexible spaces, moveable furniture</td>
+                <td>Zoning options and space organization</td>
+            </tr>
+            <tr>
+                <td><div class="theme-indicator" style="background: #FF9800;"></div>Community</td>
+                <td>Desire for better social interaction</td>
+                <td>Round tables, gathering spaces</td>
+                <td>Collaborative space configuration</td>
+            </tr>
+            <tr>
+                <td><div class="theme-indicator" style="background: #9C27B0;"></div>Functionality</td>
+                <td>Need for better storage and equipment</td>
+                <td>More storage, display areas</td>
+                <td>Equipment and amenity controls</td>
+            </tr>
+            <tr>
+                <td><div class="theme-indicator" style="background: #E91E63;"></div>Visual Elements</td>
+                <td>Current aesthetics feel clinical</td>
+                <td>Natural materials, less whiteness</td>
+                <td>Material and color adjustments</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="process-container">
+        <h2>Implementation as Sliders</h2>
+        <p>Each theme was converted into an interactive slider with 5 levels (0%, 25%, 50%, 75%, 100%) to allow fine-tuned control over each aspect of the space.</p>
+        
+        <div class="slider-implementation">
+            <h3>From Theme to Interactive Control</h3>
+            <div class="implementation-flow">
+                <div class="implementation-step">
+                    <h3>1. Theme Definition</h3>
+                    <p>Each identified theme is mapped to a slider component with specific attributes:</p>
+                    <div class="code-snippet">
+                        <span class="code-comment">// Theme structure</span><br>
+                        theme = {<br>
+                        &nbsp;&nbsp;id: "lighting",<br>
+                        &nbsp;&nbsp;min: 0,<br>
+                        &nbsp;&nbsp;max: 100,<br>
+                        &nbsp;&nbsp;step: 25<br>
+                        }
+                    </div>
+                </div>
+                <div class="implementation-step">
+                    <h3>2. Value Mapping</h3>
+                    <p>Each slider position corresponds to specific design characteristics:</p>
+                    <div class="code-snippet">
+                        <span class="code-comment">// Value definitions</span><br>
+                        values = {<br>
+                        &nbsp;&nbsp;0: "Default",<br>
+                        &nbsp;&nbsp;25: "Minimal",<br>
+                        &nbsp;&nbsp;50: "Balanced",<br>
+                        &nbsp;&nbsp;75: "Enhanced",<br>
+                        &nbsp;&nbsp;100: "Maximum"<br>
+                        }
+                    </div>
+                </div>
+                <div class="implementation-step">
+                    <h3>3. Interactive Elements</h3>
+                    <p>Sliders provide real-time feedback and update the space configuration:</p>
+                    <div class="code-snippet">
+                        <span class="code-comment">// Event handling</span><br>
+                        slider.onChange((value) => {<br>
+                        &nbsp;&nbsp;updateDisplay(value);<br>
+                        &nbsp;&nbsp;updateSpace(theme, value);<br>
+                        });
+                    </div>
+                </div>
+            </div>
+
+            <h3>Interactive Examples</h3>
+            <div class="slider-demo">
+                <h4>Lighting Control</h4>
+                <input type="range" class="slider lighting" min="0" max="100" step="25" value="50">
+                <div class="slider-value">Current: 50% (Balanced natural light)</div>
+            </div>
+
+            <div class="slider-demo">
+                <h4>Layout Flexibility</h4>
+                <input type="range" class="slider layout" min="0" max="100" step="25" value="75">
+                <div class="slider-value">Current: 75% (Enhanced space organization)</div>
+            </div>
+
+            <div class="slider-demo">
+                <h4>Community Integration</h4>
+                <input type="range" class="slider community" min="0" max="100" step="25" value="50">
+                <div class="slider-value">Current: 50% (Balanced social spaces)</div>
+            </div>
+
+            <div class="slider-demo">
+                <h4>Functionality Level</h4>
+                <input type="range" class="slider functionality" min="0" max="100" step="25" value="75">
+                <div class="slider-value">Current: 75% (Enhanced equipment access)</div>
+            </div>
+
+            <div class="slider-demo">
+                <h4>Visual Elements</h4>
+                <input type="range" class="slider visual" min="0" max="100" step="25" value="50">
+                <div class="slider-value">Current: 50% (Balanced aesthetics)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="process-container">
+        <h2>Slider to Prompt Integration</h2>
+        <div class="prompt-demo">
+            <h3 class="demo-title">Interactive Demonstration</h3>
+            <p>See how adjusting sliders automatically populates the prompt bars with theme-specific contributions:</p>
+
+            <div class="interaction-demo">
+                <div class="sliders-panel">
+                    <h4>Theme Controls</h4>
+                    <div class="slider-container">
+                        <h5>Lighting</h5>
+                        <input type="range" class="slider lighting" min="0" max="100" step="25" value="50" data-theme="lighting">
+                        <div class="slider-value" id="lighting-value">50% - Balanced natural light</div>
+                    </div>
+
+                    <div class="slider-container">
+                        <h5>Layout</h5>
+                        <input type="range" class="slider layout" min="0" max="100" step="25" value="75" data-theme="layout">
+                        <div class="slider-value" id="layout-value">75% - Enhanced space organization</div>
+                    </div>
+
+                    <div class="slider-container">
+                        <h5>Community</h5>
+                        <input type="range" class="slider community" min="0" max="100" step="25" value="25" data-theme="community">
+                        <div class="slider-value" id="community-value">25% - Basic social spaces</div>
+                    </div>
+
+                    <div class="slider-container">
+                        <h5>Functionality</h5>
+                        <input type="range" class="slider functionality" min="0" max="100" step="25" value="50" data-theme="functionality">
+                        <div class="slider-value" id="functionality-value">50% - Standard equipment access</div>
+                    </div>
+
+                    <div class="slider-container">
+                        <h5>Visual Elements</h5>
+                        <input type="range" class="slider visual" min="0" max="100" step="25" value="75" data-theme="visual">
+                        <div class="slider-value" id="visual-value">75% - Enhanced aesthetics</div>
+                    </div>
+                </div>
+
+                <div class="prompts-panel">
+                    <h4>Generated Prompts</h4>
+                    <div class="prompt-container">
+                        <div class="prompt-label">Main Subject Prompt</div>
+                        <div class="prompt-bar" id="main-prompt">
+                        </div>
+                    </div>
+
+                    <div class="prompt-container">
+                        <div class="prompt-label">Context Prompt</div>
+                        <div class="prompt-bar" id="context-prompt">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Theme configurations with text for different levels
+        const themeConfig = {
+            lighting: {
+                0: { main: "Default artificial lighting", context: "Standard indoor lighting" },
+                25: { main: "Basic natural light with artificial support", context: "Windows with basic shading" },
+                50: { main: "Balanced natural lighting with moderate sunlight control", context: "Windows with adjustable shading" },
+                75: { main: "Predominantly natural lighting with smart controls", context: "Large windows with automated shading" },
+                100: { main: "Maximum natural light optimization", context: "Floor-to-ceiling windows with smart glass" }
+            },
+            layout: {
+                0: { main: "Fixed layout configuration", context: "Standard room arrangement" },
+                25: { main: "Basic flexible elements", context: "Partially moveable furniture" },
+                50: { main: "Mixed fixed and flexible spaces", context: "Open floor plan with defined zones" },
+                75: { main: "Highly flexible space with moveable furniture", context: "Dynamic space configuration" },
+                100: { main: "Fully adaptable space design", context: "Complete modular system" }
+            },
+            community: {
+                0: { main: "Individual workspace focus", context: "Personal space oriented" },
+                25: { main: "Basic gathering spaces", context: "Small meeting areas" },
+                50: { main: "Balanced individual and group spaces", context: "Mixed-use social zones" },
+                75: { main: "Enhanced collaboration areas", context: "Multiple gathering spaces" },
+                100: { main: "Maximum community integration", context: "Fully collaborative environment" }
+            },
+            functionality: {
+                0: { main: "Basic functional elements", context: "Minimal storage" },
+                25: { main: "Essential equipment and storage", context: "Basic storage units" },
+                50: { main: "Standard storage and equipment solutions", context: "Integrated storage units" },
+                75: { main: "Enhanced functionality with smart storage", context: "Smart storage systems" },
+                100: { main: "Comprehensive functional integration", context: "Full-service amenities" }
+            },
+            visual: {
+                0: { main: "Standard finishes", context: "Basic materials" },
+                25: { main: "Enhanced color scheme", context: "Accent materials" },
+                50: { main: "Balanced aesthetics and materials", context: "Natural wood elements" },
+                75: { main: "Enhanced materials and color palette", context: "Premium finishes" },
+                100: { main: "Premium design elements", context: "Luxury materials" }
+            }
+        };
+
+        // Value descriptions for the slider display
+        const valueDescriptions = {
+            0: "Default",
+            25: "Basic",
+            50: "Balanced",
+            75: "Enhanced",
+            100: "Maximum"
+        };
+
+        // Function to update slider value display
+        function updateSliderValue(theme, value) {
+            const valueElement = document.getElementById(`${theme}-value`);
+            valueElement.textContent = `${value}% - ${valueDescriptions[value]} ${theme} level`;
+        }
+
+        // Function to create a contribution element
+        function createContribution(theme, text) {
+            const contribution = document.createElement('div');
+            contribution.className = `prompt-contribution contribution-${theme}`;
+            contribution.textContent = text;
+            return contribution;
+        }
+
+        // Function to update prompts based on all slider values
+        function updatePrompts() {
+            const mainPrompt = document.getElementById('main-prompt');
+            const contextPrompt = document.getElementById('context-prompt');
+            
+            // Clear existing prompts
+            mainPrompt.innerHTML = '';
+            contextPrompt.innerHTML = '';
+
+            // Get all sliders
+            const sliders = document.querySelectorAll('.slider');
+            
+            // Update prompts with current slider values
+            sliders.forEach(slider => {
+                const theme = slider.dataset.theme;
+                const value = parseInt(slider.value);
+                const config = themeConfig[theme];
+
+                if (config && config[value]) {
+                    mainPrompt.appendChild(createContribution(theme, config[value].main));
+                    contextPrompt.appendChild(createContribution(theme, config[value].context));
+                }
+            });
+        }
+
+        // Initialize sliders and add event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const sliders = document.querySelectorAll('.slider');
+            
+            sliders.forEach(slider => {
+                slider.addEventListener('input', function() {
+                    const theme = this.dataset.theme;
+                    const value = parseInt(this.value);
+                    updateSliderValue(theme, value);
+                    updatePrompts();
+                });
+            });
+
+            // Initial update of prompts
+            updatePrompts();
+        });
+    </script>
+</body>
+</html> 

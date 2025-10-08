@@ -234,7 +234,6 @@ This project is not just the result of code and design—it is the result of con
 
 [John Masataka Xianfeng Jiang](https://johnxianfengjiang.com/), a New York and Tokyo-based architect and AI researcher. Formerly a project manager at Kengo Kuma & Associates (KKAA), he is also a member of the Architectural Institute of Japan (AIJ). Notable completed works include _Endo at the Rotunda_ (London), _Aman Miami Beach_ (Florida), _Brooktree House_ (Los Angeles), and _Alberni Tower_ (Vancouver).
 
-
 <br><br>
 
 **References**
