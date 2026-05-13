@@ -4,7 +4,7 @@ title: "Projecting Topographies: Imaging Sand as a Site of Violence and Resistan
 author: Mika Yassur
 advisor: Josh Begley 
 year: 2026
-image: /img/2026/Projecting_Topographies/CDP_Griffiths_Yassur_Spring26_FilmStill2.png
+image: /img/2026/Projecting_Topographies/Yassur_Spring26_FilmStill2.png
 ---
 <div style="aspect-ratio: 16 / 9; width: 100%; position: relative;">
   <iframe 
