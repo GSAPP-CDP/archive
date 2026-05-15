@@ -142,7 +142,7 @@ To run it, start the dev server first, then in a separate terminal:
 ```
 node record-walkthrough.js              # all published projects (default)
 node record-walkthrough.js --year=2026  # a specific year
-node record-walkthrough.js --loop       # repeat until Ctrl+C
+node record-walkthrough.js --loop       # repeat until Ctrl+C (combinable with --year)
 ```
 
 Start your screen recorder (macOS: Cmd+Shift+5) before running the script. Playwright and its Chromium browser must be installed (`npm install` handles this).
