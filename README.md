@@ -133,6 +133,20 @@ Most videos will have an aspect ratio of 16:9, but this can be changed by modify
 
 HTML5 video files should be added to the the `/public/img/2023/` directory and referenced with the `src` attribute.
 
+## Walkthrough Recording
+
+`record-walkthrough.js` automates a browser walkthrough for screen recording. It opens a chromeless Chromium window, visits each project page in alphabetical order, scrolls slowly through it, then returns to the index.
+
+To run it, start the dev server first, then in a separate terminal:
+
+```
+node record-walkthrough.js              # all published projects (default)
+node record-walkthrough.js --year=2026  # a specific year
+node record-walkthrough.js --loop       # repeat until Ctrl+C
+```
+
+Start your screen recorder (macOS: Cmd+Shift+5) before running the script. Playwright and its Chromium browser must be installed (`npm install` handles this).
+
 ## Deployment
 
 This repository is automatically deployed to GitHub Pages whenever a new commit is pushed to the `main` branch, using

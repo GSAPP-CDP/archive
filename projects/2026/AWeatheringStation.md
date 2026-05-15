@@ -8,6 +8,7 @@ image: /img/weathering-station/Untitled_Artwork.jpg
 links:
   - text: Project Documentation Site
     url: https://claire-gall.github.io/AWeatheringStation-WebDocumentation/
+published: true
 ---
 
 Fog moves through various interfaces, be it ecological, material, and now digital — how might we witness it in its transitional state? What are the existing and emergent power structures of cloud documentation, material, immaterial, and digital? How are clouds implicated in digital aesthetics? How do air microbiomes form, what are the systems of legibility around air-moisture accumulation that currently exist? Where and when does air-moisture meet ecological criticality? As air moisture is both a by-product of a micro-climatic process and a trace of atmospheric happenings, how is it to be understood in real-time versus an archive?
