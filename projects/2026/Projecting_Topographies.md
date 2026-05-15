@@ -36,12 +36,12 @@ Understanding the material foundations for these technologies and perspectives h
 
 <div style="aspect-ratio: 16 / 9; width: 100%; position: relative;">
   <iframe 
-    src="https://player.vimeo.com/video/1190961145?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1" 
+    src="https://player.vimeo.com/video/1191712015?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1" 
     frameborder="0" 
     allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
     referrerpolicy="strict-origin-when-cross-origin" 
     style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-    title="web_clip3">
+    title="web_clip5">
   </iframe>
 </div>
 
@@ -56,6 +56,8 @@ In this work, the desedimenting plateaus are the sand dunes that gather and spra
 From afforestation practices implemented during the British Mandate’s Sand Drift Ordinance[^5] to Israeli colonization of the dunes between 1970 and 2005, sand is implicated in colonial taxonomies of “dead” land and mechanisms of expropriation despite Palestinian practices of dune cultivation and collective ownership. Simultaneously, sand resists these mechanisms in both representation and materiality, defying cartographic imperatives of fixity and colonial toxicity. 
 
 This work engages archival research, cartography, satellite image processing, analogue film, and desktop recordings to examine these modes of resistance and violence across scales. It renders visible the materiality of these processes through methods of collage and image treatment, taking the form of a video installation with live narration. 
+
+A version of this piece was accepted and performed at [Spectres of the Undercommons: (In)humanities in the Wake of the Catastrophe](https://extraterritorial.studio/specters/) at The American University of Cairo, organized by [Extraterritorial Studio](https://www.instagram.com/extraterritorial_studio/).
 
 ![Film still, layering Bare Soil Index analysis and archival footage](/img/2026/Projecting_Topographies/Yassur_Spring26_FilmStill4.png
 )
