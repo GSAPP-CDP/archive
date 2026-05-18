@@ -27,8 +27,8 @@ Where and when does air-moisture meet ecological criticality? As air moisture is
 "The forest images included here are then less representational and more operational. Neither a worm's-eye view nor a bird's-eye view, they ask that one begin from within the thick of planetary inhabitations, in the forests as they are lost and potentially remade, and as they reconfigure relations across people, more-than-humans, technologies, politics, and the planetary. How does this gaze from within planetary inhabitations generate multiple modes of praxis?"[^1]
 
 <div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/withoutdescription-coverimage.png" style="width:50%;object-fit:cover;">
-  <img src="/img/2026/AWeatheringStation/ranchimage1.jpg" style="width:50%;object-fit:cover;">
+  <img src="/img/2026/AWeatheringStation/withoutdescription-coverimage.png" style="width:100%;object-fit:cover;">
+  <img src="/img/2026/AWeatheringStation/ranchimage1.jpg" style="width:100%;object-fit:cover;">
 </div>
 
 <br>
@@ -48,7 +48,7 @@ My audience isn’t the individual, it is the realm of thinking and creating tha
 How does a ritual of atmospheric dance get re-situated as autonomous technologies get deployed to handle resource capture and what parameters should guide this in the context of fog and air moisture as a viable water source? 
 
 <div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/sitecollages.png" style="width:50%;object-fit:cover;">
+  <img src="/img/2026/AWeatheringStation/sitecollages.png" style="width:100%;object-fit:cover;">
 </div>
 
 ## *The Manifesto*
@@ -92,7 +92,7 @@ The development of this data model, method of visualization, and physical struct
 
 <div style="display:flex;gap:1rem;">
   <img src="/img/2026/AWeatheringStation/terraincollage.png" style="width:50%;object-fit:cover;">
-  <img src="/img/2026/AWeatheringStation/webvis.png" style="width:50%;object-fit:cover;">
+  <img src="/img/2026/AWeatheringStation/webvis.png" style="width:100%;object-fit:cover;">
 </div>
 
 <br>
@@ -164,10 +164,10 @@ Layer depth increases with changing pressure systems and onshore flow
 <br>
 
 <div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/viewcapture4.png" style="width:50%;object-fit:cover;">
-  <img src="/img/2026/AWeatheringStation/viewcapture3.png" style="width:50%;object-fit:cover;">
-  <img src="/img/2026/AWeatheringStation/viewcapture1.png" style="width:50%;object-fit:cover;">
-  <img src="/img/2026/AWeatheringStation/viewcapture2.png" style="width:50%;object-fit:cover;">
+  <img src="/img/2026/AWeatheringStation/viewcapture4.png" style="width:100%;object-fit:cover;">
+  <img src="/img/2026/AWeatheringStation/viewcapture3.png" style="width:100%;object-fit:cover;">
+  <img src="/img/2026/AWeatheringStation/viewcapture1.png" style="width:100%;object-fit:cover;">
+  <img src="/img/2026/AWeatheringStation/viewcapture2.png" style="width:100%;object-fit:cover;">
 </div>
 
 ## *Inversion Calculation Ouput Sequences*
@@ -179,7 +179,7 @@ If points A and B both share similar slope variations qualities but have differe
 
 <br>
 <div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/viewcapture5.png" style="width:50%;object-fit:cover;">
+  <img src="/img/2026/AWeatheringStation/viewcapture5.png" style="width:100%;object-fit:cover;">
 </div>
 
 ## *Inversion Sequencer Site Tool*
@@ -201,15 +201,15 @@ Media to be inputted:
 - Video of sequencing in motion
 
 <div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/plottingstructure.png" style="width:50%;object-fit:cover">
-    <img src="/img/2026/AWeatheringStation/device1.png" style="width:50%;object-fit:cover">
+  <img src="/img/2026/AWeatheringStation/plottingstructure.png" style="width:100%;object-fit:cover">
+    <img src="/img/2026/AWeatheringStation/device1.png" style="width:100%;object-fit:cover">
 </div>
 
 
 The end output- a movement-based method of providing a geographical location for a particular air pressure relative to fog density to assess how the inversion layer fluctuates over minute elevation changes. 
 
 <div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/littletracer.jpg" style="width:50%;object-fit:cover">
+  <img src="/img/2026/AWeatheringStation/littletracer.jpg" style="width:100%;object-fit:cover">
 </div>
 
 
@@ -239,7 +239,7 @@ If air pressure were to drop and fog dissipation were to increase, how would thi
 How do I scale modes of viewership of this phenomena and gradual progression?
 
 <div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/installimage1.jpg" style="width:50%;object-fit:cover">
+  <img src="/img/2026/AWeatheringStation/installimage1.jpg" style="width:100%;object-fit:cover">
 </div>
 
 
@@ -256,7 +256,7 @@ This data collection and documentation will help inform the performance testing 
 "The meso is a site of invention where the pragmatics of the question are much more alive, more vivid, more difficult to forget than the micro or the macro, which traditionally plays a game of truth. The meso must create itself. And each time, the meso affirms its co-presence with a mileu"[^9]
 
 <div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/dewaccumulationdrawing.jpg" style="width:50%;object-fit:cover">
+  <img src="/img/2026/AWeatheringStation/dewaccumulationdrawing.jpg" style="width:100%;object-fit:cover">
 </div>
 
 ## *Data Projection of Climatic Stakes of Cloud-Implicating Technologies*
