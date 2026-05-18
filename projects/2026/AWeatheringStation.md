@@ -28,7 +28,6 @@ Where and when does air-moisture meet ecological criticality? As air moisture is
 
 <div style="display:flex;gap:1rem;">
   <img src="/img/2026/AWeatheringStation/withoutdescription-coverimage.png" style="width:100%;object-fit:cover;">
-  <img src="/img/2026/AWeatheringStation/ranchimage1.jpg" style="width:100%;object-fit:cover;">
 </div>
 
 <br>
