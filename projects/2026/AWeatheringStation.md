@@ -26,8 +26,8 @@ Where and when does air-moisture meet ecological criticality? As air moisture is
 
 "The forest images included here are then less representational and more operational. Neither a worm's-eye view nor a bird's-eye view, they ask that one begin from within the thick of planetary inhabitations, in the forests as they are lost and potentially remade, and as they reconfigure relations across people, more-than-humans, technologies, politics, and the planetary. How does this gaze from within planetary inhabitations generate multiple modes of praxis?"[^1]
 
-<div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/withoutdescription-coverimage.png" style="width:100%;object-fit:cover;">
+<div style="display:flex;justify-content:center;">
+  <img src="/img/2026/AWeatheringStation/withoutdescription-coverimage.png" style="width:75%;object-fit:cover;">
 </div>
 
 <br>
@@ -36,18 +36,18 @@ Where and when does air-moisture meet ecological criticality? As air moisture is
 
 is an ongoing humanities and spatial research project that looks at systems of atmospheric relations as formed through granular local microclimates, which fog clouds signify in certain places of the world. This project views the fog layer as grounding people in a hyper-local ephemeral experience while lending their cognition to a realm of universal humidity, as air and air moisture reflect climatic fluctuation between the local, regional, and planetary scale. This project creates an index of fog-informed logics around its legibility via various media forms — from digital translations to physical traces of trans-coded data, to critical writing. With this, the goal is to make the process of documenting illusory atmospheric data visible via movement and geometric notation.
 
-The sculptural weather station is a foil for fog’s otherwise invisible behaviors, with data metrics activated as motion
+The sculptural weather station is a foil for fog's otherwise invisible behaviors, with data metrics activated as motion
 
 This forms a new type of legibility for the micro fluid dynamics of fog clouds as they interact with terrain. This work is developed alongside ecologies of clouds as they have and will continue to enter cultural and geo-political conversation around methods of climate change mitigation and cloud fragmentation for the sake of bringing them more granular forms of resolution within digital computation.
 
 Clouds, while hard to pin down via remote sensing, are also being removed from satellite imagery to bring greater resolution to the terrain — further showcasing a gap in their representation even with the criticality they serve ecosystems, especially fog clouds which are a direct moisture source for the ecosystems they are integrated into. I challenge attempts to remove or flatten cloud logics within digital tools by centering movement-based modes of cloud translation. With an increase in climatic flux, clouds become more illusory and worthy of alternative modes of comprehension which this project proposes and serves. This project is a launch point for tracing atmospheric variation and integrating hybridized methods of analysis, digital and material. 
 
-My audience isn’t the individual, it is the realm of thinking and creating that supports a universal humidity mentality - how do I balance the local with the planetary? If it’s about the intersection of design intervention, design documentation and regulation, you start with local perception and ecological affordances, if it’s about a global movement of fog patterning that is to be inscribed in a universal spatiality, that is towards an elemental philosophy[^2]. 
+My audience isn't the individual, it is the realm of thinking and creating that supports a universal humidity mentality - how do I balance the local with the planetary? If it's about the intersection of design intervention, design documentation and regulation, you start with local perception and ecological affordances, if it's about a global movement of fog patterning that is to be inscribed in a universal spatiality, that is towards an elemental philosophy[^2]. 
 
 How does a ritual of atmospheric dance get re-situated as autonomous technologies get deployed to handle resource capture and what parameters should guide this in the context of fog and air moisture as a viable water source? 
 
-<div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/sitecollages.png" style="width:100%;object-fit:cover;">
+<div style="display:flex;justify-content:center;">
+  <img src="/img/2026/AWeatheringStation/sitecollages.png" style="width:75%;object-fit:cover;">
 </div>
 
 ## *The Manifesto*
@@ -89,9 +89,9 @@ The development of this data model, method of visualization, and physical struct
 
 <br>
 
-<div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/terraincollage.png" style="width:50%;object-fit:cover;">
-  <img src="/img/2026/AWeatheringStation/webvis.png" style="width:100%;object-fit:cover;">
+<div style="display:flex;justify-content:center;gap:1rem;">
+  <img src="/img/2026/AWeatheringStation/terraincollage.png" style="width:37%;object-fit:cover;">
+  <img src="/img/2026/AWeatheringStation/webvis.png" style="width:37%;object-fit:cover;">
 </div>
 
 <br>
@@ -148,7 +148,7 @@ Fog naturally moves inland and if the layer starts to lower in air pressure. Hyp
 
 With the profiles I've created and tested with existing datasets, I will place GPS-air pressure-air temperature sensor configurations at different points of elevation in and around the Ranch to compare with my own data. The the separate sensors will take readings every couple of hours to send to the main stations log- this feeds the spatial autocorrelation calculation to interpolate the inversions fluctuation between the different point. The gets autographically documented to show the progression and changes of the inversion in real time. 
 
-This will create a solid estimation of how changes in air pressure and air temperature influence fog response. I’ll situate the calculation with a higher variability value so that it creates a certain degree of random outputs given that inversion height of fog changes non-linearly, this gives a certain degree of agency to the variability inherent in a fog cloud, therefore, my method of documentation is harnessing a lack of precision as a current reality of how fog clouds resist full computability. 
+This will create a solid estimation of how changes in air pressure and air temperature influence fog response. I'll situate the calculation with a higher variability value so that it creates a certain degree of random outputs given that inversion height of fog changes non-linearly, this gives a certain degree of agency to the variability inherent in a fog cloud, therefore, my method of documentation is harnessing a lack of precision as a current reality of how fog clouds resist full computability. 
 
 Process of autographic material aggregation: 
 When inversion lowers (fog compresses)
@@ -162,11 +162,21 @@ Layer depth increases with changing pressure systems and onshore flow
 
 <br>
 
-<div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/viewcapture4.png" style="width:100%;object-fit:cover;">
-  <img src="/img/2026/AWeatheringStation/viewcapture3.png" style="width:100%;object-fit:cover;">
-  <img src="/img/2026/AWeatheringStation/viewcapture1.png" style="width:100%;object-fit:cover;">
-  <img src="/img/2026/AWeatheringStation/viewcapture2.png" style="width:100%;object-fit:cover;">
+<div style="display:flex;justify-content:center;">
+  <img src="/img/2026/AWeatheringStation/viewcapture4.png" style="width:75%;object-fit:cover;">
+</div>
+
+<br>
+
+<div style="display:flex;justify-content:center;">
+  <img src="/img/2026/AWeatheringStation/viewcapture3.png" style="width:75%;object-fit:cover;">
+</div>
+
+<br>
+
+<div style="display:flex;justify-content:center;gap:1rem;">
+  <img src="/img/2026/AWeatheringStation/viewcapture1.png" style="width:37%;object-fit:cover;">
+  <img src="/img/2026/AWeatheringStation/viewcapture2.png" style="width:37%;object-fit:cover;">
 </div>
 
 ## *Inversion Calculation Ouput Sequences*
@@ -177,8 +187,9 @@ Scenario:
 If points A and B both share similar slope variations qualities but have different terrain roughness values then higher TRI predicts a strengthening of the inversion. The potential for this zone to shift the inversion is X because of X variables. The diagrammatic output of these inversion sequencers is the movement notation of fog density as it gets compressed and released throughout the terrain. 
 
 <br>
-<div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/viewcapture5.png" style="width:100%;object-fit:cover;">
+
+<div style="display:flex;justify-content:center;">
+  <img src="/img/2026/AWeatheringStation/viewcapture5.png" style="width:75%;object-fit:cover;">
 </div>
 
 ## *Inversion Sequencer Site Tool*
@@ -188,7 +199,7 @@ If points A and B both share similar slope variations qualities but have differe
   frameborder="0"
   allow="autoplay; fullscreen; picture-in-picture"
   allowfullscreen
-  style="aspect-ratio: 16 / 9; width: 100%;">
+  style="aspect-ratio: 16 / 9; width: 75%; display:block; margin:0 auto;">
 </iframe>
 
 ## *Material Aggregation and Encoding Process*
@@ -199,25 +210,22 @@ Media to be inputted:
 - Diagram of form and sequencing logic
 - Video of sequencing in motion
 
-<div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/plottingstructure.png" style="width:100%;object-fit:cover">
-    <img src="/img/2026/AWeatheringStation/device1.png" style="width:100%;object-fit:cover">
+<div style="display:flex;justify-content:center;gap:1rem;">
+  <img src="/img/2026/AWeatheringStation/plottingstructure.png" style="width:37%;object-fit:cover;">
+  <img src="/img/2026/AWeatheringStation/device1.png" style="width:37%;object-fit:cover;">
 </div>
-
 
 The end output- a movement-based method of providing a geographical location for a particular air pressure relative to fog density to assess how the inversion layer fluctuates over minute elevation changes. 
 
-<div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/littletracer.jpg" style="width:100%;object-fit:cover">
+<div style="display:flex;justify-content:center;">
+  <img src="/img/2026/AWeatheringStation/littletracer.jpg" style="width:75%;object-fit:cover;">
 </div>
-
 
 ## *A New Legibility of Air Moisture*
 
 What do the traces mean? 
 
 <div>
-
 
 Media to be inputted: 
 - Legend to the side of the drawing- 
@@ -237,10 +245,9 @@ If air pressure were to drop and fog dissipation were to increase, how would thi
 
 How do I scale modes of viewership of this phenomena and gradual progression?
 
-<div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/installimage1.jpg" style="width:100%;object-fit:cover">
+<div style="display:flex;justify-content:center;">
+  <img src="/img/2026/AWeatheringStation/installimage1.jpg" style="width:75%;object-fit:cover;">
 </div>
-
 
 ## *Phase II of A Weathering Station*
 This data collection and documentation will help inform the performance testing of:
@@ -254,22 +261,19 @@ This data collection and documentation will help inform the performance testing 
 
 "The meso is a site of invention where the pragmatics of the question are much more alive, more vivid, more difficult to forget than the micro or the macro, which traditionally plays a game of truth. The meso must create itself. And each time, the meso affirms its co-presence with a mileu"[^9]
 
-<div style="display:flex;gap:1rem;">
-  <img src="/img/2026/AWeatheringStation/dewaccumulationdrawing.jpg" style="width:100%;object-fit:cover">
+<div style="display:flex;justify-content:center;">
+  <img src="/img/2026/AWeatheringStation/dewaccumulationdrawing.jpg" style="width:75%;object-fit:cover;">
 </div>
 
 ## *Data Projection of Climatic Stakes of Cloud-Implicating Technologies*
 
 With emerging methods of geoengineering- such as solar geoengineering method Marine Cloud Brightening- that could potentially alter atmospheric chemistry forever, without proper meteorological understanding of low lying cloud and fog layer formation- as this continues to get progressively more difficult to model (due to the frequent fluctuation of sea to land surface temperatures), ground-based sensing and fog conceptualization models are more important than ever to build and integrate into localized knowledge frameworks and technological understandings of local-to-planetary fog patterns. 
 
-
-
 ## *Conclusion*
 
 To help address the liminality this creates between documentation and predictability of weather conditions, I propose that highly granular forms of sensing are required not only to understand the behaviors of the fog layer as a whole, but to promote specificity in where and how technologies such as fog harvesters, fog sensors, surfaces built to promote condensation or as this set-up supports, fog viewports from different parts of the landscape sequenced to one device.
 
 In actuating this piece on-site, I intend for it to be further developed into a weather station with this sensing device alongside condensation devices that are placed based on the variation patterns that this device can tell us to create a collective sense of atmospheric flux. 
-
 
 <br>
 
