@@ -195,7 +195,7 @@ If points A and B both share similar slope variations qualities but have differe
 ## *Inversion Sequencer Site Tool*
 
 <iframe
-  src= "/img/2026/AWeatheringStation/inversionsequencer.mov"
+  src= "https://vimeo.com/1196463653?share=copy&fl=sv&fe=ci"
   frameborder="0"
   allow="autoplay; fullscreen; picture-in-picture"
   allowfullscreen
@@ -235,7 +235,7 @@ What do the traces mean?
 
 <div>
 
-At this stage, I've aggregated the traces of my data model to create cartographic drawings of the terrain as the transcoded values of the rate of vertical change within the fog layer. The strength of inversion corresponds to the line weight depth in the markings.
+At this stage, I've aggregated the traces of the inversion calculation model to create drawings of sub-sections of the terrain, in their accumulation, they get re-drawn onto a 2D map to trace the rate of vertical change within the fog layer as it remains steady and close to the ground, or moves to higher elevation points. The strength of the inversion corresponds to the line weight depth in the markings.
 
 This counter-cartographic practice with the use of the spinning plotter will serve the tension I am pointing to between local, regional and global forms of atmospheric regulation, questions of property plotting, entitlement to fog moisture as a water source versus fog moisture as a local phenomena that is ontologically ephemeral and inherently un-controlled. 
 
