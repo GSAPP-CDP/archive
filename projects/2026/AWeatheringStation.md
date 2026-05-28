@@ -58,7 +58,7 @@ Fog as a cultural artifact.
 <br>
 
 Fog as an endangered species. 
-  Globally, fog is decreasing in density and frequency due to air temperature warming which reduces the amount of pressure compacting a fog layer, as a low-lying cumulus cloud, close to the ground thus impacting it's role ecologically. In terms of how clouds are represented computationally, clouds have been removed from tools of digital planetary translation such as for Google Earth's "Perfect Earth" project. In this regard, clouds are devalued for the sake of providing greater resolution to the earth's terrain. In addition to these decisions to remove cloud's from archival satellite images, they are becoming harder to model computationally due to the increasing fluctuation of temperature variation between sea and land, where the fog forms. In relation and in response to these occurrances, this project advocates for ground-based sensing as the most effective way to track fog fluctuation. 
+  Globally, fog is decreasing in density and frequency due to air temperature warming which reduces the amount of pressure compacting a fog layer, as a low-lying cumulus cloud, close to the ground thus impacting it's role ecologically.
 
 <br>
 
@@ -100,7 +100,16 @@ The development of this data model, method of visualization, and physical struct
 
 This project views the planetary in the context of the climate crisis as a mediated concept, a concept which is continually comprehended via the mediums and interfaces we identify to interpret it. My subject of interpretation for this project is fog and air moisture as it condenses into clouds. That process is critical meteorologically as well as in the attempt to grasp the ontology of an atmosphere, a localized atmosphere as it moves towards the planetary atmosphere. As a designer most curious as to how to mediate the translation of atmospheric data into visual, technological, material, and architectural mediums, the method of translation is critically important to how the data is to be interpreted.
 
-This project closes the gap between data generation and the physical phenomenon of fog cloud formation and moisture particle density aggregation via two autographic visualization design operations of material aggregation and trace-making. Within the digital realm, digital graphic elements and trans-coded objects are added to guide interpretation of the physical phenomena while simultaneously encoding the trans-coded information between both physical and digital forms to situate the project between a ground-based to planetary scale.
+In terms of how clouds are represented computationally, clouds have been removed from tools of digital planetary translation such as for Google Earth's Pretty Earth Image in which "cloud-defective" pixels were removed from satellite images pixel by pixel.
+  
+  In the article "Days Without Clouds: Realism, Images and Target Classifiers at Google Earth Engine", Nicole Sansone Ruiz argues that images and aesthetics are overlooked discourses in scientific computing
+  "Faultless, yes; but accurate? To say that the cloud-free image of the Earth is also an accurate image of the Earth is both true and untrue. It is true that this pristine, cloud-free Earth image was meticulously assembled from an archive of satellite images, so it is built of imagery that is accurate enough to be used in scientific research and regularly is. However, it is also true that while the cloud-free image shows the Earth’s topography with unprecedented clarity, it does so by presenting the Earth under fantastical viewing conditions. These include the most obvious–an Earth without clouds and weather systems and tropical climates."[^9]
+
+  Ruiz argues that this case showcases how a digital image cannot be separated from the digital process that produced it. 
+
+  In addition to these decisions to remove cloud's from archival satellite images, they are becoming harder to model computationally due to the increasing fluctuation of temperature variation between sea and land, where the fog forms. In relation and in response to these occurrances, this project advocates for ground-based sensing as the most effective way to track fog fluctuation as well as proposes an alternative aestheticization of a cloud as movemement notation. 
+
+This project closes the gap between data generation and the physical phenomenon of fog cloud formation and moisture particle density aggregation via two autographic visualization design operations of material aggregation and trace-making. Within the digital realm, digital graphic elements and trans-coded objects are added to guide interpretation of the physical phenomena while simultaneously encoding the trans-coded information between both physical and digital forms to situate the project between a ground-based to planetary scale. 
 
 Within the scope of this capstone work, I centered my focus on inversion shift within the fog layer as it pertains to general moisture patterns of relative humidity in this local framework. I created 8 profiles of different points of elevation and TRI values (terrain roughness index) that begin to formulate potential relationships between different points of the terrain as they interact with the fog layer. Terrain roughness and ground quality can significantly affect the strength of the fog's temperature inversion, which directly affects how compressed or expanded the fog is on a given day. A stronger inversion correlates to a more compressed layer of fog that is even just a few meters off of the ground, while a weaker inversion shows the fog climbing terrain and losing density.
 
@@ -289,3 +298,6 @@ With the Slide Ranch community, I intend to create further visualizations to doc
 [^7]: Robert Evans, "Translations from Drawing to Building" (1986).
 
 [^8]: Donna J. Haraway, *Staying with the Trouble: Making Kin in the Chthulucene*, Experimental Futures (Duke University Press, 2016).
+
+[^9]: "Days Without Clouds: Realism, Images, and Target Classifiers at Google Earth Engine"
+Nicole Sansone Ruiz, Computational Culture 9 (July 2023)
