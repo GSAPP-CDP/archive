@@ -7,9 +7,9 @@ year: 2026
 image: /img/2026/topologyofmind/thumbnail.png
 links:
   - text: Explore
-    url: topologyofmind.com
+    url: https://topologyofmind.com/
   - text: About the Author
-    url: minsupchung.com
+    url: https://minsupchung.com/
 ---
 
 <style>
