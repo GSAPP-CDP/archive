@@ -227,11 +227,7 @@ What do the traces mean?
 
 <div>
 
-Media to be inputted: 
-- Legend to the side of the drawing- 
-- Rendering of them integrated into landscape/ranch programming as psychrometric signage for fog traceability
-
-At this stage, I've aggregated the traces to create cartographic drawings of the terrain as the transcoded values of the rate of vertical change within the fog layer with strength of inversion corresponding to line weight depth in the markings. I include a legend for legibility. 
+At this stage, I've aggregated the traces of my data model to create cartographic drawings of the terrain as the transcoded values of the rate of vertical change within the fog layer. The strength of inversion corresponds to the line weight depth in the markings.
 
 This counter-cartographic practice with the use of the spinning plotter will serve the tension I am pointing to between local, regional and global forms of atmospheric regulation, questions of property plotting, entitlement to fog moisture as a water source versus fog moisture as a local phenomena that is ontologically ephemeral and inherently un-controlled. 
 
@@ -273,7 +269,9 @@ With emerging methods of geoengineering- such as solar geoengineering method Mar
 
 To help address the liminality this creates between documentation and predictability of weather conditions, I propose that highly granular forms of sensing are required not only to understand the behaviors of the fog layer as a whole, but to promote specificity in where and how technologies such as fog harvesters, fog sensors, surfaces built to promote condensation or as this set-up supports, fog viewports from different parts of the landscape sequenced to one device.
 
-In actuating this piece on-site, I intend for it to be further developed into a weather station with this sensing device alongside condensation devices that are placed based on the variation patterns that this device can tell us to create a collective sense of atmospheric flux. 
+In actuating this piece on-site, I intend for it to be further developed into a weather station actuated by collective engagement with the sensing devices, movement of them, observation of them and data-driven placement of their drawings and psychrometric signage to activate public space as atmospheric micro-plots to validate the occurrance of small climatic shifts which accumulate over time, which draw a relationship between land, sky and sea as a continual flux of cloud formation and dissipation. 
+
+With the Slide Ranch community, I intend to create further visualizations to document the work. 
 
 <br>
 
@@ -294,5 +292,3 @@ In actuating this piece on-site, I intend for it to be further developed into a 
 [^7]: Robert Evans, "Translations from Drawing to Building" (1986).
 
 [^8]: Donna J. Haraway, *Staying with the Trouble: Making Kin in the Chthulucene*, Experimental Futures (Duke University Press, 2016).
-
-[^9]: Field Station
