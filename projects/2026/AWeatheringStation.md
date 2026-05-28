@@ -36,9 +36,7 @@ Where and when does air-moisture meet ecological criticality? As air moisture is
 
 *A Weathering Station: Autographic Comprehension of a Fog Layer* 
 
-is an ongoing humanities and spatial research project that looks at systems of atmospheric relations as formed through granular local microclimates, which fog clouds signify in certain places of the world. This project views the fog layer as grounding people in a hyper-local ephemeral experience while lending their cognition to a realm of universal humidity, as air and air moisture reflect climatic fluctuation between the local, regional, and planetary scale. This project creates an index of fog-informed logics around its legibility via various media forms — from digital translations to physical traces of trans-coded data, to critical writing. With this, the goal is to make the process of documenting illusory atmospheric data visible via movement and geometric notation.
-
-The sculptural weather station is a foil for fog's otherwise invisible behaviors, with data metrics activated as motion and traces. 
+is an ongoing humanities and spatial research project that looks at systems of atmospheric relations as formed within a coastal micro-climate of Northern California. This project views the fog layer as grounding people in a hyper-local ephemeral experience while lending their cognition to a realm of universal humidity, as air and air moisture reflect climatic fluctuation between the local, regional, and planetary scale. This project creates an index of fog-informed logics around its legibility via various media forms — from digital translations to physical traces of trans-coded data, to critical writing. With this, the goal is to make the process of documenting illusory atmospheric data visible via movement and geometric notation. 
 
 This forms a new type of legibility for the micro fluid dynamics of fog clouds as they interact with terrain. This work is developed alongside ecologies of clouds as they have and will continue to enter cultural and geo-political conversation around methods of climate change mitigation and cloud fragmentation for the sake of bringing them more granular forms of resolution within digital computation.
 
@@ -55,12 +53,12 @@ This project attempts to let the fog speak through its many granular movements w
 ## *The Manifesto*
 
 Fog as a cultural artifact. 
-  Fog's role in it's various ecological milieu's around the world belongs to it's ecosystem and realm of being percieved, as inanimate and illusive, while also animate and active. 
+  Fog's role in it's various ecological milieu's around the world belongs to it's ecosystem and realm of being percieved, as inanimate and illusive, while also animate and active in part created via the material interfaces placed in it's midst. 
 
 <br>
 
 Fog as an endangered species. 
-  Fog as an atmospheric layer is decreasing in density and frequency due to air temperature warming which reduces the amount of pressure compacting a fog layer, as a low-lying cumulus cloud, close to the ground. As clouds are removed from tools of digital planetary translation as in Google Earth, clouds are also becoming devalued in terms of computational resolution. In addition to these decisions to remove cloud's from archival satellite images, they are becoming harder to model computationally due to the increasing fluctuation of temperature variation between sea and land, where the fog forms. 
+  Globally, fog is decreasing in density and frequency due to air temperature warming which reduces the amount of pressure compacting a fog layer, as a low-lying cumulus cloud, close to the ground thus impacting it's role ecologically. In terms of how clouds are represented computationally, clouds have been removed from tools of digital planetary translation such as for Google Earth's "Perfect Earth" project. In this regard, clouds are devalued for the sake of providing greater resolution to the earth's terrain. In addition to these decisions to remove cloud's from archival satellite images, they are becoming harder to model computationally due to the increasing fluctuation of temperature variation between sea and land, where the fog forms. In relation and in response to these occurrances, this project advocates for ground-based sensing as the most effective way to track fog fluctuation. 
 
 <br>
 
@@ -86,6 +84,8 @@ Fog as a weighted socio-cultural tool.
 - On-site // Off-site
 
 <br>
+
+The sculptural weather station is a foil for fog's otherwise invisible behaviors, with data metrics activated as motion and traces. 
 
 The development of this data model, method of visualization, and physical structure will be integrated and validated on-site as this project is formalized within the headlands of Northern California as part of the research permit granted by the Golden Gate National Recreation Area to conduct field work on behalf of fog-centered spatial research. The micro-climatic fluctuations of this area as it relates to regional patterns is the long-term scope of this study. I am curious how the structure of the weather station itself provides new forms of resolution around the moisture patterning of the area and how this can translate to a greater cultural and geopolitical awareness of atmospheric conditions as hyper-localized while also planetary phenomena — by tracing the local relationship to the regional to the planetary. [^1]
 
