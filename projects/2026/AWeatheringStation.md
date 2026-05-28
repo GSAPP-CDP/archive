@@ -124,27 +124,23 @@ This model tracks:
 
 Inversion change // terrain chaos exponent- calculation
 
-Terrain variability is now distributed and how it feeds into the inversion calculation.
-
 Variability is now computed as (1 - normalizedAltitude) ^ chaosExponent — an inverse power curve that puts peak variability at the valley floor and sea level, decaying toward the summit. The new "terrain chaos exponent" slider lets you control the sharpness of that curve: at 1.0 it's linear, at 4.0 the low points are extremely chaotic while the upper slopes flatten out quickly.
 
 The non-linear inversion effects at high-variability low-elevation points work through three compounding mechanisms. The noise amplitude scales with variability rather than being a fixed coefficient, so rough low terrain generates larger stochastic perturbations in the inversion signal. A turbulence boost term kicks in above 60% variability using a v^1.8 power function, which causes the inversion strength to spike non-linearly as variability increases — small increases in roughness produce disproportionately large inversion disruptions. 
 
 Finally the weighted inversion rate adds a low-elevation amplification term that directly adds the variability of the two lowest points as a multiplier on the mean inversion.
 
-Each elevation card now shows a "NL disruption index" — the product of v^1.5 and inversion strength — which gives a single number representing how much that point is non-linearly distorting the overall profile.
-
-By identifying where on the ground the mixing ratio has the potential to be the highest, the network can better account for where there is the most potential to harvest the fog for utility, analysis or socio-culturally, as a point to observe it in its multitude of densities
+By identifying where on the ground the mixing ratio has the potential to be the highest, the network can better account for where there is the most potential to harvest the fog for utility, analysis or socio-culturally, as a point to observe it in its multitude of densities.
 
 Through this, I am foregrounding the fog clouds variability as a point of departure for greater cultural engagement in relation to how it is commonly experienced as a passive atmospheric condition. 
 
 ## *Device Mechanics Logic*
 
-As the strength of the inversion changes, the spinning plotters actualize that shift through changes in their speed, each plotter spinning in response to one zone of elevation. 
+As the strength of the inversion changes, the spinning plotters actualize that shift through changes in their speed, each plotter spinning in response to one zone of elevation. Collectively, each plot is analyzed in reference to one another to assess how the inversion is fluctutation between points of the terrain.
 
 ## *Actuation Logic with the Micro-fluid Dynamics of Fog*
 
-Fog naturally moves inland and if the layer starts to lower in air pressure. Hypothetically, when the inversion is stronger, the marine layer is thinner and closer to the surface and it is a better time to catch fog. 
+Fog naturally moves inland and if the layer starts to lower in air pressure, it climbs. Hypothetically, when the inversion is stronger, the marine layer is thinner and closer to the surface and it is a better time to catch fog. 
 
 ## *Terrain Impact Profiles*
 
@@ -152,15 +148,6 @@ With the profiles I've created and tested with existing datasets, I will place G
 
 This will create a solid estimation of how changes in air pressure and air temperature influence fog response. I'll situate the calculation with a higher variability value so that it creates a certain degree of random outputs given that inversion height of fog changes non-linearly, this gives a certain degree of agency to the variability inherent in a fog cloud, therefore, my method of documentation is harnessing a lack of precision as a current reality of how fog clouds resist full computability. 
 
-Process of autographic material aggregation: 
-When inversion lowers (fog compresses)
-High pressure aloft pushes air downward
-Marine layer gets thinner and closer to surface
-When inversion rises (fog deepens)
-Low pressure or troughs allow vertical expansion
-Marine layer thickens and climbs inland
-This matches observed behavior:
-Layer depth increases with changing pressure systems and onshore flow
 
 <br>
 
@@ -260,7 +247,7 @@ This data collection and documentation will help inform the performance testing 
 
 - Situated structures on-site at Slide Ranch and the broader Golden Gate Recreation Area
 - Atmospheric metrics used for the in-house moisture boxes for remote autographic visualization
-- Integration with methods of fog computing and public land use coordination in international contexts, currently in the Central Mountains of Morocco and Central Coast of the Atacama Desert in Chile
+- Integration with methods of fog computing and public land use coordination in international contexts
 - Atmospheric sensing experiments for adaptive reuse potential of obsolete structures
 
 <br>
