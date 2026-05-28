@@ -225,6 +225,14 @@ The end output- a movement-based method of providing a geographical location for
 
 What do the traces mean? 
 
+<iframe
+  src= "https://vimeo.com/1196462721?share=copy&fl=sv&fe=ci"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+  style="aspect-ratio: 16 / 9; width: 75%; display:block; margin:0 auto;">
+</iframe>
+
 <div>
 
 At this stage, I've aggregated the traces of my data model to create cartographic drawings of the terrain as the transcoded values of the rate of vertical change within the fog layer. The strength of inversion corresponds to the line weight depth in the markings.
