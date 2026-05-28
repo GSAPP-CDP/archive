@@ -20,6 +20,8 @@ How are clouds implicated in digital aesthetics?
 
 How do air microbiomes form, what are the systems of legibility around air-moisture accumulation that currently exist? 
 
+How does a ritual of atmospheric dance get re-situated as autonomous technologies get deployed to handle resource capture and what parameters should guide this in the context of fog and air moisture as a viable water source? 
+
 Where and when does air-moisture meet ecological criticality? As air moisture is both a by-product of a micro-climatic process and a trace of atmospheric happenings, how is it to be understood in real-time versus an archive?
 
 <br>
@@ -36,15 +38,15 @@ Where and when does air-moisture meet ecological criticality? As air moisture is
 
 is an ongoing humanities and spatial research project that looks at systems of atmospheric relations as formed through granular local microclimates, which fog clouds signify in certain places of the world. This project views the fog layer as grounding people in a hyper-local ephemeral experience while lending their cognition to a realm of universal humidity, as air and air moisture reflect climatic fluctuation between the local, regional, and planetary scale. This project creates an index of fog-informed logics around its legibility via various media forms — from digital translations to physical traces of trans-coded data, to critical writing. With this, the goal is to make the process of documenting illusory atmospheric data visible via movement and geometric notation.
 
-The sculptural weather station is a foil for fog's otherwise invisible behaviors, with data metrics activated as motion
+The sculptural weather station is a foil for fog's otherwise invisible behaviors, with data metrics activated as motion and traces. 
 
 This forms a new type of legibility for the micro fluid dynamics of fog clouds as they interact with terrain. This work is developed alongside ecologies of clouds as they have and will continue to enter cultural and geo-political conversation around methods of climate change mitigation and cloud fragmentation for the sake of bringing them more granular forms of resolution within digital computation.
 
 Clouds, while hard to pin down via remote sensing, are also being removed from satellite imagery to bring greater resolution to the terrain — further showcasing a gap in their representation even with the criticality they serve ecosystems, especially fog clouds which are a direct moisture source for the ecosystems they are integrated into. I challenge attempts to remove or flatten cloud logics within digital tools by centering movement-based modes of cloud translation. With an increase in climatic flux, clouds become more illusory and worthy of alternative modes of comprehension which this project proposes and serves. This project is a launch point for tracing atmospheric variation and integrating hybridized methods of analysis, digital and material. 
 
-My audience isn't the individual, it is the realm of thinking and creating that supports a universal humidity mentality - how do I balance the local with the planetary? If it's about the intersection of design intervention, design documentation and regulation, you start with local perception and ecological affordances, if it's about a global movement of fog patterning that is to be inscribed in a universal spatiality, that is towards an elemental philosophy[^2]. 
+My audience isn't the individual, it is the realm of thinking and creating that supports a universal humidity mentality. It is about the intersection of design intervention, design documentation and regulation which starts with local perception and ecological affordances. It's also about a global movement of change within fog patterning due to climate change that is to be inscribed in a universal spatiality and this moves each localized project towards a planetary elemental philosophy[^2]. 
 
-How does a ritual of atmospheric dance get re-situated as autonomous technologies get deployed to handle resource capture and what parameters should guide this in the context of fog and air moisture as a viable water source? 
+This project attempts to let the fog speak through its many granular movements with use of digital and material computation. 
 
 <div style="display:flex;justify-content:center;">
   <img src="/img/2026/AWeatheringStation/sitecollages.png" style="width:75%;object-fit:cover;">
