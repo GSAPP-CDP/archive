@@ -169,7 +169,7 @@ Here <span class="tom-math-inline">$\\mathbf{z}_r(t)$</span> is not a picture of
 
 Persistent homology is then used to ask what kinds of structures persist inside those manifolds. The analysis looks for connected components, loops, and higher-dimensional features, and it validates them through parameter sweeps, bootstrap stability, and null model comparisons. This matters because topology can easily become decorative if it is not tested. The project therefore treats topological form as something that must earn its interpretive force.
 
-For a projected point cloud <span class="tom-math-inline">$P_r=\\{\\mathbf{z}_r(t_j)\\}_{j=1}^{T}$</span>, the Vietoris-Rips complex at scale <span class="tom-math-inline">$\\epsilon$</span> is:
+<p>For a projected point cloud <span class="tom-math-inline">$P_r=\{\mathbf{z}_r(t_j)\}_{j=1}^{T}$</span>, the Vietoris-Rips complex at scale <span class="tom-math-inline">$\epsilon$</span> is:</p>
 
 <div class="tom-math-display">
 \[
