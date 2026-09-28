@@ -10,6 +10,7 @@ links:
   - text: Source Code
     url: https://github.com/ChengxiuCDP/TriEmoji
 ---
+![Poster](/img/2025/Tri_Emoji_Map/poster.png)
 
 ## Introduction
 
